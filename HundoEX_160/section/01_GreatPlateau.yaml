@@ -1,0 +1,135 @@
+- 1. 始まりの台地:
+  - _location::ShrineofResurrection:
+      color: "#3388ff"
+      notes: OPが終わったらZLを押してカメラが戻ったら左ジャンプ
+      comment: 回生抜け, OP, 壁抜け
+
+  - _location::GreatPlateau
+  
+  - _weapon<木の枝 .dir(5)>:
+      movements:
+        - to: [-1059.1875,1805.00704]
+        - to: [-1053.4375,1802.632715]
+        - to: [-1024.5625,1812.504906]
+        - to: [-1034.1875,1846.999396]
+        - to: [-1012.5,1892.054127]
+
+  - 焼きリンゴ:
+      icon: food
+      notes: 殴って[1:00]の方向に飛ばし、拾った後.bold(食べる)
+      movements:
+        - to: [-997,1875.72817]
+        - to: [-944,1878.370734]
+  
+  - _weapon<たいまつ\, オノ>:
+      movements:
+        - to: [-935.9375,1880.120218]
+        - to: [-920.875,1871.685118]
+  
+  - 武器の装備を外す
+
+  - ボコキャンプに向かって走る
+
+  - .dir(オートセーブ後に)手動セーブ:
+      icon: imp.
+      icon-map: null
+      comment: これ以降ISTまで.b-red(手動セーブ禁止)
+      notes: ボコキャンプ手前の坂でオートセーブが入る
+      coord: [-952.375,1959.484392]
+  
+  - 時間を1日戻す:
+      icon: kill
+      icon-map: null
+      notes: サマータイムを利用する場合は不要
+  
+  - オノ装備
+
+  - _shield<ナベのフタ>:
+      notes: ボコブリンに取られたらオノで奪う
+  
+  - _material<ポカポカ草の実,6>:
+      notes: カカリコISTまで3個以上残す
+      movements:
+        - to: [-964.375,1953.548581]
+        - to: [-965.4375,1956.672692]
+  
+  - _material<ハイラルダケ,2>:
+      coord: [-958.875,1966.482401]
+  
+  - 盾サーフィンで移動
+
+  - _location::TempleofTime:
+      movements:
+        - to: [-908.75,1990.854645]
+        - to: [-832.43,1963.11]
+      icon-map: null
+      comment: skew clip
+
+  - _chest<旅人の弓>
+  
+  - _bow<木の矢 .dir(5)>:
+      icon-map: null
+      comment: ツボから入手
+  
+  - .cyan(ジャ・バシフ)へBLSS:
+      notes: 盾サーフィンから盾外しで木の矢装備、FDC, skew clip
+  
+  - _shrine::ja-baij
+  
+  - _npc<老人>:
+      icon-map: null
+      comment: 選択肢 2 - 1 - 1 - 2
+  
+  - 壁を登って始まりの塔へBLSS:
+      notes: 端末を調べる前に丸バクダン起爆
+
+  - _tower::GreatPlateau
+  
+  - FDC, 老人と会話
+
+  - .cyan(マ・オーヌ)へBLSS .dir([11:00]):
+      notes: 塔の根元から離陸
+  
+  - _shrine::oman-au
+  
+  - _chest<コハク>:
+      coord: [-681.5625,1527.0625]
+      comment: 水中の宝箱
+      notes: L押し込みでマグネ解除
+  
+  - _warp::GreatPlateauTower<5:00>:
+      color: "#00ff00"
+      icon-map: null
+      notes: .bold(しゃがんで)初回演出カット
+  
+  - 段差からBLSS .dir([8:00]):
+      notes: 門を通り黄泉の川を越える
+      movements:
+        - to: [-985.375,2022.561522]
+        - to: [-1335.9375,2021.811647]
+  
+  - _wb::hight<9:30>:
+      notes: 中央の残骸のてっぺんから飛ぶ
+  
+  - _shrine::keh-namut:
+      notes: 段差からWB
+  
+  - BLSS .dir([4:00])
+
+  - _shrine::owa-daim:
+      notes: ビタロックで進んでひねりWB
+  
+  - エレベーターからBLSS .dir([1:00]):
+      comment: 時の神殿へ
+      notes:
+        - 壁にぶつかるときは背を向ける
+        - ムービーの前にバクダン起爆
+
+  - パラセール:
+      icon: king
+      coord: [-813.0625,1972.956344]
+      counter: .user-defined-split()
+
+
+
+

@@ -1,0 +1,132 @@
+- 30. 100% Cleanup:
+  - _warp::dah-hesho<4:00>:
+      presets: _mappct<notes>
+      color: "#3388ff"
+
+  - _wb::speed<2:30>
+
+  - _korok::A48
+
+  - _location::GreatFairyFountainAkkala
+
+  - 装備を最大まで強化:
+      icon: imp.
+      icon-map: null
+      comment: 英傑の服、息吹 / ゾーラシリーズ
+      notes: ゾーラの鎧をRスティック右十字左で2ページ目最後に送ってRスティック右十字下2
+
+  - _wb::speed<0:30>
+
+  - _npc<キルトン>:
+      coord: [4152.87, 194.63, -1597.24]
+
+  - _shop<リザル尻尾を全て売る>:
+      icon-map: null
+      notes: 装備強化が終わってない場合は注意(45個必要)
+
+  - _shop<マモで買い物>:
+      icon-map: null
+      comment: マモノエキス1, マモノの手綱 / くら
+
+  - メダルを全てもらう:
+      icon: imp.
+      comment: .link([イワロック/ヒノックスの場所]https://objmap.zeldamods.org/#/map/z3,0,0?q=%28talus%20OR%20enemy_giant_bone%20OR%20hinox%29%20NOT%20titan)
+      notes: 討伐漏れがあった場合、剣の試練後に倒しに行ってからダ・キキー(ゾーラの里の西)にワープ
+
+  - _wb::hight<8:30>
+
+  - _npc<窓から会話を聞く>:
+      coord: [3968.57, 233.44, -1590.29]
+
+  - _run<11:00>
+
+  - _cook<マモノケーキ>:
+      coord: [3946.69, 233.67, -1603.18]
+      notes: タバンタ小麦、きび砂糖、ヤギのバター、マモノエキス
+
+  - _npc<母親にケーキを渡す>:
+      icon-map: null
+      comment: もう一度話して金ルピーをもらう
+
+  - _npc<ハギ>:
+      coord: [3919,-1605]
+      comment: 2回話す
+
+  - _npc<エノキダ>:
+      coord: [3970.74, 233.60, -1623.47]
+      comment: 結婚式を行い、もう一度話す
+
+  - _warp::keo-ruug<9:30>:
+      presets: _mappct<notes>
+
+  - ボックリン:
+      icon: hestu
+      coord: [466.03, 249.56, -2112.38]
+      notes: ポーチを全て大きくして、ボックリンのミをもらう
+
+  - _npc<スダジイ>:
+      coord: [431.66, 250.56, -2139.55]
+
+  - skewを取り、ゴーゴー料理で回復
+
+  - 台座に近づいて会話
+
+  - 手動セーブ:
+      icon: imp.
+      icon-map: null
+      notes: 序位を始めた際にエラー落ちすることがあるので会話後に手動セーブ
+
+  - 剣の試練:
+      icon: kill
+      counter: .user-defined-split()
+      coord: [431.66, 250.53, -2111.00]
+      comment: skewを試練ごとに取ると安定
+      notes: 各位が終わったらゴーゴー料理で回復
+
+  - クエスト・ポーチの確認:
+      icon: imp.
+      icon-map: null
+      comment: .link([クエスト一覧-シート-Resources]https://docs.google.com/spreadsheets/d/1SH5VOyaeARNJ2X95QSrnev1U_hP38N2uUgcHOAaHIrk/edit?gid=1028440297#gid=1028440297)
+      notes: ミニ90/90, 祠42/42, メイン18/20, 大事な物2ページ目4個、足りない場合集めきってから最終試練を始める
+
+  - _warp::sor<7:00>:
+      presets: _mappct<notes>
+      icon-map: null
+
+  - 最終試練:
+      icon: kill
+      icon-map: null
+      notes: skewを取り壁抜け、離れて自爆、WBH + 空中WBsで高さを稼いで[6:00]に進み、ダンジョンの輪郭が消えて12秒経ったら降りる
+
+  - _mazkoshia:
+      icon-map: null
+      comment: .fury(ウルボザの怒り３)
+      notes: 弓&端に降りる、ウルボザ近づきながら弓、近づきながら弓3
+
+  - マスターバイク零式:
+      icon: mastercyclezero
+      counter: .user-defined-split()
+      split-name: '100% EX'
+
+  - 英傑たちの写し絵:
+      icon: memory-final
+      icon-map: null
+
+  - ''
+
+  - '--------------------------------------'
+
+  - '- 100%の確認(以下のものを映す) -'
+
+  - _Mappct<text,(1)>
+
+  - (2) メイン / 祠 / ミニチャレンジ
+
+  - (3) 最大強化済みの防具
+
+  - (4) 大事な物 - 2ページ目5個
+
+  - '--------------------------------------'
+
+  - ''
+

@@ -1,0 +1,89 @@
+presets:
+  Warp:
+    text: ワープ - .cyan($(0))
+    comment: .dir([$(1)])
+    icon: warp
+    movements:
+      - to: [$(2),$(3),$(4)]
+        warp: true
+
+  Warp-2D:
+    text: ワープ - .cyan($(0))
+    comment: .dir([$(1)])
+    icon: warp
+    movements:
+      - to: [$(2),$(3)]
+        warp: true
+
+  _warp:
+    GreatPlateauTower:
+      presets: _Warp<始まりの塔,$(0),-560.04, 176.56, 1694.86>
+
+    taloh-naeg:
+      presets: _Warp<タロ・ニヒ,$(0),1841.92, 260.10, 890.40>
+
+    kaya-wan:
+      presets: _Warp<カヤ・ミワ,$(0),824.21, 132.88, 187.79>
+
+    mogg-latan:
+      presets: _Warp<モ・ラタニア,$(0),-2297.43, 439.57, 460.73>
+
+    kuh-takkar:
+      presets: _Warp<クイ・タッカ,$(0),-3083.00, 571.55, 1221.00>
+
+    daqo-chisay:
+      presets: _Warp<グコ・チセ,$(0),-3817.03, 150.45, 2819.85>
+
+    HatenoAncientTechLab:
+      presets: _Warp<ハテノ古代研究所,$(0),3778.628418, 412.5400391, 2125.697266>
+
+    AkkalaTower:
+      presets: _Warp<アッカレの塔,$(0),3308.00, 523.92, -1500.10>
+
+    shae-mosah:
+      presets: _Warp<シモ・イトセ,$(0),1757.22, 535.32, -2562.46>
+
+    sor:
+      presets: _Warp<回生の祠,$(0),-1102.232788, 276.3248291, 1880.130737>
+
+    keh-namut:
+      presets: _Warp<トゥミ・ンケ,$(0),-1436.35, 337.58, 1990.99>
+
+    daqa-koh:
+      presets: _Warp<ダカ・カ,$(0),2065.85, 598.01, -2328.36>
+
+    naboris:
+      presets: _Warp-2D<ヴァ・ナボリス,$(0),-2110.15,2616.95>
+
+    shada-naw:
+      presets: _Warp<シャダ・アダ,$(0),-2998.62, 667.75, -3221.58>
+
+    keo-ruug:
+      presets: _Warp<キヨ・ウー,$(0),470.70, 250.15, -2168.79>
+
+    kaam-yatak:
+      presets: _Warp<ヤカー・マタ,$(0), -967.80, 127.67, 715.89>
+
+    TarreyTown:
+      presets: _Warp<イチカラ村,$(0),3964.30, 235.62, -1612.21>
+
+    DuelingPeaksTower:
+      presets: _Warp<双子山の塔,$(0),1016.78, 114.15, 1714.08>
+
+    medoh:
+      presets: _Warp-2D<ヴァ・メドー,$(0),-3614.10,-1862.06>
+
+    jitan-sami:
+      presets: _Warp<ジター・サミ,$(0),3882.12, 572.81, 1314.94>
+
+    ruta:
+      presets: _Warp-2D<ヴァ・ルッタ,$(0),2970.18,235.47>
+
+    rudania:
+      presets: _Warp-2D<ヴァ・ルーダニア,$(0),2451.85,-2559.08>
+
+    HebraTower:
+      presets: _Warp<ヘブラの塔,$(0),-2173.00, 459.32, -2034.00>
+
+    dah-hesho:
+      presets: _Warp<ダヒ・シーノ,$(0),3899.52, 354.77, -1302.81>

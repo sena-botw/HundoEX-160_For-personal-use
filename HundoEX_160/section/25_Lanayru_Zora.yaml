@@ -1,0 +1,416 @@
+- 25. ラネール / ゾーラの里:
+  - _warp::jitan-sami<6:00>:
+      presets: _mappct<notes>
+      color: "#e69138"
+
+  - 出て南の岩場からWB .dir([2:00]):
+      coord: [3900.373159,1334.570901]
+      notes: 一度ジター・サミ付近のロードゾーンから出る必要がある、ミニマップ上の木々に到達するまで滑空し、引き返す
+
+  - 長めに飛んでから空中WBで戻る:
+      movements:
+        - to: [4103,1186]
+        - to: [3975,1217]
+
+  - 朝にする:
+      icon: set-time
+      comment: 12am ~ 5amなら2回朝にする
+      notes: ミニマップが表示されるまでカメラを上に向ける
+
+  - ネルドラ素材 - 角1, 爪1:
+      icon: imp.
+      icon-map: null
+      comment: 同じ場所で朝にする
+      movements:
+        - push
+        - to: [4284,1086]
+          color: white
+        - pop
+      markers:
+        - at: [4284,1086]
+          color: white
+
+  - _korok::N19:
+      comment: 石は東
+
+  - ネルドラ素材を拾う:
+      icon: imp.
+      icon-map: null
+
+  - WB .dir([11:00]) + 空中WB .dir([9:00])
+
+  - _korok::N17
+
+  - _wb<8:00>
+
+  - _hinox::red:
+      coord: [3250.94, 268.75, 1331.63]
+      comment: 池の北東の岩から撃つ
+
+  - _wb<11:00>:
+      comment: 上を向いてラグ回避
+
+  - _location::LanayruRoad-EastGate
+
+  - _memory::LanayruRoad-EastGate
+
+  - _wb<9:00>
+
+  - _korok::N15
+
+  - _wb<4:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::N16:
+      comment: 噴水の真ん中
+
+  - _location::LanayruPromenade
+
+  - _wb::hight<6:00>
+
+  - _shrine::dow-naeh:
+      comment: .link([参考動画]https://twitter.com/ikurapan_botw/status/1653644014959329280?s=20)
+      notes: 坂を下って右端から四角先WB
+
+  - WBH .dir([12:00]) + 空中WB .dir([8:30]):
+      coord: [2681.435659,1229.320901]
+
+  - _korok::N20
+
+  - _run<10:00>
+
+  - _hinox::red:
+      icon-map: null
+      movements:
+        - to: [2484.375,1228.25]
+        - push
+        - to: [2414.72, 304.69, 1177.84]
+          color: white
+          icon: hinox
+        - pop
+
+  - _wb::hight<12:00>
+
+  - _korok::N11:
+      icon-map: null
+      notes: バクダン2個を盾で受けて岩を落とす
+      movements:
+        - to: [2496.873159,892.195901]
+        - push
+        - to: [2409.55, 269.61, 849.32]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<3:00>
+
+  - _korok::N13:
+      comment: ビタロ1回叩き、解除を2セット
+      notes: N11が出るまで岩のサークルの手前で待機
+
+  - _wb<2:00>
+
+  - _hinox::blue:
+      coord: [2990.90, 251.39, 787.92]
+
+  - _wb::midair<11:30>
+
+  - _korok::N06
+
+  - _wb::hight<8:30>
+
+  - _korok::N05
+
+  - _wb::hight<9:00>
+
+  - 牡鹿に乗る:
+      icon: imp.
+      coord: [2601.50, 222.01, 552.50]
+      comment: 台座へ行き、祠を出現させる
+
+  - _npc<カッシーワ>:
+      coord: [2589.68, 232.40, 444.25]
+
+  - _wb::hight<9:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::N04
+
+  - _wb<10:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::N02
+
+  - _wb::hight<3:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::N03
+
+  - _shrine::mezza-lo
+
+  - _wb<4:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::Z42:
+      icon-map: null
+      movements:
+        - to: [2722.0625,414.375]
+        - push
+        - to: [2769.95, 123.22, 348.85]
+          color: white
+          icon: korok
+        - pop
+
+  - WB + 空中WB .dir([2:00]):
+      comment: 2回目は飛んだら四角起爆
+
+  - _korok::Z43
+
+  - WBS .dir([3:30]) + 滑空 .dir([12:00]):
+      comment: 上を向いてラグ回避
+
+  - _korok::Z44
+
+  - _wb::hight<3:30>
+
+  - _hinox::blue:
+      coord: [3526.26, 251.18, 364.97]
+
+  - _wb<11:00>
+
+  - _zora-stone-monument<6>:
+      coord: [3393.74, 314.18, 49.77]
+
+  - _wb::hight<9:30>:
+      comment: 南に走ってからWB
+
+  - _zora-stone-monument<7>:
+      coord: [3265.50, 341.84, 38.70]
+
+  - _run<9:30>
+
+  - _korok::Z33
+
+  - _wb<8:00>
+
+  - _zora-stone-monument<4>:
+      coord: [3099.83, 236.67, 70.72]
+
+  - _wb::hight<0:30>:
+      comment: 飛んだら四角起爆
+
+  - _location::LutosCrossing
+
+  - _korok::Z32
+
+  - _wb::speed<11:30>
+
+  - _zora-stone-monument<3>:
+      coord: [3062.39, 184.92, -216.65]
+
+  - _wb::hight<3:30>:
+      comment: 上を向いてラグ回避
+
+  - _zora-stone-monument<8>:
+      coord: [3260.31, 241.83, -145.22]
+
+  - _wb::hight<0:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::Z25:
+      comment: 崖際
+
+  - _wb::hight<9:00>
+
+  - _hinox::blue:
+      coord: [2930.51, 312.54, -298.40]
+
+  - _wb::square<5:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::Z24:
+      comment: 最後の花は横から触る
+
+  - _wb<4:30>:
+      comment: .dir([4:00])を向いてディレイで角度をつける
+
+  - _korok::Z34:
+      comment: 丘の上
+
+  - _wb::speed<3:00>
+
+  - ルッタの石碑:
+      icon: ruta-ex
+      coord: [3731.50, 400.26, 44.50]
+
+  - _wb<2:00>
+
+  - _talus::luminous:
+      coord: [3992.27, 353.03, -158.82]
+      comment: .fury(ウルボザの怒り１～３)
+
+  - WB .dir([2:00]) + 走る:
+      comment: 飛んだら四角起爆
+
+  - _korok::Z27
+
+  - WBH .dir([12:00]) + 空中WB .dir([1:00]):
+      comment: 空中WBの後四角起爆
+
+  - _korok::Z19
+
+  - _korok::Z20
+
+  - _wb::super<11:00>
+
+  - _korok::Z08:
+      comment: バクダン矢
+
+  - _wb<8:00>
+
+  - _snap<ライネル>:
+      movements:
+          - to: [3823,-676.1940389294405]
+          - push
+          - to: [3844.98, 590.85, -601.09]
+            color: white
+            icon: snap
+          - pop
+      icon-map: null
+
+  - 滑空 .dir([7:30])
+
+  - _zora-stone-monument<9>:
+      coord: [3720.59, 461.92, -532.05]
+
+  - WB .dir([10:00]) + 空中WB .dir([11:00])
+
+  - _chest::special<ゾーラの兜>:
+      coord: [3466.36, 499.22, -889.05]
+
+  - _wb::hight<2:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::Z05
+
+  - _wb::hight<9:30>
+
+  - _korok::Z04:
+      comment: 丘
+
+  - ガーディアンを倒す:
+      icon: kill
+      icon-map: null
+      comment: 飛行型3, 砲台型1
+
+  - _shrine::sato-koda:
+      comment: 右2つ目の階段からWBH .dir([3:00])
+
+  - _wb<5:00>
+
+  - _npc<ポンテ>:
+      coord: [3320.59, 244.66, -474.01]
+      comment: 2回話す (雨ときどきカエル)
+
+  - _npc<ルラチュ>:
+      coord: [3301.875,-474.60918491484153]
+      comment: 英傑祭の詩
+
+  - _npc<レトーガン>:
+      coord: [3290.09, 244.86, -451.28]
+      comment: 2回話す (夜光石収集)
+
+  - _npc<フィネ>:
+      coord: [3264.00, 249.76, -480.00]
+      comment: メッセージボトルの行方
+
+  - _npc<ノール>:
+      coord: [3292.20, 255.43, -520.38]
+      comment: 飛び込みに目覚めた男
+
+  - _npc<トルフォー>:
+      coord: [3301,-536]
+      comment: 2回話す (ラルス池の巨人討伐)
+
+  - _npc<ジアート>:
+      coord: [3340.25, 256.66, -564.31]
+      comment: 2回話す (ゾーラの石碑を探して)
+
+  - _npc<カポーダ>:
+      coord: [3327.76, 256.41, -522.71]
+      comment: イチカラ村
+
+  - _npc<フララット>:
+      coord: [3328.97, 268.46, -532.02]
+      comment: 2回話す (ライネル調査)
+      notes: ゾーラのすねあてをもらう
+
+  - _wb<2:30>
+
+  - 光輪をくぐる:
+      icon: imp.
+      movements:
+        - to: [3561.70, 279.10, -566.60]
+        - to: [3600.30, 345.93, -583.30]
+        - to: [3625.50, 379.80, -580.20]
+        - to: [3648.40, 378.90, -590.50]
+        - to: [3661.51, 459.84, -595.44]
+        - to: [3715.30, 463.10, -589.10]
+        - to: [3734.50, 528.40, -594.20]
+        - to: [3745.67, 547.97, -608.42]
+
+  - _shrine::mah-eliya:
+      notes: 左端から燭台に向きを合わせて四角先WB、がんばり1/2周で丸を出す
+
+  - _wb::hight<2:30>
+
+  - _korok::A55:
+      comment: バクダン矢
+
+  - _wb<11:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::A54
+
+  - _wb<2:00>
+
+  - _korok::A53:
+      comment: 東から木を切る
+
+  - _wb::speed<3:00>
+
+  - _korok::Z07:
+      comment: 柱の上
+
+  - 落ちる .dir([12:00])
+
+  - _korok::Z06:
+      comment: 木の足場の石
+
+  - _wb::speed<11:30>
+
+  - _korok::Z01
+
+  - 盾サーフィン .dir([6:00])
+
+  - 西側からビタロックで板をどかす
+
+  - _shrine::kah-mael:
+      notes: エレベーター左から向きを合わせてWB
+
+  - 朝にする:
+      icon: set-time
+      icon-map: null
+
+  - リーバルの猛り + 空中WB .dir([5:00]):
+      comment: .gale(リーバルの猛り２)
+
+  - 光輪に触れる:
+      icon: imp.
+      icon-map: null
+
+  - _shrine::kee-dafunia:
+      notes: エレベーター右から氷を溶かし、四角先WB + アイスメーカージャンプ
+
+  - 自爆してラグドール解除
+

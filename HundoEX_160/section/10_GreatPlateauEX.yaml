@@ -1,0 +1,193 @@
+- 10. 一撃の試練:
+  - _warp::sor<7:00>:
+      color: "#ffff00"
+
+  - _run<7:00>
+
+  - _korok::P09
+
+  - 端末、剣を調べる:
+      icon: imp.
+      icon-map: null
+      comment: 一撃の試練開始(.link([参考動画]https://youtu.be/kKqog4CQYPI?t=1030))
+
+  - _warp::keh-namut<8:30>
+
+  - .b-yellow(回復)WB .dir([5:00])
+
+  - 古代矢で敵を倒す:
+      icon: kill
+      icon-map: null
+      notes: ウィズローブ、モリブリン、リザルフォス
+
+  - _shrine::etsu-korima:
+      comment: 光線は盾で受ける
+
+  - .b-yellow(回復)WB .dir([1:00])
+
+  - 古代矢で敵を倒す:
+      icon: kill
+      icon-map: null
+      comment: 巨木の上から撃つ
+      notes: ボコブリン
+
+  - _shrine::yowaka-ita:
+      notes: 6本目の柱に向き合わせて最大速度で引っかかり武器振らない
+
+  - .b-yellow(回復)WB .dir([4:00])
+
+  - 古代矢で敵を倒す:
+      icon: kill
+      icon-map: null
+      notes: リザルフォス上3下5
+
+  - _shrine::rohta-chigah:
+      comment: ビタロックを使いつつ進む
+
+  - .b-yellow(回復)WB .dir([7:30])
+
+  - _snap<スタルホース>:
+      icon-map: null
+
+  - 古代矢で敵を倒す:
+      icon: kill
+      icon-map: null
+      notes: ボコブリン・モリブリン・リザルフォス
+
+  - 中央の岩で南向きのskewを取る:
+      comment: 掴まって滑って武器振り盾サーフィン
+
+  - _shrine::ruvo-korbah:
+      notes: 左後ろを3回抜ける、少し右向いて壁の左の方全てジャンプ盾サーフィン
+
+  - 自爆してラグドール解除
+
+  - _wb::hight<5:30>
+
+  - _korok::P18
+
+  - WBH .dir([12:00]) + 空中WB .dir([11:30]):
+      comment: 上を向いてラグ回避
+
+  - _korok::P11
+
+  - _wb::square<10:00>:
+      comment: 飛んだら丸起爆
+      notes: 飛んだあとすぐはカメラを動かさない(ラグ回避)
+
+  - _korok::P10
+
+  - _wb<11:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::P06:
+      comment: 丘の上
+
+  - _wb::square<2:00>:
+      comment: 飛んだら丸起爆
+
+  - _korok::P05:
+      comment: バクダン矢
+
+  - _wb<1:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::P02
+
+  - _run<10:00>
+
+  - _korok::P01:
+      comment: 石の下
+
+  - 氷を作ってWB .dir([8:00]):
+      comment: 上を向いてラグ回避
+
+  - _talus::stone:
+      coord: [-1087.75, 179.14, 1663.18]
+      comment: .fury(ウルボザの怒り１)
+
+  - _run<3:00>
+
+  - _korok::P04
+
+  - _wb::speed<11:30>
+
+  - _korok::C81
+
+  - _wb::speed<3:30>
+
+  - _korok::C82
+
+  - _wb::hight<3:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::C83
+
+  - _wb::square<3:30>:
+      comment: 飛んだら丸起爆
+
+  - _location::GatepostTownRuins
+
+  - _wb<1:00>
+
+  - _chest::special<ムジュラの仮面>:
+      coord: [-448.19, 136.21, 1281.96]
+      comment: 装備
+      notes: 天候によっては雷鳴の兜と使い分ける
+
+  - _korok::C76:
+      comment: バクダン矢
+
+  - _location::KolomoGarrisonRuins
+
+  - _wb::square<1:00>:
+      comment: 飛んだら丸起爆
+
+  - _korok::C75:
+      comment: 氷を作って飛び込む
+
+  - _wb::square<9:00>:
+      comment: 飛んだら丸起爆
+
+  - _talus::luminous:
+      coord: [-514.75, 127.49, 1181.74]
+      comment: .fury(ウルボザの怒り２－３)
+
+  - _wb::hight<8:30>
+
+  - _memory::LakeKolomo
+
+  - _wb::hight<12:00>
+
+  - _korok::C69:
+      icon-map: null
+      comment: shoot .dir([4:00])
+      movements:
+        - to: [-663.5625,1047.375]
+        - push
+        - to: [-599.95, 138.03, 1071.82]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::midair<1:00>
+
+  - _korok::C63
+
+  - 盾サーフィン .dir([8:30])
+
+  - _location::ExchangeRuins
+
+  - _korok::C62
+
+  - _run<1:30>
+
+  - _chest::special<チンクルの頭巾>:
+      coord: [-744.04, 132.58, 890.13]
+
+  - _wb<10:00>
+
+  - _shrine::kaam-yatak:
+      comment: .b-yellow(古代矢、獣神の弓装備)
+      notes: 奥の塔の模様の境目右側に向きを合わせひねりWB
+

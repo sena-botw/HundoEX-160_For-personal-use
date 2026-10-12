@@ -1,0 +1,131 @@
+- 7. ナボリス:
+  - _warp::daqo-chisay<6:30>:
+      color: "#00ffff"
+  
+  - _wb<7:00>:
+      comment: 上を向いてラグ回避
+      notes: 飛んだら四角起爆
+
+  - _npc<ルージュ>:
+      coord: [-3868.85, 166.67, 2948.96]
+      comment: 選択肢 1 - 2
+  
+  - _wb::super<4:00>
+
+  - _npc<ルージュ>:
+      coord: [-3420.68, 189.82, 3118.97]
+  
+  - スナザラシ .dir([5:00])
+
+  - _npc<パクト>:
+      coord: [-2968.22, 137.69, 3775.00]
+      notes: 祠チャレンジ - うるわしの美酒を求めて
+  
+  - WB:
+      notes: ルージュの質問の選択肢は下、ミニマップでナボリスの位置を確認して飛ぶ方向を調整
+  
+  - ナボリスの足にバクダン矢
+
+  - _naboris:
+      comment: .gale(リーバルの猛り１－３)
+      notes: .bold(小型ガーディアンの写真)
+  
+  - _thunderblight:
+      notes: 両手剣で盾を壊しビタロック+、炎の矢オオワシ2胴体 + 炎の矢OGEB1HS
+  
+  - ウルボザの怒り:
+      icon: naboris
+      counter: .user-defined-split()
+      movements:
+        - to: [-3772,2851]
+          warp: true
+  
+  - _run<4:00>
+
+  - _npc<ボテンサ>:
+      coord: [-3750,2874]
+      comment: 選択肢 1 - 1 - 2 - 1
+      notes: ミニチャレンジ - 八人目の英雄
+  
+  - スノーブーツ装備
+
+  - 昼にする:
+      icon: set-time
+      icon-map: null
+
+  - 走る / WB .dir([7:00])
+
+  - _npc<ルージュ>:
+      coord: [-3892.04, 157.48, 2968.14]
+  
+  - 雷鳴の兜を調べる
+
+  - _npc<隊長>:
+      coord: [-3912.83, 149.68, 2930.99]
+      notes: ミニチャレンジ - バレッタを探して
+  
+  - _npc<ロテイン>:
+      coord: [-3877.78, 151.99, 2881.72]
+      notes: 祠チャレンジ - 七人の英雄
+  
+  - _npc<バーの店主>:
+      coord: [-3856.93, 152.43, 2856.37]
+      notes: 祠チャレンジ - うるわしの美酒を求めて
+  
+  - _npc<イチゴの女の子>:
+      coord: [-3833,2852.75]
+      notes: ミニチャレンジ - 犯人は誰だ！
+  
+  - WBH Super .dir([0:30])
+
+  - _location::NorthernIcehouse
+  
+  - BLSSで氷運び:
+      comment: 炎の矢で氷を小さくする
+      notes: 氷に密着しカメラを見下ろす形にして、上の面を撃つ
+  
+  - _npc<バーの店主>:
+      coord: [-3764.49, 141.00, 2699.75]
+  
+  - _wb::super<1:00>:
+      comment: 角度をつける、上を向いてラグ回避
+  
+  - _shrine::dako-tah:
+      comment: .link([エレベーター左から先ひねりWB]https://x.com/ikurapan_botw/status/1633634393096060928?s=20)
+  
+  - _wb<2:00>:
+      coord: [-3160.5625,2037.074482]
+
+  - _korok::G34
+  
+  - _wb<5:00>
+
+  - _location::GerudoDesertGateway
+  
+  - _wb::hight<3:00>
+
+  - _korok::W19:
+      comment: 崖際の角
+
+  - _shrine::kay-noh:
+      notes: エレベーター左から、左から2本目の柵に望遠鏡で向きを合わせて丸バクダン出しのみ普通、他全て最速入力でWB
+  
+  - 滑空 .dir([11:30])
+
+  - _korok::W15:
+      comment: 柱の上 岩は南に投げる
+  
+  - _npc<ゴマナ>:
+      coord: [-2811.31, 134.87, 2239.89]
+  
+  - ポーチを整理
+  
+  - _cook<ひんやり薬>:
+      icon-map: null
+      comment: ヒンヤリヤンマ .dir(1) + バネ .dir(1)
+  
+  - _location::GerudoCanyonStable
+  
+  - _npc<ピルエ>:
+      coord: [-2796.56, 134.90, 2240.07]
+      comment: .b-yellow(2回話して)ゴーゴーダケを渡す

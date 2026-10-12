@@ -1,0 +1,274 @@
+- 15. 迷いの森:
+  - _warp::daqa-koh<3:00>:
+      presets: _mappct<notes>
+      color: "#ff33ff"
+
+  - _wb::speed<8:30>:
+      comment: 上を向いてラグ回避
+
+  - _npc<ゴロンの子供>:
+      coord: [1787.98, 581.97, -2244.39]
+      comment: コップス
+
+  - _wb<5:00>:
+      comment: 削岩棒を投げ捨て、両手剣装備
+
+  - _npc<ゴングロン>:
+      coord: [2045.68, 521.76, -2040.42]
+      comment: 洞窟の中
+
+  - _wb<8:00>
+
+  - ロース岩を運ぶ:
+      icon: imp.
+      icon-map: null
+      comment: .b-yellow(弓を外して運ぶ)
+      notes: 終わったらOGEB装備
+      movements:
+        - push
+        - to: [1823.00, 453.77, -1891.17]
+          color: white
+          icon: imp.
+        - pop
+
+  - _shrine::kayra-mah:
+      comment: エレベータからWB + 空中WB
+      notes: 安定を取るなら左右に避ける
+
+  - _wb<11:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::E20:
+      comment: 岩を動かしたらマグロックを撃つ
+      icon-map: null
+      movements:
+        - to: [1997.0625,-2116]
+        - push
+        - to: [2019.42, 557.72, -2172.90]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb<2:00>
+
+  - _talus::igneo:
+      coord: [2141.56, 559.13, -2178.47]
+      comment: 氷の矢
+      notes: 火打ち石を拾う
+
+  - 滑空 .dir([5:00])
+
+  - _korok::E21:
+      comment: 左をひっかけて右にずらす
+
+  - _wb::hight<3:30>:
+      coord: [2155.375,-2134]
+
+  - _talus::igneo:
+      icon-map: null
+      comment: "E22の上空から撃つ : 氷＆古代矢"
+      notes: 火打ち石が11個無かったら近づいてウルボザ
+      movements:
+        - to: [2355.88, 524.65, -2067.38]
+        - push
+        - to: [2372.52, 507.89, -1998.62]
+          color: white
+          icon: talus-igneo
+        - pop
+
+  - _korok::E22:
+      comment: 柱の上
+
+  - 光輪に触れて空中WB .dir([8:00]):
+      icon: imp.
+      coord: [2324.72, 505.59, -2044.50]
+
+  - _shrine::rinu-honika:
+      comment: 右端から角に向きを合わせてWBH
+
+  - WBH .dir([3:00]) + 空中WB .dir([2:30])
+
+  - _korok::E23:
+      comment: バクダン
+
+  - _wb<8:00>
+
+  - _korok::E28
+
+  - _wb<8:00>
+
+  - _shrine::qua-raym:
+      comment: エレベータ右から四角先WB
+
+  - _wb::super<8:00>
+
+  - _korok::E35
+
+  - _wb::speed<9:30>
+
+  - _korok::K32
+
+  - _location::MilitaryTrainingCamp:
+      coord: [868.02, 209.82, -1362.17]
+      icon-map: null
+      comment: 高度を下げて地名発見
+
+  - _wb::midair<1:00>
+
+  - _korok::K31:
+      comment: 足場の上
+
+  - WBH .dir([9:30]) + 登る
+
+  - _tower::mappct::Woodland
+
+  - 西側から一段降りてWB .dir([11:00])
+
+  - _location::LostWoods
+
+  - _chest::special<コログのお面>:
+      coord: [721.69, 280.22, -1847.74]
+
+  - _wb::super<10:00>
+
+  - _npc<タッチオ>:
+      comment: はじめてのしれん開始
+      notes: トッチーが動いたらOK、トッチーはスタートから5分20秒後にゴールする
+      coord: [256.19, 281.61, -2229.61]
+
+  - 岩の北半分からWBH .dir([3:30]):
+      comment: 上を向いてラグ回避
+
+  - _npc<ナモミン>:
+      coord: [407.59, 334.17, -2180.27]
+      comment: 起こして話してから素材を置く
+      notes: ミニチャレンジ - ハイラルのなぞなぞしれん(リンゴ、ヨロイカボチャ、ポカポカダケ、ビリビリマス、ライネルのヒヅメ)
+
+  - _snap<ポカポカダケ>:
+      icon-map: null
+      comment: リンゴだけ回収
+
+  - 落ちる .dir([3:00])
+
+  - _location::KorokForest
+
+  - _material<ハイラルダケ,2>:
+      coord: [457.09, 249.12, -2184.80]
+      comment: デクの樹の根元
+
+  - _run<5:30>
+
+  - _material<ゴーゴーガエル,2>:
+      icon-map: null
+      comment: 祠の横
+
+  - .cyan(キヨ・ウー)を.b-yellow(起動):
+      icon: shrine
+      icon-map: null
+
+  - _weapon<コログのうちわ>:
+      coord: [473.68, 249.02, -2125.30]
+
+  - _material<トリのタマゴ,2>:
+      icon-map: null
+      comment: 近くの木
+
+  - ボックリン:
+      icon: hestu
+      coord: [466.03, 249.56, -2112.38]
+      comment: 武器6 弓1 盾1
+
+  - _run<8:00>
+
+  - _material<ゴーゴーガエル,3>:
+      coord: [418.92, 248.60, -2083.61]
+
+  - _weapon<マスターソードを調べる>:
+      coord: [431.66, 250.53, -2111.00]
+
+  - _npc<ピーカン>:
+      coord: [441.00, 248.56, -2133.05]
+      comment: ぴかぴかのルミーしれん
+
+  - _weapon<アイスロッド装備>:
+      icon-map: null
+
+  - _npc<カラッセ>:
+      coord: [419.28, 248.65, -2134.93]
+      comment: こおりの杖しれん
+
+  - _cook<.b-yellow(ハートを最大まで回復する)>:
+      icon-map: null
+      comment: ゴーゴー料理を食べる
+
+  - _weapon<マスターソードを抜く>:
+      coord: [431.66, 250.53, -2111.00]
+      icon-map: null
+
+  - はじめてのしれんを再開:
+      notes: しのび草→ハチミツ→しのび草を目印に進む
+      movements:
+        - to: [257,-2249]
+        - to: [248,-2274]
+        - to: [200.5,-2262]
+        - to: [172.5,-2294]
+        - to: [173.5,-2327.5]
+        - to: [150.5,-2357.5]
+        - to: [110,-2350.5]
+        - to: [90,-2370.5]
+        - to: [76,-2414]
+
+  - _material<しのび草,5>
+
+  - _material<ガンバリバッタ,10>:
+      icon-map: null
+      notes: 足りなかった場合、平原外れの馬宿のテリーから買う
+
+  - _material<ゴーゴーガエル,5>:
+      icon-map: null
+      comment: ポーチ内に5匹あればOK
+
+  - トッチーが祠についたら.b-yellow(走って近づく):
+      banner: true
+      comment: ダッシュジャンプで近づくと気づかれてソフトロックする
+
+  - _shrine::daag-chokah:
+      notes: 下のワープのマップ%はキヨ・ウーの分 +0.08%?
+
+  - _warp::keo-ruug<4:00>:
+      presets: _mappct<notes>
+
+  - _shrine::keo-ruug:
+      comment: エレベータから四角先WB
+      notes: 飛んだら丸装備
+
+  - _wb::hight<3:00>:
+      comment: 上を向いてラグ回避
+
+  - _npc<ダミダミ>:
+      coord: [564.99, 264.83, -2160.65]
+      comment: 燃えずのしれん開始
+
+  - WB Super .dir([2:00]) + 滑空 .dir([12:00]):
+      comment: 上を向いてラグ回避
+      coord: [594.125,-2225.06142]
+
+  - _shrine::maag-halan:
+      notes: 王家の両手剣、OGEB、ハイリアの盾装備
+
+  - _wb::super<8:00>:
+      comment: .link([祠の端末からひねりWB]https://twitter.com/ikurapan_botw/status/1685422428460347392?s=20)
+
+  - _npc<アズキ>:
+      coord: [251.03, 285.34, -1979.93]
+      comment: 操りの力のしれん開始
+
+  - _wb<8:00>
+
+  - _shield<さびた盾>:
+      coord: [100.06, 286.08, -1827.37]
+      comment: マグネキャッチで洞に入れる
+      notes: 宝箱を湖の中心の木の洞に入れる
+
+  - _shrine::kuhn-sidajj
+

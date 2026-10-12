@@ -1,0 +1,169 @@
+- 23. ヘブラ東:
+  - _warp::shada-naw<0:30>:
+      presets: _mappct<notes>
+      color: "#ffff00"
+
+  - WB .dir([5:00]) + 空中WB .dir([3:00]) + 空中WB .dir([6:00]):
+      banner: true
+      movements:
+        - to: [-2946.5,-3113.5]
+        - to: [-2788,-3114]
+
+  - _korok::H28:
+      comment: 山頂
+
+  - 必要なら夜にする:
+      icon: set-time
+      icon-map: null
+
+  - 南東の空を見る:
+      icon: imp.
+      icon-map: null
+      comment: 光柱が出るまでカメラにいれておく
+      notes: 9pm ~ ?am
+
+  - 落ちる .dir([7:30]):
+      notes: 落ちながら盾サーフィンでskewを消す
+
+  - _shrine::goma-asaagh
+
+  - _run<7:30>
+
+  - _korok::H35
+
+  - _wb<4:00>
+
+  - _korok::H36
+
+  - WB .dir([8:00]) + 空中WB .dir([10:00])
+
+  - 光輪スタート:
+      icon: imp.
+      movements:
+        - to: [-2629,-2691.5]
+        - to: [-2792.125,-2810.625]
+
+  - _chest::special<サルベージャーレッグ>:
+      comment: 光輪くぐりの途中に宝箱を開ける
+      movements:
+        - to: [-2747.40, 636.86, -2727.30]
+        - to: [-2605.00, 583.00, -2652.00]
+
+  - 光輪くぐりを終わらせる:
+      icon: imp.
+      movements:
+        - to: [-2575.10, 578.92, -2648.00]
+        - to: [-2478.80, 557.90, -2650.40]
+        - to: [-2401.80, 542.60, -2671.80]
+        - to: [ -2380.60, 525.25, -2727.60]
+        - to: [ -2399.80, 514.90, -2800.50]
+        - to: [-2424.80, 498.50, -2891.60]
+        - to: [-2429.21, 489.01, -2961.43]
+        - to: [-2379.90, 473.60, -3090.80]
+        - to: [-2300.00, 456.55, -3116.60]
+        - to: [-2239.00, 447.70, -3118.10]
+        - to: [-2195.09, 443.89, -3156.53]
+
+  - _shrine::kiah-toza:
+      comment: .link([参考動画]https://youtu.be/T4ALHtxoh7o?t=2453)
+      notes: WB [5:00] からカメラ壁抜け、左下入れてすぐX2連打
+
+  - _wb::hight<6:00>
+
+  - _talus::frost:
+      coord: [-2144.88, 491.27, -3082.59]
+      comment: .fury(ウルボザの怒り１～３)
+
+  - _wb<7:00>
+
+  - _korok::H31
+
+  - _wb<10:00>
+
+  - _korok::H29
+
+  - 盾サーフィン .dir([2:30])
+
+  - _korok::H30
+
+  - _wb<11:00>:
+      comment: ディレイを入れて角度をつける
+
+  - _shrine::rok-uwog:
+      comment: エレベータ右からWB .dir([8:00])
+
+  - 祠の裏からWBH .dir([6:00]) + 空中WB .dir([2:00]):
+      banner: true
+      comment: 天井にぶつからないように
+      movements:
+        - to: [-2400.180192,-3235.089915]
+        - to: [-2400.867707,-3328.671681]
+
+  - _korok::H13
+
+  - _wb<1:30>
+
+  - _korok::H05:
+      comment: バレットタイム有効
+
+  - _wb::speed<3:00>
+
+  - _shrine::sha-gehma
+
+  - _wb<5:00>
+
+  - _korok::H14
+
+  - _wb::midair<1:00>
+
+  - _korok::H06
+
+  - WBH + 空中WB .dir([3:30])
+
+  - _location::NorthLomeiLabyrinth
+
+  - _shrine::qaza-tokki
+
+  - 階段左からWBH .dir([6:00])
+
+  - _korok::H16:
+      icon-map: null
+      comment: バクダン矢
+      movements:
+        - to: [-847.625,-3534.75]
+        - to: [-848,-3402]
+        - push
+        - to: [-872.90, 335.50, -3316.11]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::midair<9:00>
+
+  - _korok::H15
+
+  - WBH .dir([8:30]) + WB .dir([7:00]):
+      comment: 2回目のWBは高く
+
+  - _korok::H22:
+      icon-map: null
+      comment: バクダン矢
+      movements:
+        - to: [-1202,-3351.4375]
+        - to: [-1258.125,-3225.625]
+        - push
+        - to: [-1110.80, 438.06, -3043.86]
+          color: white
+          icon: korok
+        - pop
+
+  - WB + 空中WB .dir([4:30])
+
+  - _korok::K11:
+      comment: 山頂
+
+  - _wb::speed<0:30>
+
+  - _korok::K05:
+      comment: バレットタイム有効
+

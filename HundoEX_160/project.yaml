@@ -1,0 +1,30 @@
+# The name of your project/route.
+# This will be displayed in the header for people who are viewing your route
+title: BotW_100%Extended_160
+
+# The version of your route. There's no particular format here.
+# This will be displayed in the metadata in the settings dialog
+version: 1.0.0
+
+# This is the route itself. Here it points to the main.yaml file we created earlier
+route:
+  use: ./main.yaml
+
+# Extra configuration.
+# The project must define a map to compile properly.
+# For now, we will use the Breath of the Wild celer map maintained by Pistonight
+config:
+  - use: Pistonight/celer-presets/botw/map.yaml
+  - use: /config/boss.yaml
+  - use: /config/icon.yaml
+  - use: /config/korok.yaml
+  - use: /config/location.yaml
+  - use: /config/map.yaml
+  - use: /config/memory.yaml
+  - use: /config/plugins.yaml
+  - use: /config/shrine.yaml
+  - use: /config/tags.yaml
+  - use: /config/theother.yaml
+  - use: /config/warp.yaml
+
+

@@ -1,0 +1,199 @@
+presets:
+  Mappct:
+    vars:
+      - map-pct-items: .var(counter-location)
+      - map-pct-items: .add(counter-korok)
+      - map-pct-items: .add(counter-tower)
+      - map-pct-items: .add(counter-shrine)
+      - _x: .var(counter-dlc-shrine)
+      - _x: .mul(with-dlc)
+      - map-pct-items: .add(_x)
+      - map-pct-items: .add(counter-calamity-ganon)
+      - map-pct-items: .add(counter-dark-beast-ganon)
+      - map-pct-items: .add(counter-divine-beast-done)
+      - map-pct-items: .add(counter-divine-beast-enter)
+      - _y: .var(counter-mazkoshia)
+      - _y: .mul(with-dlc)
+      - map-pct-items: .add(_y)
+      - map-pct: .var(map-pct-items)
+      - map-pct: .mul(100)
+      - map-pct: .div(map-pct-items-total)
+      - map-mul-100: .var(map-pct)
+      - map-mul-100: .mul(100)
+      - map-mul-100: .sub(0.5) # pad:lastの処理で数値が整数に四捨五入されることの調整
+      - map-floor: .var(map-pct)
+      - map-floor: .sub(0.5) # pad:lastの処理で数値が整数に四捨五入されることの調整
+    $(0): '$(1) Map% - .var(pad 3:last3:map-floor).val(.).var(pad02:last2:map-mul-100).val(%)'
+  
+  mappct:
+    vars:
+      - map-pct-items: .var(counter-location)
+      - map-pct-items: .add(counter-korok)
+      - map-pct-items: .add(counter-tower)
+      - map-pct-items: .add(counter-shrine)
+      - _x: .var(counter-dlc-shrine)
+      - _x: .mul(with-dlc)
+      - map-pct-items: .add(_x)
+      - map-pct-items: .add(counter-calamity-ganon)
+      - map-pct-items: .add(counter-dark-beast-ganon)
+      - map-pct-items: .add(counter-divine-beast-done)
+      - map-pct-items: .add(counter-divine-beast-enter)
+      - _y: .var(counter-mazkoshia)
+      - _y: .mul(with-dlc)
+      - map-pct-items: .add(_y)
+      - map-pct: .var(map-pct-items)
+      - map-pct: .mul(100)
+      - map-pct: .div(map-pct-items-total)
+      - map-mul-100: .var(map-pct)
+      - map-mul-100: .mul(100)
+      - map-mul-100: .sub(0.5) # pad:lastの処理で数値が整数に四捨五入されることの調整
+      - map-floor: .var(map-pct)
+      - map-floor: .sub(0.5) # pad:lastの処理で数値が整数に四捨五入されることの調整
+    $(0): 'Map: .var(pad 3:last3:map-floor).val(.).var(pad02:last2:map-mul-100).val(%)'
+
+  TowerMap%:
+    text: '.var(pad 3:last3:map-floor).val(.).var(pad02:last2:map-mul-100).val(%) .cyan($(0))'
+    icon: tower
+    icon-priority: 0
+    coord: [$(1),$(2),$(3)]
+    counter: .var(counter-tower)
+    vars:
+      - map-pct-items: .var(counter-shrine)
+      - _x: .var(counter-dlc-shrine)
+      - _x: .mul(with-dlc)
+      - map-pct-items: .add(_x)
+      - map-pct-items: .add(counter-korok)
+      - map-pct-items: .add(counter-location)
+      - map-pct-items: .add(counter-tower)
+      - map-pct-items: .add(1) # for this tower
+      - map-pct-items: .add(counter-divine-beast-enter)
+      - map-pct-items: .add(counter-divine-beast-done)
+      - map-pct-items: .add(counter-calamity-ganon)
+      - map-pct-items: .add(counter-dark-beast-ganon)
+      - _y: .var(counter-mazkoshia)
+      - _y: .mul(with-dlc)
+      - map-pct-items: .add(_y)
+      - map-pct: .var(map-pct-items)
+      - map-pct: .div(map-pct-items-total)
+      - _z: .var(map-pct)
+      - map-pct: .mul(100)
+      - map-mul-100: .var(map-pct)
+      - map-mul-100: .mul(100)
+      - map-mul-100: .sub(0.5) # pad:lastの処理で数値が整数に四捨五入されることの調整
+      - map-floor: .var(map-pct)
+      - map-floor: .sub(0.5) # pad:lastの処理で数値が整数に四捨五入されることの調整
+    notes: .var(map-pct-items) / .var(map-pct-items-total) = .var(_z)
+
+  Tower:
+    text: .cyan($(0))
+    icon: tower
+    icon-priority: 0
+    coord: [$(1),$(2),$(3)]
+    counter: .var(counter-tower)
+    vars:
+      - map-pct-items: .var(counter-shrine)
+      - _x: .var(counter-dlc-shrine)
+      - _x: .mul(with-dlc)
+      - map-pct-items: .add(_x)
+      - map-pct-items: .add(counter-korok)
+      - map-pct-items: .add(counter-location)
+      - map-pct-items: .add(counter-tower)
+      - map-pct-items: .add(1) # for this tower
+      - map-pct-items: .add(counter-divine-beast-enter)
+      - map-pct-items: .add(counter-divine-beast-done)
+      - map-pct-items: .add(counter-calamity-ganon)
+      - map-pct-items: .add(counter-dark-beast-ganon)
+      - _y: .var(counter-mazkoshia)
+      - _y: .mul(with-dlc)
+      - map-pct-items: .add(_y)
+    notes: .var(map-pct-items) / .var(map-pct-items-total)
+
+  _tower:
+    Akkala:
+      presets: _Tower<アッカレの塔,3308.00, 523.92, -1500.10>
+
+    Central:
+      presets: _Tower<平原の塔,-788.64, 127.78, 442.03>
+
+    DuelingPeaks:
+      presets: _Tower<双子山の塔,1016.78, 114.15, 1714.08>
+
+    Eldin:
+      presets: _Tower<オルディンの塔,2174.15, 438.87, -1556.78>
+
+    Faron:
+      presets: _Tower<フィローネの塔,1331.20, 200.07, 3273.72>
+
+    Gerudo:
+      presets: _Tower<ゲルドの塔,-3666.00, 401.12, 1828.60>
+
+    Hebra:
+      presets: _Tower<ヘブラの塔,-2173.00, 459.32, -2034.00>
+
+    Woodland:
+      presets: _Tower<森林の塔,883.88, 280.35, -1605.71>
+
+    Lake:
+      presets: _Tower<湖の塔,-31.82, 210.62, 2961.60>
+
+    Hateno:
+      presets: _Tower<ハテノ塔,2735.50, 266.32, 2133.50>
+
+    GreatPlateau:
+      presets: _Tower<始まりの塔,-560.04, 176.56, 1694.86>
+
+    Ridgeland:
+      presets: _Tower<丘陵の塔,-1755.30, 258.72, -774.30>
+
+    Tabantha:
+      presets: _Tower<タバンタの塔,-3613.75, 375.17, -990.16>
+
+    Wasteland:
+      presets: _Tower<荒野の塔,-2306.84, 460.32, 2437.32>
+
+    Lanayru:
+      presets: _Tower<ラネールの塔,2258.00, 241.05, -109.00>
+
+    _mappct:
+      Akkala:
+        presets: _TowerMap%<アッカレの塔,3308.00, 523.92, -1500.10>
+
+      Central:
+        presets: _TowerMap%<平原の塔,-788.64, 127.78, 442.03>
+
+      DuelingPeaks:
+        presets: _TowerMap%<双子山の塔,1016.78, 114.15, 1714.08>
+
+      Eldin:
+        presets: _TowerMap%<オルディンの塔,2174.15, 438.87, -1556.78>
+
+      Faron:
+        presets: _TowerMap%<フィローネの塔,1331.20, 200.07, 3273.72>
+
+      Gerudo:
+        presets: _TowerMap%<ゲルドの塔,-3666.00, 401.12, 1828.60>
+
+      Hebra:
+        presets: _TowerMap%<ヘブラの塔,-2173.00, 459.32, -2034.00>
+
+      Woodland:
+        presets: _TowerMap%<森林の塔,883.88, 280.35, -1605.71>
+
+      Lake:
+        presets: _TowerMap%<湖の塔,-31.82, 210.62, 2961.60>
+
+      Hateno:
+        presets: _TowerMap%<ハテノ塔,2735.50, 266.32, 2133.50>
+
+      Ridgeland:
+        presets: _TowerMap%<丘陵の塔,-1755.30, 258.72, -774.30>
+
+      Tabantha:
+        presets: _TowerMap%<タバンタの塔,-3613.75, 375.17, -990.16>
+
+      Wasteland:
+        presets: _TowerMap%<荒野の塔,-2306.84, 460.32, 2437.32>
+
+      Lanayru:
+        presets: _TowerMap%<ラネールの塔,2258.00, 241.05, -109.00>
+

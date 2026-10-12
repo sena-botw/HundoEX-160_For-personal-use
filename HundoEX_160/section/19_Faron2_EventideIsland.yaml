@@ -1,0 +1,652 @@
+- 19. フィローネ 2 / サイハテノ島:
+  - WBH + 空中WBs .dir([12:00])
+
+  - _korok::F02
+
+  - _wb::hight<0:30>
+
+  - _talus::stone:
+      comment: .fury(ウルボザの怒り１)
+      coord: [1257.12, 355.80, 2176.52]
+
+  - _wb<4:30>
+
+  - _korok::F05
+
+  - shoot .dir([10:30])
+
+  - _korok::F01:
+      icon-map: null
+      comment: バクダン矢 // .link([参考動画]https://www.youtube.com/watch?v=T5MXXtNCbX0&t=11835s)
+      notes: 2本の倒せる木の葉の間を撃つ(雨の場合近づく)
+      movements:
+        - to: [1445.0625,2348.29371]
+        - push
+        - to: [1381.90, 288.30, 2277.45]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb<7:30>:
+      coord: [1340.25,2486.15559]
+
+  - _korok::F04:
+      comment: 木を切り倒して運ぶ
+      notes: もしくはゆっくり歩くと沈まない
+
+  - 滑空 .dir([11:00])
+
+  - _korok::F03:
+      comment: バクダン矢
+      notes: 雨の場合は氷を作って渡り左の風船を撃っておく
+
+  - .dir([7:30])
+
+  - _chest::special<ザントの兜>:
+      coord: [1288.07, 188.30, 2451.24]
+
+  - _wb::hight<5:30>
+
+  - _hinox::red:
+      coord: [1330.55, 180.38, 2623.94]
+
+  - _wb::midair<5:30>
+
+  - _korok::F10:
+      comment: 洞窟の中
+      notes: バクダン矢で上昇気流を作る
+
+  - _wb<4:00>
+
+  - _korok::F16:
+      comment: .gale(リーバルの猛り２)
+
+  - _wb<8:00>
+
+  - _korok::F15
+
+  - _wb<4:00>
+
+  - _hinox::red:
+      coord: [1493.39, 306.77, 3092.14]
+
+  - _wb::speed<5:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::F34:
+      comment: 切り株の上
+
+  - _wb<5:00>
+
+  - _location::LakesideStable
+
+  - _weapon<オノ>:
+      coord: [1552.29, 196.63, 3533.36]
+      comment: 馬宿の上
+
+  - 落ちる .dir([9:00])
+
+  - _korok::F41:
+      comment: バクダン
+
+  - _npc<馬の世話をしている女性>:
+      coord: [1540.08, 165.97, 3531.94]
+      comment: 2回話してラバーキャップをもらう
+
+  - _shrine::shai-utoh:
+      notes: エレベーター左から向きを合わせてWBで右の壁の上へ(武器振りすると照明にターゲットが吸われるのでNG)
+
+  - 夜にする:
+      icon: set-time
+      icon-map: null
+
+  - 岩からWBH .dir([3:00]) + 空中WB .dir([4:00]):
+      comment: 上を向いてラグ回避
+      movements:
+        - to: [1566.1875,3576.782506]
+        - to: [1767.0625,3670.836616]
+
+  - _korok::F48:
+      comment: ポーチ内にバナナを4個残す
+
+  - _wb<4:00>:
+      comment: 上を向いてラグ回避、飛んだら四角起爆
+
+  - _korok::F55:
+      comment: 崖の上
+
+  - _wb::speed<9:30>
+
+  - _korok::F54:
+      comment: 崖際
+
+  - _wb::square<8:30>
+
+  - _talus::stone:
+      coord: [1392.02, 107.03, 3727.59]
+      comment: .fury(ウルボザの怒り２)
+
+  - _korok::F53
+
+  - _wb<4:00>
+
+  - _korok::F56:
+      comment: 崖の下
+
+  - WBH + 空中WB .dir([3:00])
+
+  - すべての敵を倒す:
+      icon: kill
+      coord: [2069.5625,3906.441741]
+      comment: .fury(ウルボザの怒り３) + バクダン矢
+      notes: モリブリンが居る側のドクロの上の真ん中でウルボザ、東に残った黒・青ボコにバクダン矢、すべて倒したら宝箱が開くのを待つ必要はない
+
+  - WBH + 空中WB .dir([12:00]):
+      coord: [2056.5625,3558.643427]
+
+  - _korok::F43
+
+  - 盾サーフィン + WBH .dir([12:00])
+
+  - _korok::F30
+
+  - _wb::speed<6:30>
+
+  - _hinox::stal:
+      coord: [2078.62, 110.22, 3450.66]
+
+  - _wb::midair<9:30>
+
+  - _korok::F35:
+      comment: 古代矢
+
+  - _chest::special<ファントムガノン具足>:
+      coord: [1832.85, 160.08, 3355.49]
+      comment: 欠けた像の裏
+
+  - _wb::square<7:30>
+
+  - _location::FloriaBridge
+
+  - _korok::F42
+
+  - _wb::hight<12:00>:
+      comment: 上を向いてラグ回避、飛んだら四角起爆
+
+  - _talus::stone:
+      coord: [1690.73, 165.27, 3335.62]
+      comment: バクダン矢
+
+  - _wb::hight<0:30>
+
+  - _korok::F28:
+      comment: .gale(リーバルの猛り３)
+
+  - _wb<10:00>
+
+  - _korok::F26:
+      comment: 滝の近く
+
+  - 氷を作って降りる .dir([4:30])
+
+  - _chest::special<ファントムガノン兜>:
+      coord: [1669.19, 209.34, 3163.02]
+
+  - _wb::hight<3:00>
+
+  - _korok::F27:
+      comment: 崖際
+
+  - .dir([9:00])に飛び降りて空中WB .dir([12:00]):
+      coord: [1775.75,3151.906691]
+
+  - _shrine::shoda-sah
+
+  - _wb::square<6:30>
+
+  - _korok::F19:
+      comment: 滝登り
+
+  - .dir([3:00])の崖を登る:
+      coord: [1815,3018]
+
+  - _wb::square<3:00>:
+      comment: 木の根から飛ぶ、飛んだら丸起爆
+
+  - _korok::F20
+
+  - _wb<5:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::F29
+
+  - _wb<6:30>:
+      comment: 上を向いてラグ回避
+
+  - 落雷で祠を出現させる:
+      icon: imp.
+      icon-map: null
+      comment: 雷鳴の兜装備
+
+  - _shrine::qukah-nata
+
+  - _wb::square<2:00>
+
+  - _npc<カッシーワ>:
+      coord: [2081.89, 287.42, 3226.31]
+
+  - _wb<1:30>
+
+  - _korok::F21
+
+  - _wb::super<1:00>:
+      comment: 上を向いてラグ回避
+
+  - _hinox::black:
+      coord: [2420.75, 327.47, 2782.60]
+      comment: 古代矢2
+
+  - 近くの木を倒してBLSS .dir([3:30])
+
+  - 台座に珠を入れる:
+      icon: imp.
+      coord: [2616.91, 323.39, 2823.60]
+
+  - _wb<2:00>:
+      comment: 飛んだら四角バクダン装備
+
+  - _korok::F14
+
+  - _wb::square<8:30>
+
+  - _hinox::red:
+      coord: [2768.06, 258.13, 2711.58]
+      comment: 古代矢
+
+  - 台座に珠を入れる:
+      icon: imp.
+      movements:
+        - to: [2649.9375,2736.612037]
+        - to: [2648.43, 324.55, 2822.85]
+
+  - 祠の石碑を読む:
+      icon: imp.
+      icon-map: null
+
+  - _wb::square<5:00>
+
+  - _hinox::blue:
+      coord: [2693.70, 273.89, 2967.57]
+      comment: 古代矢
+
+  - 台座に珠を入れる:
+      icon: imp.
+      movements:
+        - to: [2650.875,2880.28848]
+        - to: [2622.25,2867.792035]
+        - to: [2632.47, 321.84, 2848.53]
+
+  - _shrine::tawa-jinn
+
+  - WBS Super .dir([6:30]) + 空中WB .dir([5:30])
+
+  - _korok::F47:
+      comment: 山頂
+
+  - 滑空 .dir([1:00])
+
+  - _npc<男>:
+      coord: [2584.90, 290.11, 3547.64]
+      notes: 男と2回話してしのび草を渡し、女に2回話しかける
+
+  - _wb<7:00>
+
+  - _korok::F57
+
+  - WBS .dir([3:30]) + 滑空 .dir([2:30])
+
+  - 北の岩からアイスメーカー:
+      icon: imp.
+      coord: [3013.4375,3837.620993]
+      comment: 3つの中心あたり (南に最大射程)
+
+  - WB - 氷柱に立つ
+
+  - _chest<宝箱を持ち上げる>:
+      coord: [3019.81, 100.82, 3897.96]
+      comment: 水面から完全に出るまで持ち上げる
+      notes: 宝箱は4つのうちのどれでもよく、開ける必要はない
+
+  - _wb<11:00>
+
+  - _korok::F49
+
+  - _wb::hight<3:00>
+
+  - _korok::F50
+
+  - _wb<4:30>
+
+  - _korok::F58
+
+  - _wb<1:30>
+
+  - _korok::F51
+
+  - _wb<0:30>
+
+  - _snap<石碑のかけら>:
+      coord: [3390.50, 105.66, 3481.83]
+
+  - _wb<4:00>
+
+  - _korok::F52:
+      comment: ヤシの木の根元
+
+  - _snap<石碑のかけら>:
+      coord: [3800.81, 105.59, 3614.03]
+
+  - _wb<10:30>
+
+  - _snap<石碑のかけら>:
+      coord: [3532.50, 112.28, 3365.50]
+
+  - 盾サーフィン .dir([9:30])
+
+  - _location::PalmoraeRuins
+
+  - 台座を起動:
+      icon: imp.
+      coord: [3446.989746, 115.0569, 3339.000488]
+      comment: 男と話し、東の台座でしゃがむ
+
+  - _shrine::kah-yah:
+      comment: 左の坂から向きを合わせてWB
+
+  - リーバルの猛り + 空中WB .dir([9:00]):
+      comment: .gale(リーバルの猛り１)
+
+  - _korok::F37
+
+  - _run<9:00>
+
+  - _talus::stone:
+      icon-map: null
+      comment: .fury(ウルボザの怒り１)
+      movements:
+        - to: [3287.8125,3388.740027]
+        - push
+        - to: [3272.52, 133.05, 3409.85]
+          color: white
+          icon: talus
+        - pop
+
+  - _wb::speed<8:30>
+
+  - _location::LurelinVillage
+
+  - _korok::F45:
+      comment: 家の上
+
+  - 落ちる .dir([5:30])
+
+  - _material<マックスサザエ,1>:
+      coord: [2948.86, 106.06, 3462.70]
+
+  - 持っていない場合、桟橋を進んでオクタ風船を買う:
+      banner: true
+
+  - _run<10:30>
+
+  - _npc<サバッキャ>:
+      coord: [2886.5,3442.5]
+      comment: 奪われた漁場
+
+  - _material<ヤシの実,1>:
+      coord: [2873.80, 106.90, 3432.06]
+      comment: .lime(N54)で使う
+
+  - _npc<キキョウ>:
+      coord: [2884.25, 112.44, 3413.51]
+      comment: 2回話す
+      notes: 6pmを過ぎるとチャレンジを開始できない / 直前で天候が変化した場合、キキョウの動きが止まってから話す
+
+  - _korok::F44:
+      icon-map: null
+      comment: バクダン矢
+      notes: コログが出なかった場合、祠をクリアしてからWBで近づく
+      movements:
+        - push
+        - to: [2836.96, 126.88, 3452.76]
+          color: white
+          icon: korok
+        - pop
+
+  - 盾サーフィン .dir([6:00])
+
+  - _npc<ローゼル>:
+      coord: [2887.5,3495.5]
+      comment: 海に沈んだ財宝
+      notes: 「海について」を尋ね、もう一度話す
+
+  - _wb<1:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::F36:
+      comment: 家の上
+      notes: 木を切ってビタロで橋にする
+
+  - _wb<10:00>
+
+  - _shrine::yah-rin:
+      comment: エレベータ右から壁の上へWB
+
+  - _wb<10:00>
+
+  - _korok::F31:
+      comment: バクダン矢
+
+  - WB .dir([2:00]) + 空中WB .dir([1:00])
+
+  - _korok::F22
+
+  - _wb<1:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::F18:
+      comment: 洞窟の中、バクダン矢
+      notes: 夜光石が10個無い場合取る
+
+  - _run<2:00>
+
+  - _korok::N64:
+      icon-map: null
+      comment: ビタロ + バクダン矢
+      movements:
+        - to: [3141.375,2855.268364]
+        - push
+        - to: [3229.81, 256.55, 2848.44]
+          color: white
+          icon: korok
+        - pop
+
+  - _run<5:00>
+
+  - _hinox::red:
+      icon-map: null
+      comment: 古代矢
+      notes: 穴の北側から、天井に当たらないぎりぎりを狙って撃つ
+      movements:
+        - to: [3178.5625,2908.573966]
+        - push
+        - to: [3210.17, 172.01, 2996.33]
+          color: white
+          icon: hinox
+        - pop
+
+  - WBH + 空中WB .dir([6:00])
+
+  - _korok::F32
+
+  - WBH + 空中WB .dir([3:30])
+
+  - _shrine::muwo-jeem
+
+  - _run<11:30>
+
+  - _korok::F33:
+      comment: 落ちて、崖際
+
+  - 飛び降りて空中WB .dir([10:00])
+
+  - _korok::N65
+
+  - _wb::speed<0:30>
+
+  - _korok::N61
+
+  - _wb<1:00>
+
+  - _korok::N60:
+      comment: 氷を作ってから石
+
+  - _wb<5:00>
+
+  - _npc<カッシーワ>:
+      coord: [3746.19, 125.42, 2629.38]
+
+  - 滑空 .dir([4:30])
+
+  - _chest<金ルピー>:
+      coord: [3773.34, 100.52, 2647.44]
+      comment: マグネで宝箱を引き揚げる
+
+  - _wb::speed<2:30>
+
+  - _korok::N62
+
+  - _wb::hight<12:00>
+
+  - すべての敵を倒す:
+      icon: kill
+      coord: [4121.98, 113.17, 2369.62]
+      comment: .fury(ウルボザの怒り２) + 古代矢
+      notes: 黒・白銀ボコに古代矢
+
+  - _wb<1:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::N54:
+      notes: ウオトリー村で入手していない場合は近くのヤシの木から取る
+
+  - _wb<4:00>:
+      comment: 氷を作ってWB
+
+  - _korok::N56:
+      comment: イワロックの腕を撃っておく
+
+  - _wb::hight<5:30>
+
+  - _talus::luminous:
+      coord: [4558.50, 105.41, 2465.00]
+
+  - _run<6:00>
+
+  - _korok::N63
+
+  - _run<2:30>
+
+  - _korok::N57
+
+  - _wb<10:00>
+
+  - _korok::N55:
+      comment: 反時計2, 時計1
+
+  - WB + 空中WB .dir([7:30])
+
+  - _shrine::chaas-qeta
+
+  - _korok::N66
+
+  - WB + 空中WB .dir([5:00]):
+      notes: WBの失敗で体力が少ない場合回復、ゴーゴー料理も食べる
+
+  - _location::EventideIsland
+
+  - ヒノックスまで空中WB:
+      coord: [4537.11, 110.76, 3701.95]
+
+  - ミファーの祈り - オン:
+      icon: ruta
+      icon-map: null
+      notes: 双子山の塔でオフにしていたならオンにする
+
+  - バクダン矢:
+      icon: imp.
+      icon-map: null
+      comment: 南西の台座の鉄箱とボコキャンプ
+
+  - _hinox::blue:
+      comment: OGEB古代矢
+      notes: ガッツ料理を食べる必要がある
+
+  - 単射弓 - 古代矢:
+      icon: imp.
+      icon-map: null
+      comment: 地面に撃ち、試練に矢を持ち込む
+
+  - 試練開始:
+      icon: kill
+      icon-map: null
+
+  - _weapon<竜骨ボコこん棒>:
+      icon-map: null
+      comment: ヒノックスのドロップ
+
+  - _bow<竜骨ボコ弓>:
+      icon-map: null
+      comment: ヒノックスのドロップ
+
+  - _bow<古代矢>:
+      icon-map: null
+
+  - ヒノックスの珠を運ぶ:
+      icon: imp.
+      comment: 南西の台座
+      movements:
+        - to: [4447.125,3704.654719]
+        - to: [4443.5625,3730.584842]
+        - to: [4480.5625,3747.080149]
+
+  - _wb<2:00>
+
+  - 珠を運ぶ:
+      icon: imp.
+      comment: 海岸近くの台座
+      movements:
+        - to: [4643.3125,3627.402319]
+        - to: [4497.875,3393.847908]
+
+  - WB + 空中WB .dir([5:00])
+
+  - 珠を運ぶ:
+      icon: imp.
+      notes: ビタロ + こん棒4回で板に乗り、解除と同時にジャンプで珠まで滑空
+      movements:
+        - to: [4671.375,3746.360494]
+        - to: [4652.8125,3745.923118]
+        - to: [4671.6875,3746.422976]
+
+  - リーバルの猛り .dir([4:00]):
+      comment: .gale(リーバルの猛り２)
+
+  - _shrine::korgu-chideh
+
+  - _warp::TarreyTown<11:30>:
+      presets: _mappct<notes>
+
+  - _npc<エノキダ>:
+      coord: [3981.65, 233.41, -1599.11]
+      comment: 2回話して薪の束30を渡す
+

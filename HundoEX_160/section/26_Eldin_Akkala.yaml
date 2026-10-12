@@ -1,0 +1,245 @@
+- 26. オルディン / アッカレ:
+  - _warp::ruta<8:00>:
+      presets: _mappct<notes>
+      color: "#00ffff"
+
+  - アイスメーカー装備
+
+  - チカラ料理を食べてルッタへ
+
+  - ミファーの祈り＋:
+      icon: ruta-ex
+      icon-priority: 1
+      counter: .user-defined-split()
+      comment: .fury(ウルボザの怒り１～３) / .link([参考動画]https://youtu.be/T4ALHtxoh7o?t=7043)
+      notes:
+        - ラッシュ&ウルボザで第2へ
+        - 氷を作って弓3でスタン、ウルボザジャンプキャンセル、ウルボザ槍
+
+  - ウルボザが余ったら使い切る
+
+  - リーバルの猛り + 空中WB .dir([11:00]):
+      comment: .gale(リーバルの猛り３)
+
+  - _korok::Z15
+
+  - _wb::speed<8:30>
+
+  - _korok::Z14
+
+  - _wb<7:00>
+
+  - _tower::mappct::Lanayru
+
+  - _wb::square<1:30>
+
+  - _location::InogoBridge
+
+  - _wb<10:00>
+
+  - _shrine::soh-kofi
+
+  - _wb::hight<9:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::Z13
+
+  - _wb<2:00>
+
+  - _korok::E45
+
+  - WBH .dir([0:30]) + 空中WB .dir([12:00]):
+      comment: 1回目は飛んだら四角起爆
+
+  - _shrine::tah-muhl:
+      comment: バクダン矢で木箱を壊す
+
+  - WBH .dir([3:30]) + 空中WB .dir([2:30])
+
+  - _korok::E44:
+      comment: 岩の隙間
+
+  - _wb<0:30>:
+      comment: 上を向いてラグ回避
+
+  - _shrine::moa-keet:
+      notes: 左に走ってディレイなしWB、パラセール連打
+
+  - _wb::square<8:00>
+
+  - _location::FoothillStable
+
+  - _npc<サンフ>:
+      coord: [2620.40, 253.87, -1144.95]
+      comment: 馬宿の風景画
+
+  - _wb<10:00>
+
+  - _korok::E42:
+      comment: 崖の下の石
+
+  - _korok::E41:
+      icon-map: null
+      comment: .lime(E42)から撃つ
+      movements:
+        - push
+        - to: [2408.20, 262.34, -1229.95]
+          color: white
+          icon: korok
+        - pop
+
+  - 滑空 .dir([12:00])
+
+  - _location::MawofDeathMountain
+
+  - _wb::midair<0:30>
+
+  - _korok::E38
+
+  - _wb<5:30>
+
+  - _korok::E40:
+      comment: バクダン矢
+
+  - _wb<8:00>
+
+  - _korok::E43:
+      comment: バクダン矢
+
+  - 盾サーフィン .dir([11:00])
+
+  - _korok::E37
+
+  - _wb::speed<8:30>
+
+  - _korok::E36
+
+  - _warp::AkkalaTower<2:30>:
+      presets: _mappct<notes>
+
+  - 滑空 .dir([6:00])
+
+  - _korok::A42:
+      comment: 大砲の近く
+
+  - 落ちる .dir([5:00])
+
+  - _korok::A43
+
+  - _wb<4:30>
+
+  - _korok::A46:
+      comment: バクダン矢
+
+  - _wb::speed<9:30>
+
+  - _korok::A45
+
+  - 盾サーフィン .dir([0:30])
+
+  - _location::AkkalaBridgeRuins:
+      coord: [3126.0625,-1415.431578]
+
+  - _wb<11:00>
+
+  - _shrine::ze-kasho:
+      notes: 端まで走ってWB [1:00]、ディレイで角度をつける
+
+  - _wb::square<2:30>:
+      comment: 上を向いてラグ回避
+
+  - _location::SouthAkkalaStable
+
+  - _npc<姉>:
+      coord: [3133.57, 306.78, -1693.04]
+      comment: 必要なら昼にする
+      notes: ヨロイソウを渡し「旅の途中で」を選ぶ
+
+  - _npc<姉妹と話す>:
+      icon-map: null
+      comment: 妹 → 姉 → 妹 → 姉
+      notes: 最後に姉と話すときは武器で驚かせると微短縮
+
+  - _wb::speed<3:00>:
+      comment: イチカラ村へ
+
+  - _npc<エノキダ>:
+      coord: [3970.74, 233.60, -1623.47]
+
+  - _wb<4:00>
+
+  - _korok::A44:
+      comment: ゴール近くにバクダン矢で上昇気流
+
+  - _run<1:30>
+
+  - _korok::A35:
+      comment: 盾サーフィン
+
+  - 祠の石碑を読む:
+      icon: imp.
+      coord: [4626.25, 131.11, -1829.19]
+
+  - _run<5:00>
+
+  - _korok::A36
+
+  - 珠を台座まで運ぶ:
+      icon: imp.
+      coord: [4541.3125,-2157.008483]
+
+  - _shrine::ritaag-zumo
+
+  - _run<6:00>
+
+  - _korok::A33:
+      comment: バクダン矢
+      notes: 撃ったら炎の矢装備
+
+  - _warp::rudania<9:30>:
+      presets: _mappct<notes>
+
+  - 光輪をくぐる:
+      icon: imp.
+      movements:
+        - to: [2543.10, 979.30, -2494.70]
+        - to: [2594.57, 990.90, -2517.64]
+        - to: [ 2611.60, 1002.56, -2529.00]
+        - to: [2639.90, 957.70, -2570.60]
+        - to: [2672.09, 941.92, -2556.85]
+        - to: [2699.90, 888.29, -2548.53]
+        - to: [2734.80, 776.70, -2529.20]
+        - to: [2798.04, 708.56, -2524.03]
+        - to: [2891.98, 668.27, -2464.20]
+
+  - _shrine::sharo-lun:
+      notes: エレベータ左からWBH [9:30]、段差からBLSS
+
+  - _wb::square<4:00>
+
+  - _location::ShadowHamletRuins
+
+  - WBH .dir([2:30]) + 空中WB .dir([0:30])
+
+  - _korok::E12
+
+  - _wb<5:00>
+
+  - _korok::A20
+
+  - _warp::rudania<9:00>:
+      presets: _mappct<notes>
+
+  - ビタロック装備
+
+  - チカラ料理を食べ、ルーダニアへ
+
+  - ダルケルの護り＋:
+      icon: rudania-ex
+      icon-priority: 1
+      counter: .user-defined-split()
+      comment: .fury(ウルボザの怒り１～３) / .link([参考動画]https://youtu.be/T4ALHtxoh7o?t=8749)
+      notes: 1, 2ともにウルボザでスタン、ビタロックタメ
+
+  - ウルボザが余ったら使い切る
+

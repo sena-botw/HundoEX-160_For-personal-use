@@ -1,0 +1,40 @@
+
+# Counters
+# counter-divine-beast-enter      4      4
+# counter-divine-beast-done       4      4
+# counter-shrine                120    120
+# counter-dlc-shrine                    16
+# counter-tower                  15     15
+# counter-location              164    165
+# korok-seed                    900    900
+# counter-calamity-ganon          1      1
+# counter-dark-beast-ganon        1      1
+# counter-maz-koshia                     1
+# Total                        1209   1227
+
+
+
+
+
+plugins:
+  - use: link
+
+  - use: split-format
+    with:
+      Ganon: ガノン
+
+  - use: variables
+    with:
+      init:
+        monument: 0
+
+        # With DLC
+        with-dlc: 1
+        great-plateau-count: 2
+        map-pct-items-total: 1227
+        
+        # Without DLC
+        #with-dlc: 0
+        #great-plateau-count: 1
+        #map-pct-items-total: 1209
+

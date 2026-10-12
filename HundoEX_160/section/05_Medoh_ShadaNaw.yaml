@@ -1,0 +1,162 @@
+- 5. メドー / シャダ・アダ:
+  - _warp::mogg-latan<8:30>:
+      color: "#4a86e8"
+  
+  - BLSS .dir([10:30]):
+      notes: 西の木から離陸
+  
+  - _tower::Tabantha
+  
+  - BLSS .dir([12:00])
+
+  - _location::RitoVillage
+  
+  - _npc<カーン>:
+      coord: [-3627.20, 323.57, -1830.81]
+  
+  - _npc<サキ>:
+      coord: [-3606.64, 323.62, -1823.03]
+  
+  - _wb::speed<11:30>
+
+  - _korok::T02
+  
+  - _location::FlightRange
+  
+  - 的当て
+  
+  - _chest<宝箱からハヤブサの弓>:
+      icon-map: null
+      notes: (任意)ハヤブサの弓の耐久値が心配な人は取る
+
+  - _npc<テバ>:
+      icon-map: null
+      comment: 選択肢 1 - 2
+  
+  - _medoh:
+      notes: 砲台は古代矢で壊す
+
+  - _windblight:
+      notes: ビタロック+、森人古代矢2胴体、4HS
+  
+  - リーバルの猛り:
+      icon: medoh
+      counter: .user-defined-split()
+      movements:
+        - to: [-3565.625,-1817.375]
+          warp: true
+  
+  - _material<ヒンヤリヤンマ,1>:
+      coord: [-3591.41, 319.37, -1804.93]
+
+  - _bow<.b-yellow(木の矢装備、弓を外す)>:
+      icon-map: null
+
+  - ハヤブサの弓を1個捨てる:
+      icon: imp.
+      icon-map: null
+      notes: 飛行訓練場でハヤブサの弓を取った場合のみ捨てる
+  
+  - _weapon<装備>:
+      icon-map: null
+      comment: .b-yellow(王家の両手剣、ハイリアの盾装備)
+  
+  - _bow<オオワシの弓>:
+      coord: [-3627.20, 323.57, -1830.81]
+      comment: オートセーブが入る
+  
+  - WMC:
+      icon: bow
+      icon-map: null
+      counter: .user-defined-split()
+      comment: .link([スライド]https://docs.google.com/presentation/d/1oHqTeiFJ0jX42h4tnreXIUOjdruzOnKXw_nRdFJ1_tw/edit?usp=sharing) / .link([IST Simulator]https://ist.pistonite.app?v4=H4sIAAAAAAAAA5VVzY7jNgy-G_A7cDHobWcRJzOzMwHmVLTopZdeWiDIgbZpW4gsupScIH2A3ou-YZ-kkOTfzOwUzSUyKZHU95Gf7iDbbL774TfIvjx92cCvP38Pllzfpckd_ISODAdbwXxSpgYyJfzz599psi-VLfhMQiUcUFqWVyc9HdOkJgeOpWhA-Iq60HhtWQgqFrKuvJDWJDbnC1SoCzZ-hSJ8OZxR97R_2Gw2R6iU0Ftrzm2-tO4evRVNoci41fYX72iuWqGxjSJdwgNodr2Fl5cXkN42wtyGD6s0GdeJMgXZ6G_Y0DWssGAxsIVSGUHUtkJTww4MXkvB-JU9QXOVXlOOw_EKlcTjOZHTBM-AbU4STNyhhmfQ6g_UFdvGx8-epm-Hmk3YOFuUhh3YQugSC_a11vAMtsHKwSMUHl_vuTCX8PAV2uF-9kQXkgNVFRVuT6bs_ckjWNW2nrpKeuVGd4PWXY8gjNZRGTZj4UF1UImi8qJ0WQuRsYdOVEH77PHxMzTdPttujmA1OoIOBWutSpI0od971cGFsGNzsJrdfusZvEzrieM0-ZQL4QmyHXhnmlg8U5oIacbyw1b8K03S5O7m50_8yFrzBX7h3hHcvbdn71NZOMQK99nus69u__WYJoQOthAAuV9hFdt7B9h1mqAhFHcNtFcobJvI5rAuNF7GtS1QE3j40cAT5GjQIHR9252UgWwDJxY-WaISCtZliWI8hJ-EWj4ToNYD_7uB9F0gfQR5QLE38TP3H75QoTNqZWufvBZCR1hrCm6P8D1aqCnH3vEEkMfOwzxDFkN17LQq55LGcVpcPG58B7WDpjPp191ncKql1-x5sxlAzl6gYi596R321l_IODS1phmRNGlYl_A4wJcmpXC3xmaxdzofGnI4u2BkOm6v1lELh0ITyn0t3JvyGL2Dfn2gWGliSeuQe9KSQNJaS7wpaolfRS3xqxv-gzMIRHBGzfDLKCQhyqww_jOISEgYusGvVoKyNERF8ZYgDyFZaN_1JjUEDOLiCXGoTwMeH-nfsGVuW9hGQVqOwUid5zzcsfcDFqkvTXfzVLydqzg_Yw9GdehUcbrvuxjPUxLq8F8tOhKFes4XM416YhtmB1noRjuGGyZp8ZbMA7WanaBfr1vfwcEZq5qt3yjjXTX5sKIQaPmGjTnepAzxJ9DmsGP9UeLGgm-UIKRZ2dYP53bCfQwXHZG5JUGxkPcekA8uPytQKGTVCbdQT_cYh3x56eFylC_UZPgLkT11Yc8UbjHO_zcixQC3CvHfgSa_H8bRs8T7G9UPHbC-wETE-_cLBc3R1vMyHfaizZLDQ5RROLN2lTJOuJ9e4kKzpfsa2-lV_heI75RGOQoAAA==)
+      notes: ゲームを終了するまでISTの効果が継続していることに注意
+  
+  - 落ちる .dir([6:30]):
+      color: "#4a86e8"
+  
+  - _shop<服屋>:
+      notes: 雪よけの羽飾り(一撃の試練で使う)
+      coord: [-3643.01, 290.64, -1823.43]
+  
+  - _shop<よろず屋>:
+      icon-map: null
+      notes: ポカポカダケ、ヤギのバター、きび砂糖、タバンタ小麦を全部買う
+  
+  - _wb<11:00>
+
+  - _korok::T04
+  
+  - _wb::hight<0:30>
+
+  - _shrine::sha-warvo:
+      notes: 足場の右から右にWBH、そこから空中WB
+  
+  - _wb<1:00>
+
+  - _talus::frost:
+      coord: [-3709.50, 331.28, -2347.00]
+  
+  - WB + 空中WB .dir([1:00])
+
+  - _korok::H54:
+      comment: 山頂
+  
+  - WB + 空中WB .dir([4:00])
+
+  - _korok::H55
+  
+  - _wb<4:00>
+
+  - _korok::T03
+  
+  - 泳ぐ .dir([8:00])
+
+  - _material<ビリビリマス,1>:
+      coord: [-3012.75, 217.66, -2157.02]
+  
+  - セーブ:
+      icon: imp.
+      icon-map: null
+  
+  - ゲームを再起動する:
+      icon: kill
+      icon-map: null
+      notes: Yでユーザー切り替えすると少し速い
+  
+  - ロード - 手動セーブ:
+      icon: load
+      icon-map: null
+      movements:
+        - to: [-3331.95, 508.74, -2297.17]
+          warp: true
+  
+  - WBH + 空中WB .dir([12:00])
+
+  - _korok::H43
+  
+  - _wb::midair<11:30>
+
+  - _korok::H27:
+      comment: 右回りに撃つ
+  
+  - WB + 空中WB .dir([2:00])
+
+  - _shrine::shada-naw:
+      notes: エレベータ左から入力速めのWB
+  
+  - 少し右からWB .dir([5:00])
+
+  - _location::SelmiesSpot:
+      coord: [-2963.899902, 709, -3140.399902]
+  
+  - _korok::H20
+  
+  - _wb::speed<2:30>
+
+  - _korok::H21
+  
+  - _wb<10:30>
+
+  - _korok::H12
+

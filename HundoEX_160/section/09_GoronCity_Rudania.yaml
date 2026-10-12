@@ -1,0 +1,480 @@
+- 9. ゴロンシティ / ルーダニア:
+  - _warp::AkkalaTower<0:30>:
+      color: "#00ff00"
+  
+  - _wb::square<9:30>:
+      comment: 飛んだら丸起爆
+
+  - _korok::A41
+
+  - リーバルの猛り .dir([1:30]):
+      comment: .gale(リーバルの猛り３)
+
+  - _korok::A40:
+      comment: バクダン矢
+  
+  - 落ちる .dir([1:30])
+
+  - _korok::A39:
+      comment: マグネキャッチ
+  
+  - _wb::speed<11:30>
+
+  - _korok::A30
+
+  - _wb<1:00>
+
+  - _korok::A25
+
+  - _wb<5:00>
+
+  - _korok::A31:
+      comment: バクダン矢
+  
+  - _wb::hight<3:00>
+
+  - _korok::A32:
+      comment: リンゴを取る
+  
+  - _wb::speed<5:30>
+
+  - _korok::A37
+
+  - _wb<7:00>:
+      comment: 上を向いてラグ回避
+
+  - 歩行型ガーディアン1:
+      icon: kill
+      coord: [3624.82, 195.25, -1602.62]
+  
+  - 歩行型ガーディアン2:
+      icon: kill
+      coord: [3671.23, 195.66, -1511.54]
+  
+  - _wb::midair<2:00>
+
+  - _location::TarreyTown
+  
+  - _npc<エノキダ>:
+      icon-map: null
+      comment: 2回話して、薪の束10を渡す
+  
+  - WBH + 空中WB .dir([6:00])
+
+  - _korok::A49:
+      comment: リンゴを取る
+  
+  - _wb<10:00>
+
+  - _shrine::dah-hesho:
+      notes: 忘れた場合ガーディアンの写真
+  
+  - _run<11:00>
+
+  - _korok::A47
+
+  - _wb::hight<6:00>:
+      comment: 上を向いてラグ回避
+
+  - _location::EastSokkalaBridge
+
+  - _wb::hight<9:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::A51:
+      comment: 軽量化
+
+  - _wb<7:00>
+
+  - _location::SokkalaBridge
+
+  - _run<9:00>
+
+  - _location::WestSokkalaBridge
+
+  - _korok::A52:
+      comment: 橋の下
+
+  - _wb::super<10:00>
+
+  - _location::AkkalaParadeGroundRuins
+
+  - _hinox::blue:
+      coord: [3298.75, 323.08, -1256.24]
+
+  - _wb<8:30>
+
+  - _korok::A50
+
+  - _location::AkkalaSpan
+
+  - _wb<10:30>
+
+  - _korok::E39
+
+  - 氷を作ってWB .dir([11:00])
+
+  - _shrine::sah-dahaj:
+      comment: エレベータ左から右にWB
+      notes: バレットタイム遅めで後は最速入力
+
+  - _wb::hight<12:00>:
+      coord: [2668.75,-1639.3125]
+
+  - _korok::E34
+
+  - 落ちる .dir([10:30])
+
+  - _korok::E30
+
+  - _wb::hight<9:00>
+
+  - _korok::E29
+
+  - WBH .dir([6:30]) + WB .dir([8:00]):
+      coord: [2396.75,-1626.1875]
+
+  - _korok::E32:
+      comment: バクダン矢
+      notes: 終わったら氷の矢装備
+
+  - _wb::square<4:30>
+
+  - _korok::E33
+
+  - リーバルの猛り + 空中WBs .dir([9:00]):
+      comment: .gale(リーバルの猛り１)
+
+  - _tower::Eldin
+
+  - _wb<10:30>
+
+  - _korok::E27
+
+  - _wb<8:00>
+
+  - _talus::igneo:
+      comment: .fury(ウルボザの怒り１－３)
+      icon-map: null
+      movements:
+        - to: [1780.9375,-1720]
+        - push
+        - to: [1795.54, 394.18, -1746.73]
+          color: white
+          icon: talus-igneo
+        - pop
+
+  - WBH .dir([9:00]) + 滑空 .dir([12:00]):
+      comment: 飛んだら四角起爆
+
+  - _korok::E26:
+      icon-map: null
+      movements:
+        - to: [1708.375,-1719.125]
+        - to: [1707.5,-1763.375]
+        - push
+        - to: [1687.56, 427.40, -1717.09]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb<8:00>
+
+  - _korok::E31
+
+  - _memory::EldinCanyon
+
+  - _wb::hight<0:30>
+
+  - _korok::E24:
+      icon-map: null
+      movements:
+        - to: [1470.125,-1730.875]
+        - push
+        - to: [1412.02, 408.75, -1759.80]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<0:30>
+
+  - _korok::E25
+
+  - _wb::hight<0:30>:
+      comment: 上を向いてラグ回避
+
+  - _location::SouthernMine:
+      icon-map: null
+      coord: [1605.70, 441.12, -1981.67]
+
+  - _material<ヒケシトカゲ,10>:
+      movements:
+        - to: [1630.89, 439.24, -1974.67]
+        - to: [1633.87, 433.62, -1951.08]
+        - to: [1652.15, 430.77, -1931.88]
+        - to: [1670.67, 428.92, -1918.46]
+        - to: [1701.79, 430.53, -1932.14]
+        - to: [1683.16, 430.31, -1948.15]
+      comment: .link([参考動画]https://x.com/bings_f/status/1441999069128261636)
+
+  - _npc<マサーキィ>:
+      comment: 耐火の石鎧を装備
+      notes: ヒケシトカゲを捕まえて！
+      coord: [1657.35, 430.17, -1960.60]
+
+  - _npc<グレーダ - イチカラ村>:
+      comment: 必要なら夜にする
+      coord: [1656.63, 430.15, -1968.53]
+
+  - _wb<11:00>
+
+  - _korok::E19
+
+  - _wb::midair<1:00>
+
+  - _korok::E18
+
+  - WBH Super .dir([12:00])
+
+  - _location::GoronCity
+
+  - _korok::E13:
+      comment: ダルケル像の左腕の下
+
+  - _run<6:00>:
+      comment: ムービーを見る
+
+  - _wb::hight<6:30>:
+      comment: 飛んだら四角起爆
+
+  - _location::StolockBridge
+
+  - 滑空 .dir([9:00])
+
+  - _korok::E15
+
+  - 滑空 .dir([3:30])
+
+  - _shop<ゴロンの香辛粉 .dir(1)>:
+      coord: [1689.61, 491.59, -2468.49]
+
+  - _npc<ブルドー>:
+      coord: [1713.95, 498.05, -2446.92]
+
+  - _wb<1:00>:
+      comment: 上を向いてラグ回避
+
+  - _shrine::shae-mosah:
+      comment: 樽を運んでWB
+
+  - _wb<11:00>
+
+  - _location::AbandonedNorthMine:
+      coord: [1630.68, 560.52, -2941.37]
+      icon-map: null
+
+  - _npc<ユン坊>:
+      notes: 岩がロードされてたらESC、ラグドール解除
+
+  - _korok::E08:
+      comment: .gale(リーバルの猛り２)
+
+  - _wb<11:00>
+
+  - _korok::E07
+
+  - .dir([3:30])に落ちて滑空
+
+  - _shrine::shora-hah:
+      comment: エレベータ左の壁にWBH
+      notes: がんばり1/4消費で四角出し、やや右を向いてWBすると導師の所に行きやすい
+
+  - トロッコで外に出て岩に乗る:
+      coord: [1619.5,-3091.75]
+
+  - _wb<8:30>
+
+  - _talus::igneo:
+      coord: [1336.10, 507.31, -3043.21]
+      comment: 氷の矢、火打ち石を取る
+
+  - _run<7:00>:
+      coord: [1304.375,-2977.1875]
+
+  - _wb::speed<8:30>
+
+  - _korok::K08
+
+  - _wb<10:00>
+
+  - _korok::K07:
+      comment: バクダン矢
+
+  - _wb::speed<9:30>
+
+  - _korok::K06
+
+  - _wb::midair<2:30>
+
+  - _hinox::blue:
+      coord: [341.82, 278.73, -3116.14]
+      comment: 炎の矢
+
+  - 東の台座を起動:
+      icon: imp.
+      icon-map: null
+
+  - _shrine::ketoh-wawai
+
+  - WB + 空中WB .dir([2:00])
+
+  - _korok::K04
+
+  - 朝にする:
+      icon: set-time
+      icon-map: null
+      comment: 西を向く、選択後にカメラを動かす
+      notes: .bold(12am ~ 5amの場合、2回朝にする)
+
+  - WB + 空中WB .dir([2:00])
+
+  - _korok::K01:
+      comment: 柱の上
+
+  - _wb::speed<2:30>
+
+  - _korok::K02
+
+  - オルドラを撃つ(ウロコ):
+      icon: kill
+      icon-map: null
+
+  - 朝にする:
+      icon: set-time
+      icon-map: null
+      comment: 西を向く、選択後にカメラを動かす
+      notes: .bold(K02の東側)で焚火を作る
+
+  - WB ウロコを取る:
+      icon: food
+      icon-map: null
+
+  - WB オルドラを撃つ(角):
+      icon: kill
+      icon-map: null
+
+  - 朝にする:
+      icon: set-time
+      icon-map: null
+      comment: 西を向く、選択後にカメラを動かす
+
+  - WB 白ライネルを倒す:
+      icon: kill
+      coord: [1257.69, 207.16, -3753.55]
+
+  - _bow<獣神の弓>:
+      icon-map: null
+
+  - _material<ライネルのヒヅメ,1>:
+      icon-map: null
+      notes: 出なかった場合はA07付近の青ライネルを倒す
+
+  - 角のかけらを取りに行く:
+      icon: food
+      icon-map: null
+
+  - _run<10:00>:
+      coord: [1205.1875,-3784.875]
+
+  - _korok::K03
+
+  - _wb::hight<3:30>
+
+  - WB オルドラを撃つ(爪):
+      icon: kill
+      icon-map: null
+      notes: オルドラが近くに来ている場合、K03近くの手は避けて撃つ
+
+  - 走る
+
+  - _location::EldinGreatSkeleton
+
+  - _korok::E01
+
+  - 四角バクダン、古代矢装備
+
+  - _warp::shae-mosah<5:30>:
+      color: "#bbbbff"
+
+  - _wb::square<7:00>:
+      comment: 上を向いてラグ回避、飛んだら丸起爆
+
+  - _npc<ブルドー>:
+      coord: [1713.95, 498.05, -2446.92]
+      comment: 弓を出して話す(燃え尽き防止)
+
+  - _wb::hight<3:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::E16
+
+  - _wb<5:00>:
+      comment: 上を向いてラグ回避、飛んだら四角起爆
+
+  - _korok::E17
+
+  - WBh + 空中WB .dir([3:30])
+
+  - _shrine::daqa-koh:
+      comment: 正面に走ってWBH
+
+  - _wb<7:00>
+
+  - _weapon<削岩棒>:
+      coord: [1946.80, 632.72, -2203.24]
+      comment: 岩を壊して取る
+
+  - _wb<2:00>
+
+  - モリブリン .dir(2):
+      icon: kill
+      coord: [2142.43, 634.02, -2288.29]
+      comment: 倒した後、ユン坊と話す
+
+  - _location::BridgeofEldin
+
+  - ユン坊エスコート:
+      comment: 古代矢でプルペラとモリブリンを消す
+      notes: 鉱床を壊す(コハク10、火打ち石11)、シーカーセンサーを強化していない場合ネジを取る
+
+  - _rudania:
+      comment: .gale(リーバルの猛り３)
+      notes: 炎を運ぶ単車弓はハヤブサの弓を使う
+
+  - _fireblight
+
+  - ダルケルの護り:
+      icon: rudania
+      counter: .user-defined-split()
+      movements:
+        - to: [1572.5,-2422.5]
+          warp: true
+
+  - _npc<ブレードン>:
+      coord: [1648.50, 490.02, -2472.50]
+      comment: 選択肢 2 - 1
+      notes: 祠チャレンジ - 弟はいずこ？
+
+  - _npc<フーゴー>:
+      coord: [1676.75,-2479.5]
+      comment: .b-yellow(2回話す)
+      notes: ミニチャレンジ - 免許皆伝への道
+
+  - _npc<ラメラ>:
+      coord: [1707.75,-2422.5]
+      comment: 2回話してコハク10を売る
+      notes: ミニチャレンジ - 宝石インポーター
+
+  - _npc<ブルドー>:
+      coord: [1713.95, 498.05, -2446.92]
+

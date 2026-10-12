@@ -1,0 +1,292 @@
+- 2. 増殖素材回収 / IST:
+  - 時の神殿からBLSS:
+      notes: サトリ山のキノコの群生地へ
+      color: "#4a86e8"
+
+  - _material<ハイラルダケ,3~6>:
+      coord: [-2203.83, 267.93, 792.66]
+      notes: カカリコISTまで3個以上残す
+  
+  - _material<ポカポカダケ,3~>:
+      icon-map: null
+      notes: カカリコISTまで3個以上残す
+  
+  - _material<ガッツダケ,2>:
+      icon-map: null
+      notes: .bold(食べない)
+  
+  - _material<ツルギダケ,2>:
+      icon-map: null
+      notes: .bold(食べない)
+  
+  - WBH Super .dir([9:30])
+
+  - _material<ハチミツ,1>:
+      coord: [-2469.86, 320.38, 736.31]
+      comment: 四角バクダン
+      notes: .bold(食べない)
+  
+  - _material<タマゴ,2>:
+      coord: [-2479.27, 316.89, 721.97]
+      notes: .bold(食べない)
+  
+  - _wb::square<10:30>:
+      comment: 飛んだら丸起爆
+  
+  - _material<ハスの実,6>:
+      coord: [-2558.07, 306.99, 655.56]
+      notes: .bold(食べない)
+  
+  - _wb::hight<3:00>
+
+  - _material<ゴーゴーダケ,1>:
+      coord: [-2349.25, 355.64, 672.69]
+      notes: .bold(食べない)
+  
+  - _bow<森人の弓>:
+      coord: [-2342.64, 348.37, 680.81]
+  
+  - _material<ドングリ,1>:
+      coord: [-2338.68, 348.73, 678.83]
+      notes: .bold(食べない)
+  
+  - _wb::super<1:00>
+
+  - _material<ドリアン,8~10>:
+      coord: [-2196.75, 410.21, 443.15]
+      notes: 料理に4個、カカリコISTに3個使う
+  
+  - _material<薪の束,2>:
+      icon-map: null
+  
+  - _wb::hight<9:00>
+
+  - _shrine::mogg-latan:
+      comment: 四角置きWB
+  
+  - _korok::R60
+  
+  - BLSS .dir([2:00])
+
+  - _location::HyruleCastle:
+      coord: [-556,-788.9421312632321]
+  
+  - _location::GuardsChamber:
+      comment: 扉があったらESC, ラグドール解除
+      notes: 木の枝5、オノ、旅人の弓を捨て、森人の弓装備
+  
+  - _bow<ハヤブサの弓>:
+      coord: [-412.66,-851.28]
+      comment: 壁を登る
+  
+  - _chest<バクダン矢 .dir(5)>:
+      coord: [-411.14,-854.67]
+  
+  - _weapon<王家の両手剣>:
+      coord: [-377.44,-870.37]
+      comment: 黒モリをHSしつつ取る
+  
+  - _weapon<近衛の両手剣>:
+      icon-map: null
+      comment: 黒モリをふいうちで倒して取る
+  
+  - _chest::special<近衛兵のブーツ>:
+      coord: [-360.58,-855.37]
+      comment: 中央の支柱を矢で壊す
+  
+  - _chest<ネルドラの牙のかけら>:
+      coord: [-356.28,-810.58]
+      comment: バクダンでリザルの気をそらす
+  
+  - _korok::X19:
+      comment: バクダン
+  
+  - _chest<古代矢 .dir(3)>:
+      icon-map: null
+  
+  - リザル - 素材:
+      icon: kill
+      coord: [-322.58,-833.74]
+      comment: バクダンで誘導してふいうち
+      notes: 尻尾1, 角1, 爪2
+  
+  - _cook<ガッツ料理 .dir(2)>:
+      coord: [-330.55,-834.53]
+      comment: ガッツダケ .dir(1 - 1)
+      notes: スタルヒノックス戦用に1つ、IST増殖用に1つ
+  
+  - _cook<ゴーゴー料理>:
+      icon-map: null
+      comment: ハスの実 .dir(4) + タマゴ .dir(1)
+  
+  - _cook<マックス料理>:
+      icon-map: null
+      comment: ドリアン .dir(4)
+  
+  - ゴーゴー, マックス料理を食べる
+
+  - 怨念を潜りぬけて通路を進む:
+      notes: ハートを合計16になるまで減らす
+  
+  - 上昇気流レバーを起動:
+      notes: 下の部屋に降りる
+  
+  - _chest<オルドラの牙のかけら>:
+      coord: [-326.46,-1002.40]
+      comment: バクダンで壁を壊す
+  
+  - _korok::X08:
+      comment: 木の足場
+  
+  - 降りて通路左:
+      comment: 壁を壊して進む
+  
+  - _location::WestPassage:
+      icon-map: null
+      coord: [-436.57, 117.51, -932.83]
+  
+  - _korok::X13:
+      notes: タマゴを持ってなかったらガーディアンの近くのを拾う
+  
+  - _location::Lockup:
+      icon-map: null
+      coord: [-420.62,-1052.73]
+  
+  - _bow<木の矢 .dir(5)>:
+      comment: 木箱を壊して入手
+  
+  - 壁を壊して目玉を撃つ:
+      comment: 扉が開いたらスタルヒノックスへ
+      notes: 目玉を撃ったらカメラを後ろに向けてリザルの発見状態を解除
+  
+  - _hinox::stal:
+      coord: [-491.34, 126.08, -1009.82]
+      comment: 倒したら近衛の両手剣を投げ捨てる
+      notes: HS、近衛の両手剣ダブルヒット + スタミナ料理1、HSで倒す
+  
+  - _shield<ハイリアの盾>:
+      counter: .user-defined-split()
+      coord: [-501.57,-1011.58]
+      notes:
+        - WMCまで、ハイリアの盾でバクダンの爆風やガーディアンのビームを受けないようにする
+        - (OGEBの耐久値のため)
+
+  - ハイラル城脱出:
+      color: "#3388ff"
+      icon: warp
+      movements:
+        - to: [-253.85, -600.23]
+          warp: true
+      comment: マップを開いてX
+  
+  - WBH Super .dir([6:00])
+  
+  - 歩行ガーディアン - 古代素材:
+      icon: kill
+      coord: [-220.07,-431.95]
+      comment: バネ .dir(1)、シャフト .dir(1)、ネジ .dir(0~3)
+      notes:
+        - 倒した後古代矢で足を撃って素材ガチャ緩和、コアが出たら拾う
+        - シャフトかバネが足りない場合、WB [6:30]で歩行型を倒しにいく
+  
+  - _location::CentralSquare
+  
+  - _wb<4:00>:
+      coord: [-17,-300]
+  
+  - 城下町の塀の上からBLSS .dir([4:00]):
+      coord: [835,125]
+      notes: 着地したらナベのフタを捨てる
+  
+  - _material<ハイラルバス,4>:
+      icon-map: null
+      comment: バクダン
+  
+  - _chest<騎士の剣>:
+      icon-map: null
+      comment: マグネで宝箱を引き上げる
+      notes: 即捨てる
+  
+  - _npc<イッソー>:
+      comment: 会話選択肢 (.dir(2))
+      notes: 水底に沈むお宝
+  
+  - _shrine::kaya-wan:
+      comment: 古代のコア
+      notes:
+        - 宝箱を壊してコア(歩行型から出なかった場合)
+        - ネジが3本無い場合、小型ガーディアンを倒して狙う
+      split-name: ".var(counter-korok). カヤ・ミワ - 古代のコア"
+  
+  - BLSS .dir([4:00]):
+      notes: 最初に北側に進路をずらすと余裕をもって曲げやすい
+
+  - _location::GopongaVillageRuins:
+      coord: [1580.16,312.15]
+  
+  - リザル .dir(3) - 角 .dir(3):
+      icon: kill
+      icon-map: null
+      notes: 3匹倒す
+  
+  - _shrine::daka-tuss:
+      notes:
+        - ZL前ジャンプ2回目でバクダン設置、その場盾サーフィンから盾外しでラグドールブースト
+        - 泳いで足場から右にWBH
+  
+  - _wb::hight<6:00>:
+      coord: [1617.9375,665.52444]
+  
+  - WB .dir([4:00]) + 空中WB .dir([5:30]):
+      coord: [1776.9375,760.64544]
+  
+  - _shrine::taloh-naeg:
+      comment: .dir(宝箱からオパールを取る)
+      notes:
+        - エレベーターから向きを合わせてひねりWBでガーディアンをスキップ
+        - skew clip, ラグドール解除
+      split-name: ".var(counter-korok). タロ・ニヒ - オパール"
+  
+  - WBH .dir([3:00]) + 滑空 .dir([2:30])
+
+  - _material<妖精,2>:
+      coord: [1963.5625,860.577891]
+  
+  - _material<しのび草,2>:
+      icon-map: null
+  
+  - _material<ガッツニンジン,1>:
+      coord: [1977.6875,824.588131]
+  
+  - _material<姫しずか,2>:
+      coord: [1996,841.70826]
+  
+  - ひねりWB .dir([8:30]):
+      comment: 上を向いてWB (ラグ回避)
+  
+  - _location::KakarikoVillage
+  
+  - _npc<インパ>:
+      coord: [1772.71, 229.43, 984.31]
+      comment: 2回話す
+  
+  - _material<ガンバリカブト,1>:
+      coord: [1811.23, 221.34, 1050.06]
+      comment: "7pm ~ 7am"
+      notes: 必要なら夜にする
+  
+  - _npc<店主セローラ>:
+      coord: [1830.49, 222.41, 1044.89]
+      comment: 2回話す
+      notes: 近衛兵のブーツを売り、もう一度会話してミニチャレンジ開始 - 燃える矢じりで貫いて
+  
+  - IST:
+      icon: link
+      coord: [1815,1025]
+      counter: .user-defined-split()
+      comment: .link([スライド]https://docs.google.com/presentation/d/1A_szhH9yKZA_aKaGZmdCw8f3LOWubEIlqZtlQtmvKwE/edit?usp=sharing) / .link([IST Simulator]https://ist.pistonite.app?v4=H4sIAAAAAAAAA51XS2_cNhC-C9B_mMDXLBBr16lbwIciRYugaAMkAXIwchhJsxKxFKkOKW83v77gS6LWa8epL6a45Dy-mW9maPCBNmjAaC6LjizcgGWimlE1PeC_BFZz00ONB2pxHCWBkWipLAhttlsWk6J_JjHCkXDUqixMlIyT1aNEWxYt6xFQyjMNZfHKnIylAe4bScibjvWk2q_BHtYnlI3E06CZwlc3Ibdm3rOMDySJTa2PsNdMxrZHkvMOykYrt0JmfYRaD3VYoWoEKRs-Rm2laKE_SYHK9IJkm2mrtbYGtjDSOBLDdj7HWg-AQ-03zZR2KiDVTozzJ-M3zfGr14pO7kjXwVuQ2k4GeEqyGs0KbqGdWKCCCo5at6Dw1DKaPaoOpPiGcq-NRSFhN3_27l6V_Sq1glYoRpThohlZuH897q2ztmE6QuMg3EF_4klSjcaAHlFCBXsU7Kys5URKdL01PbYU_WocaBYqMEKSsk5wQ8ZATWRlPCRUtxmiW-ZAR2Lo0djTxohhIKZ2z5Ow0BPyo81b0FzDiIydFC0x7OCgWR8MURsT6bupECN6FopdBDzAfxNxDuns3MmsKIuQ0Y9zKs-SsjAk5XmulMVV_lcWV_D-02f49PnXj5_h6sKv18aCkdpCzYSHsvjFDFMHvXZpmOWOz4YYyLPIrEMRzXJ0G9ASC5T3PUlHq0lZlIeyGEVz2Ezj6kwAItPobKtUu7LN4x-psCLCQoAEa-bGSy4Ebvxv269gy2tTf1T_GtMXGBJSZC4qZdGqcWFzYlnOmnBkTdy0t9Aw7FQxW3P-55x2LjsoYBpBKLC9MKC5JZ6vr8pBKFS-AIQCXRYeGudgPVm4Dqwvi8lQWrpglwWT1NiGNnEFxiJvLNZlMeJkfPGPi3CuLIxmCwc6bYSloSxeMQ36gbyinMgvACIYvYYjlLAz75JHyQR34TYXVK1F5ZhWZ6iGE0HN7gzEWEEuqzs_mkREzQmHtztX4JKIwP7f3r-bcV6apqPjFvZatxm4K8WxSKU2F-l54yt7lsDhM-dNPBBNcCS_bIJrw7U-aDMS8tLosy1n5M_nRvZau4yyYqAZrEDQpz396SVC0o_1dIK9YIrE8ym31AIXjzXtkgk72z9jwu5HTFiV8VDIv_z1Dt59-PDn-7__eFTo3YmUAmvbwqiDxlJ7yeikL11OXWydtU7IhRab_HqiK0fknNdQJTeTogs2uXT0s8F5w3Hq9yyoPQrZdkykzP3IoqG765ub19CPd9fVm6_fgdBj-LuWUh_ho54sXQDxKrXri846M7YQZtUwXHj275G16cOYFNeNxGNamwYlpS7wFmpUqBDGaRgPQsH1m6VsQaNl2yKrnNCOT6HUb-cBK_ArkCXm6MKdY4w5PaAUpnPKOya0hJ0k_3MaoDuqXYbOKKQkW3AJosK88zhHMsefTJF7SQ8k77avffzvrm_fuEA5kK8Tr-cS70Zm1UnKC7nvIsswFXrGE0V_vh8fEv5uFpH5-hOvAl_ewqvkmWk_q3zLbO2CtB5Y3VaYx90qDN--G67j73_0zdP_GKZctwxM8FKyjiVlmKK9Qp8NbrWa1PON2JylDOOdV-bTd31IRIF--lsmEI_HuoHBNu9u8ciStlCFsT-nQT4Hp3GgiqH3I83qHfaYV4E_KQcDxfNms3Smx-OmB_L7RTeRZ8WTezft3VVfZ6Jlj7q0F6xaTj5hxsVq8qxFXlD-GEg6Hqn08mfQFrHnr-YLHkY1q731O7WacU_i0tPERS4PUBzvLxT1Z5yHuQItD6-UCefwz34kkudOX3RuriteuIuoP-YkJhmOFen2-um1vhxjMN9fQZGS0aE3v9xc45uLbVk0UhvadDjM_ek_vfbMfiARAAA=)
+  
+  - 素材店の段差からWB .dir([3:30]):
+      movements:
+        - to: [1803.25,1032.105428]
+        - to: [1908.8125,1058.662417]

@@ -1,0 +1,116 @@
+- 4. ボックリン:
+  - _warp::taloh-naeg<12:00>:
+      color: "#ffff00"
+
+  - _wb::square<5:00>
+
+  - _npc<ナーキン>:
+      coord: [1870.87, 227.97, 965.85]
+      comment: ヨロイカボチャ
+      notes:
+        - "6am ~ 5pmの間は畑にいる"
+        - "8pmになると走り始める"
+
+  - _wb::hight<8:30>:
+      comment: 飛んだら四角起爆
+
+  - _npc<インパ>:
+      coord: [1772.71, 229.43, 984.31]
+      comment: ウツシエの記憶
+
+  - WBH .dir([3:30]) + WB .dir([5:00]):
+      comment: 村からは上を向いてWB
+
+  - 青ボコ .dir(3):
+      icon: kill
+      movements:
+        - to: [1952,1018.226694]
+        - to: [2163,1380.125]
+      comment: バクダン矢 .dir(2)
+
+  - _chest::special<マラカス>:
+      coord: [2172.24, 218.76, 1369.20]
+
+  - 下へ滑空 .dir([3:00])
+
+  - _korok::D21
+  
+  - _wb::hight<8:30>
+
+  - ボックリン:
+      icon: hestu
+      coord: [2069.45, 188.17, 1422.25]
+      notes: 武器ポーチ+1、弓ポーチ+1
+      counter: .user-defined-split()
+  
+  - _wb<8:00>
+
+  - _location::KakarikoBridge
+  
+  - _korok::D20:
+      icon-map: null
+      movements:
+        - push
+        - to: [1750.43, 116.39, 1544.69]
+          color: white
+          icon: korok
+        - pop
+      comment: 橋の上から
+  
+  - _wb<11:00>
+
+  - _korok::D19:
+      comment: 小さな島
+  
+  - _wb<10:30>
+
+  - _korok::D18
+
+  - _warp::kaya-wan<10:30>
+  
+  - _run<3:30>
+  
+  - _location::WetlandStable:
+      icon-map: null
+
+  - ボックリン:
+      icon: hestu
+      coord: [870.83, 131.54, 203.47]
+      notes: 武器ポーチ+4、弓ポーチ+1
+  
+  - 走って手前で上昇気流 .dir([5:30]):
+      notes: 雨の場合は木の下から撃つ
+  
+  - _korok::Z37:
+      comment: 茨の中
+  
+  - _wb::super<2:00>:
+      comment: 上を見てラグ回避
+  
+  - _korok::Z38
+  
+  - _wb::hight<3:00>
+
+  - _korok::Z39
+  
+  - _run<2:30>
+
+  - _korok::Z40:
+      icon-map: null
+      movements:
+        - to: [1673.677561,111.495294]
+        - push
+        - to: [1736.36, 129.04, 85.68]
+          color: white
+          icon: korok
+        - pop
+      comment: バクダン矢
+  
+  - 氷を作ってWB .dir([11:00])
+
+  - _location::MoorGarrisonRuins
+  
+  - _wb<1:00>
+
+  - _korok::Z12
+

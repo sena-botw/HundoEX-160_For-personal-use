@@ -1,0 +1,181 @@
+- 8. ネルドラ / ルッタ:
+  - _warp::HatenoAncientTechLab<3:00>:
+      color: "#ffff00"
+  
+  - _wb::speed<2:30>
+
+  - _korok::N44
+  
+  - WB + 空中WBs .dir([11:00])
+
+  - _location::SpringofWisdom
+  
+  - 目玉(尻尾)を射る
+
+  - WB + 空中WB .dir([10:00]):
+      coord: [3913.231156,1207.623559]
+
+  - _korok::N18
+  
+  - _wb<5:00>
+
+  - _korok::N24
+
+  - _wb::hight<5:30>:
+      comment: 滑空中にネルドラの目玉(体1)を射る
+  
+  - _wb::midair<5:30>
+
+  - _korok::N31
+
+  - _wb<8:00>:
+      comment: ネルドラの目玉(頭)を射る
+  
+  - _korok::N39
+  
+  - 空中WBs .dir([10:00])
+
+  - _korok::N21:
+      comment: 山頂
+
+  - _wb::speed<3:00>:
+      coord: [3154.801116,1450.494617]
+
+  - アイスメーカーで氷を作って滑空
+
+  - _korok::N29
+  
+  - _wb<2:30>:
+      notes: 横風があるのでディレイなしでWB
+
+  - _korok::N30:
+      icon-map: null
+      movements:
+        - to: [3260.728624,1475.37008]
+        - push
+        - to: [3229.03, 302.83, 1545.25]
+          color: white
+          icon: korok
+        - pop
+      comment: ビタロック + バクダン矢
+  
+  - _run<1:00>
+
+  - _korok::N22
+
+  - _wb::speed<2:30>
+
+  - _korok::N23
+
+  - 木の矢装備
+
+  - ネルドラの目玉(体2)を射る
+
+  - ネルドラを射る:
+      icon: bow
+      movements:
+        - to: [3965,1353]
+          warp: true
+  
+  - ネルドラのウロコを供える:
+      icon: imp.
+      icon-map: null
+      notes: ウロコの上部を木の矢で撃つ
+  
+  - _shrine::jitan-sami
+
+  - 出て東に走ってBLSS .dir([11:00])
+
+  - _location::AkkalaCitadelRuins
+  
+  - _tower::Akkala
+
+  - BLSS .dir([6:00])
+
+  - _location::ZorasDomain:
+      icon-map: null
+      coord: [3321.50, 414.09, -514.25]
+
+  - _korok::Z17
+
+  - 落ちる .dir([7:00])
+
+  - _korok::Z16
+
+  - 降りる .dir([7:00])
+
+  - _npc<ゾーラ王>:
+      coord: [3338.31, 268.90, -551.60]
+      comment: ゾーラの鎧、雪よけの羽飾りを装備
+      notes: +AA上AA
+  
+  - _shrine::neez-yohma
+
+  - _npc<シド>:
+      coord: [3299.5,-474.5]
+  
+  - リーバルの猛り + 空中WB .dir([3:30]):
+      comment: .gale(リーバルの猛り１) 下を向かない
+
+  - _korok::Z18
+
+  - _wb::hight<6:00>
+
+  - _korok::Z26:
+      comment: 丘の上
+
+  - _location::EastReservoirLake:
+      icon-map: null
+      coord: [3598.55, 316.00, -330.31]
+
+  - _wb::square<1:30>
+
+  - _npc<シド>:
+      comment: アイスメーカー、古代矢装備
+  
+  - _ruta:
+      comment: .gale(リーバルの猛り２)
+      notes: 電気の矢を節約するため、ルッタ内部では炎の矢を使う
+  
+  - _waterblight:
+      notes: ビタロック+、炎の矢オオワシ2HS、古代矢OGEB1HS
+  
+  - ミファーの祈り:
+      color: "#00ffff"
+      icon: ruta
+      counter: .user-defined-split()
+      movements:
+        - to: [3283.5,-431]
+          warp: true
+  
+  - _wb::hight<0:30>
+
+  - _npc<ゾーラ王>:
+      icon-map: null
+  
+  - _chest::special<光鱗の槍>:
+      coord: [3328.99, 269.46, -547.36]
+      comment: 装備
+  
+  - _npc<フーキュ>:
+      coord: [3344,-474.25]
+      comment: ミニチャレンジ - 流された嫁
+      notes: フーキュは8pmに移動を開始し、階段から上ってくる。8pm以降にルッタから戻ってきた場合は、里の北東側にいる
+  
+  - WB .dir([10:00]) + WBH .dir([0:30]):
+      comment: 上を向いてラグ回避
+
+  - _zora-stone-monument<10>:
+      movements:
+        - to: [3177.5625,-588.875]
+        - to: [3207.40, 344.67, -736.45]
+  
+  - _wb<7:00>
+
+  - 台座に光鱗の槍:
+      icon: kill
+      coord: [3081,-459]
+      comment: パラセールを開いてから攻撃
+  
+  - _shrine::dagah-keek:
+      comment: 光鱗の槍を投げ捨てる

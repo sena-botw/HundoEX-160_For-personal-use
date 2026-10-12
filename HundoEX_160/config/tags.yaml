@@ -1,0 +1,93 @@
+tags:
+  bold:
+    bold: true
+
+  b-red:
+    color: "#dc143c"
+    bold: true
+
+  dir:
+    color: "#ffff00"
+
+  b-yellow:
+    color: "#ffff00"
+    bold: true
+
+  cyan:
+    color: "#00ffff"
+
+  lime:
+    color: "#00ff00"
+
+  gale:
+    color: black
+    background: "#00dd00"
+
+  fury:
+    color: black
+    background: "#ff9900"
+
+  counter-shrine:
+    color: black
+    background: "#00ffff"
+    split-type: Shrines
+
+  counter-dlc-shrine:
+    color: black
+    background: orange
+    split-type: DLC Shrines
+
+  counter-korok:
+    color: black
+    background: "#00ff00"
+
+  counter-location:
+    color: black
+    background: lightblue
+
+  counter-tower:
+    color: black
+    background: "#00ffff"
+    split-type: Towers
+
+  counter-memory:
+    color: black
+    background: orange
+    split-type: Memories
+
+  counter-talus:
+    color: black
+    background: orange
+
+  counter-hinox:
+    color: black
+    background: orange
+
+  counter-molduga:
+    color: black
+    background: orange
+
+  counter-molduking:
+    color: black
+    background: orange
+
+  counter-divine-beast-enter:
+    color: "#ffffff"
+
+  counter-divine-beast-done:
+    color: "#ffffff"
+
+  counter-calamity-ganon:
+    color: "#ffffff"
+
+  counter-dark-beast-ganon:
+    color: "#ffffff"
+    split-type: Ganon
+
+  counter-mazkoshia:
+    color: "#ffffff"
+    split-type: Maz Koshia
+
+  user-defined-split:
+    background: orange
+    split-type: User Defined

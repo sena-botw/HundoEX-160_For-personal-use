@@ -1,0 +1,135 @@
+- 29. 忘れ去られた神殿:
+  - _warp::HebraTower<9:30>:
+      presets: _mappct<notes>
+      color: "#ffff00"
+
+  - _wb<1:00>
+
+  - _korok::H52
+
+  - _wb::midair<1:00>
+
+  - _korok::H37
+
+  - _wb<5:00>:
+      comment: 近くの石を置いてWB
+
+  - _location::SnowfieldStable
+
+  - _npc<イチヨウ>:
+      coord: [-1641.43, 339.19, -2561.69]
+      comment: 2回話してスタルホースの写真
+
+  - _shrine::rin-oyaa:
+      notes: エレベーター右から右に入力速めのWB
+
+  - _wb::speed<6:30>
+
+  - _korok::H58
+
+  - _wb::<5:00>
+
+  - _korok::H62:
+      comment: バレットタイム有効
+
+  - _wb<1:30>
+
+  - _korok::H59:
+      notes: 岩を動かしたら盾サーフィンで同じ方向へ
+
+  - WB .dir([1:00]) + 滑空 .dir([12:00])
+
+  - _korok::H38:
+      comment: バクダン矢
+
+  - _wb<4:00>:
+      comment: .lime(H38)の石を南においてその段差からWB
+
+  - _korok::K10
+
+  - WB .dir([8:00]) + 滑空 .dir([6:00])
+
+  - _korok::K12
+
+  - 夜にする:
+      icon: set-time
+      icon-map: null
+
+  - リーバルの猛り + WBH .dir([6:00]):
+      comment: .gale(リーバルの猛り２)
+
+  - _hinox::stal:
+      coord: [-1273.50, 213.08, -2113.50]
+      comment: バクダン矢
+
+  - _wb<7:30>
+
+  - _location::SerenneStable
+
+  - _npc<クジラの写真を見せる>:
+      coord: [-1541.84, 212.23, -1804.59]
+      comment: 3人全員が表示されてから話しかける
+
+  - _wb::speed<8:30>
+
+  - _location::MarittaExchangeRuins
+
+  - _korok::R01
+
+  - _wb<1:30>
+
+  - _korok::H68:
+      comment: 崖際
+
+  - _wb::speed<6:30>
+
+  - _korok::K22:
+      comment: バクダン矢
+
+  - WBH .dir([12:00]) + 空中WB .dir([2:00])
+
+  - _korok::K20:
+      comment: 崖際
+
+  - _wb<2:00>
+
+  - _korok::K21:
+      comment: バクダン矢
+
+  - _wb<1:30>
+
+  - _korok::K15:
+      comment: 柱の上
+
+  - _wb::hight<9:00>
+
+  - _korok::H63:
+      comment: 崖際
+
+  - _wb<2:00>
+
+  - _korok::K13
+
+  - _wb::square<6:00>
+
+  - _korok::K14
+
+  - 柱を1つ登ってリーバルの猛り:
+      comment: .gale(リーバルの猛り３)
+
+  - _location::ForgottenTemple
+
+  - BLSS .dir([1:00])
+
+  - _korok::K09:
+      comment: 女神像の裏の高所
+
+  - _shrine::rona-kachta
+
+  - _chest::special<息吹の勇者装備>:
+      coord: [-1069.99, 23.64, -2683.16]
+
+  - ハートを28まで増やす:
+      icon: imp.
+      icon-map: null
+

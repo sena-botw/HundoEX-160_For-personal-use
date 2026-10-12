@@ -1,0 +1,512 @@
+- 27. カカリコ村 / ハテノ村 2:
+  - _warp::taloh-naeg<6:30>:
+      presets: _mappct<notes>
+      color: "#34a853"
+
+  - 昼夜が雨でなくなるまで夜にする:
+      icon: set-time
+      icon-map: null
+      banner: true
+      comment: プリコは4pmまで
+
+  - _wb::hight<2:30>
+
+  - _location::GreatFairyFountainKakariko
+
+  - _snap<大妖精の泉>:
+      icon-map: null
+
+  - _wb<8:00>
+
+  - ニワトリ2羽を柵の中に戻す:
+      icon: imp.
+      icon-map: null
+      comment: 祠の近く&屋根
+      movements:
+        - to: [1847.9375,930.226837]
+        - to: [1849.75,974.714179]
+        - to: [1838.75,964.25]
+
+  - _npc<ボガード>:
+      comment: ミニチャレンジを開始
+
+  - _npc<プリコ>:
+      coord: [1870.67, 228.35, 957.56]
+      comment: おいかけっこをする (1 - 2)
+
+  - ニワトリを3羽、柵の中に戻す
+
+  - _npc<カンギス>:
+      coord: [1828.22, 218.59, 990.14]
+      comment: 選択肢 2 - もう一度話す - 1
+
+  - 女神像周りの燭台に火を灯す
+
+  - _npc<ココナ>:
+      coord: [1801,1016.5]
+      comment: ココナ's キッチン 1 ~ 4
+
+  - 夜にする:
+      icon: set-time
+      icon-map: null
+
+  - カンギスのそばのニワトリを柵の近くに投げる:
+      banner: true
+
+  - 梅園のニワトリとカンギスのそばのニワトリを戻す:
+      banner: true
+
+  - _npc<ボガード>:
+      coord: [1838.75,964.25]
+
+  - _material<シズカホタル,5>:
+      coord: [1901,995]
+      comment: 5匹以上になるようにする
+      notes: ミスった場合、タロ・ニヒにワープするとホタルが再出現する
+
+  - _npc<ラズリ>:
+      coord: [1899.75,1035.75]
+
+  - _wb::hight<9:30>:
+      comment: 上を向いてラグ回避
+
+  - _npc<インパ>:
+      coord: [1772.71, 229.43, 984.31]
+      presets: _mappct<comment>
+
+  - _npc<パーヤ>:
+      icon-map: null
+      counter: .user-defined-split()
+
+  - _korok::D02
+
+  - _run<4:00>
+
+  - _korok::D03
+
+  - 電気の矢装備
+
+  - _npc<セローラ>:
+      coord: [1830.49, 222.41, 1044.89]
+
+  - 素材置換:
+      icon: imp.
+      icon-map: null
+      comment: .link([参考動画]https://youtu.be/T4ALHtxoh7o?t=9547)
+      notes:
+        - '触媒① : ポカ実1ハスの実1バナナ3'
+        - '触媒② : ハイラルダケ1ゴーゴーダケ1しのび草3'
+        - '触媒③ : タマゴ1ダイヤ1バネ3'
+
+  - 走る + リーバルの猛り:
+      comment: .gale(リーバルの猛り１)
+
+  - _korok::D04:
+      comment: 崖際
+
+  - _korok::D05:
+      icon-map: null
+      comment: .lime(D04)の場所から撃つ .dir([5:30])
+      movements:
+        - push
+        - to: [1798.33, 230.97, 1078.18]
+          color: white
+          icon: korok
+        - pop
+
+  - WBH .dir([3:30]) + 空中WB .dir([4:00])
+
+  - _korok::D12
+
+  - _wb<10:00>
+
+  - _korok::D08:
+      comment: 崖際
+
+  - _korok::D06:
+      icon-map: null
+      comment: .lime(D08)の場所から撃つ .dir([0:30])
+      movements:
+        - push
+        - to: [1957.25, 248.07, 1062.05]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb<1:00>
+
+  - _korok::N07:
+      icon-map: null
+      comment: ビタロック + バクダン矢
+      movements:
+        - to: [2124.4375,743.208402]
+        - push
+        - to: [2132.42, 321.12, 678.85]
+          color: white
+          icon: korok
+        - pop
+
+  - 落ちる .dir([5:30])
+
+  - _korok::N08
+
+  - _wb::hight<2:30>
+
+  - _location::LanayruRoad-WestGate
+
+  - _korok::N10
+
+  - リーバルの猛り2回 .dir([9:00]):
+      comment: .gale(リーバルの猛り２～３)
+
+  - _korok::N09
+
+  - WBH × 2 .dir([6:30])
+
+  - _korok::D07:
+      comment: 山頂
+
+  - _wb<7:30>
+
+  - _korok::D11:
+      comment: 山頂
+
+  - _wb::hight<9:30>
+
+  - _korok::D10:
+      comment: 山頂
+
+  - 落ちる .dir([9:30])
+
+  - _korok::D09
+
+  - 盾サーフィン + WB .dir([2:00]):
+      comment: 台座南の岩に隠れる
+
+  - カットシーン:
+      icon: imp.
+      coord: [2024.21, 292.86, 962.56]
+      comment: '1:00 ~ 1:30am頃に始まる'
+      notes: '5:00amまでに到着しなければならない'
+
+  - イーガ団幹部:
+      icon: kill
+      notes: 風斬り刀を持っていない場合、通常矢で倒して風斬り刀を取る
+
+  - _shrine::lakna-rokee
+
+  - WBH + 空中WB .dir([4:30]):
+      comment: 上を向いてラグ回避
+
+  - _korok::N28
+
+  - 像の光った目玉を撃つ:
+      icon: bow
+      coord: [2509.80, 117.88, 1522.78]
+      comment: 9pm ~ 4am
+
+  - _shrine::kam-urog:
+      notes: エレベーター右からWBH、四角設置までに1/4周分ディレイを入れる
+
+  - 必要なら夜にする:
+      icon: set-time
+      ison-map: null
+      comment: スタルヒノックスのため
+
+  - WBH × 2 .dir([6:00])
+
+  - _talus::stone:
+      icon-map: null
+      comment: .fury(ウルボザの怒り１)
+      movements:
+        - to: [2503.25,1862.604713]
+        - push
+        - to: [2527.50, 242.00, 1904.50]
+          color: white
+          icon: talus
+        - pop
+
+  - _wb::speed<7:30>
+
+  - _hinox::stal:
+      comment: バクダン矢
+      coord: [1940.50, 144.41, 2396.50]
+
+  - _wb::midair<6:00>:
+      comment: 上を向いてラグ回避
+
+  - _chest<洞窟の宝箱>:
+      comment: 真ん中の宝箱を開ける
+      coord: [1955.82, 178.14, 2609.72]
+
+  - 落ちる .dir([11:00])
+
+  - _korok::D59:
+      comment: 小さな島
+
+  - _wb<11:00>
+
+  - _shrine::toto-sah
+
+  - _run<1:30>
+
+  - _korok::D56:
+      comment: 切り株
+
+  - WB .dir([10:00]) + 登る:
+      comment: 上を向いてラグ回避
+      notes: 雨の場合はWB + 空中WB
+
+  - _korok::D55:
+      comment: 小さな崖際
+
+  - _wb<0:30>
+
+  - _location::LittleTwinBridge
+
+  - _wb::hight<11:30>:
+      comment: 飛んだら四角起爆
+
+  - _location::BigTwinBridge
+
+  - _wb::hight<3:00>
+
+  - 馬を捕まえる:
+      icon: imp.
+      coord: [1784.94, 117.91, 2036.54]
+      comment: 薪の束の近くに停める
+
+  - _npc<馬宿の中の兄弟>:
+      coord: [1767.48, 116.07, 1925.15]
+      comment: 2回話す
+
+  - _npc<フッサレン>:
+      coord: [1748.38, 116.11, 1923.67]
+      notes: 'フッサレンと2回話してミニチャレンジ (野生馬を捕まえて) を始め、停めておいた馬でクリア'
+
+  - _wb<4:00>
+
+  - _korok::D51:
+      comment: 巨木
+
+  - .dir([4:30])の枝に登ってWB .dir([1:00])
+
+  - _memory::Final
+
+  - _wb<5:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::D52
+
+  - _wb::speed<1:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::N33:
+      comment: バクダン矢
+
+  - _wb<5:00>:
+      comment: 飛んだら四角起爆
+
+  - _npc<カリーユ>:
+      coord: [2398.96, 118.64, 1834.33]
+      comment: 選択肢 「そっとしておく」
+      notes: 5pm ~ 6am 必要なら朝にする
+
+  - 登る .dir([9:00]):
+      comment: バクダン矢で上昇気流
+      notes: 雨の場合階段を上る
+
+  - _korok::N34
+
+  - _location::FortHateno
+
+  - WB .dir([11:00]) + 滑空 .dir([1:00])
+
+  - _korok::N27:
+      comment: バクダン矢
+
+  - _wb<1:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::N26:
+      icon-map: null
+      movements:
+        - to: [2345.25,1529.835535]
+        - push
+        - to: [2276.03, 162.26, 1501.62]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb<5:00>
+
+  - _korok::N35
+
+  - _wb::speed<2:30>
+
+  - _korok::N36
+
+  - _wb::midair<2:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::N37:
+      comment: 先に氷を作っておく
+
+  - _wb::hight<6:00>
+
+  - _korok::N38:
+      notes: 空中でポーズバッファして風船が出たら弓集中
+
+  - 盾サーフィン .dir([4:30])
+
+  - _talus::stone:
+      coord: [3199.41, 173.38, 1904.36]
+      comment: .fury(ウルボザの怒り２)
+
+  - _wb<8:00>
+
+  - _korok::N41
+
+  - _wb<8:00>
+
+  - 10個の的を撃つ:
+      notes: 壁から3発 (白)、空中から7発 (青)
+      icon: imp.
+      movements:
+        - to: [2975.75,2045] # wall
+        - push
+        - to: [2942.50, 127.50, 2014.27]
+          color: white
+        - pop
+        - push
+        - to: [2966.63, 119.08, 2116.76]
+          color: white
+        - pop
+        - push
+        - to: [2965.24, 117.79, 2117.93]
+          color: white
+        - pop
+
+        - to: [2873.125,2066.5] # middle
+        - push
+        - to: [2859.85, 125.92, 2006.76]
+          color: skyblue
+        - pop
+        - push
+        - to: [2929.67, 120.46, 2135.82]
+          color: skyblue
+        - pop
+        - push
+        - to: [2881.41, 123.69, 2142.18]
+          color: skyblue
+        - pop
+        - push
+        - to: [2855.64, 122.88, 2119.72]
+          color: skyblue
+        - pop
+        - push
+        - to: [2835.29, 122.50, 2101.18]
+          color: skyblue
+        - pop
+        - push
+        - to: [2811.71, 121.67, 2080.08]
+          color: skyblue
+        - pop
+        - push
+        - to: [2808.72, 122.06, 2048.74]
+          color: skyblue
+        - pop
+
+      markers:
+        - at: [2859.85, 125.92, 2006.76]
+          color: skyblue
+        - at: [2942.50, 127.50, 2014.27]
+          color: white
+        - at: [2966.63, 119.08, 2116.76]
+          color: white
+        - at: [2965.24, 117.79, 2117.93]
+          color: white
+        - at: [2929.67, 120.46, 2135.82]
+          color: skyblue
+        - at: [2881.41, 123.69, 2142.18]
+          color: skyblue
+        - at: [2855.64, 122.88, 2119.72]
+          color: skyblue
+        - at: [2835.29, 122.50, 2101.18]
+          color: skyblue
+        - at: [2811.71, 121.67, 2080.08]
+          color: skyblue
+        - at: [2808.72, 122.06, 2048.74]
+          color: skyblue
+
+  - _korok::N45
+
+  - _run<6:00>
+
+  - _korok::N46
+
+  - _wb<4:00>
+
+  - _korok::N51
+
+  - _wb::hight<2:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::N52:
+      comment: 湖の近く
+
+  - _wb::hight<3:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::N53:
+      comment: 橋の下
+
+  - リーバルの猛り .dir([7:00]):
+      comment: .gale(リーバルの猛り１)
+
+  - _npc<サクラダをイチカラ村へ>:
+      coord: [3331.22, 235.28, 2284.61]
+      comment: 武器で驚かせる
+
+  - 必要なら昼にする:
+      icon: set-time
+      icon-map: null
+      comment: ナブは8am ~
+
+  - _wb<1:00>
+
+  - _shrine::myahm-agana
+
+  - _wb::square<12:00>
+
+  - _npc<ナブ>:
+      coord: [3352.40, 225.55, 2138.81]
+      comment: すべての武器を見せる
+
+  - _npc<マンサク>:
+      coord: [3418.24, 226.84, 2121.22]
+      comment: バッタ10
+
+  - 橋からWBH .dir([2:30])
+
+  - _npc<トコユ>:
+      coord: [3621.69, 283.36, 2098.13]
+
+  - リーバルの猛り + 空中WB .dir([3:30]):
+      comment: .gale(リーバルの猛り２)
+
+  - _npc<シモン>:
+      coord: [3778.96, 356.86, 2132.45]
+      comment: すべての写真を買う
+
+  - リーバルの猛り:
+      comment: .gale(リーバルの猛り３)
+
+  - _korok::N47
+
+  - WB + 空中WB .dir([1:00])
+
+  - _korok::N32
+
+  - _shrine::tahno-oah
+

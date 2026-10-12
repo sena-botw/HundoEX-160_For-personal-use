@@ -1,0 +1,682 @@
+- 18. 平原の塔 / 勇気の泉:
+  - _wb<5:00>
+
+  - _korok::L85
+
+  - _wb::hight<8:30>
+
+  - _korok::L83:
+      comment: バクダン矢
+
+  - 登る .dir([7:00])
+
+  - _korok::L82
+
+  - _korok::L84
+
+  - _wb::hight<9:00>
+
+  - _korok::L81:
+      comment: 崖際
+
+  - _wb::speed<9:30>
+
+  - _korok::L80:
+      comment: 上を向いてWB(ラグ回避)
+
+  - WB .dir([10:00]) + 空中WB .dir([11:00]):
+      coord: [-808,3754]
+      comment: 空中WBの後四角起爆
+
+  - _korok::L69
+
+  - WBH .dir([6:30]) + 空中WB .dir([8:00])
+
+  - _hinox::stal:
+      comment: バクダン矢
+      movements:
+        - to: [-912.5,3707.144914]
+        - to: [-1062.00, 275.24, 3771.50]
+
+  - _wb::midair<10:30>
+
+  - _korok::L67:
+      comment: バクダン
+
+  - 盾サーフィン .dir([4:00])
+
+  - _korok::L68
+
+  - _wb<2:00>
+
+  - _shrine::ishto-soh:
+      comment: エレベータ右からWB
+
+  - _wb::hight<12:00>
+
+  - _talus::luminous:
+      coord: [-971.13, 355.71, 3236.14]
+      comment: バクダン矢
+
+  - _wb<10:00>
+
+  - _korok::L41:
+      comment: バクダン矢
+
+  - _wb::<2:00>
+
+  - _korok::L37:
+      comment: バクダン矢
+
+  - _wb::midair<11:30>
+
+  - _korok::L23
+
+  - _wb<11:00>
+
+  - _korok::P17
+
+  - 滑空 .dir([9:00])
+
+  - _korok::P16
+
+  - リーバルの猛り + 空中WB .dir([10:00]):
+      comment: .gale(リーバルの猛り３)
+
+  - _korok::P15
+
+  - 盾サーフィン .dir([10:30])
+
+  - _korok::P14
+
+  - _wb::midair<11:30>:
+      comment: 飛び降りて空中WB
+
+  - _korok::P07
+
+  - _wb<2:00>
+
+  - _korok::P08:
+      comment: .link([参考動画]https://x.com/ikurapan_botw/status/1707276870599975361?s=20)
+
+  - _wb::hight<0:30>
+
+  - _korok::P03
+
+  - _wb::speed<0:30>
+
+  - _korok::C80
+
+  - _run<2:00>
+
+  - _korok::C79:
+      comment: 丘の上
+
+  - _wb<1:00>
+
+  - _location::ColiseumRuins
+
+  - _korok::C74:
+      comment: 闘技場跡地の角
+
+  - 落ちる .dir([8:00])
+
+  - _chest::special<ファントムの兜>:
+      coord: [-1200.47, 152.65, 1229.24]
+
+  - 闘技場を出て .dir([10:30]):
+      coord: [-1137,1204.25]
+
+  - _korok::C73
+
+  - _wb::square<1:00>:
+      comment: 飛んだら丸起爆
+
+  - _location::AquameBridge
+
+  - _korok::C67:
+      comment: 崖際
+
+  - _korok::C68:
+      icon-map: null
+      movements:
+        - push
+        - to: [-1134.46, 143.85, 1030.47]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<8:30>
+
+  - _korok::C66
+
+  - _wb::speed<0:30>
+
+  - _korok::C52:
+      comment: 井戸の中の石
+
+  - WBH .dir([3:00]) + 空中WB .dir([2:00])
+
+  - _korok::C53
+
+  - _wb<2:00>
+
+  - _tower::mappct::Central
+
+  - _wb::square<1:00>
+
+  - _korok::C48:
+      comment: 岩の間
+
+  - _wb<5:00>
+
+  - _location::HyruleGarrisonRuins
+
+  - _chest::special<ファントムのすねあて>:
+      coord: [-507.27, 130.00, 609.95]
+
+  - _wb::hight<12:00>
+
+  - _korok::C54
+
+  - _wb<2:00>
+
+  - _korok::C49:
+      icon-map: null
+      comment: バクダン矢
+      movements:
+        - to: [-362.5,459]
+        - push
+        - to: [-363.25, 131.73, 396.94]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::midair<4:00>
+
+  - _korok::C55
+
+  - _wb::hight<6:00>
+
+  - _korok::C64
+
+  - _wb::hight<6:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::C70
+
+  - _wb::square<3:00>:
+      comment: 飛んだら丸起爆
+
+  - _korok::C71
+
+  - _wb<2:00>
+
+  - _korok::C65
+
+  - 盾サーフィン .dir([4:30])
+
+  - _shrine::wahgo-katta:
+      comment: .link([エレベータ左から先ひねりWB]https://x.com/ikurapan_botw/status/1654371863500574725?s=20)
+
+  - 盾サーフィン .dir([6:00])
+
+  - _location::RiversideStable
+
+  - _shield<近衛の盾を装備>:
+      icon-map: null
+
+  - _npc<パリッセ>:
+      coord: [345.00, 121.73, 1091.50]
+      comment: ハイラル城に眠る武器
+
+  - _shield<ハイリアの盾装備>:
+      icon-map: null
+
+  - _npc<テリー>:
+      coord: [335, 1085]
+      comment: ビリビリヤンマを買う
+
+  - _npc<ゴエタフ>:
+      coord: [325.82, 115.40, 1092.50]
+      comment: 2回話してフルーツケーキを渡す
+      notes: 王家秘伝のレシピ - 果物2種、タバンタ小麦、きび砂糖
+
+  - _wb::hight<6:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::C77
+
+  - _korok::D14:
+      icon-map: null
+      movements:
+        - push
+        - to: [337.15, 120.05, 1271.06]
+          color: white
+          icon: korok
+        - pop
+
+  - 盾サーフィン
+
+  - _location::OwlanBridge:
+      coord: [287.5,1260.5625]
+
+  - _wb::hight<5:30>
+
+  - _korok::D22:
+      comment: バクダン矢
+
+  - _wb::hight<9:00>
+
+  - _weapon<モリブリンバット>:
+      coord: [132.65, 116.42, 1397.90]
+      comment: 赤モリブリン、電気の矢
+
+  - _run<8:00>
+
+  - _korok::C84:
+      comment: 乗ってすぐ前ジャンプから弓集中
+
+  - _wb::hight<6:00>:
+      comment: 壁の縁からWB
+      notes: 切り株からWBすると東の宿場町跡を発見できない場合がある
+
+  - _location::EastPostRuins
+
+  - _korok::D26
+
+  - _wb::square<3:00>:
+      comment: 飛んだら丸起爆
+
+  - _location::ProximBridge
+
+  - _korok::D27:
+      comment: 橋の下
+
+  - _wb::square<6:00>:
+      comment: 氷を作ってWB
+
+  - _korok::D34
+
+  - 盾サーフィン .dir([9:00])
+
+  - _korok::D33
+
+  - _wb<10:00>
+
+  - _shrine::bosh-kala
+
+  - _run<6:00>
+
+  - _korok::D32:
+      comment: 軽量化
+
+  - _wb::hight<6:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::D31:
+      icon-map: null
+      comment: バクダン矢
+      movements:
+        - to: [95,1806.9375]
+        - push
+        - to: [54.99, 146.91, 1758.56]
+          color: white
+          icon: korok
+        - pop
+
+  - WB .dir([7:00]) + 滑空 .dir([9:00]):
+      comment: 飛んだら四角起爆
+      coord: [41.4375,1898.8125]
+
+  - _korok::D44:
+      comment: 丘の上の廃墟
+
+  - _wb::speed<8:30>
+
+  - _korok::P12
+
+  - 落ちる
+
+  - _korok::P13
+
+  - _wb::super<1:00>
+
+  - _location::OutpostRuins
+
+  - _wb::midair<4:30>
+
+  - _talus::luminous:
+      coord: [-176.93, 132.59, 1771.62]
+      comment: .fury(ウルボザの怒り１－２)
+
+  - 盾サーフィン .dir([6:00])
+
+  - _korok::D43:
+      comment: 洞窟
+
+  - WB .dir([5:00]) + 空中WB .dir([3:30])
+
+  - _korok::L03:
+      comment: 滝
+
+  - _wb<5:00>:
+      coord: [94.5,2290.4375]
+
+  - _korok::L10:
+      comment: 先に陸に降りて氷を作る
+
+  - WBH .dir([3:00]) + 滑空 .dir([2:00])
+
+  - _korok::L11
+
+  - _wb<5:00>:
+      comment: 氷を作ってWB
+
+  - _korok::L16:
+      icon-map: null
+      comment: バクダン + ビタロ + 矢
+      movements:
+        - to: [338.0625,2370.9375]
+        - push
+        - to: [280.43, 97.65, 2405.01]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<12:00>
+
+  - _korok::L05
+
+  - 盾サーフィン .dir([3:00])
+
+  - _korok::L06
+
+  - _wb<11:00>:
+      comment: 氷を作ってWB
+
+  - _korok::L02
+
+  - _run<12:00>
+
+  - _location::DeyaVillageRuins
+
+  - _talus::luminous:
+      coord: [359.34, 114.45, 1904.01]
+      comment: .fury(ウルボザの怒り３)
+
+  - _korok::L01
+
+  - _wb<7:00>
+
+  - _korok::L04
+
+  - _wb<11:00>
+
+  - _korok::D45
+
+  - _memory::WestNecluda
+
+  - _wb<1:30>
+
+  - _korok::D35:
+      comment: バレットタイム有効
+
+  - _wb::speed<2:30>
+
+  - _korok::D36
+
+  - _run<5:30>
+
+  - _korok::D46:
+      icon-map: null
+      comment: 南西の木からビタロ + バクダン矢
+      movements:
+        - to: [497.625,1818.0625]
+        - push
+        - to: [551.58, 182.90, 1903.51]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::speed<2:30>
+
+  - _korok::D37
+
+  - _run<3:00>
+
+  - _korok::D38:
+      comment: 洞窟
+
+  - _wb<4:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::D47:
+      comment: バレットタイム有効
+
+  - _wb::square<2:00>
+
+  - _korok::D39
+
+  - _wb::hight<3:30>:
+      comment: 氷を作ってWB
+      notes: 壁にぶつかるとき左スティックを入力しない
+
+  - _shrine::ree-dahee:
+      comment: .link([ひねりWB]https://drive.google.com/file/d/140gGsZ60-H0WhXdlRvI2disoYAbEFPED/view?usp=sharing)
+
+  - WB .dir([4:00]) + 滑空 .dir([2:00])
+
+  - _shrine::ha-dahamar:
+      comment: .link([参考動画]https://twitter.com/ikurapan_botw/status/1676759742092541952?s=20)
+
+  - _wb::hight<3:00>
+
+  - _korok::D42
+
+  - _location::DuelingPeaksStable
+
+  - WBH .dir([11:30]) + 空中WBs .dir([11:00])
+
+  - _talus::stone:
+      comment: バクダン矢
+      movements:
+        - to: [1722,1754]
+        - to: [1465.91, 203.77, 1328.91]
+
+  - _wb::midair<9:00>
+
+  - _korok::D17
+
+  - WBH + 空中WB .dir([5:30]):
+      comment: 上を向いてラグ回避
+
+  - _korok::D30
+
+  - WBH .dir([3:00]) + 空中WB .dir([7:00]):
+      comment: 1回目は飛んだら四角起爆
+
+  - _korok::D41:
+      icon-map: null
+      movements:
+        - to: [1411.125,1679.0625]
+        - to: [1391.375,1857]
+        - push
+        - to: [1517.27, 400.25, 1850.08]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<9:00>:
+      comment: .lime(D41 大玉入れ)を待たなくてよい
+
+  - _korok::D40:
+      comment: 山頂
+
+  - 夜にする:
+      icon: set-time
+      icon-map: null
+      comment: 必要な場合のみ
+
+  - _wb::hight<6:00>
+
+  - _korok::D49
+
+  - スタルボコブリン:
+      icon: kill
+      coord: [1282.48, 523.75, 1939.55]
+      comment: 電気の矢で撃つ
+      notes: 祠の前に出現する
+
+  - _weapon<旅人の剣>:
+      icon-map: null
+
+  - _shrine::shee-vaneer:
+      comment: エレベータ左からWB
+
+  - 滑空 .dir([11:00]):
+      comment: 祠の近くまで滑空して降りる
+
+  - _shrine::shee-venath:
+      comment: エレベータ右からWB
+
+  - _wb<8:30>
+
+  - _korok::D48:
+      comment: 崖際
+
+  - _wb<11:00>
+
+  - _tower::mappct::DuelingPeaks
+
+  - ミファーの祈り - オフ:
+      icon: ruta-enter
+      icon-map: null
+      notes: (任意) - サイハテノ島でミファーの祈りを使いたい場合はオフにする
+
+  - _wb<7:00>
+
+  - _korok::D50
+
+  - _wb<4:00>
+
+  - _korok::L07:
+      notes: 中央の岩ビタロ5回、ナボリスを狙う
+
+  - _wb::hight<6:30>
+
+  - _korok::L19:
+      comment: 巨大樹の上
+
+  - 落ちる .dir([3:30])
+
+  - .lime(L20)のブロックを運ぶ:
+      icon: imp.
+      coord: [928.4375,2409.375]
+      comment: 南から運ぶ
+
+  - _chest::special<ラヴィオの頭巾>:
+      coord: [830.43, 134.03, 2438.38]
+      comment: 運んでる途中に開ける
+
+  - _korok::L20
+
+  - _run<1:00>
+
+  - フロドラのウロコを供える:
+      icon: imp.
+      coord: [872.25,2351.625]
+      comment: .dir(1個の方を供える)
+
+  - _shrine::shae-katha
+
+  - _location::SpringofCourage
+
+  - _wb::hight<9:00>
+
+  - _korok::L13:
+      comment: バクダン矢
+
+  - _wb::hight<8:30>
+
+  - _korok::L18
+
+  - _korok::L17
+
+  - _wb::square<0:30>:
+      comment: 氷を作ってWB、飛んだら丸起爆
+
+  - _korok::L12
+
+  - リーバルの猛り + WB .dir([7:00]):
+      comment: .gale(リーバルの猛り１)
+
+  - _korok::L28
+
+  - _wb::hight<3:00>
+
+  - _korok::L29:
+      comment: 丘の上
+
+  - _wb::square<4:00>:
+      comment: 飛んだら丸起爆
+
+  - _korok::L34:
+      notes: ビタロックして片手剣でジャンプ攻撃、必要ならバクダンで位置を微調整
+
+  - _wb<8:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::L35
+
+  - _wb::hight<6:00>
+
+  - _korok::L45:
+      comment: 丘の上
+
+  - _wb::square<4:30>:
+      comment: 上を向いてラグ回避、飛んだら丸起爆
+
+  - _korok::L54
+
+  - _wb::hight<3:00>
+
+  - _location::ZonaiRuins
+
+  - 盾サーフィン .dir([8:00])
+
+  - _korok::L56:
+      comment: ビタロック -> マグネ
+
+  - _run<6:30>
+
+  - _npc<カッシーワ>:
+      coord: [815.25, 117.95, 3063.44]
+
+  - _run<6:00>
+
+  - _korok::L57
+
+  - _wb<4:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::F24
+
+  - _location::SarjonBridge
+
+  - _korok::F23
+
+  - _chest::special<ファントムガノン鎧>:
+      comment: .lime(F23)の途中に取得
+      coord: [1026.21, 119.18, 3239.89]
+
+  - _wb<1:30>
+
+  - _korok::L58
+
+  - _wb::hight<11:30>:
+      comment: 南に氷を作ってWB、上を向いてラグ回避
+
+  - _korok::L46:
+      comment: 小さな滝の上
+

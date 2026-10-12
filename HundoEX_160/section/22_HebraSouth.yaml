@@ -1,0 +1,181 @@
+- 22. ヘブラ南:
+  - _warp::shada-naw<11:30>:
+      presets: _mappct<notes>
+      color: "#bbbbff"
+
+  - _wb::speed<6:30>
+
+  - _talus::frost:
+      coord: [-3073.50, 478.42, -2918.50]
+      comment: バクダン矢
+
+  - _wb<7:00>
+
+  - _korok::H33
+
+  - リーバルの猛り .dir([3:00]):
+      comment: .gale(リーバルの猛り１)
+
+  - _korok::H34
+
+  - リーバルの猛り + WBH .dir([6:00]):
+      comment: .gale(リーバルの猛り２)
+
+  - _korok::H46
+
+  - _wb::hight<5:00>
+
+  - _korok::H48:
+      comment: 崖際
+
+  - WBH .dir([12:00]) + 登る:
+      comment: 飛んだら四角起爆
+
+  - _korok::H49:
+      comment: 上を向いてラグ回避
+
+  - _korok::H50:
+      icon-map: null
+      comment: shoot .dir([2:30]) レースコログの近く
+      movements:
+        - to: [-2864,-2428.837103]
+        - push
+        - to: [-2836.29, 501.88, -2423.84]
+          color: white
+          icon: korok
+        - pop
+
+  - _korok::H47:
+      icon-map: null
+      comment: shoot .dir([11:00])
+      movements:
+        - push
+        - to: [-2900.08, 498.65, -2508.79]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<0:30>
+
+  - _korok::H44:
+      icon-map: null
+      comment: 崖際の下、バクダン矢
+      movements:
+        - to: [-2849.3125,-2634.714272]
+        - push
+        - to: [-2984.90, 559.21, -2693.53]
+          color: white
+          icon: korok
+        - pop
+
+  - 盾サーフィン .dir([4:00])
+
+  - _korok::H45
+
+  - WBH .dir([6:30]) + 滑空 .dir([5:30])
+
+  - _korok::H56
+
+  - _wb<2:00>
+
+  - _korok::H51
+
+  - _wb::speed<3:30>
+
+  - 扉を倒す:
+      icon: imp.
+      coord: [-2443.5625,-2295.045705]
+      comment: .link([参考動画]https://twitter.com/ikurapan_botw/status/1531399333840850945)
+      notes: 雪玉を坂に転がし、扉に当たる少し前でビタロ、赤まで溜めて扉にぶつける
+
+  - _shrine::gee-harah:
+      comment: エレベータ左から右にWB
+      notes: バレットタイム遅め
+
+  - リーバル + 空中WB .dir([11:30]) + 空中WB .dir([4:00]):
+      banner: true
+      comment: .gale(リーバルの猛り３)
+      movements:
+        - to: [-2415.75,-2287.184383]
+        - to: [-2425.5,-2396.796946]
+
+  - _korok::H57
+
+  - _wb<8:00>
+
+  - _shrine::lanno-kooh:
+      comment: 洞窟の中、アイスメーカー装備
+
+  - _korok::H64:
+      comment: 祠の後ろ
+
+  - 氷を作ってから泳ぐ .dir([6:00]):
+      coord: [-2627.1875,-2005.80934]
+
+  - _wb<2:00>
+
+  - _korok::H61:
+      comment: 丘の上
+
+  - .dir([9:30])を向いて夜にする:
+      icon: set-time
+      comment: .dir(空を見上げずに地面を映す)
+
+  - _wb<4:00>:
+      comment: .dir(オルドラが出現しているか確認)
+
+  - _tower::mappct::Hebra
+
+  - _wb::square<2:30>:
+      comment: 飛んだら丸起爆
+
+  - _location::PondosLodge
+
+  - 西側の木からWB .dir([8:00])
+
+  - _location::TabanthaVillageRuins
+
+  - _korok::H67
+
+  - 盾サーフィン .dir([6:30])
+
+  - _korok::H70
+
+  - _wb::hight<8:30>
+
+  - _korok::H69
+
+  - WBS オルドラの角を撃つ:
+      icon: imp.
+      coord: [-2466,-1502.2020]
+      notes: 間に合わなさそうなら先に撃っておく
+
+  - _shrine::shira-gomar:
+      notes: エレベーター左からWB、四角起爆してWB [8:00]
+
+  - WB + 空中WB .dir([10:00])
+
+  - _korok::H72
+
+  - _wb<10:00>
+
+  - _korok::T18
+
+  - _wb::hight<12:00>
+
+  - _talus::rare:
+      coord: [-2864.50, 408.98, -1825.91]
+
+  - _wb<1:30>
+
+  - _korok::H65
+
+  - _wb<8:00>
+
+  - _korok::H66:
+      comment: 氷を作ってから飛び込む
+
+  - _wb<7:00>
+
+  - _korok::T19
+

@@ -1,0 +1,131 @@
+presets:
+  _boss:
+    _divinebeast:
+      enter:
+        text: $(0)
+        counter: .var(counter-divine-beast-enter)
+        vars:
+          - count-divine-beast-enter: .add(1)
+        icon: $(1)
+        icon-priority: 1
+          
+      done:
+        text: $(0)
+        counter: .var(counter-divine-beast-done)
+        vars:
+          - count-divine-beast-done: .add(1)
+        icon: $(1)
+        icon-priority: 1
+    
+    hinox:
+      text: $(0)
+      counter: .var(counter-hinox)
+      icon: $(1)
+      icon-priority: 1
+
+    talus:
+      text: $(0)
+      counter: .var(counter-talus)
+      icon: $(1)
+      icon-priority: 1
+
+  medoh:
+      presets: _boss::divinebeast::enter<ヴァ・メドー,medoh-enter>
+      coord: [-3850.5,-2278.5]
+    
+  naboris:
+    presets: _boss::divinebeast::enter<ヴァ・ナボリス,naboris-enter>
+    coord: [-2754.62, 112.53, 3749.44]
+    
+  ruta:
+    presets: _boss::divinebeast::enter<ヴァ・ルッタ,ruta-enter>
+    coord: [3662.40, 315.66, -175.42]
+    
+  rudania:
+    presets: _boss::divinebeast::enter<ヴァ・ルーダニア,rudania-enter>
+    movements:
+      - to: [2235,-2370]
+      - to: [2502.61, 667.95, -2270.26]
+      - to: [2701.02, 726.21, -2363.06]
+      - to: [2794.50, 774.84, -2657.93]
+
+  windblight:
+    presets: _boss::divinebeast::done<風のカースガノン,medoh>
+    coord: [-3614.10, 571.16, -1862.06]
+
+  thunderblight:
+    presets: _boss::divinebeast::done<雷のカースガノン,naboris>
+    coord: [-2110.15, 545.51, 2616.95]
+
+  waterblight:
+    presets: _boss::divinebeast::done<水のカースガノン,ruta>
+    coord: [2970.18, 462.28, 235.47]
+
+  fireblight:
+    presets: _boss::divinebeast::done<炎のカースガノン,rudania>
+    coord: [2451.85, 1007.58, -2559.08]
+
+  calamityganon:
+    text: 厄災ガノン
+    counter: .var(counter-calamity-ganon)
+    icon: ganon
+    icon-priority: 1
+    coord: [-254.00, 191.01, -1061.37]
+
+  darkbeastganon:
+    text: 魔獣ガノン
+    counter: .var(counter-dark-beast-ganon)
+    icon: ganon
+    icon-priority: 1
+
+  molduga:
+    text: モルドラジーク
+    counter: .var(counter-molduga)
+    icon: molduga
+    icon-priority: 1
+
+  molduking:
+    text: キングラジーク
+    counter: .counter-molduking(EX)
+    icon: molduking
+    icon-priority: 1
+
+  _hinox:
+    red:
+      presets: _boss::hinox<ヒノックス,hinox>
+
+    blue:
+      presets: _boss::hinox<青ヒノックス,hinox-blue>
+
+    black:
+      presets: _boss::hinox<黒ヒノックス,hinox-black>
+
+    stal:
+      presets: _boss::hinox<スタルヒノックス,stalnox>
+
+  _talus:
+    stone:
+      presets: _boss::talus<イワロック,talus>
+
+    luminous:
+      presets: _boss::talus<夜光イワロック,talus-luminous>
+
+    rare:
+      presets: _boss::talus<希少イワロック,talus-rare>
+
+    frost:
+      presets: _boss::talus<ガチロック,talus-frost>
+
+    igneo:
+      presets: _boss::talus<マグロック,talus-igneo>
+
+    _igneo:
+      titan:
+        presets: _boss::talus<メガマグロック,talus-igneo>
+
+  mazkoshia:
+    text: 導師ミィズ・キョシア
+    counter: .var(counter-mazkoshia)
+    icon: mazkoshia
+    icon-priority: 1
+

@@ -1,0 +1,165 @@
+- 13. ナボリスの石碑:
+  - _warp::naboris<8:00>:
+      presets: _mappct<notes>
+      color: "#3c78d8"
+
+  - WBS .dir([2:30]) + 空中WB .dir([5:30]):
+      comment: 1回目は低く
+      coord: [-1985.25,2542.5]
+
+  - _korok::W34
+
+  - _wb::speed<6:30>
+
+  - _korok::W39
+
+  - _wb::speed<9:30>
+
+  - _korok::W38:
+      comment: 柱の上
+
+  - _wb<4:30>
+
+  - _talus::luminous:
+      coord: [-2096.46, 318.46, 3037.91]
+      comment: .fury(ウルボザの怒り１－３)
+
+  - _wb<4:30>
+
+  - _korok::W50:
+      comment: 大きな柱の上
+
+  - _wb<7:00>
+
+  - _korok::W58
+
+  - 昼にする:
+      icon: set-time
+      icon-map: null
+
+  - _wb<2:00>
+
+  - _location::SouthLomeiLabyrinth
+
+  - _shrine::dila-maag
+
+  - _wb::hight<12:00>:
+      coord: [-1805.1875,3346]
+      comment: 迷路の外壁に行く
+
+  - WBH + 空中WBs .dir([3:30]):
+      comment: 最後は飛んだら四角起爆
+
+  - _korok::W54:
+      comment: 崖際
+
+  - _wb::speed<6:30>
+
+  - _korok::W59
+
+  - WB .dir([4:00]) + 滑空 .dir([3:00]):
+      comment: 氷を作ってWB
+
+  - _korok::W64
+
+  - _wb::hight<12:00>:
+      comment: 飛んだら四角起爆
+      notes: 石並べの石を南東に置きなおしてWB、壁にぶつからないように高く飛ぶ
+
+  - _korok::W60
+
+  - _wb::hight<11:30>:
+      comment: 氷を作ってWB
+
+  - 手記:
+      coord: [-1387.83, 540.50, 3494.08]
+      icon: imp.
+      comment: 最後のページ→前のページ
+
+  - 台座に影を落とす:
+      comment: 4pm ~ 5pmまで
+
+  - _shrine::suma-sahma
+
+  - 先ひねりWB .dir([0:30])
+
+  - _korok::W53:
+      comment: 柱の上
+
+  - _wb<11:00>
+
+  - ナボリスの石碑:
+      icon: naboris-ex
+      icon-priority: 1
+      coord: [-1527.00, 425.15, 2915.00]
+
+  - _wb::square<4:00>:
+      comment: 飛んだら丸起爆
+
+  - _korok::W41:
+      comment: 岩の橋の上
+
+  - _wb<7:00>
+
+  - _korok::W45
+
+  - 落ちる .dir([2:00])
+
+  - _korok::W46:
+      comment: バクダン矢
+
+  - _wb<8:00>
+
+  - _korok::W49
+
+  - _wb::speed<9:30>
+
+  - _korok::W48
+
+  - _wb::speed<8:30>
+
+  - _korok::W52:
+      comment: ドクロの中
+
+  - _wb::hight<5:30>
+
+  - _korok::W63
+
+  - _molduking:
+      icon-map: null
+      comment: 電気の矢 .dir(2)
+      movements:
+        - push
+        - to: [-2391.18, 119.09, 3733.19]
+          color: white
+          icon: molduking
+        - pop
+
+  - _wb<5:00>
+
+  - _shrine::keive-tala:
+      notes: 鉄箱を運んで電気の矢弓集中電気の矢
+
+  - _wb::speed<8:30>
+
+  - _korok::W68:
+      comment: 柱の上
+
+  - WB .dir([8:00]) + 空中WB .dir([10:00]):
+      comment: 風があるので最初のWBはディレイなし
+      coord: [-2706,4007.625]
+
+  - _npc<パクト>:
+      coord: [-2968.22, 137.69, 3775.00]
+
+  - _shrine::misae-suma
+
+  - _wb::hight<9:00>
+
+  - _korok::W62
+
+  - _wb::speed<9:00>
+
+  - _korok::W67:
+      comment: サボテン、電気の矢
+

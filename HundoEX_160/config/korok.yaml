@@ -1,0 +1,3828 @@
+# A - 57 アッカレ
+# C - 89 中央ハイラル
+# D - 59 双子山
+# E - 45 オルディン
+# F - 58 フィローネ
+# G - 36 ゲルド
+# H - 73 ヘブラ
+# K - 35 森林
+# L - 92 湖
+# N - 66 ハテノ
+# P - 18 台地
+# R - 80 丘陵
+# T - 37 タバンタ
+# W - 68 荒野
+# X - 25 ハイラル城
+# Z - 62 ゾーラ
+
+
+presets:
+  korok:
+    text: .lime($(0))
+    counter: .var(counter-korok)
+    icon: korok
+
+  _korok:
+    # A - 57 アッカレ
+    A01:
+      presets: _korok<A01 樹上の石>
+      coord: [3075.88, 318.84, -3684.38]
+    
+    A02:
+      presets: _korok<A02 石並べ>
+      movements:
+        - to: [3368.8125,-3651.625]
+        - to: [3326.96, 309.81, -3589.21]
+    
+    A03:
+      presets: _korok<A03 大石の下>
+      coord: [3455.61, 314.14, -3581.87]
+    
+    A04:
+      presets: _korok<A04 花を本数順>
+      coord: [3813.46, 256.00, -3419.22]
+    
+    A05:
+      presets: _korok<A05 光の輪レース>
+      movements:
+        - to: [3170.625,-3318.125]
+        - to: [3152.59, 170.17, -3328.35]
+    
+    A06:
+      presets: _korok<A06 板の下>
+      coord: [3496.16, 255.93, -3374.30]
+    
+    A07:
+      presets: _korok<A07 大玉入れ>
+      movements:
+        - to: [4005.8125,-3201.5625]
+        - to: [3779.71, 275.42, -3361.52]
+    
+    A08:
+      presets: _korok<A08 岩の裏>
+      coord: [4422.96, 115.16, -3340.22]
+  
+    A09:
+      presets: _korok<A09 板の下>
+      coord: [4815.50, 105.73, -3300.25]
+  
+    A10:
+      presets: _korok<A10 板の下>
+      coord: [3178.98, 176.41, -3073.67]
+  
+    A11:
+      presets: _korok<A11 樹上の石>
+      coord: [3350.10, 175.03, -3079.84]
+  
+    A12:
+      presets: _korok<A12 風船>
+  
+    A13:
+      presets: _korok<A13 枯れ葉の下>
+      coord: [3995.80, 292.52, -3147.58]
+  
+    A14:
+      presets: _korok<A14 光の輪レース>
+      movements:
+        - to: [4252.625,-3134.5625]
+        - to: [4344.06, 363.39, -3178.37]
+  
+    A15:
+      presets: _korok<A15 石>
+      coord: [4428.83, 352.27, -3182.90]
+  
+    A16:
+      presets: _korok<A16 古代研究所の頂上>
+      coord: [4503.66, 379.21, -3164.39]
+  
+    A17:
+      presets: _korok<A17 花を本数順>
+      movements:
+        - to: [4733.375,-3120.3125]
+        - to: [4746.0625,-3120]
+        - to: [4766.5,-3149]
+        - to: [4801.5625,-3127.625]
+        - to: [4817.20, 106.12, -3094.22]
+  
+    A18:
+      presets: _korok<A18 丸太の中のドングリ>
+      coord: [3736.67, 147.38, -2884.98]
+  
+    A19:
+      presets: _korok<A19 花を本数順>
+      coord: [4105.45, 233.40, -2836.70]
+  
+    A20:
+      presets: _korok<A20 ブロック合わせ>
+      coord: [3436.59, 155.19, -2533.65]
+  
+    A21:
+      presets: _korok<A21 石>
+      coord: [3726.79, 127.29, -2677.46]
+  
+    A22:
+      presets: _korok<A22 枯れ葉の下>
+      coord: [4008.60, 195.20, -2736.31]
+  
+    A23:
+      presets: _korok<A23 石並べ>
+      coord: [4396.83, 224.36, -2721.58]
+  
+    A24:
+      presets: _korok<A24 ブロック合わせ>
+      coord: [4508.73, 106.40, -2643.61]
+  
+    A25:
+      presets: _korok<A25 木の先端>
+      coord: [3372.05, 271.95, -2315.19]
+  
+    A26:
+      presets: _korok<A26 ブロック合わせ>
+      coord: [3732.84, 139.55, -2423.21]
+  
+    A27:
+      presets: _korok<A27 光を追いかける>
+      coord: [3877.54, 178.84, -2371.86]
+  
+    A28:
+      presets: _korok<A28 光の輪レース>
+      movements:
+        - to: [4069.375,-2462.625]
+        - to: [4181.04, 220.80, -2540.41]
+  
+    A29:
+      presets: _korok<A29 風車の風船s>
+      coord: [4338.09, 170.55, -2438.52]
+  
+    A30:
+      presets: _korok<A30 光を追いかける>
+      coord: [3244.92, 265.87, -2000.31]
+  
+    A31:
+      presets: _korok<A31 枯れ葉の下>
+      coord: [3479.97, 280.78, -2077.34]
+  
+    A32:
+      presets: _korok<A32 フルーツ合わせ>
+      coord: [3662.78, 273.68, -2067.32]
+  
+    A33:
+      presets: _korok<A33 枯れ葉の下>
+      coord: [4530.95, 106.99, -2098.38]
+  
+    A34:
+      presets: _korok<A34 石並べ>
+      coord: [4098.32, 232.82, -1756.46]
+  
+    A35:
+      presets: _korok<A35 花を追う>
+      movements:
+        - to: [4386.5,-1548.5]
+        - to: [4496,-1613]
+        - to: [4502,-1661]
+        - to: [4556,-1727]
+        - to: [4619,-1817]
+        - to: [4634.41, 139.71, -1840.95]
+  
+    A36:
+      presets: _korok<A36 ブロック合わせ>
+      coord: [4691.71, 136.71, -1777.33]
+  
+    A37:
+      presets: _korok<A37 廃墟の上>
+      coord: [3709.39, 204.17, -1683.45]
+  
+    A38:
+      presets: _korok<A38 花を追う>
+      coord: [4095.78, 220.01, -1627.46]
+  
+    A39:
+      presets: _korok<A39 ドアの下>
+      coord: [3297.69, 466.47, -1583.79]
+  
+    A40:
+      presets: _korok<A40 枯れ葉の下>
+      coord: [3288.68, 511.29, -1574.59]
+  
+    A41:
+      presets: _korok<A41 枯れ葉の下>
+      coord: [3237.80, 479.94, -1527.75]
+  
+    A42:
+      presets: _korok<A42 石>
+      coord: [3292.12, 530.90, -1428.61]
+  
+    A43:
+      presets: _korok<A43 枯れ葉の下>
+      coord: [3296.23, 459.86, -1421.09]
+  
+    A44:
+      presets: _korok<A44 光の輪レース>
+      coord: [4356.78, 284.97, -1528.10]
+  
+    A45:
+      presets: _korok<A45 石並べ>
+      coord: [3112.55, 426.00, -1295.33]
+  
+    A46:
+      presets: _korok<A46 ドアの下>
+      coord: [3407.37, 442.77, -1278.33]
+  
+    A47:
+      presets: _korok<A47 リンゴを供える>
+      coord: [3882.55, 356.53, -1340.01]
+  
+    A48:
+      presets: _korok<A48 花を本数順>
+      coord: [4104.56, 282.08, -1350.67]
+  
+    A49:
+      presets: _korok<A49 フルーツ合わせ>
+      coord: [4038.21, 329.62, -1254.87]
+  
+    A50:
+      presets: _korok<A50 板の下>
+      coord: [3010.15, 346.43, -1204.25]
+  
+    A51:
+      presets: _korok<A51 玉入れ>
+      coord: [3726.30, 331.26, -1129.71]
+  
+    A52:
+      presets: _korok<A52 石>
+      coord: [3604.77, 334.48, -1008.64]
+  
+    A53:
+      presets: _korok<A53 フルーツ合わせ>
+      coord: [4239.35, 409.88, -998.26]
+  
+    A54:
+      presets: _korok<A54 風船s>
+      coord: [3960.62, 378.53, -858.59]
+  
+    A55:
+      presets: _korok<A55 大石の下>
+      coord: [4042.22, 351.57, -661.97]
+  
+    A56:
+      presets: _korok<A56 光を追いかける>
+      coord: [4332.92, 406.96, -696.63]
+  
+    A57:
+      presets: _korok<A57 木の先端>
+      coord: [4144.26, 406.70, -595.97]
+  
+    # C - 89 中央ハイラル
+    C01:
+      presets: _korok<C01 石>
+      coord: [-753.67, 151.18, -1086.79]
+  
+    C02:
+      presets: _korok<C02 ブロック合わせ>
+      coord: [589.77, 121.48, -1107.13]
+  
+    C03:
+      presets: _korok<C03 ブロック合わせ>
+      coord: [-670.09, 119.12, -932.68]
+  
+    C04:
+      presets: _korok<C04 石>
+      coord: [178.55, 134.04, -940.02]
+  
+    C05:
+      presets: _korok<C05 樹洞のドングリ>
+      coord: [319.65, 137.19, -962.07]
+  
+    C06:
+      presets: _korok<C06 水草>
+      coord: [506.91, 141.82, -882.62]
+  
+    C07:
+      presets: _korok<C07 風車のドングリ>
+      coord: [-941.41, 133.36, -817.63]
+  
+    C08:
+      presets: _korok<C08 さびた盾を供える>
+      coord: [-681.32, 122.38, -860.63]
+  
+    C09:
+      presets: _korok<C09 木の先端>
+      coord: [696.31, 218.00, -824.39]
+  
+    C10:
+      presets: _korok<C10 玉入れ>
+      coord: [292.18, 117.21, -724.09]
+  
+    C11:
+      presets: _korok<C11 石>
+      coord: [613.41, 183.51, -743.38]
+
+    C12:
+      presets: _korok<C12 石>
+      coord: [840.41, 236.29, -692.48]
+
+    C13:
+      presets: _korok<C13 玉入れ>
+      coord: [1265.18, 116.41, -707.25]
+
+    C14:
+      presets: _korok<C14 石>
+      coord: [-935.21, 167.85, -641.24]
+  
+    C15:
+      presets: _korok<C15 水草>
+      coord: [-609.57, 119.00, -682.30]
+  
+    C16:
+      presets: _korok<C16 橋の下のドングリ>
+      coord: [-267.21, 139.87, -610.19]
+
+    C17:
+      presets: _korok<C17 枯れ葉の下>
+      coord: [85.55, 138.14, -634.98]
+
+    C18:
+      presets: _korok<C18 光を追いかける>
+      coord: [396.08, 115.50, -625.56]
+
+    C19:
+      presets: _korok<C19 風車の風船s>
+      coord: [686.04, 167.93, -635.10]
+
+    C20:
+      presets: _korok<C20 岩の裏>
+      coord: [-763.77, 156.04, -606.28]
+
+    C21:
+      presets: _korok<C21 石並べ>
+      coord: [-796.22, 187.67, -558.86]
+
+    C22:
+      presets: _korok<C22 石並べ>
+      coord: [-666.94, 128.61, -543.81]
+
+    C23:
+      presets: _korok<C23 橋の下のドングリ>
+      coord: [504.45, 123.33, -493.47]
+
+    C24:
+      presets: _korok<C24 石>
+      coord: [-1035.09, 150.22, -446.22]
+
+    C25:
+      presets: _korok<C25 石>
+      coord: [-803.96, 138.07, -403.13]
+
+    C26:
+      presets: _korok<C26 樹上の風船>
+      coord: [-663.30, 146.77, -432.60]
+
+    C27:
+      presets: _korok<C27 光の輪レース>
+      movements:
+        - to: [-296.8125,-262.375]
+        - to: [-253.83, 141.73, -425.73]
+
+    C28:
+      presets: _korok<C28 ドアの下>
+      coord: [86.23, 138.82, -412.09]
+
+    C29:
+      presets: _korok<C29 旗の先端>
+      coord: [97.64, 181.02, -429.81]
+
+    C30:
+      presets: _korok<C30 岩の裏>
+      coord: [-886.65, 129.26, -274.04]
+
+    C31:
+      presets: _korok<C31 石>
+      coord: [-548.50, 140.88, -229.52]
+
+    C32:
+      presets: _korok<C32 門の紋章を射る>
+      coord: [-254.35, 146.85, -264.41]
+  
+    C33:
+      presets: _korok<C33 風車の風船s>
+      coord: [-161.75, 147.44, -262.04]
+
+    C34:
+      presets: _korok<C34 フルーツ合わせ>
+      coord: [623.24, 123.54, -194.77]
+  
+    C35:
+      presets: _korok<C35 石>
+      coord: [-239.38, 139.77, -112.59]
+
+    C36:
+      presets: _korok<C36 石>
+      coord: [-1336.89, 122.55, 249.66]
+
+    C37:
+      presets: _korok<C37 ブロック合わせ>
+      coord: [-1336.36, 117.12, 366.62]
+
+    C38:
+      presets: _korok<C38 花を追う>
+      movements:
+        - to: [-1094.25,196]
+        - to: [-1104.25,216.75]
+        - to: [-1100.75,233.25]
+        - to: [-1155.97, 137.33, 245.12]
+
+    C39:
+      presets: _korok<C39 旗の先端>
+      coord: [-868.50, 187.18, 219.12]
+
+    C40:
+      presets: _korok<C40 光を追いかける>
+      coord: [-728.07, 154.70, 134.78]
+
+    C41:
+      presets: _korok<C41 樹洞のドングリ>
+    
+    C42:
+      presets: _korok<C42 樹上の風船>
+
+    C43:
+      presets: _korok<C43 風車のドングリ>
+      coord: [-427.28, 135.84, 150.92]
+
+    C44:
+      presets: _korok<C44 石>
+      coord: [25.66, 148.47, 147.48]
+
+    C45:
+      presets: _korok<C45 石>
+      coord: [384.26, 154.17, 135.36]
+
+    C46:
+      presets: _korok<C46 石>
+      coord: [806.57, 116.89, 24.09]
+
+    C47:
+      presets: _korok<C47 水草>
+      coord: [-1127.29, 145.97, 414.31]
+
+    C48:
+      presets: _korok<C48 石>
+      coord: [-737.41, 125.86, 333.76]
+
+    C49:
+      presets: _korok<C49 荷車のドングリ>
+
+    C50:
+      presets: _korok<C50 花を本数順>
+      coord: [147.10, 128.30, 295.77]
+
+    C51:
+      presets: _korok<C51 大石並べ>
+      coord: [627.04, 130.94, 182.31]
+
+    C52:
+      presets: _korok<C52 石>
+      coord: [-1313.94, 116.17, 622.86]
+
+    C53:
+      presets: _korok<C53 リンゴを供える>
+      coord: [-1020.38, 201.02, 559.81]
+
+    C54:
+      presets: _korok<C54 旗の先端>
+      coord: [-512.75, 170.27, 550.62]
+
+    C55:
+      presets: _korok<C55 光を追いかける>
+      coord: [-122.09, 128.79, 594.00]
+
+    C56:
+      presets: _korok<C56 リンゴを供える>
+      coord: [322.07, 127.50, 525.01]
+
+    C57:
+      presets: _korok<C57 樹洞のドングリ>
+      coord: [-1249.55, 125.53, 730.68]
+
+    C58:
+      presets: _korok<C58 切り株に鉄球>
+      coord: [-1439.60, 125.51, 846.67]
+
+    C59:
+      presets: _korok<C59 玉入れ>
+      coord: [-1512.69, 117.38, 908.67]
+
+    C60:
+      presets: _korok<C60 ブロック合わせ>
+      coord: [-1106.94, 139.42, 905.26]
+
+    C61:
+      presets: _korok<C61 石並べ>
+      coord: [-1009.46, 130.11, 932.04]
+
+    C62:
+      presets: _korok<C62 光を追いかける>
+      coord: [-749.92, 132.91, 892.21]
+
+    C63:
+      presets: _korok<C63 花を追う>
+      movements:
+        - to: [-587.375,875.375]
+        - to: [-601.625,860.625]
+        - to: [-616.9375,861.0625]
+        - to: [-632.5625,873.5]
+        - to: [-644.58, 146.21, 876.11]
+
+    C64:
+      presets: _korok<C64 光を追いかける>
+      coord: [-133.71, 143.35, 945.04]
+
+    C65:
+      presets: _korok<C65 樹洞のドングリ>
+      coord: [225.38, 173.65, 872.04]
+
+    C66:
+      presets: _korok<C66 石並べ>
+      coord: [-1356.70, 140.95, 1002.41]
+
+    C67:
+      presets: _korok<C67 石>
+      coord: [-1154.36, 132.87, 964.64]
+
+    C68:
+      presets: _korok<C68 橋の下のドングリ>
+
+    C69:
+      presets: _korok<C69 吊るされたドングリ>
+
+    C70:
+      presets: _korok<C70 石並べ>
+      coord: [-106.46, 153.33, 1047.97]
+
+    C71:
+      presets: _korok<C71 樹上の石>
+      coord: [39.26, 140.78, 1034.49]
+
+    C72:
+      presets: _korok<C72 風車のドングリ>
+      coord: [-1370.34, 174.23, 1165.82]
+
+    C73:
+      presets: _korok<C73 光の輪レース>
+      movements:
+        - to: [-1174.25,1165.98678]
+        - to: [-1190.02, 174.95, 1116.74]
+
+    C74:
+      presets: _korok<C74 石>
+      coord: [-1149.92, 218.29, 1204.10]
+
+    C75:
+      presets: _korok<C75 水草>
+      coord: [-425.27, 131.00, 1189.35]
+
+    C76:
+      presets: _korok<C76 枯れ葉の下>
+      coord: [-466.41, 137.22, 1279.38]
+
+    C77:
+      presets: _korok<C77 風車の風船s>
+      coord: [295.58, 135.22, 1204.80]
+
+    C78:
+      presets: _korok<C78 石>
+      coord: [-1314.30, 139.19, 1257.34]
+
+    C79:
+      presets: _korok<C79 石>
+      coord: [-1224.69, 299.80, 1358.42]
+
+    C80:
+      presets: _korok<C80 丸太の中のドングリ>
+      coord: [-1280.39, 284.69, 1384.90]
+
+    C81:
+      presets: _korok<C81 光を追いかける>
+      coord: [-1057.31, 167.53, 1327.52]
+
+    C82:
+      presets: _korok<C82 光を追いかける>
+      coord: [-770.03, 135.07, 1380.98]
+
+    C83:
+      presets: _korok<C83 風車の風船s>
+      coord: [-653.65, 159.14, 1390.29]
+
+    C84:
+      presets: _korok<C84 風車のドングリ>
+      coord: [69.30, 121.17, 1438.00]
+
+    C85:
+      presets: _korok<C85 樹上の石>
+      coord: [-1666.66, 249.28, 1393.96]
+
+    C86:
+      presets: _korok<C86 石>
+      coord: [-1728.59, 144.40, 1478.86]
+
+    C87:
+      presets: _korok<C87 玉入れ>
+      coord: [-1583.93, 68.69, 1579.69]
+
+    C88:
+      presets: _korok<C88 水草>
+      coord: [-1746.92, 71.00, 1831.10]
+
+    C89:
+      presets: _korok<C89 玉入れ>
+      coord: [-1491.53, 68.50, 1832.25]
+
+    # D - 59 双子山
+    D01:
+      presets: _korok<D01 石>
+      coord: [954.40, 116.28, 942.47]
+
+    D02:
+      presets: _korok<D02 水草>
+      coord: [1775.80, 219.05, 963.60]
+
+    D03:
+      presets: _korok<D03 リンゴを供える>
+      coord: [1807.03,220.45,990.20]
+
+    D04:
+      presets: _korok<D04 石>
+      coord: [1793.90,258.90,1052.82]
+
+    D05:
+      presets: _korok<D05 エンブレムを射る>
+      coord: [1798.33,230.97,1078.18]
+
+    D06:
+      presets: _korok<D06 エンブレムを射る>
+      coord: [1957.25, 248.07, 1062.05]
+
+    D07:
+      presets: _korok<D07 石>
+      coord: [2163.90, 460.62, 1034.74]
+
+    D08:
+      presets: _korok<D08 石>
+      coord: [1939.51, 269.11, 1110.93]
+
+    D09:
+      presets: _korok<D09 フルーツ合わせ>
+      coord: [1676.10, 324.63, 1157.94]
+
+    D10:
+      presets: _korok<D10 石>
+      coord: [1739.31, 413.38, 1186.67]
+
+    D11:
+      presets: _korok<D11 石>
+      coord: [1933.26, 376.74, 1220.96]
+
+    D12:
+      presets: _korok<D12 ブロック合わせ>
+      coord: [2058.50, 244.81, 1208.55]
+
+    D13:
+      presets: _korok<D13 樹上の石>
+      coord: [516.10, 127.03, 1167.10]
+
+    D14:
+      presets: _korok<D14 橋の下のドングリ>
+      coord: [337.15, 120.05, 1271.06]
+
+    D15:
+      presets: _korok<D15 切り株に鉄球>
+      coord: [715.11, 166.35, 1327.03]
+
+    D16:
+      presets: _korok<D16 石>
+      coord: [1040.55, 121.35, 1318.15]
+
+    D17:
+      presets: _korok<D17 樹上の石>
+      coord: [1293.44, 273.70, 1331.36]
+
+    D18:
+      presets: _korok<D18 水草>
+      coord: [1553.54, 119.00, 1297.19]
+
+    D19:
+      presets: _korok<D19 玉入れ>
+      coord: [1638.97, 116.47, 1376.29]
+
+    D20:
+      presets: _korok<D20 玉入れ>
+      coord: [1750.43, 116.39, 1544.69]
+
+    D21:
+      presets: _korok<D21 木の先端>
+      coord: [2207.29, 192.60, 1373.48]
+
+    D22:
+      presets: _korok<D22 大石の下>
+      coord: [318.16, 115.39, 1397.90]
+
+    D23:
+      presets: _korok<D23 風車のドングリ>
+      coord: [518.63, 131.00, 1475.53]
+
+    D24:
+      presets: _korok<D24 大玉入れ>
+      coord: [668.65, 135.48, 1468.30]
+
+    D25:
+      presets: _korok<D25 馬で柵越え>
+      coord: [788.84, 145.87, 1471.35]
+
+    D26:
+      presets: _korok<D26 旗の先端>
+      coord: [87.01, 164.54, 1585.10]
+
+    D27:
+      presets: _korok<D27 石>
+      coord: [232.21, 115.35, 1601.42]
+
+    D28:
+      presets: _korok<D28 旗の先端>
+      coord: [671.09, 180.87, 1638.38]
+
+    D29:
+      presets: _korok<D29 石>
+      coord: [850.51, 115.40, 1623.99]
+
+    D30:
+      presets: _korok<D30 リンゴを供える>
+      coord: [1376.53, 327.85, 1680.34]
+
+    D31:
+      presets: _korok<D31 大玉入れ>
+
+    D32:
+      presets: _korok<D32 玉入れ>
+      coord: [112.31, 116.67, 1709.78]
+
+    D33:
+      presets: _korok<D33 ブロック合わせ>
+      coord: [178.96, 116.68, 1719.98]
+
+    D34:
+      presets: _korok<D34 石>
+      coord: [225.30, 121.99, 1705.66]
+
+    D35:
+      presets: _korok<D35 風車の風船s>
+      coord: [312.68, 180.27, 1766.80]
+
+    D36:
+      presets: _korok<D36 花を追う>
+      movements:
+        - to: [467.1875,1717.8125]
+        - to: [475.3125,1750.1875]
+        - to: [497.375,1783.4375]
+        - to: [504.75,1803.3125]
+        - to: [516.77, 167.24, 1788.17]
+
+    D37:
+      presets: _korok<D37 大玉入れ>
+      coord: [644.19, 116.82, 1763.26]
+
+    D38:
+      presets: _korok<D38 石>
+      coord: [704.99, 116.76, 1796.57]
+
+    D39:
+      presets: _korok<D39 花を追う>
+      movements:
+        - to: [981.9375,1836]
+        - to: [1005.75,1827.5625]
+        - to: [1033.5,1808.25]
+        - to: [1049.24, 115.87, 1783.28]
+
+    D40:
+      presets: _korok<D40 石>
+      coord: [1258.46, 492.12, 1851.13]
+
+    D41:
+      presets: _korok<D41 大玉入れ>
+
+    D42:
+      presets: _korok<D42 馬宿の頂上>
+      coord: [1748.57, 140.69, 1921.65]
+
+    D43:
+      presets: _korok<D43 花を本数順>
+      coord: [-190.95, 121.68, 1831.54]
+
+    D44:
+      presets: _korok<D44 石>
+      coord: [5.32, 207.82, 1897.90]
+
+    D45:
+      presets: _korok<D45 石造の裏>
+      coord: [160.04, 150.44, 1942.17]
+
+    D46:
+      presets: _korok<D46 フルーツ合わせ>
+  
+    D47:
+      presets: _korok<D47 風車の風船s>
+      coord: [868.27, 142.62, 1902.03]
+
+    D48:
+      presets: _korok<D48 石>
+      coord: [1101.69, 224.29, 1889.54]
+
+    D49:
+      presets: _korok<D49 リンゴを供える>
+      coord: [1245.11, 541.34, 1942.18]
+  
+    D50:
+      presets: _korok<D50 板の下>
+      coord: [815.22, 202.73, 2089.44]
+
+    D51:
+      presets: _korok<D51 石>
+      coord: [1877.43, 132.53, 2051.32]
+
+    D52:
+      presets: _korok<D52 風車の風船s>
+      coord: [2054.83, 153.24, 2092.73]
+
+    D53:
+      presets: _korok<D53 水草>
+      coord: [2484.83, 119.00, 2103.39]
+
+    D54:
+      presets: _korok<D54 燭台に火>
+      coord: [-115.48, 186.84, 2303.39]
+
+    D55:
+      presets: _korok<D55 石>
+      coord: [1682.66, 201.47, 2327.62]
+
+    D56:
+      presets: _korok<D56 石>
+      coord: [1886.18, 147.41, 2418.74]
+
+    D57:
+      presets: _korok<D57 水草>
+      coord: [2303.51, 281.30, 2375.13]
+
+    D58:
+      presets: _korok<D58 風車のドングリ>
+
+    D59:
+      presets: _korok<D59 石>
+      coord: [1936.54, 134.27, 2564.50]
+
+    # E - 45 オルディン
+    E01:
+      presets: _korok<E01 枯れ葉の下>
+      coord: [1615.10, 207.96, -3661.03]
+
+    E02:
+      presets: _korok<E02 ブロック合わせ>
+      coord: [2087.11, 318.26, -3573.56]
+
+    E03:
+      presets: _korok<E03 岩の裏>
+      coord: [2233.99, 338.44, -3673.52]
+
+    E04:
+      presets: _korok<E04 岩の裏>
+      coord: [2551.06, 411.24, -3592.68]
+
+    E05:
+      presets: _korok<E05 石並べ>
+      coord: [2662.63, 479.34, -3471.59]
+
+    E06:
+      presets: _korok<E06 岩の裏>
+      coord: [2469.91, 514.73, -3174.50]
+
+    E07:
+      presets: _korok<E07 石>
+      coord: [1549.11, 533.40, -3108.55]
+
+    E08:
+      presets: _korok<E08 北の廃坑の頂上>
+      coord: [1632.02, 585.55, -2939.50]
+
+    E09:
+      presets: _korok<E09 石>
+      coord: [2195.50, 613.21, -3007.84]
+
+    E10:
+      presets: _korok<E10 風車の風船>
+      coord: [1885.78, 513.93, -2749.11]
+
+    E11:
+      presets: _korok<E11 石並べ>
+      coord: [2060.98, 580.31, -2757.42]
+
+    E12:
+      presets: _korok<E12 ブロック合わせ>
+      coord: [3322.94, 379.46, -2803.06]
+
+    E13:
+      presets: _korok<E13 石>
+      coord: [1658.13, 554.59, -2564.87]
+
+    E14:
+      presets: _korok<E14 光の輪レース>
+      movements:
+        - to: [1610.25,-2544.6875]
+        - to: [1725.35, 607.05, -2553.94]
+
+    E15:
+      presets: _korok<E15 ゴロンの口の中>
+      coord: [1593.88, 543.91, -2475.25]
+
+    E16:
+      presets: _korok<E16 骸骨の頂上>
+      coord: [1865.55, 533.93, -2465.04]
+
+    E17:
+      presets: _korok<E17 光の輪レース>
+      movements:
+        - to: [1915.625,-2382.133674]
+        - to: [1867.81, 511.01, -2400.64]
+
+    E18:
+      presets: _korok<E18 石並べ>
+      coord: [1647.23, 521.04, -2244.46]
+
+    E19:
+      presets: _korok<E19 風船>
+      coord: [1537.85, 505.38, -2091.50]
+
+    E20:
+      presets: _korok<E20 大玉入れ>
+
+    E21:
+      presets: _korok<E21 ブロック合わせ>
+      coord: [2170.74, 547.04, -2109.55]
+
+    E22:
+      presets: _korok<E22 石>
+      coord: [2355.88, 524.65, -2067.38]
+
+    E23:
+      presets: _korok<E23 岩の裏>
+      coord: [2663.90, 564.50, -2066.87]
+
+    E24:
+      presets: _korok<E24 大玉入れ>
+
+    E25:
+      presets: _korok<E25 光の輪レース>
+      movements:
+        - to: [1528.4375,-1885.5]
+        - to: [1544.33, 394.20, -1837.21]
+
+    E26:
+      presets: _korok<E26 大玉入れ>
+
+    E27:
+      presets: _korok<E27 岩の裏>
+      coord: [1950.85, 457.49, -1832.66]
+
+    E28:
+      presets: _korok<E28 風車の風船>
+      coord: [2273.80, 431.77, -1823.22]
+
+    E29:
+      presets: _korok<E29 玉入れ>
+      coord: [2424.33, 253.69, -1738.50]
+
+    E30:
+      presets: _korok<E30 ブロック合わせ>
+      coord: [2703.71, 225.52, -1749.27]
+
+    E31:
+      presets: _korok<E31 石並べ>
+      coord: [1426.90, 465.04, -1544.07]
+
+    E32:
+      presets: _korok<E32 岩の裏>
+      coord: [2266.56, 347.38, -1565.49]
+
+    E33:
+      presets: _korok<E33 光の輪レース>
+      movements:
+        - to: [2329.4375,-1488]
+        - to: [2407.27, 328.67, -1613.60]
+
+    E34:
+      presets: _korok<E34 石並べ>
+      coord: [2751.07, 293.77, -1675.91]
+
+    E35:
+      presets: _korok<E35 石並べ>
+      coord: [1377.20, 322.41, -1261.17]
+
+    E36:
+      presets: _korok<E36 水草>
+      coord: [1940.15, 226.01, -1217.73]
+
+    E37:
+      presets: _korok<E37 石並べ>
+      movements:
+        - to: [2273,-1244]
+        - to: [2245,-1220]
+        - to: [2179.55, 226.34, -1282.04]
+
+    E38:
+      presets: _korok<E38 ブロック合わせ>
+      coord: [2478.57, 313.42, -1391.59]
+
+    E39:
+      presets: _korok<E39 玉入れ>
+      coord: [2752.29, 233.73, -1366.34]
+
+    E40:
+      presets: _korok<E40 岩の裏>
+      coord: [2504.48, 312.21, -1304.28]
+
+    E41:
+      presets: _korok<E41 風船>
+
+    E42:
+      presets: _korok<E42 石>
+      coord: [2441.14, 257.41, -1241.73]
+
+    E43:
+      presets: _korok<E43 岩の裏>
+      coord: [2315.03, 293.52, -1133.26]
+
+    E44:
+      presets: _korok<E44 石>
+      coord: [2655.79, 261.75, -971.17]
+  
+    E45:
+      presets: _korok<E45 光の輪レース>
+      movements:
+        - to: [2374.6875,-806.725958]
+        - to: [2275.01, 134.98, -720.15]
+  
+    # F - 58 フィローネ
+    F01:
+      presets: _korok<F01 樹洞のドングリ>
+
+    F02:
+      presets: _korok<F02 光の輪レース>
+      movements:
+        - to: [1131.625,2327.435136]
+        - to: [1188.64, 323.43, 2476.71]
+
+    F03:
+      presets: _korok<F03 風車の風船s>
+      coord: [1305.29, 191.35, 2434.06]
+
+    F04:
+      presets: _korok<F04 石並べ>
+      coord: [1323.72, 194.40, 2453.45]
+
+    F05:
+      presets: _korok<F05 風車の風船s>
+      coord: [1462.68, 336.80, 2370.85]
+
+    F06: 
+      presets: _korok<F06 石>
+      coord: [2181.73, 414.98, 2534.70]
+
+    F07:
+      presets: _korok<F07 光を追いかける>
+      coord: [2403.83, 256.60, 2511.22]
+
+    F08:
+      presets: _korok<F08 樹上の石>
+      coord: [1966.63, 365.96, 2634.48]
+
+    F09:
+      presets: _korok<F09 玉入れ>
+      coord: [2099.72, 363.66, 2625.57]
+
+    F10:
+      presets: _korok<F10 花を追う>
+      coord: [1373.00, 220.29, 2749.05]
+
+    F11:
+      presets: _korok<F11 石>
+      coord: [1936.53, 492.99, 2778.54]
+
+    F12:
+      presets: _korok<F12 花を追う>
+      movements:
+        - to: [2042.25,2635.225168]
+        - to: [2043.6875,2660.742103]
+        - to: [2054.1875,2705.546906]
+        - to: [2092.8125,2693.050461]
+        - to: [2112.25,2710.045626]
+        - to: [2103.92, 422.50, 2726.10]
+
+    F13:
+      presets: _korok<F13 石>
+      coord: [2284.27, 287.54, 2659.97]
+
+    F14:
+      presets: _korok<F14 水草>
+      coord: [2874.91, 299.74, 2683.37]
+
+    F15:
+      presets: _korok<F15 光を追いかける>
+      coord: [1325.56, 296.67, 3008.68]
+
+    F16:
+      presets: _korok<F16 光の輪レース>
+      coord: [1562.56, 298.62, 2898.32]
+
+    F17:
+      presets: _korok<F17 鉄球>
+      coord: [1773.84, 346.69, 2930.87]
+
+    F18:
+      presets: _korok<F18 岩の裏>
+      coord: [3084.93, 239.78, 2884.65]
+
+    F19:
+      presets: _korok<F19 光の輪レース>
+      movements:
+        - to: [1776.75,3057.344971]
+        - to: [1785.54, 344.36, 3011.07]
+
+    F20:
+      presets: _korok<F20 フルーツ合わせ>
+      coord: [1943.75, 348.59, 3009.42]
+
+    F21:
+      presets: _korok<F21 リンゴを供える>
+      coord: [2294.48, 287.51, 3028.17]
+
+    F22:
+      presets: _korok<F22 花を追う>
+      movements:
+        - to: [2947.6875,3002.943082]
+        - to: [2952.1875,2990.071744]
+        - to: [2962.0625,2981.886573]
+        - to: [2955.25,2973.38899]
+        - to: [2950.375,2965.203819]
+        - to: [2967.375,2948.271137]
+        - to: [2967.8125,2964.95389]
+        - to: [2972,2975.450904]
+        - to: [2974.75,2989.38444]
+        - to: [2951.34, 246.58, 3005.96]
+
+    F23:
+      presets: _korok<F23 花を追う>
+      movements:
+        - to: [1013.4375,3213.1875]
+        - to: [999.625,3234.3125]
+        - to: [1012.07, 127.12, 3258.18]
+
+    F24:
+      presets: _korok<F24 樹上の風船>
+      coord: [1055.12, 167.14, 3254.77]
+
+    F25:
+      presets: _korok<F25 ドリアンを供える>
+      coord: [1406.71, 255.49, 3198.75]
+
+    F26:
+      presets: _korok<F26 ブロックパズル>
+      coord: [1660.15, 252.65, 3163.64]
+
+    F27:
+      presets: _korok<F27 石>
+      coord: [1799.42, 224.83, 3157.65]
+
+    F28:
+      presets: _korok<F28 花を追う>
+      movements:
+        - to: [1737.8125,3204.223988]
+        - to: [1803.73, 202.60, 3222.00]
+
+    F29:
+      presets: _korok<F29 ブロック合わせ>
+      coord: [2032.28, 292.14, 3164.35]
+
+    F30:
+      presets: _korok<F30 フルーツ合わせ>
+      coord: [2171.21, 198.87, 3276.91]
+
+    F31:
+      presets: _korok<F31 枯れ葉の下>
+      coord: [2636.23, 191.59, 3197.80]
+
+    F32:
+      presets: _korok<F32 光を追いかける>
+      coord: [3175.44, 309.29, 3204.03]
+
+    F33:
+      presets: _korok<F33 石>
+      coord: [3639.77, 326.91, 3258.22]
+
+    F34:
+      presets: _korok<F34 風車の風船s>
+      coord: [1492.12, 188.13, 3370.48]
+
+    F35:
+      presets: _korok<F35 像の目の夜光石を射る>
+      coord: [1857.43, 176.84, 3351.67]
+
+    F36:
+      presets: _korok<F36 石並べ>
+      coord: [2968.72, 122.93, 3380.18]
+
+    F37:
+      presets: _korok<F37 水草>
+      coord: [3289.58, 175.80, 3338.79]
+
+    F38:
+      presets: _korok<F38 石>
+      coord: [1217.39, 135.04, 3524.11]
+
+    F39:
+      presets: _korok<F39 ドリアンを供える>
+      coord: [1378.10, 256.94, 3503.56]
+
+    F40:
+      presets: _korok<F40 石>
+      coord: [1449.47, 222.70, 3531.37]
+
+    F41:
+      presets: _korok<F41 馬の首の枯れ葉>
+      coord: [1552.49, 182.81, 3529.24]
+
+    F42:
+      presets: _korok<F42 風車の風船s>
+      coord: [1733.16, 168.06, 3450.59]
+
+    F43:
+      presets: _korok<F43 石並べ>
+      coord: [2139.98, 200.28, 3531.94]
+
+    F44:
+      presets: _korok<F44 ヤシの木のリンゴ>
+
+    F45:
+      presets: _korok<F45 花を追う>
+      coord: [2939.43, 122.43, 3427.09]
+
+    F46:
+      presets: _korok<F46 ブロック合わせ>
+      coord: [1840.69, 135.02, 3595.83]
+
+    F47:
+      presets: _korok<F47 石>
+      coord: [2559.24, 344.01, 3602.71]
+
+    F48:
+      presets: _korok<F48 バナナを供える>
+      coord: [1757.80, 253.70, 3685.98]
+
+    F49:
+      presets: _korok<F49 石並べ>
+      coord: [2856.58, 113.70, 3651.77]
+
+    F50:
+      presets: _korok<F50 花を追う>
+      movements:
+        - to: [3079.25,3643.121018]
+        - to: [3093.25,3659.366396]
+        - to: [3082.6875,3704.915937]
+        - to: [3061.125,3658.866538]
+        - to: [3024.41, 107.61, 3654.23]
+
+    F51:
+      presets: _korok<F51 水草>
+      coord: [3367.11, 109.90, 3653.54]
+
+    F52:
+      presets: _korok<F52 石>
+      coord: [3796.61, 106.29, 3618.90]
+
+    F53:
+      presets: _korok<F53 石並べ>
+      coord: [1374.62, 107.25, 3751.46]
+
+    F54:
+      presets: _korok<F54 石>
+      coord: [1513.74, 136.27, 3725.04]
+
+    F55:
+      presets: _korok<F55 石>
+      coord: [1821.04, 272.03, 3742.03]
+
+    F56:
+      presets: _korok<F56 風船>
+      coord: [1625.49, 143.75, 3891.73]
+
+    F57:
+      presets: _korok<F57 石並べ>
+      coord: [2508.15, 157.62, 3825.91]
+
+    F58:
+      presets: _korok<F58 水草>
+      coord: [3170.42, 109.89, 3824.32]
+
+    # G - 36 ゲルド
+    G01:
+      presets: _korok<G01 大玉入れ>
+      coord: [-4409.10, 618.92, 331.34]
+
+    G02:
+      presets: _korok<G02 光の輪レース>
+      coord: [-4183.68, 491.75, 291.07]
+
+    G03:
+      presets: _korok<G03 石並べ>
+      movements:
+        - to: [-3968.9375,331.740888]
+        - to: [-4066.79, 569.14, 437.85]
+
+    G04:
+      presets: _korok<G04 ブロック合わせ>
+      movements:
+        - to: [-4429,713.484399]
+        - to: [-4355.34, 716.60, 709.87]
+
+    G05:
+      presets: _korok<G05 光の輪レース>
+      movements:
+        - to: [-4276.5,610.487759]
+        - to: [-4325.41, 768.44, 698.29]
+
+    G06:
+      presets: _korok<G06 石>
+      coord: [-3673.79, 550.79, 698.30]
+
+    G07:
+      presets: _korok<G07 氷>
+      coord: [-4690.49, 704.14, 842.36]
+
+    G08:
+      presets: _korok<G08 花を追う>
+      movements:
+        - to: [-4381.75,782.408727]
+        - to: [-4340.95, 767.39, 782.13]
+
+    G09:
+      presets: _korok<G09 石並べ>
+      coord: [-3688.85, 740.48, 798.72]
+
+    G10:
+      presets: _korok<G10 石並べ>
+      coord: [-3069.68, 452.03, 910.75]
+
+    G11:
+      presets: _korok<G11 光の輪レース>
+      movements:
+        - to: [-4389.5,1216.888017]
+        - to: [-4210.02, 609.72, 1133.51]
+
+    G12:
+      presets: _korok<G12 ブロック合わせ>
+      coord: [-3224.52, 570.76, 1022.45]
+
+    G13:
+      presets: _korok<G13 樹上のキラキラ>
+      coord: [-2867.82, 518.54, 1124.93]
+
+    G14:
+      presets: _korok<G14 風船s>
+      coord: [-2454.27, 337.83, 1157.31]
+
+    G15:
+      presets: _korok<G15 石>
+      coord: [-4552.24, 623.39, 1353.16]
+
+    G16:
+      presets: _korok<G16 光を追いかける>
+      coord: [-4112.89, 560.66, 1377.54]
+
+    G17:
+      presets: _korok<G17 氷>
+      coord: [-3065.60, 604.49, 1287.27]
+
+    G18:
+      presets: _korok<G18 氷>
+      coord: [-2850.00, 678.33, 1229.00]
+
+    G19:
+      presets: _korok<G19 石並べ>
+      coord: [-2521.76, 457.06, 1318.59]
+
+    G20:
+      presets: _korok<G20 石並べ>
+      coord: [-4527.84, 571.97, 1423.32]
+
+    G21:
+      presets: _korok<G21 ブロック合わせ>
+      coord: [-4180.77, 440.36, 1482.39]
+
+    G22:
+      presets: _korok<G22 石並べ>
+      coord: [-3129.01, 614.01, 1467.15]
+
+    G23:
+      presets: _korok<G23 石>
+      coord: [-2646.00, 688.32, 1535.13]
+
+    G24:
+      presets: _korok<G24 石並べ>
+      coord: [-2081.09, 353.64, 1477.03]
+
+    G25:
+      presets: _korok<G25 バナナ 4>
+      coord: [-4075.58, 298.89, 1595.13]
+
+    G26:
+      presets: _korok<G26 雪玉入れ>
+      coord: [-3715.86, 570.37, 1558.07]
+
+    G27:
+      presets: _korok<G27 石並べ>
+      coord: [-2817.46, 578.23, 1652.72]
+
+    G28:
+      presets: _korok<G28 ブロック合わせ>
+      coord: [-2464.74, 417.71, 1713.48]
+
+    G29:
+      presets: _korok<G29 ブロック合わせ>
+      coord: [-1799.61, 114.89, 1625.90]
+
+    G30:
+      presets: _korok<G30 石並べ>
+      coord: [-4136.40, 401.45, 1717.96]
+
+    G31:
+      presets: _korok<G31 風車の風船s>
+      coord: [-3845.24, 412.26, 1897.05]
+
+    G32:
+      presets: _korok<G32 光の輪レース>
+      coord: [-2429.14, 203.49, 1921.34]
+
+    G33:
+      presets: _korok<G33 石並べ>
+      coord: [-4170.68, 193.18, 1989.38]
+
+    G34:
+      presets: _korok<G34 ブロック合わせ>
+      coord: [-3071.39, 197.79, 2044.73]
+
+    G35:
+      presets: _korok<G35 光の輪レース>
+      coord: [-2697.26, 270.84, 2105.06]
+
+    G36:
+      presets: _korok<G36 井戸に鉄球>
+      coord: [-1721.23, 143.19, 2237.78]
+
+    # H - 73 ヘブラ
+    H01:
+      presets: _korok<H01 ブロック合わせ>
+      coord: [-4397.61, 332.45, -3773.92]
+
+    H02:
+      presets: _korok<H02 氷>
+      coord: [-4029.34, 464.85, -3760.18]
+
+    H03:
+      presets: _korok<H03 花を追う>
+      coord: [-3960.38, 350.67, -3723.26]
+
+    H04:
+      presets: _korok<H04 石並べ>
+      coord: [-3757.13, 375.47, -3848.08]
+
+    H05:
+      presets: _korok<H05 風船s>
+      coord: [-1970.93, 420.71, -3792.57]
+
+    H06:
+      presets: _korok<H06 石並べ>
+      coord: [-1375.17, 361.93, -3640.94]
+
+    H07:
+      presets: _korok<H07 光の輪レース>
+      movements:
+        - to: [-4259.922152,-3587.999276]
+        - to: [-4167.16, 516.82, -3615.94]
+
+    H08:
+      presets: _korok<H08 風車の風船>
+      coord: [-3999.22, 632.96, -3620.06]
+
+    H09:
+      presets: _korok<H09 枯れ葉>
+      coord: [-3496.13, 474.22, -3580.67]
+
+    H10:
+      presets: _korok<H10 丸太の中のドングリ>
+      coord: [-3610.65, 561.92, -3491.99]
+
+    H11:
+      presets: _korok<H11 木の先端>
+      coord: [-3414.79, 542.02, -3509.61]
+
+    H12:
+      presets: _korok<H12 石並べ>
+      coord: [-2842.70, 333.94, -3493.49]
+
+    H13:
+      presets: _korok<H13 氷>
+      coord: [-2290.11, 564.26, -3407.60]
+
+    H14:
+      presets: _korok<H14 丸太の中のドングリ>
+      coord: [-1535.30, 346.88, -3475.82]
+
+    H15:
+      presets: _korok<H15 ブロック合わせ>
+      coord: [-1095.99, 413.97, -3399.87]
+
+    H16:
+      presets: _korok<H16 風船>
+
+    H17:
+      presets: _korok<H17 石並べ>
+      coord: [-4155.94, 350.45, -3404.13]
+
+    H18:
+      presets: _korok<H18 木の先端>
+      coord: [-3843.16, 435.39, -3348.18]
+
+    H19:
+      presets: _korok<H19 風車の風船s>
+      coord: [-3574.58, 494.23, -3272.38]
+
+    H20:
+      presets: _korok<H20 スレミーの小屋の頂上>
+      coord: [-2946.50, 686.98, -3146.70]
+
+    H21:
+      presets: _korok<H21 木の先端>
+      coord: [-2602.17, 508.35, -3238.93]
+
+    H22:
+      presets: _korok<H22 大玉入れ>
+
+    H23:
+      presets: _korok<H23 石>
+      coord: [-4424.15, 497.16, -3215.94]
+
+    H24:
+      presets: _korok<H24 花を追う>
+      coord: [-4230.89, 284.86, -3134.81]
+
+    H25:
+      presets: _korok<H25 石>
+      coord: [-3793.74, 353.06, -3032.97]
+
+    H26:
+      presets: _korok<H26 石>
+      coord: [-3734.78, 446.59, -2964.40]
+
+    H27:
+      presets: _korok<H27 風車の風船s>
+      coord: [-3350.53, 621.95, -2994.89]
+
+    H28:
+      presets: _korok<H28 石>
+      coord: [-2783.55, 838.54, -2895.52]
+
+    H29:
+      presets: _korok<H29 氷>
+      coord: [-2487.66, 514.33, -3021.60]
+
+    H30:
+      presets: _korok<H30 風車のドングリ>
+      coord: [-2250.21, 446.80, -3092.18]
+
+    H31:
+      presets: _korok<H31 氷>
+      coord: [-2210.06, 498.65, -2908.54]
+
+    H32:
+      presets: _korok<H32 光を追いかける>
+      coord: [-4402.55, 415.04, -2866.69]
+
+    H33:
+      presets: _korok<H33 氷>
+      coord: [-3115.97, 496.36, -2806.23]
+
+    H34:
+      presets: _korok<H34 氷>
+      coord: [-3061.22, 535.21, -2813.69]
+
+    H35:
+      presets: _korok<H35 石>
+      coord: [-2830.56, 669.62, -2828.35]
+
+    H36:
+      presets: _korok<H36 石並べ>
+      coord: [-2467.77, 620.80, -2765.22]
+
+    H37:
+      presets: _korok<H37 光を追いかける>
+      coord: [-1781.00, 347.37, -2745.02]
+
+    H38:
+      presets: _korok<H38 岩の裏>
+      coord: [-1349.38, 241.70, -2734.52]
+
+    H39:
+      presets: _korok<H39 花を追う>
+      movements:
+        - to: [-4206.75,-2784.440042]
+        - to: [-4192.81, 288.37, -2678.94]
+
+    H40:
+      presets: _korok<H40 石>
+      coord: [-4330.86, 441.89, -2600.16]
+
+    H41:
+      presets: _korok<H41 石並べ>
+      coord: [-4148.76, 216.40, -2616.48]
+
+    H42:
+      presets: _korok<H42 岩の裏>
+      coord: [-4071.82, 131.41, -2545.95]
+
+    H43:
+      presets: _korok<H43 丸太の中のドングリ>
+      coord: [-3277.42, 585.33, -2618.86]
+
+    H44:
+      presets: _korok<H44 風船>
+
+    H45:
+      presets: _korok<H45 氷>
+      coord: [-2736.11, 456.88, -2582.83]
+
+    H46:
+      presets: _korok<H46 氷>
+      coord: [-3041.12, 430.44, -2520.18]
+
+    H47:
+      presets: _korok<H47 風船>
+
+    H48:
+      presets: _korok<H48 石>
+      coord: [-2936.53, 471.20, -2412.46]
+
+    H49:
+      presets: _korok<H49 光の輪レース>
+      movements:
+        - to: [-2941.25,-2483.388173]
+        - to: [-2883.83, 521.33, -2398.02]
+
+    H50:
+      presets: _korok<H50 風船>
+
+    H51:
+      presets: _korok<H51 石>
+      coord: [-2638.90, 410.04, -2364.10]
+
+    H52:
+      presets: _korok<H52 丸太の中のドングリ>
+      coord: [-2015.55, 347.55, -2456.00]
+
+    H53:
+      presets: _korok<H53 石>
+      coord: [-4340.23, 301.85, -2354.10]
+
+    H54:
+      presets: _korok<H54 石>
+      coord: [-3677.90, 426.25, -2466.75]
+
+    H55:
+      presets: _korok<H55 風車の風船s>
+      coord: [-3331.95, 508.74, -2297.17]
+
+    H56:
+      presets: _korok<H56 花を追う>
+      movements:
+        - to: [-2723.125,-2263.233951]
+        - to: [-2751.34, 459.47, -2258.78]
+
+    H57:
+      presets: _korok<H57 雪玉入れ>
+      coord: [-2297.37, 424.85, -2293.15]
+
+    H58:
+      presets: _korok<H58 枯れ葉の下>
+      coord: [-1764.00, 343.70, -2350.70]
+
+    H59:
+      presets: _korok<H59 大玉入れ>
+      coord: [-1414.65, 228.59, -2398.60]
+
+    H60:
+      presets: _korok<H60 風車の風船s>
+      coord: [-4507.24, 226.34, -2146.11]
+
+    H61:
+      presets: _korok<H61 石>
+      coord: [-2382.55, 498.73, -2132.68]
+
+    H62:
+      presets: _korok<H62 風船s>
+      coord: [-1682.22, 353.47, -2184.84]
+
+    H63:
+      presets: _korok<H63 石>
+      coord: [-1675.99, 96.54, -2139.30]
+
+    H64:
+      presets: _korok<H64 石>
+      coord: [-2636.62, 444.70, -2048.35]
+
+    H65:
+      presets: _korok<H65 木の先端>
+      coord: [-2791.13, 397.70, -1945.60]
+
+    H66:
+      presets: _korok<H66 水草>
+      coord: [-2972.81, 377.30, -1878.10]
+
+    H67:
+      presets: _korok<H67 井戸に鉄球>
+      coord: [-2358.60, 385.01, -1872.81]
+
+    H68:
+      presets: _korok<H68 石>
+      coord: [-2012.60, 127.18, -1921.70]
+
+    H69:
+      presets: _korok<H69 丸太の中のドングリ>
+      coord: [-2523.40, 364.83, -1736.95]
+
+    H70:
+      presets: _korok<H70 花を追う>
+      movements:
+        - to: [-2375.75,-1791.762977]
+        - to: [-2338.22, 369.24, -1726.70]
+
+    H71:
+      presets: _korok<H71 岩の裏>
+      coord: [-2207.49, 253.30, -1767.47]
+
+    H72:
+      presets: _korok<H72 風車の頂上>
+      coord: [-2836.96, 348.83, -1594.78]
+
+    H73:
+      presets: _korok<H73 光の輪レース>
+      movements:
+        - to: [-2773,-1472.800287]
+        - to: [-2826.25, 193.15, -1580.08]
+
+    # K - 35 森林
+    K01:
+      presets: _korok<K01 石>
+      coord: [206.76, 233.04, -3559.01]
+
+    K02:
+      presets: _korok<K02 ブロック合わせ>
+      coord: [603.40, 249.91, -3633.77]
+
+    K03:
+      presets: _korok<K03 石並べ>
+      coord: [1143.40, 209.96, -3742.78]
+
+    K04:
+      presets: _korok<K04 風車の風船s>
+      coord: [863.92, 316.28, -3358.53]
+
+    K05:
+      presets: _korok<K05 風船>
+      coord: [-486.72, 231.99, -3142.92]
+
+    K06:
+      presets: _korok<K06 丸太の中のドングリ>
+      coord: [-40.78, 306.50, -2985.75]
+
+    K07:
+      presets: _korok<K07 風車の風船s>
+      coord: [237.44, 304.07, -2943.39]
+
+    K08:
+      presets: _korok<K08 風船>
+      coord: [685.13, 431.89, -2758.46]
+
+    K09:
+      presets: _korok<K09 石>
+      coord: [-1045.92, 54.66, -2707.64]
+
+    K10:
+      presets: _korok<K10 ブロック合わせ>
+      coord: [-1047.63, 139.69, -2620.56]
+
+    K11:
+      presets: _korok<K11 石>
+      coord: [-567.79, 489.60, -2599.20]
+
+    K12:
+      presets: _korok<K12 岩の裏>
+      coord: [-1258.63, 138.61, -2360.10]
+
+    K13:
+      presets: _korok<K13 岩の裏>
+      coord: [-1403.12, 101.03, -2312.29]
+
+    K14:
+      presets: _korok<K14 ドアの下>
+      coord: [-1410.55, 1.02, -2224.81]
+
+    K15:
+      presets: _korok<K15 石>
+      coord: [-1586.49, 68.15, -2133.00]
+
+    K16:
+      presets: _korok<K16 丸太の中のドングリ>
+      coord: [-1019.52, 222.86, -2077.30]
+
+    K17:
+      presets: _korok<K17 馬で柵越え>
+      coord: [-1309.76, 209.07, -1941.56]
+
+    K18:
+      presets: _korok<K18 小屋のてっぺん>
+      coord: [-1062.99, 226.91, -1934.11]
+
+    K19:
+      presets: _korok<K19 丸太の中のドングリ>
+      coord: [-816.68, 224.46, -1926.16]
+
+    K20:
+      presets: _korok<K20 石>
+      coord: [-1884.49, 23.98, -1813.18]
+
+    K21:
+      presets: _korok<K21 岩の裏>
+      coord: [-1805.36, 31.56, -1842.53]
+
+    K22:
+      presets: _korok<K22 岩の裏>
+      coord: [-2036.95, 48.71, -1622.95]
+
+    K23:
+      presets: _korok<K23 丸太の中のドングリ>
+      coord: [-1436.29, 231.00, -1668.66]
+
+    K24:
+      presets: _korok<K24 光を追いかける>
+      coord: [-1227.24, 255.96, -1578.18]
+
+    K25:
+      presets: _korok<K25 石並べ>
+      coord: [-1094.14, 210.88, -1731.89]
+
+    K26:
+      presets: _korok<K26 風車の風船s>
+      coord: [-911.80, 219.25, -1612.80]
+
+    K27:
+      presets: _korok<K27 風車の風船s>
+      coord: [-427.40, 317.63, -1734.05]
+
+    K28:
+      presets: _korok<K28 石>
+      coord: [-332.59, 299.40, -1747.39]
+
+    K29:
+      presets: _korok<K29 丸太の中のドングリ>
+      coord: [-703.69, 247.66, -1443.79]
+
+    K30:
+      presets: _korok<K30 石>
+      coord: [-130.54, 168.78, -1379.28]
+
+    K31:
+      presets: _korok<K31 石>
+      coord: [1008.13, 270.26, -1564.02]
+
+    K32:
+      presets: _korok<K32 樹洞のドングリ>
+      coord: [868.02, 209.82, -1362.17]
+
+    K33:
+      presets: _korok<K33 ブロック合わせ>
+      coord: [1197.52, 126.97, -1152.63]
+
+    K34:
+      presets: _korok<K34 水草>
+      coord: [1282.64, 129.65, -1123.45]
+
+    K35:
+      presets: _korok<K35 ブロック合わせ>
+      coord: [1694.87, 141.95, -862.09]
+
+    # L - 92 湖
+    L01:
+      presets: _korok<L01 井戸に鉄球>
+      coord: [323.49, 118.24, 1927.43]
+
+    L02:
+      presets: _korok<L02 石>
+      coord: [354.38, 114.57, 1997.55]
+
+    L03:
+      presets: _korok<L03 ブロック合わせ>
+      movements:
+        - to: [85.3125,2134.6875]
+        - to: [62,2121.125]
+        - to: [34.27, 115.55, 2102.73]
+
+    L04:
+      presets: _korok<L04 切り株に鉄球>
+      coord: [214.58, 170.08, 2070.06]
+
+    L05:
+      presets: _korok<L05 花を追う>
+      movements:
+        - to: [322.375,2163.125]
+        - to: [400.87, 142.06, 2150.87]
+
+    L06:
+      presets: _korok<L06 光を追いかける>
+      coord: [474.96, 115.26, 2149.12]
+
+    L07:
+      presets: _korok<L07 大玉入れ>
+      movements:
+        - to: [1049.6875,2185.25]
+        - to: [908.29, 247.17, 2193.53]
+
+    L08:
+      presets: _korok<L08 光の輪レース>
+      coord: [-609.81, 95.25, 2390.65]
+
+    L09:
+      presets: _korok<L09 玉入れ>
+
+    L10:
+      presets: _korok<L10 水草>
+      coord: [66.23, 94.00, 2310.65]
+
+    L11:
+      presets: _korok<L11 切り株に鉄球>
+      coord: [284.29, 146.80, 2253.38]
+
+    L12:
+      presets: _korok<L12 ブロック合わせ>
+      coord: [625.16, 164.77, 2305.91]
+
+    L13:
+      presets: _korok<L13 岩の裏>
+      coord: [755.69, 194.10, 2347.61]
+
+    L14:
+      presets: _korok<L14 板の下>
+      coord: [-74.38, 90.55, 2412.87]
+
+    L15:
+      presets: _korok<L15 風船>
+      coord: [-66.25, 124.00, 2440.66]
+
+    L16:
+      presets: _korok<L16 大玉入れ>
+
+    L17:
+      presets: _korok<L17 光を追いかける>
+      coord: [604.93, 177.16, 2408.78]
+
+    L18:
+      presets: _korok<L18 光を追いかける>
+      coord: [609.29, 177.23, 2409.83]
+
+    L19:
+      presets: _korok<L19 石>
+      coord: [889.61, 180.87, 2395.30]
+
+    L20:
+      presets: _korok<L20 ブロック合わせ>
+      movements:
+        - to: [830.6875,2438.125]
+        - to: [833.76, 145.34, 2434.58]
+
+    L21:
+      presets: _korok<L21 ブロック合わせ>
+      coord: [-1379.59, 215.09, 2742.73]
+
+    L22:
+      presets: _korok<L22 吊るされたドングリ>
+      coord: [-1214.31, 193.47, 2701.55]
+
+    L23:
+      presets: _korok<L23 木の先端>
+      coord: [-1011.91, 330.58, 2638.47]
+
+    L24:
+      presets: _korok<L24 石>
+      coord: [-601.95, 90.30, 2656.12]
+
+    L25:
+      presets: _korok<L25 木の先端>
+      coord: [-398.40, 103.87, 2559.24]
+
+    L26:
+      presets: _korok<L26 橋の下の木の枝を取る>
+      coord: [-54.78, 128.95, 2492.44]
+
+    L27:
+      presets: _korok<L27 橋の真ん中の光>
+      coord: [-38.98, 152.95, 2513.64]
+
+    L28:
+      presets: _korok<L28 花を本数順>
+      coord: [518.39, 211.55, 2492.63]
+
+    L29:
+      presets: _korok<L29 石>
+      coord: [679.20, 244.80, 2499.42]
+
+    L30:
+      presets: _korok<L30 花を追う>
+      coord: [-12.47, 119.77, 2586.32]
+
+    L31:
+      presets: _korok<L31 石>
+      coord: [-3.03, 90.67, 2614.67]
+
+    L32:
+      presets: _korok<L32 鉄箱並べ>
+      coord: [200.87, 92.35, 2603.86]
+
+    L33:
+      presets: _korok<L33 風車の風船s>
+      coord: [370.42, 92.51, 2567.04]
+
+    L34:
+      presets: _korok<L34 大玉並べ>
+      coord: [790.64, 159.61, 2565.13]
+
+    L35:
+      presets: _korok<L35 フルーツ合わせ>
+      coord: [584.43, 217.51, 2678.34]
+
+    L36:
+      presets: _korok<L36 樹上の風船>
+      coord: [-1066.79, 208.43, 2910.01]
+
+    L37:
+      presets: _korok<L37 丸太の中のドングリ>
+      coord: [-925.24, 237.01, 2936.44]
+
+    L38:
+      presets: _korok<L38 ブロック合わせ>
+      coord: [-468.64, 98.71, 2908.23]
+
+    L39:
+      presets: _korok<L39 石>
+      coord: [163.28, 90.21, 2783.30]
+
+    L40:
+      presets: _korok<L40 樹洞のドングリ>
+      coord: [340.63, 94.23, 2830.63]
+
+    L41:
+      presets: _korok<L41 岩の裏>
+      coord: [-1256.74, 323.03, 3134.15]
+
+    L42:
+      presets: _korok<L42 大玉入れ>
+      coord: [224.17, 135.21, 2868.40]
+
+    L43:
+      presets: _korok<L43 光を追いかける>
+      coord: [169.73, 118.73, 2903.42]
+
+    L44:
+      presets: _korok<L44 大玉入れ>
+      coord: [418.21, 128.01, 2873.41]
+
+    L45:
+      presets: _korok<L45 石>
+      coord: [610.34, 206.40, 2869.85]
+
+    L46:
+      presets: _korok<L46 石>
+      coord: [1173.40, 192.67, 2849.99]
+
+    L47:
+      presets: _korok<L47 光の輪レース>
+      coord: [-387.59, 152.98, 3151.55]
+
+    L48:
+      presets: _korok<L48 石>
+      coord: [-150.92, 143.39, 3067.30]
+
+    L49:
+      presets: _korok<L49 石並べ>
+      coord: [-95.25, 144.64, 3128.96]
+
+    L50:
+      presets: _korok<L50 ブロック合わせ>
+      coord: [-26.89, 107.81, 3042.69]
+
+    L51:
+      presets: _korok<L51 大玉入れ>
+      coord: [153.95, 143.87, 2981.72]
+
+    L52:
+      presets: _korok<L52 石>
+      coord: [406.11, 139.90, 3051.13]
+
+    L53:
+      presets: _korok<L53 切り株に鉄球>
+      coord: [581.25, 123.04, 3007.60]
+
+    L54:
+      presets: _korok<L54 水草>
+      coord: [704.04, 120.00, 2957.83]
+
+    L55:
+      presets: _korok<L55 花を追う>
+      coord: [695.52, 119.44, 3071.41]
+
+    L56:
+      presets: _korok<L56 鉄球s>
+      coord: [824.94, 120.74, 3005.30]
+
+    L57:
+      presets: _korok<L57 光を追いかける>
+      coord: [806.07, 124.55, 3112.86]
+
+    L58:
+      presets: _korok<L58 光を追いかける>
+      coord: [1196.10, 132.03, 3055.43]
+
+    L59:
+      presets: _korok<L59 水草>
+      coord: [56.69, 109.90, 3150.02]
+
+    L60:
+      presets: _korok<L60 岩の裏>
+      coord: [69.03, 127.14, 3221.87]
+
+    L61:
+      presets: _korok<L61 板の下>
+      coord: [742.89, 134.02, 3243.08]
+
+    L62:
+      presets: _korok<L62 岩の裏>
+      coord: [-923.50, 214.58, 3436.38]
+
+    L63:
+      presets: _korok<L63 リンゴを供える>
+      coord: [-420.75, 141.37, 3368.48]
+
+    L64:
+      presets: _korok<L64 花を追う>
+      movements:
+        - to: [-209.3125,3444.718993]
+        - to: [-210.1875,3399.356899]
+        - to: [-205.1875,3370.365148]
+        - to: [-217.5625,3353.243632]
+        - to: [-227.28, 176.73, 3342.73]
+
+    L65:
+      presets: _korok<L65 光の輪レース>
+      movements:
+        - to: [546.450549,3581.015047]
+        - to: [271.72, 222.37, 3289.59]
+
+    L66:
+      presets: _korok<L66 玉入れ>
+      coord: [699.92, 133.67, 3276.86]
+
+    L67:
+      presets: _korok<L67 風車の風船>
+      coord: [-1176.85, 344.99, 3578.05]
+
+    L68:
+      presets: _korok<L68 光を追いかける>
+      coord: [-1125.95, 315.85, 3624.43]
+
+    L69:
+      presets: _korok<L69 ブロック合わせ>
+      coord: [-878.73, 245.87, 3567.74]
+
+    L70:
+      presets: _korok<L70 風車のドングリ>
+      coord: [216.32, 199.15, 3488.01]
+
+    L71:
+      presets: _korok<L71 石並べ>
+      coord: [279.03, 184.63, 3503.79]
+
+    L72:
+      presets: _korok<L72 光の輪レース>
+      movements:
+        - to: [894.827467,3476.693428]
+        - to: [963.30, 173.48, 3371.10]
+
+    L73:
+      presets: _korok<L73 風車の風船>
+      coord: [266.10, 276.47, 3668.95]
+
+    L74:
+      presets: _korok<L74 大玉入れ>
+      coord: [367.10, 176.93, 3642.12]
+
+    L75:
+      presets: _korok<L75 水草>
+      coord: [645.72, 152.30, 3615.12]
+
+    L76:
+      presets: _korok<L76 大玉入れ>
+
+    L77:
+      presets: _korok<L77 石並べ>
+      coord: [639.39, 219.10, 3710.84]
+
+    L78:
+      presets: _korok<L78 石>
+      coord: [891.17, 284.37, 3694.83]
+
+    L79:
+      presets: _korok<L79 石並べ>
+      coord: [1074.55, 182.10, 3620.94]
+
+    L80:
+      presets: _korok<L80 光の輪レース>
+      movements:
+        - to: [-597.375,3845.478153]
+        - to: [-657.77, 187.62, 3851.84]
+
+    L81:
+      presets: _korok<L81 石>
+      coord: [-354.84, 182.59, 3898.78]
+
+    L82:
+      presets: _korok<L82 ヤシの木の頂上>
+      coord: [-266.35, 125.15, 3888.15]
+
+    L83:
+      presets: _korok<L83 岩の裏>
+      coord: [-248.99, 130.32, 3828.45]
+
+    L84:
+      presets: _korok<L84 光を追いかける>
+      coord: [-240.11, 106.08, 3882.50]
+
+    L85:
+      presets: _korok<L85 石並べ>
+      coord: [-135.84, 105.97, 3802.00]
+
+    L86:
+      presets: _korok<L86 大石の下>
+      coord: [13.96, 106.59, 3790.43]
+
+    L87:
+      presets: _korok<L87 石>
+      coord: [97.36, 145.47, 3821.55]
+
+    L88:
+      presets: _korok<L88 光を追いかける>
+      coord: [265.62, 111.81, 3837.01]
+
+    L89:
+      presets: _korok<L89 水草>
+      coord: [286.84, 109.90, 3899.42]
+
+    L90:
+      presets: _korok<L90 ブロック合わせ>
+      coord: [416.76, 106.41, 3848.92]
+
+    L91:
+      presets: _korok<L91 石並べ>
+      coord: [517.57, 193.85, 3765.02]
+
+    L92:
+      presets: _korok<L92 ブロック合わせ>
+      coord: [909.62, 183.60, 3837.29]
+
+    # N - 66 ハテノ
+    N01:
+      presets: _korok<N01 樹上の石>
+      coord: [1980.93, 174.28, 451.92]
+
+    N02:
+      presets: _korok<N02 樹上の石>
+      coord: [2378.29, 231.62, 373.15]
+
+    N03:
+      presets: _korok<N03 樹上の石>
+      coord: [2635.69, 269.53, 370.99]
+
+    N04:
+      presets: _korok<N04 風車のドングリ>
+      coord: [2473.89, 231.47, 461.70]
+
+    N05:
+      presets: _korok<N05 光を追いかける>
+      coord: [2684.86, 218.52, 562.78]
+
+    N06:
+      presets: _korok<N06 樹上の光>
+      coord: [2891.03, 234.16, 517.87]
+
+    N07:
+      presets: _korok<N07 フルーツ合わせ>
+
+    N08:
+      presets: _korok<N08 ブロック合わせ>
+      coord: [2149.36, 262.51, 790.00]
+
+    N09:
+      presets: _korok<N09 リンゴを供える>
+      coord: [2239.67, 337.97, 726.35]
+
+    N10:
+      presets: _korok<N10 花を追う>
+      movements:
+        - to: [2308.3125,750.638738]
+        - to: [2308.6875,731.269249]
+        - to: [2306.125,715.336282]
+        - to: [2292.75,701.277782]
+        - to: [2288.53, 250.80, 699.62]
+
+    N11:
+      presets: _korok<N11 大玉入れ>
+
+    N12:
+      presets: _korok<N12 石並べ>
+      coord: [3951.87, 106.32, 695.89]
+
+    N13:
+      presets: _korok<N13 大石並べ>
+      coord: [2728.92, 342.09, 904.33]
+
+    N14:
+      presets: _korok<N14 石並べ>
+      coord: [3383.03, 118.79, 982.82]
+
+    N15:
+      presets: _korok<N15 水草>
+      coord: [2636.17, 205.28, 1109.00]
+
+    N16:
+      presets: _korok<N16 石>
+      coord: [2705.44, 203.10, 1164.95]
+
+    N17:
+      presets: _korok<N17 光の輪レース>
+      movements:
+        - to: [3439.060659,1100.695901]
+        - to: [3432.94, 342.95, 1150.31]
+
+    N18:
+      presets: _korok<N18 氷>
+      coord: [3741.72, 542.51, 1156.12]
+
+    N19:
+      presets: _korok<N19 石並べ>
+      coord: [4087.94, 423.31, 1142.37]
+
+    N20:
+      presets: _korok<N20 石並べ>
+      coord: [2526.62, 334.83, 1257.58]
+
+    N21:
+      presets: _korok<N21 石>
+      coord: [2925.47, 478.75, 1401.57]
+
+    N22:
+      presets: _korok<N22 ブロック合わせ>
+      coord: [3277.77, 346.35, 1436.00]
+
+    N23:
+      presets: _korok<N23 光を追いかける>
+      coord: [3537.01, 313.55, 1376.11]
+
+    N24:
+      presets: _korok<N24 氷>
+      coord: [3797.93, 577.85, 1269.20]
+
+    N25:
+      presets: _korok<N25 大玉入れ>
+
+    N26:
+      presets: _korok<N26 大玉入れ>
+
+    N27:
+      presets: _korok<N27 岩の裏>
+      coord: [2279.31, 182.43, 1608.35]
+
+    N28:
+      presets: _korok<N28 リンゴを供える>
+      coord: [2511.43, 120.04, 1571.53]
+
+    N29:
+      presets: _korok<N29 水草>
+      coord: [3171.94, 293.85, 1490.94]
+
+    N30:
+      presets: _korok<N30 フルーツ合わせ>
+
+    N31:
+      presets: _korok<N31 氷>
+      coord: [3896.64, 416.67, 1556.54]
+
+    N32:
+      presets: _korok<N32 光の輪レース>
+      movements:
+        - to: [4078.875,1717.866744]
+        - to: [4282.69, 289.04, 1655.67]
+
+    N33:
+      presets: _korok<N33 ドアの下>
+      coord: [2320.67, 119.27, 1726.37]
+
+    N34:
+      presets: _korok<N34 風車のドングリ>
+      coord: [2330.78, 133.96, 1828.01]
+
+    N35:
+      presets: _korok<N35 ブロック合わせ>
+      coord: [2495.85, 205.50, 1804.20]
+
+    N36:
+      presets: _korok<N36 樹洞のドングリ>
+      coord: [2884.09, 160.92, 1765.03]
+
+    N37:
+      presets: _korok<N37 水草>
+      coord: [3178.81, 177.00, 1607.30]
+
+    N38:
+      presets: _korok<N38 風船s>
+      coord: [3166.32, 193.83, 1828.89]
+
+    N39:
+      presets: _korok<N39 光の輪レース>
+      movements:
+        - to: [3736.178831,1688.056533]
+        - to: [3525.98, 454.04, 1710.62]
+
+    N40:
+      presets: _korok<N40 板の下>
+      coord: [4615.14, 106.22, 1915.47]
+
+    N41:
+      presets: _korok<N41 水草>
+      coord: [3029.04, 114.80, 2017.68]
+
+    N42:
+      presets: _korok<N42 樹上の石>
+      coord: [3475.64, 278.69, 1916.26]
+
+    N43:
+      presets: _korok<N43 樹上の石>
+      coord: [3709.19, 301.45, 1943.09]
+
+    N44:
+      presets: _korok<N44 花を追う>
+      movements:
+        - to: [4129.112567,2000.620759]
+        - to: [4274.36, 430.79, 1981.02]
+
+    N45:
+      presets: _korok<N45 風船>
+      coord: [2836.32, 126.63, 2120.51]
+      comment: 的を全て壊すと出現
+
+    N46:
+      presets: _korok<N46 ドアの下>
+      coord: [2863.86, 140.26, 2182.90]
+
+    N47:
+      presets: _korok<N47 研究所の頂上>
+      coord: [3783.73, 390.72, 2125.18]
+
+    N48:
+      presets: _korok<N48 水草>
+      coord: [3901.08, 235.80, 2096.73]
+
+    N49:
+      presets: _korok<N49 樹洞のドングリ>
+
+    N50:
+      presets: _korok<N50 フルーツ合わせ>
+      coord: [2811.32, 239.62, 2391.93]
+
+    N51:
+      presets: _korok<N51 石>
+      coord: [2991.39, 118.10, 2272.15]
+
+    N52:
+      presets: _korok<N52 樹洞のドングリ>
+      coord: [3144.47, 163.41, 2229.85]
+
+    N53:
+      presets: _korok<N53 石>
+      coord: [3347.62, 209.94, 2249.25]
+
+    N54:
+      presets: _korok<N54 ヤシの実を供える>
+      coord: [4211.83, 106.39, 2270.37]
+
+    N55:
+      presets: _korok<N55 風車の風船s>
+      coord: [4518.50, 219.78, 2316.52]
+
+    N56:
+      presets: _korok<N56 水草>
+      coord: [4541.93, 109.80, 2405.64]
+
+    N57:
+      presets: _korok<N57 花を追う>
+      movements:
+        - to: [4595.125,2520.197491]
+        - to: [4623,2469.890964]
+        - to: [4632.375,2435.713188]
+        - to: [4651.5,2411.967028]
+        - to: [4662.71, 169.60, 2376.26]
+
+    N58:
+      presets: _korok<N58 ブロック合わせ>
+      coord: [3148.72, 277.20, 2402.78]
+
+    N59:
+      presets: _korok<N59 花を追う>
+      movements:
+        - to: [3391.375,2305.346344]
+        - to: [3420,2319.404844]
+        - to: [3444.125,2342.150808]
+        - to: [3459.5,2343.962793]
+        - to: [3470.6875,2347.774208]
+        - to: [3468.25,2364.519444]
+        - to: [3453.6875,2384.641102]
+        - to: [3440.75,2392.201451]
+        - to: [3420.94, 340.36, 2390.29]
+
+    N60:
+      presets: _korok<N60 玉入れ>
+      coord: [3687.96, 107.32, 2413.49]
+
+    N61:
+      presets: _korok<N61 石並べ>
+      coord: [3516.12, 160.21, 2628.38]
+
+    N62:
+      presets: _korok<N62 花を追う>
+      movements:
+        - to: [4126.0625,2542.095192]
+        - to: [4116.3125,2561.402199]
+        - to: [4132.375,2563.40163]
+        - to: [4137.25,2575.710628]
+        - to: [4110.98, 111.16, 2588.17]
+
+    N63:
+      presets: _korok<N63 石並べ>
+      coord: [4536.53, 106.44, 2520.27]
+
+    N64:
+      presets: _korok<N64 フルーツ合わせ>
+
+    N65:
+      presets: _korok<N65 石並べ>
+      coord: [3441.94, 216.08, 3121.88]
+
+    N66:
+      presets: _korok<N66 光の輪レース>
+      movements:
+        - to: [4017.0625,2971.271617]
+        - to: [4083.60, 109.36, 2973.26]
+
+    # P - 18 台地
+    P01:
+      presets: _korok<P01 石>
+      coord: [-822.64, 171.23, 1546.92]
+
+    P02:
+      presets: _korok<P02 切り株に鉄球>
+      coord: [-769.88, 175.22, 1574.23]
+
+    P03:
+      presets: _korok<P03 ブロック合わせ>
+      coord: [-1334.81, 232.67, 1675.90]
+
+    P04:
+      presets: _korok<P04 花を追う>
+      movements:
+        - to: [-997.4375,1660.4375]
+        - to: [-965.48, 187.21, 1625.70]
+
+    P05:
+      presets: _korok<P05 枯れ葉の下>
+      coord: [-853.23, 181.42, 1671.22]
+
+    P06:
+      presets: _korok<P06 石>
+      coord: [-953.07, 201.55, 1721.48]
+
+    P07:
+      presets: _korok<P07 氷>
+      coord: [-1503.42, 297.23, 1920.17]
+
+    P08:
+      presets: _korok<P08 橋の下の光>
+      coord: [-1382.27, 249.27, 1858.04]
+
+    P09:
+      presets: _korok<P09 回生装置の光>
+      coord: [-1132.61, 238.23, 1917.72]
+
+    P10:
+      presets: _korok<P10 水草>
+      coord: [-887.32, 208.14, 1891.41]
+
+    P11:
+      presets: _korok<P11 時の神殿の頂上>
+      coord: [-809.22, 297.75, 1966.91]
+
+    P12:
+      presets: _korok<P12 ドアの下>
+      coord: [-423.02, 169.40, 1993.36]
+
+    P13:
+      presets: _korok<P13 ドアの下>
+      coord: [-423.35, 125.26, 2022.46]
+
+    P14:
+      presets: _korok<P14 ブロック合わせ>
+      coord: [-1443.12, 284.25, 2105.64]
+
+    P15:
+      presets: _korok<P15 石並べ>
+      coord: [-1363.47, 335.71, 2215.20]
+
+    P16:
+      presets: _korok<P16 板の下>
+      coord: [-1204.36, 329.35, 2322.78]
+
+    P17:
+      presets: _korok<P17 石>
+      coord: [-1171.62, 342.51, 2317.23]
+
+    P18:
+      presets: _korok<P18 家の上の光>
+      coord: [-792.04, 201.40, 2257.22]
+
+    # R - 80 丘陵
+    R01:
+      presets: _korok<R01 ブロック合わせ>
+      coord: [-2210.60, 152.83, -1621.40]
+
+    R02:
+      presets: _korok<R02 石>
+      coord: [-2217.83, 321.19, -1565.02]
+
+    R03:
+      presets: _korok<R03 岩の裏>
+      coord: [-2083.96, 293.09, -1558.73]
+
+    R04:
+      presets: _korok<R04 石並べ>
+      coord: [-2516.13, 61.97, -1436.31]
+
+    R05:
+      presets: _korok<R05 樹洞のドングリ>
+      coord: [-2636.28, 300.55, -1246.99]
+
+    R06:
+      presets: _korok<R06 枯れ木の先端>
+      coord: [-2022.65, 390.94, -1300.63]
+
+    R07:
+      presets: _korok<R07 樹上の石>
+      coord: [-1077.38, 238.54, -1278.71]
+
+    R08:
+      presets: _korok<R08 岩の裏>
+      coord: [-2383.53, 211.85, -1150.63]
+
+    R09:
+      presets: _korok<R09 光の輪レース>
+      coord: [-1855.99, 395.50, -1192.54]
+
+    R10:
+      presets: _korok<R10 花を追う>
+      movements:
+        - to: [-1234.25,-1094.3125]
+        - to: [-1272.0625,-1035.3125]
+        - to: [-1230.52, 207.67, -999.82]
+
+    R11:
+      presets: _korok<R11 玉入れ>
+
+    R12:
+      presets: _korok<R12 ポールの先端>
+      coord: [-3109.26, 34.18, -909.27]
+
+    R13:
+      presets: _korok<R13 石>
+      coord: [-2669.56, 375.57, -864.39]
+
+    R14:
+      presets: _korok<R14 光を追いかける>
+      coord: [-2316.80, 206.68, -806.45]
+
+    R15:
+      presets: _korok<R15 石並べ>
+      coord: [-2060.66, 259.50, -775.79]
+
+    R16:
+      presets: _korok<R16 ブロック合わせ>
+      coord: [-1142.42, 182.63, -761.95]
+
+    R17:
+      presets: _korok<R17 石>
+      coord: [-2698.42, 414.60, -766.75]
+
+    R18:
+      presets: _korok<R18 光の輪レース>
+      movements:
+        - to: [-1985.125,-624.3125]
+        - to: [-1964.68, 221.20, -584.16]
+
+    R19:
+      presets: _korok<R19 大玉入れ>
+
+    R20:
+      presets: _korok<R20 ブロック合わせ>
+      coord: [-3207.79, 37.56, -494.89]
+
+    R21:
+      presets: _korok<R21 光を追いかける>
+      coord: [-2715.90, 269.57, -429.86]
+
+    R22:
+      presets: _korok<R22 風船を射る>
+
+    R23:
+      presets: _korok<R23 花を追う>
+
+    R24:
+      presets: _korok<R24 途中で水草>
+      coord: [-2008.68, 210.31, -514.15]
+
+    R25:
+      presets: _korok<R25 光の輪レース>
+      movements:
+        - to: [-1787.6875,-378.0625]
+        - to: [-1631.54, 210.43, -515.19]
+
+    R26:
+      presets: _korok<R26 光の輪レース>
+      movements:
+        - to: [-990.375,-541.0625]
+        - to: [-1115.56, 151.98, -528.59]
+
+    R27:
+      presets: _korok<R27 吊るされたドングリ>
+
+    R28:
+      presets: _korok<R28 板の下>
+      coord: [-3327.45, 3.92, -336.92]
+
+    R29:
+      presets: _korok<R29 石>
+      coord: [-3207.55, 5.92, -333.99]
+
+    R30:
+      presets: _korok<R30 光の輪レース>
+      movements:
+        - to: [-2457.4375,-277.001337]
+        - to: [-2547.83, 299.94, -306.30]
+
+    R31:
+      presets: _korok<R31 風船を射る>
+
+    R32:
+      presets: _korok<R32 風船s>
+      coord: [-4252.40, 171.94, -84.01]
+
+    R33:
+      presets: _korok<R33 石並べ>
+      coord: [-4026.71, 145.21, -232.41]
+
+    R34:
+      presets: _korok<R34 吊るされたドングリ>
+
+    R35:
+      presets: _korok<R35 光の輪レース>
+      movements:
+        - to: [-3822.8125,-180.606796]
+        - to: [-3828.84, 160.16, -118.42]
+
+    R36:
+      presets: _korok<R36 石>
+      coord: [-3476.20, 154.94, -69.06]
+
+    R37:
+      presets: _korok<R37 石>
+      coord: [-2312.61, 262.63, 24.02]
+
+    R38:
+      presets: _korok<R38 フルーツ合わせ>
+      coord: [-1877.90, 243.70, -32.18]
+
+    R39:
+      presets: _korok<R39 光を追いかける>
+      coord: [-1691.98, 224.97, -175.53]
+
+    R40:
+      presets: _korok<R40 板の下>
+      coord: [-1590.04, 210.73, -229.13]
+
+    R41:
+      presets: _korok<R41 花を本数順>
+      coord: [-1651.16, 224.81, -39.07]
+
+    R42:
+      presets: _korok<R42 石>
+      coord: [-1372.54, 115.85, -107.99]
+
+    R43:
+      presets: _korok<R43 風船>
+
+    R44:
+      presets: _korok<R44 玉入れ>
+      coord: [-1142.67, 116.47, -284.34]
+
+    R45:
+      presets: _korok<R45 花を追う>
+      coord: [-1148.20, 149.37, -226.69]
+
+    R46:
+      presets: _korok<R46 花を本数順>
+      coord: [-3461.16, 176.17, 166.30]
+
+    R47:
+      presets: _korok<R47 風車の風船s>
+      coord: [-1992.89, 291.32, 161.32]
+
+    R48:
+      presets: _korok<R48 樹洞のドングリ>
+      coord: [-1512.02, 177.04, 56.46]
+
+    R49:
+      presets: _korok<R49 ブロック合わせ>
+      coord: [-1501.96, 118.02, 156.22]
+
+    R50:
+      presets: _korok<R50 樹上の風船>
+      coord: [-3014.16, 174.96, 372.44]
+
+    R51:
+      presets: _korok<R51 石並べ>
+      coord: [-2450.16, 317.93, 373.48]
+
+    R52:
+      presets: _korok<R52 樹上の石>
+      coord: [-2298.86, 462.72, 341.16]
+
+    R53:
+      presets: _korok<R53 岩の裏>
+      coord: [-2041.04, 425.55, 296.35]
+
+    R54:
+      presets: _korok<R54 木の先端>
+      coord: [-1984.87, 348.49, 362.95]
+
+    R55:
+      presets: _korok<R55 石>
+      coord: [-1962.84, 314.62, 409.85]
+
+    R56:
+      presets: _korok<R56 樹洞のドングリ>
+      coord: [-1859.59, 272.62, 334.30]
+
+    R57:
+      presets: _korok<R57 樹洞のドングリ>
+      coord: [-1731.08, 216.97, 375.13]
+
+    R58:
+      presets: _korok<R58 樹上の石>
+      coord: [-1405.51, 162.60, 459.71]
+
+    R59:
+      presets: _korok<R59 石>
+      coord: [-2918.60, 118.25, 479.73]
+
+    R60:
+      presets: _korok<R60 枯れ葉の下>
+      coord: [-2290.55, 438.39, 468.24]
+
+    R61:
+      presets: _korok<R61 花を追う>
+      movements:
+        - to: [-2289.375,413.873685]
+        - to: [-2265.625,438.429198]
+        - to: [-2247.72, 446.02, 464.67]
+
+    R62:
+      presets: _korok<R62 光の輪レース>
+      movements:
+        - to: [-2185.625,573.494969]
+        - to: [-2175.13, 407.10, 463.35]
+
+    R63:
+      presets: _korok<R63 枯れ葉の下>
+      coord: [-2645.98, 300.17, 547.92]
+
+    R64:
+      presets: _korok<R64 岩の裏>
+      coord: [-2483.31, 328.15, 504.74]
+
+    R65:
+      presets: _korok<R65 花を本数順>
+      coord: [-2476.62, 307.24, 547.67]
+
+    R66:
+      presets: _korok<R66 切り株に鉄球s>
+      coord: [-2492.70, 310.45, 589.67]
+
+    R67:
+      presets: _korok<R67 玉入れ>
+      coord: [-2542.84, 307.78, 639.86]
+
+    R68:
+      presets: _korok<R68 風船s>
+      coord: [-1965.81, 255.74, 600.95]
+
+    R69:
+      presets: _korok<R69 丸太の中のドングリ>
+
+    R70:
+      presets: _korok<R70 大石の下>
+      coord: [-2200.96, 358.41, 730.85]
+
+    R71:
+      presets: _korok<R71 石>
+      coord: [-2908.74, 116.66, 796.27]
+
+    R72:
+      presets: _korok<R72 枯れ葉の下>
+      coord: [-2729.92, 219.93, 761.38]
+
+    R73:
+      presets: _korok<R73 大玉入れ>
+
+    R74:
+      presets: _korok<R74 石>
+      coord: [-1551.97, 167.38, 815.49]
+
+    R75:
+      presets: _korok<R75 吊るされたドングリ>
+
+    R76:
+      presets: _korok<R76 樹上の石>
+      coord: [-2340.70, 249.87, 1104.58]
+
+    R77:
+      presets: _korok<R77 吊るされたドングリ>
+      coord: [-2099.38, 205.46, 1104.73]
+
+    R78:
+      presets: _korok<R78 リンゴを供える>
+      coord: [-1969.75, 205.39, 1087.83]
+
+    R79:
+      presets: _korok<R79 リンゴを供える>
+      coord: [-1819.30, 248.49, 973.60]
+
+    R80:
+      presets: _korok<R80 石>
+      coord: [-1819.09, 206.17, 1532.65]
+
+    # T - 37 タバンタ
+    T01:
+      presets: _korok<T01 花を追う>
+      movements:
+        - to: [-4063.25,-2286.555158]
+        - to: [-4019.88, 130.81, -2350.36]
+
+    T02:
+      presets: _korok<T02 屋根の上>
+      coord: [-3792.61, 283.47, -2320.19]
+
+    T03:
+      presets: _korok<T03 水草>
+      coord: [-2989.57, 222.60, -2164.99]
+
+    T04:
+      presets: _korok<T04 井戸に鉄球>
+      coord: [-3831.34, 248.41, -2106.71]
+
+    T05:
+      presets: _korok<T05 石>
+      coord: [-3418.51, 286.38, -2066.81]
+
+    T06:
+      presets: _korok<T06 光の輪レース>
+      coord: [-4396.84, 183.40, -2049.88]
+
+    T07:
+      presets: _korok<T07 石並べ>
+      coord: [-4330.52, 160.93, -2052.86]
+
+    T08:
+      presets: _korok<T08 石>
+      coord: [-4482.93, 266.77, -1970.88]
+
+    T09:
+      presets: _korok<T09 ポカ実を供える>
+      coord: [-4123.61, 303.53, -1935.34]
+
+    T10:
+      presets: _korok<T10 リンゴを供える>
+      coord: [-3780.54, 368.61, -1865.62]
+
+    T11:
+      presets: _korok<T11 樹上の石>
+      coord: [-3271.39, 244.43, -1868.26]
+
+    T12:
+      presets: _korok<T12 枯れ葉の下>
+      coord: [-4225.71, 216.80, -1747.38]
+
+    T13:
+      presets: _korok<T13 石並べ>
+      coord: [-4034.98, 273.23, -1748.40]
+
+    T14:
+      presets: _korok<T14 風船>
+      coord: [-3627.38, 453.56, -1804.83]
+
+    T15:
+      presets: _korok<T15 石>
+      coord: [-3562.25, 289.50, -1761.35]
+
+    T16:
+      presets: _korok<T16 花を追う>
+      movements:
+        - to: [-3973.25,-1695.125]
+        - to: [-3968.8125,-1671.5625]
+        - to: [-4065.47, 316.05, -1678.33]
+
+    T17:
+      presets: _korok<T17 光の輪レース>
+      movements:
+        - to: [-3782.4375,-1798.625]
+        - to: [-3696.67, 211.11, -1684.11]
+
+    T18:
+      presets: _korok<T18 木の先端>
+      coord: [-2910.18, 382.30, -1639.04]
+
+    T19:
+      presets: _korok<T19 水草>
+      coord: [-3151.57, 185.50, -1563.28]
+
+    T20:
+      presets: _korok<T20 ブロック合わせ>
+      coord: [-3444.37, 231.21, -1328.69]
+ 
+    T21:
+      presets: _korok<T21 岩の裏>
+      coord: [-3295.15, 250.10, -1362.93]
+
+    T22:
+      presets: _korok<T22 岩の裏>
+      coord: [-3125.19, 263.01, -1366.51]
+
+    T23:
+      presets: _korok<T23 石並べ>
+      coord: [-4011.17, 205.68, -1167.09]
+
+    T24:
+      presets: _korok<T24 石>
+      coord: [-3714.74, 302.72, -1040.97]
+
+    T25:
+      presets: _korok<T25 石>
+      coord: [-3078.34, 207.99, -1120.36]
+
+    T26:
+      presets: _korok<T26 切り株に鉄球>
+      coord: [-3971.63, 213.63, -920.52]
+
+    T27:
+      presets: _korok<T27 リンゴを供える>
+      coord: [-4058.83, 208.53, -773.85]
+
+    T28:
+      presets: _korok<T28 大玉入れ>
+      coord: [-3841.71, 218.42, -803.98]
+
+    T29:
+      presets: _korok<T29 石>
+      coord: [-3803.94, 251.28, -772.46]
+
+    T30:
+      presets: _korok<T30 光の輪レース>
+      movements:
+        - to: [-3691.5,-794.416999]
+        - to: [-3661.36, 257.37, -828.80]
+
+    T31:
+      presets: _korok<T31 リンゴを供える>
+      coord: [-3431.20, 278.01, -707.84]
+
+    T32:
+      presets: _korok<T32 石>
+      coord: [-3966.31, 293.92, -624.56]
+
+    T33:
+      presets: _korok<T33 風船s>
+      coord: [-3441.07, 357.36, -664.88]
+
+    T34:
+      presets: _korok<T34 光の輪レース>
+      movements:
+        - to: [-3018.8125,-584.955081]
+        - to: [-3212.86, 235.00, -574.01]
+
+    T35:
+      presets: _korok<T35 水草>
+      coord: [-3524.55, 373.78, -449.69]
+
+    T36:
+      presets: _korok<T36 花を本数順>
+      coord: [-4039.64, 239.30, -350.24]
+
+    T37:
+      presets: _korok<T37 光の輪レース>
+      movements:
+        - to: [-3646.9375,-436.057536]
+        - to: [-3675.04, 390.49, -393.32]
+
+    # W - 68 荒野
+    W01:
+      presets: _korok<W01 石>
+      coord: [-3847.20, 471.28, 1467.02]
+
+    W02:
+      presets: _korok<W02 バナナ 5>
+      coord: [-4001.08, 324.39, 1566.55]
+
+    W03:
+      presets: _korok<W03 バナナ 1>
+      coord: [-4314.11, 219.02, 1629.41]
+
+    W04:
+      presets: _korok<W04 バナナ 3>
+      coord: [-4220.02, 257.55, 1659.80]
+
+    W05:
+      presets: _korok<W05 バナナ 2>
+      coord: [-4266.57, 226.05, 1691.54]
+
+    W06:
+      presets: _korok<W06 花を追う>
+      coord: [-4353.39, 242.21, 1838.53]
+
+    W07:
+      presets: _korok<W07 ブロック合わせ>
+      coord: [-2066.65, 228.33, 1850.10]
+
+    W08:
+      presets: _korok<W08 岩の間>
+      coord: [-2417.31, 191.20, 1923.72]
+
+    W09:
+      presets: _korok<W09 骸骨の頂上>
+      coord: [-4685.21, 171.46, 1970.39]
+
+    W10:
+      presets: _korok<W10 風船>
+
+    W11:
+      presets: _korok<W11 樹上の石>
+      coord: [-2167.78, 336.45, 2082.04]
+
+    W12:
+      presets: _korok<W12 ドングリ>
+      coord: [-2264.51, 356.99, 2163.38]
+
+    W13:
+      presets: _korok<W13 骸骨の頂上>
+      coord: [-4710.49, 209.72, 2171.84]
+
+    W14:
+      presets: _korok<W14 石>
+      coord: [-2018.63, 188.74, 2186.64]
+
+    W15:
+      presets: _korok<W15 石>
+      coord: [-2815.31, 160.71, 2247.91]
+
+    W16:
+      presets: _korok<W16 大玉入れ>
+      coord: [-2259.54, 357.46, 2224.76]
+
+    W17:
+      presets: _korok<W17 ブロック合わせ>
+      coord: [-3353.04, 156.92, 2276.31]
+
+    W18:
+      presets: _korok<W18 骸骨の頂上>
+      coord: [-4607.91, 161.61, 2338.84]
+
+    W19:
+      presets: _korok<W19 石>
+      coord: [-2853.36, 210.50, 2320.15]
+
+    W20:
+      presets: _korok<W20 木の先端>
+      coord: [-1658.59, 159.12, 2306.77]
+
+    W21:
+      presets: _korok<W21 ブロック合わせ>
+      coord: [-1665.90, 143.88, 2338.16]
+
+    W22:
+      presets: _korok<W22 風車の風船s>
+      coord: [-1399.42, 220.20, 2378.21]
+
+    W23:
+      presets: _korok<W23 光の輪レース>
+      coord: [-2066.65, 288.82, 2397.04]
+
+    W24:
+      presets: _korok<W24 石>
+      coord: [-2059.88, 306.77, 2420.10]
+
+    W25:
+      presets: _korok<W25 フルーツ合わせ>
+      coord: [-4876.91, 153.29, 2469.67]
+
+    W26:
+      presets: _korok<W26 ブロック合わせ>
+      coord: [-1809.82, 162.51, 2459.63]
+
+    W27:
+      presets: _korok<W27 風車の風船s>
+      coord: [-1615.96, 193.37, 2447.33]
+
+    W28:
+      presets: _korok<W28 光の輪レース>
+      coord: [-4373.90, 165.13, 2587.06]
+
+    W29:
+      presets: _korok<W29 光の輪レース>
+      movements:
+        - to: [-3757.1875,2445.375]
+        - to: [-3751.84, 157.36, 2531.62]
+
+    W30:
+      presets: _korok<W30 ブロック合わせ>
+      coord: [-2594.75, 284.72, 2539.87]
+
+    W31:
+      presets: _korok<W31 石>
+      coord: [-2358.78, 476.12, 2554.53]
+
+    W32:
+      presets: _korok<W32 ブロック合わせ>
+      coord: [-2305.08, 486.25, 2561.36]
+
+    W33:
+      presets: _korok<W33 風船>
+      coord: [-2207.69, 432.17, 2550.62]
+
+    W34:
+      presets: _korok<W34 石並べ>
+      coord: [-1935.34, 452.80, 2673.50]
+
+    W35:
+      presets: _korok<W35 風船>
+
+    W36:
+      presets: _korok<W36 フルーツ合わせ>
+      coord: [-4224.87, 154.65, 2738.07]
+
+    W37:
+      presets: _korok<W37 花を追う>
+      coord: [-3107.28, 135.39, 2881.24]
+
+    W38:
+      presets: _korok<W38 石>
+      coord: [-2298.70, 352.56, 2850.02]
+
+    W39:
+      presets: _korok<W39 ブロック合わせ>
+      coord: [-2019.70, 375.80, 2884.23]
+
+    W40:
+      presets: _korok<W40 石>
+      coord: [-2685.72, 206.06, 2929.66]
+
+    W41:
+      presets: _korok<W41 石>
+      coord: [-1465.91, 418.67, 2952.56]
+
+    W42:
+      presets: _korok<W42 石>
+      coord: [-3886.14, 229.44, 2965.82]
+
+    W43:
+      presets: _korok<W43 花を追う>
+      movements:
+        - to: [-3467,2956.6875]
+        - to: [-3498.6875,2952.5]
+        - to: [-3480.75,2986]
+        - to: [-3469.8125,2926.5]
+        - to: [-3435.39, 145.90, 2980.16]
+
+    W44:
+      presets: _korok<W44 ブロック合わせ>
+      coord: [-2918.65, 141.71, 3061.01]
+
+    W45:
+      presets: _korok<W45 石並べ>
+      coord: [-1599.50, 307.15, 3099.94]
+
+    W46:
+      presets: _korok<W46 岩の裏>
+      coord: [-1538.74, 278.40, 3070.08]
+
+    W47:
+      presets: _korok<W47 花を追う>
+      movements:
+        - to: [-4171.5,3059.1875]
+        - to: [-4195.75, 165.61, 3091.55]
+
+    W48:
+      presets: _korok<W48 ブロック合わせ>
+      coord: [-2172.51, 185.73, 3200.40]
+
+    W49:
+      presets: _korok<W49 ブロック合わせ>
+      coord: [-1926.30, 264.63, 3242.00]
+
+    W50:
+      presets: _korok<W50 石>
+      coord: [-1922.23, 332.98, 3279.69]
+
+    W51:
+      presets: _korok<W51 フルーツ合わせ>
+      coord: [-4862.20, 129.35, 3260.97]
+
+    W52:
+      presets: _korok<W52 ブロック合わせ>
+      coord: [-2636.20, 101.81, 3302.57]
+
+    W53:
+      presets: _korok<W53 石>
+      coord: [-1379.17, 592.91, 3328.08]
+
+    W54:
+      presets: _korok<W54 石>
+      coord: [-1526.98, 397.51, 3405.89]
+
+    W55:
+      presets: _korok<W55 石>
+      coord: [-4307.61, 132.17, 3459.74]
+
+    W56:
+      presets: _korok<W56 石>
+      coord: [-3799.65, 128.15, 3428.89]
+
+    W57:
+      presets: _korok<W57 風船>
+
+    W58:
+      presets: _korok<W58 光の輪レース>
+      movements:
+        - to: [-2018.25,3436.875]
+        - to: [-1996.60, 301.55, 3619.67]
+
+    W59:
+      presets: _korok<W59 氷>
+      coord: [-1611.52, 411.29, 3678.33]
+
+    W60:
+      presets: _korok<W60 氷>
+      coord: [-1357.03, 479.66, 3671.94]
+
+    W61:
+      presets: _korok<W61 フルーツ合わせ>
+      coord: [-4347.90, 142.89, 3713.18]
+
+    W62:
+      presets: _korok<W62 石並べ>
+      coord: [-3031.63, 181.01, 3754.59]
+
+    W63:
+      presets: _korok<W63 光の輪レース>
+      movements:
+        - to: [-2591.1875,3543.5]
+        - to: [-2448.41, 134.74, 3751.94]
+
+    W64:
+      presets: _korok<W64 石並べ>
+      coord: [-1351.46, 448.57, 3770.79]
+
+    W65:
+      presets: _korok<W65 骸骨の頂上>
+      coord: [-4859.18, 172.70, 3832.95]
+
+    W66:
+      presets: _korok<W66 石>
+      coord: [-4160.33, 133.14, 3826.20]
+
+    W67:
+      presets: _korok<W67 フルーツ合わせ>
+      coord: [-3286.43, 169.88, 3787.15]
+
+    W68:
+      presets: _korok<W68 石>
+      coord: [-2547.43, 141.44, 3951.93]
+
+    # X - 25 ハイラル城
+    X01:
+      presets: _korok<X01 石>
+      coord: [-308.77, 132.64, -1166.01]
+
+    X02:
+      presets: _korok<X02 水草>
+      coord: [-147.51, 188.97, -1159.79]
+
+    X03:
+      presets: _korok<X03 岩の裏>
+      coord: [-265.74, 250.36, -1138.76]
+
+    X04:
+      presets: _korok<X04 風車の風船>
+      coord: [-378.66, 163.61, -1112.10]
+
+    X05:
+      presets: _korok<X05 風船>
+      coord: [-250.14, 432.88, -1061.67]
+
+    X06:
+      presets: _korok<X06 城の頂上>
+      coord: [-251.84, 517.17, -1061.77]
+
+    X07:
+      presets: _korok<X07 研究室の頂上>
+      coord: [-383.21, 347.47, -993.62]
+
+    X08:
+      presets: _korok<X08 石>
+      coord: [-368.95, 151.43, -993.45]
+
+    X09:
+      presets: _korok<X09 石>
+      coord: [-335.40, 256.56, -1003.32]
+
+    X10:
+      presets: _korok<X10 光の輪レース>
+      coord: [-254.00, 364.02, -994.61]
+
+    X11:
+      presets: _korok<X11 氷>
+      coord: [-100.92, 131.38, -979.75]
+
+    X12:
+      presets: _korok<X12 石>
+      coord: [-68.06, 261.28, -979.62]
+
+    X13:
+      presets: _korok<X13 卵を供える>
+      coord: [-436.57, 117.51, -932.83]
+
+    X14:
+      presets: _korok<X14 岩の裏>
+      coord: [-270.26, 255.11, -879.20]
+
+    X15:
+      presets: _korok<X15 吊るされたドングリ>
+      coord: [-168.37, 216.02, -860.41]
+
+    X16:
+      presets: _korok<X16 二の丸の先端>
+      coord: [-162.05, 310.19, -878.05]
+
+    X17:
+      presets: _korok<X17 三の丸の先端>
+      coord: [-353.38, 286.37, -829.61]
+
+    X18:
+      presets: _korok<X18 石>
+      coord: [-394.03, 204.58, -785.40]
+
+    X19:
+      presets: _korok<X19 吊るされたドングリ>
+      coord: [-324.39, 185.62, -798.16]
+
+    X20:
+      presets: _korok<X20 岩の裏>
+      coord: [-163.28, 156.13, -784.68]
+
+    X21:
+      presets: _korok<X21 エンブレムを射る>
+      coord: [-254.00, 210.55, -739.54]
+
+    X22:
+      presets: _korok<X22 風車の風船>
+      coord: [-247.16, 211.84, -739.61]
+
+    X23:
+      presets: _korok<X23 風車の風船s>
+      coord: [-234.59, 233.97, -743.93]
+
+    X24:
+      presets: _korok<X24 石>
+      coord: [-253.85, 172.91, -632.23]
+
+    X25:
+      presets: _korok<X25 花を追う>
+      movements:
+        - to: [-257.1875,-589.4375]
+        - to: [-237,-585.125]
+        - to: [-237.1875,-621.875]
+        - to: [-230.69, 148.01, -633.38]
+
+    # Z - 62 ゾーラ
+    Z01:
+      presets: _korok<Z01 花を追う>
+      movements:
+        - to: [4668.77, 267.18, -1290.65]
+        - to: [4661.62, 268.58, -1313.48]
+        - to: [4667.06, 276.71, -1330.71]
+        - to: [4683.88, 285.62, -1340.37]
+        - to: [4707.06, 292.62, -1355.02]
+
+    Z02:
+      presets: _korok<Z02 光の輪レース>
+      movements:
+        - to: [1585.3125,-719.548225]
+        - to: [1398.04, 125.98, -856.35]
+
+    Z03:
+      presets: _korok<Z03 光を追いかける>
+      coord: [1404.95, 122.09, -832.99]
+
+    Z04:
+      presets: _korok<Z04 石>
+      coord: [3208.67, 570.48, -1011.23]
+
+    Z05:
+      presets: _korok<Z05 光を追いかける>
+      coord: [3565.89, 530.64, -915.92]
+
+    Z06:
+      presets: _korok<Z06 石>
+      coord: [4702.88, 297.25, -1039.33]
+
+    Z07:
+      presets: _korok<Z07 石>
+      coord: [4698.90, 345.46, -1003.02]
+
+    Z08:
+      presets: _korok<Z08 岩の裏>
+      coord: [3893.51, 549.97, -704.23]
+
+    Z09:
+      presets: _korok<Z09 水草>
+      coord: [4616.44, 366.47, -638.03]
+
+    Z10:
+      presets: _korok<Z10 岩の裏>
+      coord: [4697.84, 335.70, -547.03]
+
+    Z11:
+      presets: _korok<Z11 風船>
+      coord: [1104.01, 210.76, -444.23]
+
+    Z12:
+      presets: _korok<Z12 水草>
+      coord: [1632.93, 119.00, -545.20]
+
+    Z13:
+      presets: _korok<Z13 光の輪レース>
+      movements:
+        - to: [2090.0625,-327.810514]
+        - to: [1832.72, 217.95, -535.70]
+
+    Z14:
+      presets: _korok<Z14 木の先端>
+      coord: [2427.76, 301.40, -412.12]
+
+    Z15:
+      presets: _korok<Z15 ブロック合わせ>
+      coord: [2791.46, 451.50, -500.93]
+
+    Z16:
+      presets: _korok<Z16 玉座の間の上>
+      coord: [3323.92, 301.63, -519.52]
+
+    Z17:
+      presets: _korok<Z17 ゾーラの里の頂上>
+      coord: [3321.50, 414.09, -514.25]
+
+    Z18:
+      presets: _korok<Z18 ブロック合わせ>
+      coord: [3520.64, 326.73, -383.59]
+
+    Z19:
+      presets: _korok<Z19 鉄球入れ>
+      coord: [4071.79, 483.77, -459.05]
+
+    Z20:
+      presets: _korok<Z20 花を追う>
+      movements:
+        - to: [4083.13, 496.53, -424.81]
+        - to: [4114.89, 501.62, -438.15]
+        - to: [4153.29, 507.38, -436.52]
+        - to: [4151.59, 514.65, -415.25]
+        - to: [4136.60, 521.71, -408.56]
+
+    Z21:
+      presets: _korok<Z21 石並べ>
+      coord: [1088.53, 164.79, -215.89]
+
+    Z22:
+      presets: _korok<Z22 石>
+      coord: [2517.50, 182.50, -212.48]
+
+    Z23:
+      presets: _korok<Z23 切り株に鉄球>
+      coord: [2746.15, 237.59, -176.40]
+
+    Z24:
+      presets: _korok<Z24 花を追う>
+      movements:
+        - to: [2984.25,-177.375]
+        - to: [3083.24, 363.92, -167.69]
+
+    Z25:
+      presets: _korok<Z25 石>
+      coord: [3291.97, 295.38, -261.12]
+
+    Z26:
+      presets: _korok<Z26 石>
+      coord: [3527.29, 395.31, -276.76]
+
+    Z27:
+      presets: _korok<Z27 ブロック合わせ>
+      coord: [4080.41, 421.48, -216.78]
+
+    Z28:
+      presets: _korok<Z28 岩の裏>
+      coord: [4232.73, 386.00, -212.33]
+
+    Z29:
+      presets: _korok<Z29 石並べ>
+      coord: [1185.50, 164.26, -67.42]
+
+    Z30:
+      presets: _korok<Z30 石並べ>
+      coord: [1387.28, 135.22, -112.93]
+
+    Z31:
+      presets: _korok<Z31 玉入れ>
+      coord: [2665.53, 205.78, -1.30]
+
+    Z32:
+      presets: _korok<Z32 石並べ>
+      coord: [3122.88, 185.60, -17.40]
+
+    Z33:
+      presets: _korok<Z33 光を追いかける>
+      coord: [3206.76, 312.25, 23.68]
+
+    Z34:
+      presets: _korok<Z34 石>
+      coord: [3303.74, 393.35, 22.58]
+
+    Z35:
+      presets: _korok<Z35 岩の裏>
+      coord: [4134.87, 294.94, 60.32]
+
+    Z36:
+      presets: _korok<Z36 岩の裏>
+      coord: [4294.82, 171.31, 78.50]
+
+    Z37:
+      presets: _korok<Z37 石>
+      coord: [883.07, 133.61, 274.80]
+
+    Z38:
+      presets: _korok<Z38 井戸に鉄球>
+      coord: [1434.74, 117.50, 135.40]
+
+    Z39:
+      presets: _korok<Z39 光を追いかける>
+      coord: [1593.19, 115.98, 114.16]
+
+    Z40:
+      presets: _korok<Z40 吊るされたドングリ>
+
+    Z41:
+      presets: _korok<Z41 石並べ>
+      coord: [2085.79, 129.79, 181.66]
+
+    Z42:
+      presets: _korok<Z42 風船>
+
+    Z43:
+      presets: _korok<Z43 ブロック合わせ>
+      coord: [2927.67, 292.94, 332.80]
+
+    Z44:
+      presets: _korok<Z44 光を追いかける>
+      coord: [3140.86, 220.79, 324.97]
+
+    Z45:
+      presets: _korok<Z45 光を追いかける>
+      coord: [3854.32, 150.82, 352.26]
+
+    Z46:
+      presets: _korok<Z46 ブロック合わせ>
+      coord: [4144.44, 138.34, 195.97]
+
+    Z47:
+      presets: _korok<Z47 大石の下>
+      coord: [1116.14, 119.93, 555.58]
+
+    Z48:
+      presets: _korok<Z48 光を追いかける>
+      coord: [1313.97, 115.91, 503.07]
+
+    Z49:
+      presets: _korok<Z49 フルーツ合わせ>
+      coord: [1446.50, 116.04, 558.36]
+
+    Z50:
+      presets: _korok<Z50 光を追いかける>
+      coord: [1685.60, 129.83, 661.12]
+
+    Z51:
+      presets: _korok<Z51 石並べ>
+      coord: [3271.14, 105.92, 656.82]
+
+    Z52:
+      presets: _korok<Z52 枯れ葉の下>
+      coord: [3431.14, 146.41, 523.75]
+
+    Z53:
+      presets: _korok<Z53 花を追う>
+      movements:
+        - to: [3509.4375,519.444815]
+        - to: [3451.99, 143.57, 550.79]
+
+    Z54:
+      presets: _korok<Z54 岩の裏>
+      coord: [3561.94, 106.24, 626.32]
+
+    Z55:
+      presets: _korok<Z55 石>
+      coord: [3721.26, 108.24, 617.63]
+
+    Z56:
+      presets: _korok<Z56 玉入れ>
+      coord: [4199.46, 107.14, 463.67]
+
+    Z57:
+      presets: _korok<Z57 板の下>
+      coord: [4264.46, 126.76, 628.22]
+
+    Z58:
+      presets: _korok<Z58 風船>
+      coord: [4452.65, 164.26, 483.97]
+
+    Z59:
+      presets: _korok<Z59 花を追う>
+      movements:
+        - to: [4483.75,637.09442]
+        - to: [4517,630.715867]
+        - to: [4572.54, 134.99, 647.89]
+
+    Z60:
+      presets: _korok<Z60 リンゴを供える>
+      coord: [1595.76, 117.39, 807.68]
+
+    Z61:
+      presets: _korok<Z61 花を追う>
+      coord: [4499.12, 123.24, 1015.01]
+
+    Z62:
+      presets: _korok<Z62 石並べ>
+      coord: [4533.44, 111.23, 1022.99]
+

@@ -1,0 +1,270 @@
+- 3. ハテノ村 1 / フィローネ 1:
+  - BLSS .dir([4:00]):
+      color: "#4a86e8"
+      coord: [3302.77, 239.88, 2302.60]
+  
+  - _material<焼きガッツニンジン>:
+      comment: 炎の矢で焼く
+  
+  - _npc<サクラダ>:
+      coord: [3318.125,2302.70042]
+      comment: 選択肢 1 - 1 - 2
+
+  - WMC Cooking:
+      icon: link
+      coord: [3333.125,2283.143484]
+      comment: これ以降WMCまで.b-red(ロード禁止)
+  
+  - 雨が降ってたら朝にする:
+      icon: set-time
+      icon-map: null
+
+  - 薪の束30を渡して家を買う
+
+  - _npc<エノキダ>:
+      icon-map: null
+      comment: イチカラ村を始める
+  
+  - 家のアップグレードを終わらせる:
+      notes: アップグレード中はサクラダとカツラダを武器投げで驚かせる
+  
+  - ゴーゴー料理を1個食べる:
+      notes: 移動力アップが切れたらもう1個食べる
+  
+  - _wb::square<11:00>:
+      comment: 飛んだら丸起爆
+  
+  - _npc<悪魔象>:
+      coord: [3285.60, 217.60, 2197.58]
+      comment: ハートの器を返してもらうまで会話
+  
+  - _wb::hight<2:30>
+
+  - _location::HatenoVillage:
+      icon-map: null
+      coord: [3434.98, 226.90, 2149.15]
+  
+  - _npc<クレーヴィア>:
+      comment: 桟橋の女性
+      notes: 祠チャレンジ - 三本杉の秘密
+  
+  - _wb::square<11:00>:
+      comment: 飛んだら丸起爆
+  
+  - _npc<シモツケ>:
+      coord: [3381.11, 226.15, 2105.53]
+      comment: 武器で驚かせてから話す
+      notes: 祠チャレンジ - ラネール山のお宝を探れ！
+  
+  - _wb<1:00>
+
+  - _korok::N42:
+      comment: 青い炎の後ろ
+  
+  - 武器持ちバグ - たいまつ:
+      icon: weapon
+      comment: 青い炎をつける
+      coord: [3446.5625,1982.489654]
+  
+  - WB .dir([4:00]) + WBH .dir([3:00])
+
+  - _location::HatenoAncientTechLab:
+      movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+  
+  - シーカーアイテム+:
+      icon: camera
+      icon-map: null
+      notes: ネジ3がない場合、ルーダニア戦で集めて終盤でもう一度来た時にアップグレードする
+  
+  - _material<リンゴ,1~2>:
+      coord: [3795.96, 359.21, 2109.94]
+  
+  - _wb::square<2:30>
+
+  - _korok::N48
+  
+  - WBH .dir([0:30]) + WBH .dir([9:30]):
+      comment: 1回目のあと四角起爆
+      coord: [3940.4375,1998.616769]
+
+  - _korok::N43
+  
+  - _wb<7:00>:
+      comment: 上を向いてWB (ラグ回避)
+
+  - _npc<トユユ>:
+      coord: [3621.69, 283.36, 2098.13]
+      notes: ミニチャレンジ - にっくきヒツジ泥棒
+  
+  - _wb<8:00>:
+      comment: 上を向いてWB (ラグ回避)
+      coord: [3372.4375,2301.03347]
+  
+  - _korok::N59
+  
+  - _wb::speed<9:00>
+
+  - _korok::N58
+  
+  - _wb<8:00>
+
+  - _material<マックスバス,1>:
+      coord: [3011.06, 229.73, 2538.95]
+  
+  - _wb<10:00>
+
+  - _korok::N50:
+      comment: リンゴを1個以上取る
+  
+  - _korok::N49:
+      icon-map: null
+      movements:
+        - push
+        - to: [2714.13, 225.53, 2345.55]
+          color: white
+          icon: korok
+        - pop
+      comment: バクダン矢 .dir([9:00])
+  
+  - WBH .dir([12:00]) + 空中WB .dir([11:30])
+
+  - _tower::Hateno
+  
+  - _wb::speed<9:30>
+
+  - _korok::D53
+  
+  - WBH .dir([9:00]) + WBH .dir([6:30])
+
+  - _korok::D58:
+      movements:
+        - to: [2387.375,2113.814078]
+        - to: [2366.4375,2303.551866]
+  
+  - WBH .dir([6:30]) + 滑空 .dir([10:30]):
+      notes: 木の根から高いWB
+  
+  - _korok::D57:
+      movements:
+        - to: [2323,2397.855193]
+        - to: [2303.51, 281.30, 2375.13]
+  
+  - _wb<5:00>
+
+  - _korok::F07
+  
+  - 氷を作ってWB .dir([8:00])
+
+  - _korok::F13:
+      comment: 木の下
+  
+  - WBH .dir([0:30]) + 空中WB .dir([9:00])
+
+  - _korok::F06:
+      comment: 山頂
+      movements:
+        - to: [2276,2533.850927]
+        - to: [2181.73, 414.98, 2534.70]
+  
+  - _wb::square<7:30>:
+      comment: 飛んだら丸起爆
+
+  - _korok::F09:
+      icon-map: null
+      movements:
+        - to: [2078.75,2605.745538]
+        - push
+        - to: [2099.72, 363.66, 2625.57]
+          color: white
+          icon: korok
+        - pop
+      notes:
+        - 持てる最大距離から岩を持ちZL後ろジャンプ
+        - 岩を置いてビタロック、両手剣2回
+  
+  - _wb::hight<9:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::F08
+  
+  - _wb::hight<3:00>:
+      comment: 上を向いてWB (ラグ回避)
+      notes: 北西の枝からWB
+  
+  - _korok::F12:
+      movements:
+        - to: [2042.25,2635.225168]
+        - to: [2043.6875,2660.742103]
+        - to: [2054.1875,2705.546906]
+        - to: [2092.8125,2693.050461]
+        - to: [2112.25,2710.045626]
+        - to: [2103.92, 422.50, 2726.10]
+  
+  - _wb::hight<8:30>
+
+  - _korok::F11:
+      comment: 山頂
+  
+  - _wb<7:30>
+
+  - _korok::F17:
+      comment: この時点でフロドラがいたら撃つ
+  
+  - _wb::square<7:30>:
+      comment: 上を向いてWB (ラグ回避)
+  
+  - 朝にする:
+      icon: set-time
+      icon-map: null
+      comment: .b-yellow(カメラを動かさない)
+      notes: 木の下に焚火を作る
+  
+  - _material<フロドラのウロコ,1>:
+      coord: [1737.76, 340.06, 2944.73]
+      comment: 反対側に落ちたらWB
+      notes: .bold(素材が飛ぶ音がしてから)ひまをつぶす
+  
+  - _material<フロドラの爪,1>:
+      icon-map: null
+  
+  - _material<フロドラの角,1>:
+      icon-map: null
+  
+  - _wb::super<8:00>:
+      comment: 上を向いてWB (ラグ回避)
+  
+  - _tower::Faron
+  
+  - _wb::square<1:30>:
+      comment: 上を向く (ラグ回避)、飛んだら丸起爆
+  
+  - _material<ドリアン,1>:
+      coord: [1403.74, 259.66, 3212.68]
+  
+  - _korok::F25:
+      comment: 終わったら回収
+  
+  - WBH Super .dir([6:30]):
+      comment: 上を向いてWB (ラグ回避)
+  
+  - _korok::F39:
+      comment: .b-yellow(終わったら回収)
+  
+  - _wb::square<3:30>:
+      comment: 上を向く (ラグ回避)、飛んだら丸起爆
+  
+  - _material<ツルギバナナ,6>:
+      coord: [1481.29, 241.32, 3550.63]
+  
+  - _run<10:00>
+
+  - _korok::F40:
+      comment: 沼の真ん中
+  
+  - WBH Super .dir([3:30])
+
+  - _korok::F46:
+      comment: 滝に氷を作る
+  

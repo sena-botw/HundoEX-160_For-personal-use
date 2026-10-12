@@ -1,0 +1,86 @@
+- 21. ウルボザの怒り＋:
+  - _warp::naboris<5:30>:
+      presets: _mappct<notes>
+      color: "#ffff00"
+
+  - ビタロック装備
+
+  - チカラ料理を食べてナボリスへ
+
+  - ウルボザの怒り＋:
+      icon: naboris-ex
+      icon-priority: 1
+      counter: .user-defined-split()
+      comment: .fury(ウルボザの怒り１～３) / .link([参考動画]https://youtu.be/T4ALHtxoh7o?t=756)
+      notes:
+        - 無心で盾破壊、ビタロ、無心タメ3/4ウルボザ
+        - ウルボザで落とし、無心タメ、盾ではじかれたらウルボザ
+
+  - ウルボザが余ったら使い切る
+
+  - 滑空 .dir([10:30]):
+      notes: 丸バクダン装備
+
+  - _korok::W33:
+      comment: 橋の下
+
+  - _wb::midair<9:00>
+
+  - _korok::W31:
+      comment: 崖際の角
+
+  - 登る .dir([3:00])
+
+  - _korok::W32
+
+  - _wb::hight<12:00>
+
+  - _tower::mappct::Wasteland
+
+  - _wb::speed<0:30>
+
+  - _korok::W12:
+      comment: "岩の中: 空中からバクダン矢"
+
+  - _korok::W16:
+      comment: オオワシバクダン矢
+      notes: 右上を撃つ
+
+  - _wb::square<1:00>
+
+  - _korok::W11
+
+  - _run<5:30>
+
+  - ウィズローブ:
+      icon: kill
+      comment: 電気の矢
+      coord: [-2161.96, 333.51, 2140.63]
+
+  - _weapon<ファイアロッド>
+
+  - _wb<5:00>
+
+  - .lime(W23 光の輪レース)開始:
+      icon: imp.
+      coord: [-2104,2296.5]
+
+  - _wb::hight<5:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::W24:
+      comment: 上の足場、レース中に取る
+
+  - _korok::W23
+
+  - _wb::speed<0:30>
+
+  - _korok::W14:
+      comment: 橋の西側
+
+  - 東にずれてWBS .dir([11:30])
+
+  - _npc<ズッキー 馬を売る>:
+      coord: [-2033.50, 157.54, 1873.19]
+      comment: エフェクトが出たら話しかけていい
+

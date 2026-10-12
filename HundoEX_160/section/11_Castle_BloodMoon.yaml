@@ -1,0 +1,743 @@
+- 11. ハイラル城 / 赤い月:
+  - _warp::daqa-koh<1:30>:
+      color: "#ff33ff"
+
+  - BLSS .dir([8:00]):
+      comment: .b-yellow(迷いの森の霧に注意)
+
+  - _korok::X06:
+      comment: .b-yellow(OGEB装備)
+
+  - 右ジャンプで落ちて、風船を射る
+
+  - _korok::X05
+
+  - 落ちる .dir([6:00])
+
+  - _korok::X10
+
+  - _wb::square<9:00>
+
+  - _korok::X07
+
+  - _wb<2:00>
+
+  - _chest::special<近衛兵の帽子>:
+      coord: [-253.98, 336.07, -1080.48]
+      comment: 本丸2階
+
+  - 手動セーブ:
+      icon: imp.
+      icon-map: null
+
+  - 窓の割れ目から本丸に入る
+
+  - _location::Sanctum
+
+  - _calamityganon:
+      comment: OGEB古代矢2、.fury(ウルボザ)、古代矢
+
+  - _darkbeastganon:
+      icon-map: null
+      comment: OGEB古代矢で進行
+
+  - ロード - ★付きデータ:
+      icon: load
+      icon-map: null
+      movements:
+        - to: [-253.98, 336.07, -1080.48]
+          warp: true
+
+  - 落ちる .dir([11:30])
+
+  - _korok::X03:
+      comment: バクダン矢
+
+  - 滑空 .dir([2:30])
+
+  - _chest::special<ネルドラのウロコ>:
+      coord: [-182.29, 235.23, -1169.52]
+      comment: 板の下
+
+  - 落ちる .dir([3:30])
+
+  - _korok::X02
+
+  - 走る 落ちる .dir([11:00])
+
+  - _chest::special<オルドラのウロコ>:
+      coord: [-196.46, 153.20, -1218.59]
+      comment: 岩の裏 バクダン矢
+
+  - _wb<1:00>
+
+  - _korok::K30:
+      comment: 崖際
+
+  - _wb::speed<6:00>
+
+  - _korok::X11:
+      comment: 盾サーフィンで氷まで行く
+
+  - _location::EastPassage
+
+  - _talus::rare:
+      coord: [-136.65, 127.21, -956.26]
+      comment: .fury(ウルボザの怒り１－３)
+      notes: 火打ち石が11無いなら拾う
+
+  - 上昇気流で上へ
+
+  - _chest::special<フロドラの牙のかけら>:
+      coord: [-133.07, 170.48, -950.46]
+
+  - バクダン矢で対岸の目玉を撃つ
+
+  - _location::Library
+
+  - _location::KingsStudy
+
+  - _shield<近衛の盾>:
+      icon-map: null
+
+  - .cyan(サス・コサ)に向かう
+
+  - バクダン矢で燭台に火をつける
+
+  - _shrine::saas-kosah:
+      comment: .b-yellow(アクス＋＋を拾う)
+      notes: ビタロック+OGEB古代矢2HS(極位)
+      split-name: ".var(counter-korok). サス・コサ - アクス＋＋"
+
+  - 赤い月の祠までに赤い月が出てしまう場合、夜にする:
+      banner: true
+      icon: set-time
+      icon-map: null
+      comment: 1amまでに赤い月の台座に着けない場合、もう少し後で夜にする (ただしハイラル城内で12amを迎える)
+
+  - _location::Docks
+
+  - BLSSで外に
+
+  - _korok::X01:
+      comment: 崖際
+
+  - _wb<8:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::X04:
+      comment: バレットタイム有効、バクダン矢
+
+  - WBH .dir([6:00]) + リーバルの猛り:
+      comment: .gale(リーバルの猛り１)
+
+  - _location::PrincessZeldasStudy
+
+  - _memory::HyruleCastle
+
+  - 滑空 .dir([2:30])
+
+  - _korok::X09:
+      comment: バルコニー
+
+  - _location::PrincessZeldasRoom
+
+  - _wb<5:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::X14:
+      comment: バクダン矢
+
+  - _wb<8:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::X17
+
+  - 降りる .dir([8:00])
+
+  - _location::FirstGatehouse:
+      comment: 窓際で「おりる」
+      notes: ライネルが出現したら古代矢で消す
+
+  - 滑空 .dir([6:00])
+
+  - _korok::X18:
+      comment: 壁の上
+
+  - _wb::hight<3:30>
+
+  - _korok::X23:
+      comment: バクダン矢
+      notes: 左を先に撃つ
+
+  - 落ちる .dir([9:00])
+
+  - _location::ObservationRoom:
+      comment: 怨念につっこむ
+
+  - _korok::X21
+
+  - _korok::X22:
+      notes: 奥にある壁のてっぺんを狙う
+
+  - リーバルの猛り + 空中WB .dir([1:00]):
+      comment: .gale(リーバルの猛り２)
+
+  - _korok::X16
+
+  - 右にジャンプ
+
+  - _location::SecondGatehouse:
+      comment: 北側の窓際で「おりる」
+      notes: ライネルが出現したら古代矢で消す
+
+  - _wb<2:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::X12:
+      comment: 壁の上
+
+  - _wb::hight<6:30>:
+      comment: 上を向いてラグ回避
+
+  - _location::DiningHall:
+      comment: ゴーゴー料理を食べてロード促進
+
+  - _material<ケモノ肉,1>:
+      coord: [-108.37, 210.59, -848.95]
+
+  - 中央の扉からまっすぐ進む
+
+  - _chest::special<近衛兵の服>:
+      coord: [-175.26, 211.33, -889.62]
+
+  - _korok::X15:
+      comment: バクダン矢
+
+  - 西側の扉から食堂に戻る
+
+  - _material<極上ケモノ肉,1>:
+      coord: [-152.50, 210.39, -821.58]
+
+  - 食堂から外に出て滑空 .dir([8:00])
+
+  - _korok::X20:
+      comment: バクダン矢
+
+  - _wb<7:00>
+
+  - _korok::X24:
+      comment: 門の上
+
+  - 下へ滑空:
+      comment: 滑空しながら飛行型を倒すと安定
+
+  - _korok::C16
+
+  - _korok::X25
+
+  - WBH Super .dir([6:30])
+
+  - _location::HyruleCastleTownRuins
+
+  - _korok::C32
+
+  - 滑空 .dir([8:30])
+
+  - _korok::C27
+
+  - _wb::super<8:00>
+
+  - _korok::C31:
+      comment: 壁の上
+
+  - _wb<11:00>
+
+  - _shrine::katah-chuki
+
+  - _wb::hight<8:30>
+
+  - _korok::C30
+
+  - _wb<1:00>
+
+  - _korok::C25
+
+  - _wb<2:00>
+
+  - _korok::C26
+
+  - 滑空
+
+  - _location::WaterReservoir
+
+  - 滑空 .dir([9:30])
+
+  - _korok::C22
+
+  - リーバルの猛り + 空中WB .dir([10:00]):
+      comment: .gale(リーバルの猛り３)
+
+  - _korok::C21
+
+  - _run<1:00>
+
+  - _korok::C20:
+      comment: バクダン
+
+  - _wb::hight<12:00>
+
+  - _talus::rare:
+      coord: [-768.74, 152.76, -804.49]
+      comment: バクダン矢
+
+  - _wb::midair<4:00>
+
+  - _location::MoatBridge
+
+  - _korok::C15:
+      comment: 氷を作ってから飛び込む
+
+  - _wb<11:30>
+
+  - _shield<さびた盾>:
+      coord: [-629.69, 121.91, -793.64]
+
+  - _run<9:30>
+
+  - _chest::special<チンクルの服>:
+      coord: [-681.15, 119.72, -813.12]
+      comment: ガーディアンは消しておく
+
+  - _run<12:00>
+
+  - _location::CastleTownPrison
+
+  - _korok::C08:
+      comment: 盾はそのまま捨てていい
+
+  - _run<12:00>
+
+  - _korok::C03
+
+  - WB .dir([11:00]) + 滑空 .dir([12:00])
+
+  - _korok::C01:
+      comment: 巨大な柱の近く 西側から回る
+
+  - _wb<7:00>
+
+  - _korok::C07
+
+  - _wb::hight<6:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::C14
+
+  - バクダンで岩を壊して祠へ
+
+  - _shrine::noya-neha
+
+  - 洞窟から出る
+
+  - _wb::hight<9:00>
+
+  - _korok::R19:
+      icon-map: null
+      movements:
+        - to: [-1205.1875,-622]
+        - push
+        - to: [-1125.28, 157.91, -675.43]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<0:30>
+
+  - _korok::R16
+
+  - _wb<1:00>
+
+  - _korok::R11:
+      icon-map: null
+      movements: 
+        - to: [-1031.125,-1085.375]
+        - push
+        - to: [-1017.86, 116.96, -1066.08]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<9:30>
+
+  - _location::RoyalAncientLabRuins:
+      coord: [-1234.25,-1094.3125]
+
+  - _korok::R10
+
+  - _wb<1:00>
+
+  - _korok::R07
+
+  - _run<11:00>
+
+  - _memory::IrchPlain
+
+  - _wb::speed<3:00>
+
+  - _hinox::blue:
+      coord: [-752.49, 187.41, -1268.12]
+
+  - _wb::midair<12:00>
+
+  - _korok::K29
+
+  - WB .dir([2:00]) + 空中WB .dir([1:00])
+
+  - _korok::K27
+
+  - 盾サーフィン .dir([3:00])
+
+  - _korok::K28:
+      comment: 木々の中心
+
+  - _wb<11:00>
+
+  - _hinox::blue:
+      coord: [-480.55, 278.99, -2039.64]
+
+  - _wb::midair<8:30>
+
+  - _korok::K19:
+      comment: バクダン矢
+
+  - _wb::midair<10:30>
+
+  - _korok::K16
+
+  - _wb::midair<6:30>
+
+  - _korok::K18
+
+  - _wb<5:00>
+
+  - _korok::K26
+
+  - _wb::hight<9:00>
+
+  - _korok::K24
+
+  - _wb<1:30>
+
+  - _korok::K25
+
+  - ビタロック＋でボコから馬を奪う
+
+  - 馬 .dir([10:30])
+
+  - _korok::K17
+
+  - _wb::hight<6:30>
+
+  - _korok::K23
+
+  - _wb::midair<6:30>
+
+  - _shrine::monya-toma:
+      comment: 坂を上ってWB
+
+  - WBS .dir([9:30]) + 滑空 .dir([8:30]):
+      comment: バクダン矢で岩を壊す
+
+  - _shrine::maag-norah
+
+  - WB .dir([11:00]) + 走る .dir([9:30])
+
+  - _korok::R03:
+      comment: バクダン矢
+
+  - _wb<11:00>
+
+  - _korok::H71:
+      comment: バクダン矢
+
+  - _wb::hight<6:00>
+
+  - _talus::luminous:
+      coord: [-2177.46, 322.30, -1585.39]
+      comment: .fury(ウルボザの怒り１－３)
+
+  - _run<7:30>
+
+  - _korok::R02:
+      comment: 岩の後ろ
+
+  - WB + 空中WB .dir([5:00])
+
+  - _korok::R06
+
+  - _wb<4:00>:
+      coord: [-1892.5625,-1237.25]
+
+  - _korok::R09
+
+  - _wb::speed<5:30>
+
+  - _tower::mappct::Ridgeland:
+      comment: .cyan(ミィ・スゥ)の分 +0.08%?
+
+  - _wb<10:00>
+
+  - 赤玉をビタロックで運ぶ:
+      icon: imp.
+      comment: アクス＋＋を使う
+      coord: [-2135.60, 219.98, -909.20]
+
+  - _wb<10:30>
+
+  - _location::ThundraPlateau
+
+  - 黄玉をビタロックで運ぶ:
+      icon: imp.
+      coord: [-2271.02, 228.58, -1040.27]
+
+  - _wb<10:30>
+
+  - _korok::R08:
+      comment: バクダン
+
+  - _wb<5:00>
+
+  - 柱の上の緑玉:
+      icon: imp.
+      coord: [-2288.70, 235.47, -882.80]
+      comment: 緑→赤→紫→黄
+
+  - _shrine::toh-yahsa:
+      notes: エレベーター左から丸早めのWBH、四角設置までに1/4周分ディレイを入れる
+
+  - _wb::hight<6:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::R14
+
+  - _wb::hight<3:30>:
+      comment: 氷を作ってWB
+
+  - _korok::R15
+
+  - _wb::hight<6:00>
+
+  - .lime(R23 花を追う)を開始:
+      icon: imp.
+      icon-map: null
+      movements:
+        - to: [-2052.375,-494.5]
+          icon: imp.
+        - to: [-2055.4375,-483.3125]
+        - to: [-2031.5,-507.3125]
+
+  - _korok::R24
+
+  - _korok::R23:
+      coord: [-2030.12, 206.47, -547.60]
+
+  - _wb::square<1:00>:
+      comment: 氷を作ってWB
+
+  - _korok::R18:
+      comment: .gale(リーバルの猛り１)
+
+  - _wb<5:00>
+
+  - _korok::R25
+
+  - _wb::speed<2:30>
+
+  - _shrine::zalta-wa:
+      notes: エレベーター左からWBH、四角設置までに1/4周分ディレイを入れる
+
+  - WBH Super .dir([3:30])
+
+  - _location::CarokBridge
+
+  - _korok::C24:
+      comment: 橋の向こうの小さな丘
+
+  - 盾サーフィン .dir([0:30])
+
+  - _korok::R26
+
+  - _korok::R27:
+      icon-map: null
+      movements:
+        - push
+        - to: [-1092.08, 129.02, -497.51]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::speed<6:30>
+
+  - _korok::R44:
+      comment: 軽量化
+
+  - _korok::R43:
+      icon-map: null
+      comment: shoot .dir([8:00])
+      movements:
+        - to: [-1181.6875,-238.1875]
+        - push
+        - to: [-1258.40, 159.75, -240.52]
+          color: white
+          icon: korok
+        - pop
+
+  - _korok::R45:
+      comment: .gale(リーバルの猛り２)
+
+  - _wb::midair<8:00>
+
+  - _korok::R42:
+      comment: 川岸
+
+  - _wb<5:00>
+
+  - _hinox::black:
+      coord: [-1177.05, 139.48, 118.51]
+
+  - _wb::midair<4:00>
+
+  - _korok::C38
+
+  - _wb::hight<9:00>
+
+  - _korok::C36:
+      comment: 壊れた壁の上
+
+  - _location::SageTempleRuins
+
+  - _wb::square<10:00>:
+      comment: 飛んだら丸起爆
+
+  - _chest::special<ミドナの冠>:
+      coord: [-1402.26, 113.92, 219.36]
+
+  - _wb<10:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::R49
+
+  - _wb::hight<0:30>:
+      comment: 段差まで飛ぶ
+      coord: [-1455.875,7.9375]
+
+  - _korok::R48:
+      icon-map: null
+      comment: shoot .dir([7:30])
+      movements:
+        - push
+        - to: [-1512.02, 177.04, 56.46]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb<11:00>:
+      comment: R40の板をバクダン矢でどかす
+      notes: 雨の場合はビタロック
+      coord: [-1590.04, 210.73, -229.13]
+
+  - _hinox::blue:
+      comment: shoot .dir([4:30])
+      icon-map: null
+      movements:
+        - push
+        - to: [-1534.88, 214.82, -171.59]
+          color: white
+          icon: hinox-blue
+        - pop
+
+  - _korok::R40
+
+  - _wb<8:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::R39
+
+  - _wb::hight<5:30>
+
+  - _korok::R41
+
+  - 盾サーフィン .dir([7:00])
+
+  - _npc<カッシーワ>:
+      coord: [-1681.68, 214.50, 51.38]
+
+  - _run<7:30>
+
+  - _location::JeddoBridge
+
+  - _wb::hight<9:00>:
+      comment: 飛んだら単射弓装備
+
+  - 二つの穴を単射弓で通す:
+      icon: imp.
+      coord: [-1855.25,76.25]
+      comment: 終わったらOGEB装備
+
+  - _shrine::sheem-dagoze:
+      notes:
+        - 左ステップジャンプから右にラグドールブースト
+        - 前方向に盾サーフィン→ジャンプした瞬間に盾を外してL連打で自爆する
+
+  - _wb::hight<0:30>
+
+  - _korok::R38
+
+  - _wb<7:00>
+
+  - _korok::R47:
+      comment: バレットタイム有効
+
+  - _wb<10:00>
+
+  - _korok::R37:
+      comment: 崖際
+
+  - WB + 空中WBs .dir([8:00])
+
+  - _npc<カッシーワ>:
+      coord: [-2778.84, 348.24, 206.35]
+      comment: 炎の矢装備
+
+  - 防具を外して夜にする:
+      icon: set-time
+      icon-map: null
+      comment: 雨の場合は日記の所で夜にする
+
+  - 台座を起動:
+      icon: imp.
+      coord: [-2758.84, 348.24, 206.35]
+      comment: 9pm ~ 1am
+      notes:
+        - 赤い月を逃した場合、マップ達成率およそ -0.08%
+        - 完走までに赤い月はもう1-2回は現れるため、タイミングを見計らってモ・ラタニアの祠にワープし、WBかBLSSでクリアしに来る
+
+  - _shrine::mijah-rokee
+
+  - _wb::speed<6:00>:
+      notes: ムジュラの仮面、耐火の石鎧、スノーブーツ装備
+
+  - _korok::R72:
+      comment: バクダン矢
+
+  - _wb::hight<8:30>
+
+  - _korok::R71:
+      comment: 岩の後ろ
+
+  - WBS .dir([11:30]) + 滑空 .dir([0:30])
+
+  - _korok::R59:
+      comment: 小さな島
+

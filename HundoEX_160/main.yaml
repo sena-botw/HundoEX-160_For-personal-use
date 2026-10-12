@@ -1,0 +1,106 @@
+- 0. 始める前に:
+  - 「はじめから」にカーソルを合わせてからサマータイム終了利用のため時間調整をする。:
+      banner: true
+
+  - "タイムゾーンをUS region, Denverに、11月X日1:55AM (分は調整可)":
+      banner: true
+
+  - 手動で時間を1日戻す場合でも既存のデータが影響しない日時まで時間を進める。:
+      banner: true
+
+  - 新しいアカウントを使って走ることを推奨 (2059年まで使ったらセーブデータ消去):
+      banner: true
+
+  - .link([時刻調整の詳細]https://docs.google.com/document/d/13eFkTmChmSTIPahNfOr5xA3VQ8lOXyRm3qUxxTzJvhg/edit?usp=sharing):
+      banner: true
+
+# 1. はじまりの台地
+- use: /section/01_GreatPlateau.yaml
+
+# 2. 増殖素材回収 / IST
+- use: /section/02_MaterialGathering_IST.yaml
+
+# 3. ハテノ村 1 / フィローネ 1
+- use: /section/03_Hateno1_Faron1.yaml
+
+# 4. ボックリン
+- use: /section/04_Hestu.yaml
+
+# 5. メドー / シャダ・アダ
+- use: /section/05_Medoh_ShadaNaw.yaml
+
+# 6. ゲルド 1
+- use: /section/06_Gerudo1.yaml
+
+# 7. ナボリス
+- use: /section/07_Naboris.yaml
+
+# 8. ネルドラ / ルッタ
+- use: /section/08_Naydra_Ruta.yaml
+
+# 9. ゴロンシティ / ルーダニア
+- use: /section/09_GoronCity_Rudania.yaml
+
+# 10. 一撃の試練
+- use: /section/10_GreatPlateauEX.yaml
+
+# 11. ハイラル城 / 赤い月
+- use: /section/11_Castle_BloodMoon.yaml
+
+# 12. アッカレ古代研究所
+- use: /section/12_AkkalaAncientTechLab.yaml
+
+# 13. ナボリスの石碑
+- use: /section/13_NaborisEX.yaml
+
+# 14. ヘブラ西
+- use: /section/14_HebraWest.yaml
+
+# 15. 迷いの森
+- use: /section/15_LostWoods.yaml
+
+# 16. ゲルド 2
+- use: /section/16_Gerudo2.yaml
+
+# 17. 湖の塔 / 馬ミニゲーム
+- use: /section/17_LakeTower_HorseMinigame.yaml
+
+# 18. 平原の塔 / 勇気の泉
+- use: /section/18_CentralTower_SpringofCourage.yaml
+
+# 19. フィローネ 2 / サイハテノ島
+- use: /section/19_Faron2_EventideIsland.yaml
+
+# 20. 手紙 / 中央ハイラル / サトリ山
+- use: /section/20_Letter_CentralHyrule_SatoriMountain.yaml
+
+# 21. ウルボザの怒り＋
+- use: /section/21_UrbosaEX.yaml
+
+# 22. ヘブラ南
+- use: /section/22_HebraSouth.yaml
+
+# 23. ヘブラ東
+- use: /section/23_HebraEast.yaml
+
+# 24. タバンタ
+- use: /section/24_Tabantha.yaml
+
+# 25. ラネール / ゾーラの里
+- use: /section/25_Lanayru_Zora.yaml
+
+# 26. オルディン / アッカレ
+- use: /section/26_Eldin_Akkala.yaml
+
+# 27. カカリコ村 / ハテノ村 2
+- use: /section/27_Kakariko_Hateno2.yaml
+
+# 28. ラネール湾
+- use: /section/28_LanayruCoast.yaml
+
+# 29. 忘れ去られた神殿
+- use: /section/29_ForgottenTemple.yaml
+
+# 30. 100% Cleanup
+- use: /section/30_Cleanup.yaml
+

@@ -1,0 +1,298 @@
+- 24. タバンタ:
+  - _warp::medoh<8:00>:
+      presets: _mappct<notes>
+      color: "#00ffff"
+
+  - ビタロック装備
+
+  - チカラ料理を食べてメドーへ
+
+  - リーバルの猛り＋:
+      icon: medoh-ex
+      icon-priority: 1
+      counter: .user-defined-split()
+      comment: .fury(ウルボザの怒り１～３) / .link([参考動画]https://youtu.be/T4ALHtxoh7o?t=3233)
+      notes:
+        - 左奥の上昇気流からビタロバクダン矢4木の矢5、HSでスタン、中央空中3 or 4HSで第2
+        - 1胴体3HS、ウルボザ3ジャンプキャンセル
+
+  - ウルボザが余ったら使い切る
+
+  - 落ちる .dir([8:00])
+
+  - _korok::T14:
+      comment: バクダン矢
+
+  - _npc<ナン>:
+      coord: [-3633.80, 352.95, -1792.05]
+      comment: 歌ってる赤いリト族
+
+  - 滑空 .dir([8:00])
+
+  - _npc<ハミラ>:
+      coord: [-3668.51, 321.49, -1769.96]
+      comment: キールを探して
+
+  - _shrine::akh-vaquot
+
+  - _wb::square<3:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::T15:
+      comment: 柱の上
+
+  - _wb::square<1:30>:
+      comment: 上を向いてラグ回避、飛んだら丸起爆
+
+  - _npc<コッツ>:
+      coord: [-3488.88, 258.52, -1850.25]
+      comment: マックスサーモン
+
+  - _wb::hight<8:00>
+
+  - _material<ヒンヤリヤンマ,1>:
+      coord: [-3591.41, 319.37, -1804.93]
+
+  - _npc<ベラ>:
+      coord: [-3588.75,-1798.375]
+      comment: リトの詩の謎
+
+  - 落ちる .dir([1:00])
+
+  - _cook<サーモンムニエル>:
+      icon-map: null
+      comment: 小麦、バター、マックスサーモン
+
+  - _npc<ゲンコ>:
+      coord: [-3586,-1805.375]
+      comment: サーモンムニエルを渡す
+
+  - 落ちる .dir([10:30])
+
+  - _npc<ペーダ>:
+      coord: [-3600.50, 287.60, -1814.47]
+      comment: イチカラ村
+
+  - 走って宿屋へ
+
+  - _npc<ジョウゴ>:
+      coord: [-3605.16, 289.12, -1852.43]
+      comment: 2回話して火打ち石を渡す
+
+  - 走ってよろず屋へ
+
+  - _npc<グリグリ>:
+      coord: [-3637.58, 289.95, -1815.48]
+
+  - 走って宿屋の前でリーバル:
+      comment: .gale(リーバルの猛り１)
+
+  - _npc<ジュノー>:
+      coord: [-3616.25,-1829.375]
+      comment: 2回話して焼きリンゴを渡す
+
+  - _npc<モモ>:
+      coord: [-3632,-1833]
+      comment: 1段下、武器で驚かせる
+
+  - _wb::hight<9:30>
+
+  - _korok::T10
+
+  - _wb<8:00>
+
+  - _korok::T13
+
+  - _run<3:30>
+
+  - 台座を起動:
+      icon: imp.
+      coord: [-3986.3125,-1737.886004]
+      comment: 4 - 5 - 3 - 1 - 2 (1個飛ばし)
+      notes:
+        - 台座の中心より少し「1」寄りで、カメラを右に回しながら風を送る
+        - 持っていない場合武器を外し紫色と話してコログのうちわをもらう
+
+  - _shrine::voo-lota
+
+  - _wb::speed<2:30>
+
+  - _korok::T17
+
+  - WB .dir([12:00]) + WB .dir([1:00])
+
+  - _location::HebraTrailheadLodge
+
+  - WB .dir([5:00]) + 滑空 .dir([3:00])
+
+  - _korok::T05:
+      comment: 崖の石
+
+  - _wb<5:00>
+
+  - _korok::T11:
+      comment: 巨木
+
+  - _run<7:30>
+
+  - _npc<ギザン>:
+      coord: [-3308.27, 227.83, -1803.34]
+      comment: 2回話す (ブリザー谷のガチロック)
+
+  - _run<3:30>
+
+  - _npc<レス>:
+      coord: [-3267.07, 224.60, -1773.77]
+      comment: 2回話してゴロンの香辛粉を渡す
+
+  - _location::RitoStable
+
+  - _wb::hight<6:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::T21:
+      comment: バクダン矢
+
+  - _wb::hight<3:30>
+
+  - _korok::T22:
+      comment: バクダン矢
+
+  - .dir([7:30])の岩からWBS .dir([5:30])
+
+  - _korok::T25:
+      comment: 崖際
+
+  - WBH .dir([3:00]) + 空中WB .dir([2:00])
+
+  - _korok::R05
+
+  - _run<6:00>
+
+  - _location::FootraceCheck-In
+
+  - WBH + 空中WB .dir([6:00])
+
+  - _korok::R13:
+      comment: 滝の上
+
+  - _wb::hight<6:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::R17:
+      comment: 丘の上
+
+  - _wb<4:30>:
+      comment: キノコ木に着地する
+
+  - _hinox::blue:
+      icon-map: null
+      movements:
+        - to: [-2441,-396.680251]
+        - push
+        - to: [-2370.05, 261.70, -419.59]
+          color: white
+          icon: hinox-blue
+        - pop
+
+  - _korok::R22:
+      icon-map: null
+      comment: shoot .dir([12:00])
+      movements:
+        - push
+        - to: [-2434.11, 319.87, -491.04]
+          color: white
+          icon: korok
+        - pop
+
+  - _korok::R31:
+      icon-map: null
+      comment: shoot .dir([4:00])
+      movements:
+        - push
+        - to: [-2370.11, 307.05, -345.31]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<6:00>
+
+  - _korok::R30
+
+  - _wb<10:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::R21
+
+  - 氷を作ってWBH .dir([9:30])
+
+  - _shrine::shae-loya:
+      comment: エレベータ左からWB
+
+  - 必要なら昼にする:
+      icon: set-time
+      icon-map: null
+
+  - _run<11:30>
+
+  - _npc<ゴーグ>:
+      coord: [-2954.5,-482.7]
+      comment: 絶壁の文様
+
+  - _location::TabanthaBridgeStable
+
+  - _npc<トリュー>:
+      coord: [-2916.00, 274.73, -561.00]
+      comment: 2回話す
+
+  - _wb::hight<9:30>:
+      comment: 飛んだら四角起爆
+
+  - _location::TabanthaGreatBridge:
+      coord: [-3000,-583]
+
+  - _korok::T34:
+      comment: 橋の下
+      notes: 橋に当たらないように横にずれてからWBするとよい
+
+  - _wb<7:00>
+
+  - _korok::R28:
+      comment: バクダン矢2
+
+  - _wb::hight<3:00>
+
+  - _korok::R29:
+      comment: 岩の間
+
+  - .dir([2:00])の坂からWB .dir([11:30]):
+      coord: [-3183.8125,-348.409398]
+
+  - _korok::R20
+
+  - _wb::speed<0:30>
+
+  - _location::TanagarCanyonCourse-S
+
+  - _korok::R12
+
+  - WB + 空中WB .dir([1:00])
+
+  - _shrine::dunba-taag:
+      comment: 走ってWB .dir([11:00])
+
+  - 祠の後ろの坂からWBH .dir([5:30])
+
+  - _korok::H73
+
+  - _wb<4:00>
+
+  - _korok::R04
+
+  - _warp::TarreyTown<3:00>:
+      presets: _mappct<notes>
+
+  - _npc<エノキダ>:
+      coord: [3981.65, 233.41, -1599.11]
+      comment: 2回話して薪の束50を渡す
+

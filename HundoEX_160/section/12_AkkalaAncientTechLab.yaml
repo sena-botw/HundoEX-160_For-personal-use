@@ -1,0 +1,389 @@
+- 12. アッカレ古代研究所:
+  - _warp::shae-mosah<1:00>:
+      presets: _mappct<notes>
+      color: "#ff0000"
+
+  - _wb::super<8:00>:
+      comment: 飛んだら弓を外す
+
+  - ルーダニアの石碑:
+      icon: rudania-ex
+      icon-priority: 1
+      coord: [1397.82, 523.03, -2285.30]
+
+  - WBH .dir([0:30]) + 空中WB .dir([2:00])
+
+  - _korok::E14:
+      comment: 上を向いて四角先WB
+
+  - _wb<1:30>
+
+  - _korok::E10
+
+  - WBH + 空中WB .dir([2:30]):
+      comment: 両方飛んだら四角起爆
+
+  - _korok::E11
+
+  - _wb<1:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::E09:
+      comment: 曲がった岩の柱の上
+
+  - _wb<2:00>
+
+  - _korok::E06:
+      comment: バクダン
+
+  - WB + 空中WB .dir([8:00])
+
+  - _talus::igneo:
+      coord: [2146.50, 535.83, -3011.50]
+      comment: 氷の矢 火打ち石
+
+  - 北東に走る:
+      coord: [2181.75,-3037.875]
+
+  - _wb::speed<11:30>
+
+  - _talus::igneo::titan:
+      coord: [2160.11, 500.65, -3190.37]
+      comment: 氷の矢 & 古代矢 2
+
+  - _shrine::kamia-omuna:
+      comment: エレベータ右からWB
+
+  - _wb::speed<11:30>
+
+  - _korok::E02
+
+  - _snap<オルディンの大化石>:
+      comment: ズームは最大引きでOK
+      icon-map: null
+      movements:
+        - push
+        - to: [1517.38, 209.04, -3703.94]
+          color: white
+          icon: snap
+        - pop
+
+  - _wb<1:30>
+
+  - _korok::E03:
+      comment: バクダン矢
+
+  - WBH .dir([3:00]) + 空中WB .dir([3:30]):
+      comment: 1回目は飛んだら四角起爆
+
+  - _korok::E04:
+      comment: バクダン矢
+
+  - _wb<4:00>:
+      comment: 上昇気流に乗る
+
+  - _location::GutCheckRock
+
+  - _korok::E05
+
+  - ド根性崖登り - 赤ルピー .dir(5):
+      icon: imp.
+      icon-map: null
+      comment: 岩からWBH .dir([3:00]) + 空中WB .dir([9:00])
+      notes: パラセール連打で開いたらすぐ方向転換、四角起爆して回復を待ち空中WB
+
+  - _shrine::gorae-torr
+
+  - 夜にする:
+      icon: set-time
+      icon-map: null
+
+  - _wb<2:00>
+
+  - _hinox::black:
+      coord: [2917.42, 343.68, -3561.40]
+
+  - _wb::midair<2:00>
+
+  - _korok::A01
+
+  - _wb<5:00>
+
+  - _snap<キルトン>:
+      coord: [3244.60, 82.63, -3448.81]
+      comment: 取り忘れたら「嫌い」を選択
+      notes: 正面で密着し、頭を中心に写真を撮る
+
+  - _npc<キルトン>
+
+  - _wb<7:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::A05:
+      comment: .gale(リーバルの猛り３)
+
+  - _wb::hight<6:00>
+
+  - _korok::A10:
+      comment: バクダン矢
+
+  - _wb::hight<3:00>:
+      comment: 上を向いてラグ回避
+
+  - _snap<ルミー>:
+      coord: [3339.71, 163.93, -3080.99]
+      notes: 撮れなかった場合、終盤のカカリコ村で撮る
+
+  - _korok::A11
+
+  - _wb::hight<2:30>:
+      comment: 上を向いてラグ回避
+
+  - _korok::A12:
+      icon-map: null
+      comment: 岩の柱の下
+      movements:
+        - to: [3493.4375,-3103.8125]
+        - push
+        - to: [3572.84, 205.91, -3046.93]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::midair<12:00>
+
+  - _korok::A06
+
+  - _hinox::black:
+      icon-map: null
+      comment: 崖の下
+      movements:
+        - push
+        - to: [3489.38, 179.10, -3335.79]
+          color: white
+          icon: hinox-black
+        - pop
+
+  - _wb<10:00>
+
+  - _shrine::zuna-kai
+
+  - 北東の空を見る:
+      icon: imp.
+      icon-map: null
+      comment: 流星を出現させる
+      notes: 炎運びで雨になりそうな場合、流星を出現させてから昼にする
+
+  - _wb::hight<0:30>
+
+  - _korok::A02:
+      comment: 石は魔物拠点の南西
+      notes: 光の柱が出るまで流星をカメラに入れておく
+
+  - _wb::hight<3:00>
+
+  - _korok::A03:
+      comment: バクダン矢
+
+  - _wb::hight<3:30>
+
+  - _chest::special<サルベージャーボディ>:
+      coord: [3636.00, 302.00, -3520.00]
+
+  - _wb<4:00>
+
+  - _korok::A04
+
+  - _wb<5:00>
+
+  - _korok::A13:
+      comment: バクダン矢
+      notes: 必要なら青ライネルを倒してヒヅメ
+
+  - _run<1:00>
+
+  - _korok::A07:
+      comment: ビタロ赤色、穴の少し左を狙う
+      notes: 一発で入らなかった場合、大剣2回→解除を繰り返して近づけ、最後はアイスロッドなどで調整 必要なら記憶を見てビタロックのクールタイムをリセット
+
+  - WB + 空中WB .dir([4:00])
+
+  - _weapon<武器持ちバグ - 青い炎>:
+      coord: [4151.8125,-3171.875]
+
+  - _wb::speed<3:00>
+
+  - _korok::A16
+
+  - 松明を持って降り、青い炎を灯す
+
+  - _location::AkkalaAncientTechLab
+
+  - _npc<ロベリー>:
+      coord: [4514.28, 352.96, -3158.73]
+      comment: 選択肢 2 - 1 - 2
+
+  - _weapon<古代兵装・剣>:
+      icon-map: null
+      comment: 買う
+
+  - _npc<ジェリン>:
+      icon-map: null
+      comment: 選択肢 1 - 1
+
+  - _run<9:30>
+
+  - _korok::A15:
+      comment: ガーディアンの近く
+
+  - _wb::hight<8:30>
+
+  - _korok::A14
+
+  - _wb::super<1:00>
+
+  - _location::LomeiLabyrinthIsland:
+      coord: [4629.6875,-3687.625]
+      comment: 松明を投げ捨てる
+
+  - _shrine::tu-kaloh:
+      comment: ウツシエ装備
+
+  - _snap<飛行型ガーディアン>:
+      icon-map: null
+
+  - 地下に降りる
+
+  - _snap<歩行型ガーディアン>:
+      icon-map: null
+
+  - _chest::special<ワープマーカー>:
+      coord: [4655.00, 155.50, -3560.02]
+
+  - skewを取って壁抜け
+
+  - もう一度壁抜け、ラグドール解除
+
+  - _wb<7:00>:
+      comment: ローメイ島近くの浅瀬に氷を作る
+
+  - _korok::A08:
+      comment: バクダン矢
+
+  - _wb::speed<3:00>
+
+  - _korok::A09
+
+  - _wb<7:00>
+
+  - _korok::A17
+
+  - _wb<7:00>:
+      comment: 氷を作ってWB
+
+  - _korok::A24
+
+  - WBH .dir([6:30]) + 空中WB .dir([7:30]):
+      comment: 氷を作ってWBH
+
+  - _korok::A29:
+      comment: バクダン矢
+
+  - _wb::hight<9:00>
+
+  - _korok::A28:
+      comment: レースは飛んだら四角起爆
+
+  - _wb<1:30>
+
+  - _korok::A23
+
+  - _wb::hight<9:00>:
+      comment: 上を向いてラグ回避
+
+  - _shrine::katosa-aug:
+      comment: 正面に四角先WB
+
+  - _location::EastAkkalaStable
+
+  - _npc<兵士>:
+      icon-map: null
+      comment: キルトンの写真を見せる
+      notes: 失敗していた場合、メダルをもらう時に写真を撮る
+
+  - _npc<鍋のそばの女性>:
+      icon-map: null
+      comment: 「このあたりについて」を尋ねる
+
+  - 夜にする:
+      icon: set-time
+      icon-map: null
+
+  - _wb<10:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::A19
+
+  - 盾サーフィン .dir([7:00])
+
+  - _korok::A22:
+      comment: バクダン
+
+  - _wb<10:00>
+
+  - _korok::A18:
+      comment: バクダン矢
+      notes: ある程度高度を下げてドングリを出現させる
+
+  - WBH / 空中WB .dir([6:00])
+
+  - _korok::A21:
+      comment: 力の泉の近く
+
+  - _memory::SpringofPower
+
+  - _location::SpringofPower
+
+  - 泉にオルドラのウロコを落とす
+
+  - _shrine::tutsuwa-nima
+
+  - _wb::hight<6:00>
+
+  - _korok::A26
+
+  - _wb::hight<3:30>
+
+  - _korok::A27
+
+  - _wb<4:00>
+
+  - _hinox::stal:
+      icon-map: null
+      movements:
+        - to: [4058,-2228.4375]
+        - push
+        - to: [4146.69, 130.35, -2225.24]
+          color: white
+          icon: stalnox
+        - pop
+
+  - 空中WBs .dir([6:30]):
+      comment: イチカラ村へ
+
+  - ワープマーカーを置く:
+      icon: warp
+      coord: [3964.30, 235.62, -1612.21]
+
+  - _npc<エノキダ>:
+      comment: 2回話して薪の束20を渡す
+      coord: [3981.65, 233.41, -1599.11]
+
+  - _wb<1:30>
+
+  - _korok::A34
+
+  - _wb::hight<6:00>
+
+  - _korok::A38
+

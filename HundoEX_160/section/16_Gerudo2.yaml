@@ -1,0 +1,707 @@
+- 16. ゲルド 2:
+  - _warp::kaam-yatak<3:30>:
+      color: "#00ff00"
+      presets: _mappct<notes>
+
+  - _wb::hight<6:30>
+
+  - _korok::C61
+
+  - _run<9:30>
+
+  - _korok::C60
+
+  - _wb<10:00>
+
+  - _korok::C57:
+      comment: バクダン矢
+
+  - 盾サーフィン .dir([7:30])
+
+  - _location::GleeokBridge
+
+  - _wb<8:00>
+
+  - _korok::C58
+
+  - _wb::square<7:30>
+
+  - _korok::C59:
+      comment: 氷を作ってから投げる
+
+  - _wb<11:00>
+
+  - _korok::R74
+
+  - リーバルの猛り + 空中WB .dir([11:00]):
+      comment: .gale(リーバルの猛り１)
+
+  - _memory::SanidinParkRuins
+
+  - _location::SanidinParkRuins
+
+  - _wb<7:00>
+
+  - 白馬:
+      coord: [-1674.17, 222.94, 807.44]
+      icon: imp.
+      comment: 逃げられたらハヤブサ電気の矢
+
+  - 馬 .dir([7:30])
+
+  - _korok::R79
+
+  - 馬宿へ:
+      movements:
+        - to: [-1924.4375,1007.375]
+        - to: [-1934,1051.5]
+        - to: [-1847.25,1079]
+
+  - _location::ManhalaBridge
+
+  - 馬を登録する:
+      comment: バッタが足りない場合、テリーから買う
+      coord: [-1575.125,1014.75]
+
+  - _location::OutskirtStable
+
+  - _npc<トロット>:
+      coord: [-1432.50, 137.72, 1264.50]
+      comment: 肉食系男子？！
+
+  - _npc<トーテツ>:
+      coord: [-1439.25, 137.72, 1278.45]
+      comment: 王家の白馬
+
+  - _npc<木の下の女>:
+      coord: [-1400.00, 137.72, 1280.00]
+      comment: 選択肢 2
+      notes: "私の勇者様！ 星のかけら: 1 / 3"
+
+  - _run<2:30>
+
+  - _korok::C78
+
+  - _wb<11:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::C72
+
+  - _wb<8:00>:
+      comment: 上を向いてラグ回避
+
+  - _shrine::rota-ooh:
+      comment: エレベータ左から左にWBH
+
+  - .dir([4:00])に登ってWB .dir([8:00]):
+      coord: [-1534.875,1322.1875]
+
+  - _korok::C85
+
+  - _wb<8:00>
+
+  - _korok::R80:
+      comment: 崖際
+
+  - _wb::square<2:00>:
+      comment: 飛んだら丸起爆
+
+  - _korok::C86:
+      comment: 反対側の崖際
+
+  - _wb::square<7:00>
+
+  - _korok::G29
+
+  - _wb::speed<2:30>
+
+  - _korok::C87
+
+  - _wb<7:00>
+
+  - _shrine::dah-kaso
+
+  - _wb<4:00>
+
+  - _korok::C89
+
+  - _wb::hight<9:30>
+
+  - _hinox::blue:
+      coord: [-1704.30, 111.60, 1776.78]
+
+  - _location::DigdoggSuspensionBridge
+
+  - _run<7:30>
+
+  - _korok::C88:
+      comment: 氷を作ってから飛び込む
+
+  - _wb<5:00>:
+      comment: 上を向いてラグ回避
+
+  - _location::GerudoCanyonPass
+
+  - WBH + 空中WBs .dir([9:00]):
+      comment: 柱に登ってWB
+
+  - _npc<パームを助ける>:
+      coord: [-2063.50, 208.00, 1994.50]
+
+  - _wb::hight<3;00>:
+      comment: バクダン矢でイワロックを起こす
+      coord: [-1950,1985.9375]
+
+  - _talus::luminous:
+      icon-map: null
+      comment: バクダン矢
+      movements:
+        - push
+        - to: [-1896.00, 200.68, 2044.68]
+          color: white
+          icon: talus-luminous
+        - pop
+
+  - _wb::midair<11:00>
+
+  - _npc<ヴェニーを助ける>:
+      coord: [-2055.00, 209.05, 1742.00]
+
+  - 登る .dir([3:00])
+
+  - ガマンくらべ:
+      icon: imp.
+      coord: [-2005.45, 225.98, 1740.65]
+      comment: 2回目の途中で焼きリンゴを作る
+      notes: 弓を燃やさないように、ビタロ、電気の矢装備、アクス＋＋が残ってたら投げ捨てる
+
+  - _shrine::joloo-nah:
+      notes: 電気の矢→操作と盾サーフィンジャンプとビタロック→WB
+
+  - _wb::hight<9:00>
+
+  - _npc<アマニを助ける>:
+      coord: [-2163.76, 249.00, 1707.54]
+
+  - 落ちる .dir([10:00])
+
+  - _npc<ナタネを助ける>:
+      coord: [-2187.78, 207.99, 1691.46]
+
+  - _wb<7:30>:
+      comment: 妥協して .dir([8:00]) に飛んでもいい
+
+  - .lime(G32 光の輪レース)開始:
+      coord: [-2395.25,1916]
+
+  - _korok::W08:
+      comment: G32のレースの途中に取得
+
+  - _korok::G32
+
+  - _wb::hight<6:30>
+
+  - _korok::W10:
+      icon-map: null
+      movements:
+        - to: [-2441.4375,2002.5625]
+        - push
+        - to: [-2550.18, 190.00, 2038.10]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<3:00>:
+      comment: バクダン矢でイワロックを起こす
+      coord: [-2317.8125,1996.0625]
+
+  - _talus::luminous:
+      icon-map: null
+      comment: バクダン矢
+      movements:
+        - push
+        - to: [-2277.50, 293.77, 1979.00]
+          color: white
+          icon: talus-luminous
+        - pop
+
+  - _wb<8:00>:
+      coord: [-2589,2130.125]
+
+  - _korok::G35
+
+  - 昼にする:
+      icon: set-time
+      icon-map: null
+
+  - リーバルの猛り + 空中WB .dir([8:30]):
+      comment: .gale(リーバルの猛り２)
+
+  - _talus::luminous:
+      comment: バクダン矢
+      coord: [-2898.47, 305.79, 2210.99]
+
+  - _wb::super<7:30>
+
+  - _memory::KaraKaraBazaar
+
+  - _run<7:30>
+
+  - _npc<リト族にひんやり薬>:
+      coord: [-3238.62, 130.10, 2574.56]
+      comment: 選択肢 2 - もう一度話しかけて 1
+      notes: リトの村で取れなかったらテリーからヒンヤリヤンマを買う
+
+  - _npc<パウダ - イチカラ村>:
+      coord: [-3269.43, 129.00, 2585.22]
+      comment: 選択肢 1 - 1 - 1 - 2 - 1
+
+  - _npc<ノビル>:
+      coord: [-3282.89, 134.16, 2540.95]
+      comment: 消える？砂嵐
+
+  - _wb::hight<11:30>
+
+  - _korok::W17
+
+  - WBH + 空中WB .dir([9:30]) → WBH + 空中WB .dir([0:30]):
+      banner: true
+      movements:
+        - to: [-3601.375,2217.323788]
+        - to: [-3580.4375,1984.581877]
+
+  - "台座: 弓で太陽を射る":
+      icon: imp.
+      comment: "2:55pm ~ 3:55pm"
+
+  - _shrine::sasa-kai
+
+  - WBH .dir([9:00]) + 空中WB .dir([9:30])
+
+  - _korok::G31:
+      comment: バレットタイム→バクダン矢
+
+  - _wb<10:00>
+
+  - _korok::G30
+
+  - _wb<11:00>
+
+  - _talus::luminous:
+      icon-map: null
+      comment: .fury(ウルボザの怒り１－３)
+      movements:
+        - to: [-4284.3125,1473.617911]
+        - push
+        - to: [-4312.07, 418.11, 1446.89]
+          color: white
+          icon: talus-luminous
+        - pop
+
+  - _korok::G21
+
+  - WBH .dir([5:30]) + 空中WB .dir([0:30]):
+      coord: [-4163,1554.796522]
+
+  - _korok::G16
+
+  - _wb::hight<8:30>
+
+  - _korok::G20
+
+  - _wb::hight<11:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::G15:
+      comment: 崖の端
+
+  - _wb<2:00>:
+      comment: 丘に登ってWB
+
+  - _korok::G11
+
+  - WBH .dir([9:30]) + 空中WBs .dir([10:00])
+
+  - _korok::G07
+
+  - 落ちる .dir([5:00])
+
+  - _shrine::kema-kosassa
+
+  - _wb<2:00>
+
+  - _korok::G08:
+      comment: ガッツ料理を2回食べる
+
+  - _wb<10:30>
+
+  - _korok::G04
+
+  - _wb<1:00>
+
+  - _korok::G05
+
+  - _wb::midair<11:00>:
+      coord: [-4432,337.62323]
+
+  - _korok::G01
+
+  - 盾サーフィン .dir([5:30])
+
+  - _location::StatueoftheEighthHeroine
+
+  - _snap<八人目の英雄像>
+
+  - _wb::midair<1:00>
+
+  - _korok::G02
+
+  - WBH .dir([12:00]) + 空中WB .dir([4:00]):
+      comment: 1回目は四角起爆
+
+  - _korok::G03
+
+  - WBS .dir([3:00]) + 空中WB .dir([5:00]):
+      coord: [-3792.5,497.172344]
+
+  - _korok::G06
+
+  - WBH .dir([9:00]) + 滑空 .dir([8:30]):
+      comment: 梯子を上ってWBH
+
+  - 台座に電気の矢:
+      icon: imp.
+      icon-map: null
+
+  - _shrine::keeha-yoog:
+      comment: バクダン矢装備
+
+  - WBH .dir([3:00]) + 空中WB .dir([6:00])
+
+  - _korok::G09
+
+  - 上昇気流 + 空中WB .dir([8:00])
+
+  - _snap<忘れられた剣>:
+      icon-map: null
+      comment: 剣の柄が映るように撮る
+      movements:
+        - to: [-3899,888]
+        - push
+        - to: [-3966.65, 766.14, 969.19]
+          color: white
+          icon: snap
+        - pop
+
+  - _wb::speed<5:30>
+
+  - _talus::rare:
+      coord: [-3804.76, 602.57, 1204.77]
+      comment: "バクダン矢で起こす: 古代矢"
+
+  - _wb<4:00>
+
+  - アジトに侵入、宝珠を運ぶ
+
+  - _material<ツルギバナナ,16>:
+      movements:
+        - to: [-3447.5,1322.5]
+        - to: [-3577.5,1316.5]
+
+  - 宝珠を大穴へ投げる:
+      icon: imp.
+      coord: [-3431,1332.819140308191]
+
+  - _shrine::kihiro-moh:
+      notes: エレベーター右から右にずらして四角先WB
+
+  - WBH .dir([12:00]) + 空中WBs .dir([8:30]):
+      comment: 端末からWBH
+      coord: [-3401,1285]
+
+  - _korok::W01:
+      comment: 崖際
+
+  - _wb::hight<6:30>
+
+  - 台座に夜光石を置く:
+      icon: imp.
+      icon-map: null
+      comment: 夜光石が10個ない場合.lime(F18)で取る
+
+  - _shrine::sho-dantu:
+      notes: エレベーター右から、右の照明の左の角に望遠鏡で照準を合わせてWBH、スタミナ1/8消費で四角出し
+
+  - _wb<11:00>
+
+  - _korok::W02
+
+  - _run<8:30>
+
+  - _korok::G25
+
+  - WBH .dir([9:00]) + 滑空 .dir([6:00])
+
+  - _korok::W04
+
+  - _run<8:00>
+
+  - _korok::W05
+
+  - 滑空 .dir([11:00])
+
+  - _korok::W03:
+      notes: 終わった後ポーチ内にバナナが21個残るように(料理+コログ+増殖で使う)
+
+  - _wb::speed<6:30>
+
+  - _korok::W06
+
+  - _wb<4:00>:
+      coord: [-4151.875,1933.575548]
+
+  - _korok::G33
+
+  - WBS + 空中WB .dir([5:30])
+
+  - _npc<門兵>:
+      coord: [-3916.17, 149.18, 2877.34]
+      comment: 淑女のマスク、淑女の服装備
+
+  - 借りザラシ .dir([10:00])
+
+  - _korok::W36:
+      comment: "サボテン: 古代矢"
+      notes: 光輪手前で一度降りる
+
+  - 光輪をくぐって祠を出現させる:
+      movements:
+        - to: [-4201.40, 154.24, 2713.20]
+        - to: [-4290.06, 159.24, 2679.14]
+        - to: [-4402.44, 152.77, 2628.23]
+        - to: [-4491.50, 162.95, 2589.50]
+        - to: [ -4560.00, 172.29, 2513.50]
+        - to: [-4586.50, 150.65, 2423.50]
+        - to: [ -4595.00, 144.47, 2336.70]
+        - to: [-4682.00, 152.24, 2295.00]
+        - to: [-4756.10, 171.27, 2252.70]
+        - to: [-4855.12, 147.28, 2169.28]
+
+  - _shrine::takama-shiri:
+      comment: 鉄箱の横からWB .dir([10:00])
+
+  - _wb::speed<5:30>
+
+  - _korok::W25
+
+  - _wb::midair<5:30>
+
+  - _molduga:
+      coord: [-4832.61, 133.21, 2800.42]
+      comment: 炎の矢
+      notes: 腹が撃てるようにバクダン矢で誘導(他の3体も同様)
+
+  - _material<モルドラジークの肝,1>:
+      icon-map: null
+
+  - 燭台に火を灯す:
+      icon: imp.
+      icon-map: null
+
+  - _shrine::tho-kayu
+
+  - _wb<5:00>
+
+  - _molduga:
+      coord: [-4555.62, 137.14, 3256.35]
+      comment: 古代矢2
+
+  - _wb::hight<8:30>
+
+  - _korok::W51
+
+  - _wb::midair<6:00>
+
+  - _korok::W65
+
+  - _snap<ゲルドの大化石>:
+      icon-map: null
+
+  - _location::GreatFairyFountainWasteland:
+      comment: ルピーを渡す
+      notes: 祠前の平らな地面で盾サーフィンしてskewを消す、電気の矢装備
+
+  - _location::GerudoGreatSkeleton
+
+  - _shrine::hawa-koth:
+      comment: .link([skewを取って祠に入る]https://x.com/ikurapan_botw/status/1707176311226311101?s=20)
+
+  - _npc<バレッタ>:
+      coord: [-4818.86, 130.23, 3713.28]
+      comment: 2回話してドリアンを渡す
+
+  - _wb<2:00>
+
+  - _korok::W55
+
+  - _wb::hight<6:30>
+
+  - _korok::W61
+
+  - _wb::midair<4:00>
+
+  - _molduga:
+      coord: [-4191.12, 126.91, 3797.45]
+      comment: バクダン矢2
+
+  - _korok::W66:
+      comment: 柱の上
+
+  - _location::ArbitersGrounds
+
+  - _wb<2:00>
+
+  - _molduga:
+      icon-map: null
+      comment: バクダン矢2
+      movements:
+        - to: [-3847.0625,3648.3125]
+        - push
+        - to: [-3799.06, 118.76, 3653.43]
+          color: white
+          icon: molduga
+        - pop
+
+  - _korok::W57:
+      icon-map: null
+      movements:
+        - push
+        - to: [-3728.54, 166.49, 3610.08]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<0:30>
+
+  - _korok::W56
+
+  - _wb::hight<0:30>:
+      comment: 盾を装備する
+
+  - _location::Sand-SealRally
+
+  - スナザラシラリー
+
+  - _shrine::raqa-zunzo
+
+  - _wb::speed<0:30>
+
+  - _npc<ボテンサ>:
+      coord: [-3750,2874]
+      comment: 3回話してスノーブーツをもらう
+
+  - リーバルの猛り + 空中WB .dir([8:00]):
+      comment: .gale(リーバルの猛り３) 上を向いてラグ回避
+
+  - _korok::W42:
+      comment: ゲルドの街のてっぺん
+
+  - 落ちる .dir([9:30])
+
+  - _npc<メロン食べてる人>:
+      coord: [-3915.29, 169.20, 2954.60]
+      comment: 2回話す
+
+  - _npc<隊長>:
+      coord: [-3912.83, 149.68, 2930.99]
+      comment: バレッタを探して
+
+  - _npc<メルエナ>:
+      coord: [-3908.5625,2913]
+      comment: 2回話す、必要なら昼にする
+      notes: "2pm ~ 10pmまでは王座の間の階段に、それ以外の時間は訓練場にいる"
+
+  - _npc<イチゴの女の子>:
+      coord: [-3833,2852.75]
+      comment: 犯人は誰だ！
+
+  - _npc<アイシャ>:
+      coord: [-3834.85, 149.52, 2875.26]
+      comment: 選択肢 1 - 2 - もう一度話しかける
+      notes: 火打ち石を10渡す
+
+  - _npc<ルージュ>:
+      coord: [-3892.04, 157.48, 2968.14]
+      comment: 雷鳴の兜をもらう
+      notes: ルージュの選択肢は下
+
+  - ゲルドシークレットクラブ:
+      coord: [-3784.6875,2937.5625]
+      icon: location
+      comment: 選択肢 3 - 3 - 3 - 4
+      notes: GSC♦
+
+  - _wb::speed<3:00>
+
+  - _korok::W43
+
+  - _wb::speed<2:30>
+
+  - _korok::W37:
+      comment: 骸骨の上
+
+  - _wb<4:30>
+
+  - _korok::W44:
+      comment: 左をひっかけてカメラを下げる
+
+  - _wb<1:00>
+
+  - _korok::W35:
+      icon-map: null
+      comment: バクダン矢
+      notes: 腕に玉がある像から撃つ
+      movements:
+        - to: [-2691,2735.6875]
+        - push
+        - to: [-2628.11, 168.49, 2751.21]
+          color: white
+          icon: korok
+        - pop
+
+  - 玉を正しい場所に入れる:
+      icon: imp.
+      comment: .link([参考動画]https://youtu.be/SmD3cyYDKDo?t=1340)
+      notes: .link([画像①]https://imgur.com/i8XCNI8) / .link([画像②]https://imgur.com/ziWggqR)
+
+  - _shrine::korsh-ohu
+
+  - _wb::hight<6:00>
+
+  - _location::EastGerudoRuins
+
+  - _korok::W40:
+      comment: 像のてっぺん
+
+  - WBH + 空中WB .dir([0:30])
+
+  - _korok::W30
+
+  - _wb<11:00>:
+      notes: ムジュラの仮面、ゾーラの鎧、スノーブーツ装備
+
+  - _npc<ゴマナ>:
+      coord: [-2797.53, 135.05, 2240.97]
+
+  - _cook<フルーツケーキ>:
+      icon-map: null
+      notes: リンゴ、ヒンヤリメロン、タバンタ小麦、きび砂糖
+
+  - _cook<チカラ料理4個>:
+      icon-map: null
+      comment: "ツルギバナナ 4×4"
+
+  - _npc<テリー>:
+      icon-map: null
+      comment: ポカポカヤンマを買う
+

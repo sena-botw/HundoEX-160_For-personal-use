@@ -1,0 +1,667 @@
+presets:
+  Location:
+    text: $(0)
+    vars:
+      - _x: .add($(1))
+      - _x: .sub(1) # カウンターの処理で数字が+1される分の調整
+      - counter-location: .add(_x)
+    counter: .var(counter-location)
+    icon: location
+
+  _location:
+    HebraGreatSkeleton:
+      presets: _Location<ヘブラの大化石,1>
+      coord: [-3973.84, 306.70, -3708.25]
+
+    SherfinsSecretHotSpring:
+      presets: _Location<ゼッカワミの秘湯,1>
+      coord: [-4308, 473, -3494]
+
+    SturnidaSecretHotSpring:
+      presets: _Location<クムの秘湯,1>
+      coord: [-4090.5, 129.2624817, -2753]
+
+    DragonBoneMire:
+      presets: _Location<竜骨沼,1>
+      coord: [-4174.5, 290.0800781, -1714.867188]
+
+    StatueoftheEighthHeroine:
+      presets: _Location<八人目の英雄象,1>
+      coord: [-4355.098633, 506.1398315, 499.0203247]
+
+    GerudoGreatSkeleton:
+      presets: _Location<ゲルドの大化石,1>
+      coord: [-4863.96, 146.09, 3804.65]
+
+    GreatFairyFountainWasteland:
+      presets: _Location<大妖精の泉,1>
+      coord: [-4870.5, 163.6000061, 3824.5]
+
+    ArbitersGrounds:
+      presets: _Location<処刑場跡,1>
+      coord: [-4150.887695, 122.3139114, 3817.60083]
+
+    GoflamsSecretHotSpring:
+      presets: _Location<ミンフラーの秘湯,1>
+      coord: [-3443.5, 473.5, -3574.5]
+
+    HebraTrailheadLodge:
+      presets: _Location<ヘブラ山脈登山口の小屋,1>
+      coord: [-3572.40625, 269.3648071, -2275.65625]
+
+    GisaCrater:
+      presets: _Location<ギサのクレーター,1>
+      coord: [-3931.32373, 277.0340271, -1089.512329]
+
+    WarblersNest:
+      presets: _Location<兄弟岩,1>
+      coord: [-3994.79, 275.00, -1734.30]
+
+    GreatFairyFountainTabantha:
+      presets: _Location<大妖精の泉,1>
+      coord: [-3539.700195, 353.792572, -747.2848511]
+
+    AncientColumns:
+      presets: _Location<古代石柱群,1>
+      coord: [-3573.110352, 434.0025635, -431.6987915]
+
+    TabanthaGreatBridge:
+      presets: _Location<タバンタ大橋,1>
+      coord: [-3116.78, 274.30, -581.71]
+
+    TanagarCanyonCourse-S:
+      presets: _Location<ククジャ谷コース,2>
+      coord: [-3119.204346, 299.525116, -627.7741699]
+
+    NorthernIcehouse:
+      presets: _Location<北の氷室,1>
+      coord: [-3748.864502, 187.7687073, 2288.699219]
+
+    Sand-SealRally:
+      presets: _Location<スナザラシラリー受付,1>
+      coord: [-3776.82, 145.52, 3110.48]
+
+    SelmiesSpot:
+      presets: _Location<スレミーの小屋,1>
+      coord: [-2963.899902, 709, -3140.399902]
+
+    PondosLodge:
+      presets: _Location<ポンドの小屋,1>
+      coord: [-2076.600098, 366.6000061, -2080.600098]
+
+    TanagarCanyonCourse-N:
+      presets: _Location<ククジャ谷コース,2>
+      coord: [-2997.970703, 463.4920044, -1049.274414]
+
+    TabanthaVillageRuins:
+      presets: _Location<タバンタ村跡,1>
+      coord: [-2319.5, 503, -1918]
+
+    FootraceCheck-In:
+      presets: _Location<マラソン受付,1>
+      coord: [-2642.307617, 327.9203796, -1168.918457]
+
+    ThundraPlateau:
+      presets: _Location<雷の台地,1>
+      coord: [-2229.199951, 997, -960]
+
+    GerudoDesertGateway:
+      presets: _Location<ゲルド砂漠入口,1>
+      coord: [-2918.181885, 142.2201691, 2322.404785]
+
+    EastGerudoRuins:
+      presets: _Location<東ゲルド遺跡,1>
+      coord: [-2691, 106, 2889.600098]
+
+    RoyalAncientLabRuins:
+      presets: _Location<王立古代研究所跡,1>
+      coord: [-1265, 240, -1030]
+
+    MarittaExchangeRuins:
+      presets: _Location<マリッタ交易所跡,1>
+      coord: [-1781.57, 220.00, -1685.07]
+
+    CarokBridge:
+      presets: _Location<カロク橋,1>
+      coord: [-1087.787476, 160, -474.60849]
+
+    AncientTreeStump:
+      presets: _Location<朽ちた千年樹,1>
+      coord: [-1106.979004, 170.6837006, 444.2716675]
+
+    SageTempleRuins:
+      presets: _Location<賢者の神殿跡,1>
+      coord: [-1355, 200, 233]
+
+    GleeokBridge:
+      presets: _Location<グリオー橋,1>
+      coord: [-1310.03, 111.74, 786.85]
+
+    JeddoBridge:
+      presets: _Location<ジェド橋,1>
+      coord: [-1689.858154, 220, 130.8357849]
+
+    SanidinParkRuins:
+      presets: _Location<サーディン公園跡,1>
+      coord: [-1629.727417, 300, 688.0230713]
+
+    AquameBridge:
+      presets: _Location<アクオ橋,1>
+      coord: [-1128.805908, 172.4490967, 1017.053284]
+
+    ColiseumRuins:
+      presets: _Location<闘技場跡地,1>
+      coord: [-1151, 300, 1262.5]
+
+    ManhalaBridge:
+      presets: _Location<テスタ橋,1>
+      coord: [-1610.57, 128.57, 1016.80]
+
+    DigdoggSuspensionBridge:
+      presets: _Location<デグドの吊り橋,1>
+      coord: [-1710.00, 160.00, 1778.00]
+
+    GerudoCanyonPass:
+      presets: _Location<ゲルドキャニオン入口,1>
+      coord: [-1654, 110, 2017]
+
+    GreatPlateau:
+      presets: _Location<始まりの台地,great-plateau-count>
+      coord: [-1059.15, 249.33, 1805.13]
+
+    SouthLomeiLabyrinth:
+      presets: _Location<南ローメイ城跡,1>
+      coord: [-1795, 177.0497131, 3534.800049]
+
+    NorthLomeiLabyrinth:
+      presets: _Location<北ローメイ城跡,1>
+      coord: [-825.40, 299.70, -3532.00]
+
+    Sanctum:
+      presets: _Location<本丸,1>
+      coord: [-254, 294.8352051, -1063.062256]
+
+    Docks:
+      presets: _Location<船着き場,1>
+      coord: [-255.015625, 126.4528732, -1188.632568]
+
+    Lockup:
+      presets: _Location<牢屋,1>
+      coord: [-443.8999939, 127.8809967, -1062.26709]
+
+    Library:
+      presets: _Location<図書室,1>
+      coord: [-157.9217834, 170.3609924, -1067.450317]
+
+    KingsStudy:
+      presets: _Location<王の書斎,1>
+      coord: [-171.7444763, 170.4576416, -1120.706177]
+
+    HyruleCastleTownRuins:
+      presets: _Location<ハイラル城下町跡,1>
+      coord: [-255, 130, -306.0078125]
+
+    SacredGroundRuins:
+      presets: _Location<式典城跡,1>
+      coord: [-253.9999847, 125.1943893, -76.5]
+
+    MoatBridge:
+      presets: _Location<オホリ橋,1>
+      coord: [-614.2300415, 126.551796, -658.557373]
+
+    CentralSquare:
+      presets: _Location<中央広場跡,1>
+      coord: [-253.9382935, 126.9794769, -385.5044556]
+
+    WaterReservoir:
+      presets: _Location<貯水池跡,1>
+      coord: [-596.6262207, 129.0705566, -516.6730957]
+
+    CastleTownPrison:
+      presets: _Location<監獄跡,1>
+      coord: [-681.6990356, 124.2696686, -841.0332031]
+
+    PrincessZeldasStudy:
+      presets: _Location<ゼルダの研究室,1>
+      coord: [-384, 269.7810059, -983.4685669]
+
+    ObservationRoom:
+      presets: _Location<展望室,1>
+      coord: [-254, 205.2810059, -769.3670044]
+
+    PrincessZeldasRoom:
+      presets: _Location<ゼルダの部屋,1>
+      coord: [-320.5, 257.7810059, -995.8670044]
+
+    GuardsChamber:
+      presets: _Location<訓練所,1>
+      coord: [-368.7000122, 180.8809967, -846.5670166]
+
+    DiningHall:
+      presets: _Location<食堂,1>
+      coord: [-116.0874939, 211.2810059, -837.3591919]
+
+    SecondGatehouse:
+      presets: _Location<二の丸,1>
+      coord: [-170.2330627, 237.9263916, -850.124939]
+
+    FirstGatehouse:
+      presets: _Location<三の丸,1>
+      coord: [-363.1629639, 215.1458588, -813.3166504]
+
+    EastPassage:
+      presets: _Location<東坑道,1>
+      coord: [-111.5, 134.7810059, -977.8670044]
+
+    WestPassage:
+      presets: _Location<西坑道,1>
+      coord: [-469.5, 134.7810059, -851.3670044]
+
+    MabeVillageRuins:
+      presets: _Location<メーベの町跡,1>
+      coord: [-57.5, 129, 174.5]
+
+    HyruleGarrisonRuins:
+      presets: _Location<ハイラル軍駐屯地跡,1>
+      coord: [-588, 153, 574]
+
+    ExchangeRuins:
+      presets: _Location<交易所跡,1>
+      coord: [-744, 168.5, 868]
+
+    OutpostRuins:
+      presets: _Location<ハイラル宿場町跡地,1>
+      coord: [-246.6875, 115.4745865, 1675.390625]
+
+    KolomoGarrisonRuins:
+      presets: _Location<コモロ駐屯地跡,1>
+      coord: [-465.0073547, 154.0073853, 1272.363403]
+
+    GatepostTownRuins:
+      presets: _Location<門前宿場町跡,1>
+      coord: [-545, 200, 1455]
+
+    TempleofTime:
+      presets: _Location<時の神殿跡,1>
+      coord: [-818.75, 258.6000061, 2005.449951]
+
+    BridgeofHylia:
+      presets: _Location<ハイリア大橋,1>
+      coord: [-40.35095215, 195.5710449, 2508.657227]
+
+    MountedArcheryCamp:
+      presets: _Location<流鏑馬受付,1>
+      coord: [-162.574585, 139.2644196, 3514.373779]
+
+    HelmheadBridge:
+      presets: _Location<フェンサ橋,1>
+      coord: [398.0247803, 123.5293808, -1167.635498]
+
+    RauruSettlementRuins:
+      presets: _Location<ラウル集落跡,1>
+      coord: [704, 202.5, -1256.5]
+
+    MilitaryTrainingCamp:
+      presets: _Location<ハイラル軍演習場跡,1>
+      coord: [824, 305.5, -1474.5]
+
+    LostWoods:
+      presets: _Location<迷いの森,1>
+      coord: [741.5, 368.5, -1912.5]
+
+    HyruleCathedral:
+      presets: _Location<ハイラル大聖堂跡,1>
+      coord: [80.08892822, 147.5643158, -620.3581543]
+
+    CastleTownWatchtower:
+      presets: _Location<城下町物見塔跡,1>
+      coord: [80.78717041, 145.9398346, -408.2397156]
+
+    HyruleForestPark:
+      presets: _Location<ハイラル森林公園跡,1>
+      coord: [192.7091675, 145.2755127, -931.5533447]
+
+    OrseddBridge:
+      presets: _Location<マズラ橋,1>
+      coord: [530.5214844, 130.4184875, -494.1345825]
+
+    BoneyardBridge:
+      presets: _Location<ボッチ橋,1>
+      coord: [270.29, 129.66, -711.89]
+
+    HorwellBridge:
+      presets: _Location<ホーネル橋,1>
+      coord: [680.9534912, 149.8153992, 977.3983765]
+
+    RebonaeBridge:
+      presets: _Location<レボナ橋,1>
+      coord: [822.5089111, 130.4895782, 33.93939209]
+
+    FloretSandbar:
+      presets: _Location<花の中州,1>
+      coord: [853.60, 109.80, 837.30]
+
+    EagusBridge:
+      presets: _Location<イグルス橋,1>
+      coord: [970.6177368, 176.3297577, 941.1848145]
+
+    EastPostRuins:
+      presets: _Location<東の宿場町跡,1>
+      coord: [30.83190918, 168.5135193, 1565.386353]
+
+    ProximBridge:
+      presets: _Location<モヨリ橋,1>
+      coord: [206.9920349, 126.496994, 1603.554932]
+
+    OwlanBridge:
+      presets: _Location<アウール橋,1>
+      coord: [326.2410583, 126.496994, 1272.94165]
+
+    DeyaVillageRuins:
+      presets: _Location<アデヤ村跡,1>
+      coord: [353.0338135, 186.6726074, 1953.301758]
+
+    SpringofCourage:
+      presets: _Location<勇気の泉,1>
+      coord: [876.9468994, 122.8152313, 2371.375488]
+
+    ZonaiRuins:
+      presets: _Location<ゾナウ遺跡群,1>
+      coord: [842.5220947, 135.3495178, 2965.017822]
+
+    FaronWoods:
+      presets: _Location<フィローネ樹海入口,1>
+      coord: [395.1326904, 118.0625153, 3037.606445]
+
+    HorseGodBridge:
+      presets: _Location<馬神橋,1>
+      coord: [596.95, 172.65, 3722.39]
+
+    MalanyaSpring:
+      presets: _Location<マーロンの泉,1>
+      coord: [801.96, 180.18, 3721.17]
+
+    EldinGreatSkeleton:
+      presets: _Location<オルディンの大化石,1>
+      coord: [1547.485962, 271.1876221, -3697.466553]
+
+    StolockBridge:
+      presets: _Location<ゴロン橋,1>
+      coord: [1645.275757, 583.2932129, -2441.387207]
+
+    ThimsBridge:
+      presets: _Location<ミスミ橋,1>
+      coord: [1285.5, 150, -691.5]
+
+    MoorGarrisonRuins:
+      presets: _Location<湿原の駐屯地跡,1>
+      coord: [1520.263672, 115.6822662, -169.8456421]
+
+    GopongaVillageRuins:
+      presets: _Location<コポンガ村跡,1>
+      coord: [1616.677002, 115.6797104, 263.2200928]
+
+    GreatFairyFountainKakariko:
+      presets: _Location<大妖精の泉,1>
+      coord: [1976.154053, 308.8351135, 845.9973755]
+
+    KakarikoBridge:
+      presets: _Location<カカリコ橋,1>
+      coord: [1785.414307, 161.815155, 1533.151978]
+
+    BigTwinBridge:
+      presets: _Location<ふたご兄橋,1>
+      coord: [1671.920288, 147.3465576, 2033.636475]
+
+    LittleTwinBridge:
+      presets: _Location<ふたご弟橋,1>
+      coord: [1715.915405, 147.3465576, 2149.551758]
+
+    GuchiniPlainBarrows:
+      presets: _Location<グニチザ平原古墳群,1>
+      coord: [1004.24, 144.44, 3456.96]
+
+    FloriaBridge:
+      presets: _Location<フロリア橋,1>
+      coord: [1737.9021, 165.1115875, 3467.936035]
+
+    SarjonBridge:
+      presets: _Location<サージョン橋,1>
+      coord: [1025.631836, 126.4056396, 3236.287842]
+
+    GutCheckRock:
+      presets: _Location<ド根性ガケ,1>
+      coord: [2674, 601.5, -3511.5]
+
+    BridgeofEldin:
+      presets: _Location<オルディン橋,1>
+      coord: [2210.354248, 688.7199707, -2349.673584]
+
+    MawofDeathMountain:
+      presets: _Location<デスマウンテン登山口,1>
+      coord: [2402.577637, 329.5548706, -1320.010864]
+
+    InogoBridge:
+      presets: _Location<ダルブル橋,1>
+      coord: [2344.5, 132, -248]
+
+    OrenBridge:
+      presets: _Location<オーレン橋,1>
+      coord: [2875.5, 201, 32.5]
+
+    LanayruRoad-WestGate:
+      presets: _Location<ラネール参道西口,1>
+      coord: [2283.39, 218.51, 768.77]
+
+    FortHateno:
+      presets: _Location<ハテノ砦,1>
+      coord: [2323.719727, 140.9649963, 1837.069336]
+
+    LanayruPromenade:
+      presets: _Location<ラネール参道中央広場,1>
+      coord: [2709.451904, 262.8153076, 1163.671387]
+
+    SpringofPower:
+      presets: _Location<力の泉,1>
+      coord: [3754.276855, 282.5760498, -2672.102539]
+
+    ShadowHamletRuins:
+      presets: _Location<シャトー集落跡,1>
+      coord: [3053.782959, 480.9836426, -2299.474121]
+
+    AkkalaCitadelRuins:
+      presets: _Location<アッカレ砦跡,1>
+      coord: [3335.899902, 540.5, -1452.599976]
+
+    AkkalaBridgeRuins:
+      presets: _Location<アッカレ砦連絡橋跡,1>
+      coord: [3161.60, 442.88, -1416.64]
+
+    AkkalaSpan:
+      presets: _Location<アッカレ大橋,1>
+      coord: [3008.477783, 483.2165527, -1242.923096]
+
+    EastSokkalaBridge:
+      presets: _Location<東ミナッカレ橋,1>
+      coord: [3860.800781, 389.2616272, -1095.111816]
+
+    SokkalaBridge:
+      presets: _Location<ミナッカレ橋,1>
+      coord: [3686.563232, 368.1189575, -1003.559204]
+
+    WestSokkalaBridge:
+      presets: _Location<西ミナッカレ橋,1>
+      coord: [3591.372314, 373.6462708, -1020.182983]
+
+    AkkalaParadeGroundRuins:
+      presets: _Location<アッカレ練兵場跡,1>
+      coord: [3309.334717, 337.5101624, -1201.960938]
+
+    EastReservoirLake:
+      presets: _Location<東の貯水湖,1>
+      coord: [3645.851318, 524.1207886, -119.7094421]
+
+    LutosCrossing:
+      presets: _Location<ラルート大橋,1>
+      coord: [3075.683105, 283.639679, 3.835662842]
+
+    SpringofWisdom:
+      presets: _Location<知恵の泉,1>
+      coord: [3945.598877, 570.6812134, 1343.224854]
+
+    LanayruRoad-EastGate:
+      presets: _Location<ラネール参道東口,1>
+      coord: [3188.851807, 263.121521, 1155.545532]
+
+    PalmoraeRuins:
+      presets: _Location<ヤシノ遺跡,1>
+      coord: [3462.30, 103.80, 3378.54]
+
+    LomeiLabyrinthIsland:
+      presets: _Location<ローメイ島,1>
+      coord: [4654.299805, -110.3000031, -3649.899902]
+
+    GreatFairyFountainAkkala:
+      presets: _Location<大妖精の泉,1>
+      coord: [4111.813965, 305.4383545, -1378.358154]
+
+    EventideIsland:
+      presets: _Location<サイハテノ島,1>
+      coord: [4410.84, 118.16, 3534.02]
+
+    FlightRange:
+      presets: _Location<飛行訓練場,1>
+      coord: [-3851.938721, 363.2843933, -2288.806396]
+
+    RitoVillage:
+      presets: _Location<リトの村,1>
+      coord: [-3618.109375, 531.7421875, -1807.609375]
+
+    RitoStable:
+      presets: _Location<リトの馬宿,1>
+      coord: [-3255.570557, 268.5383301, -1757.625488]
+
+    YigaClanHideout:
+      presets: _Location<イーガ団のアジト,1>
+      coord: [-3592.5, 453.5, 1380.5]
+
+    GerudoTown:
+      presets: _Location<ゲルドの街,1>
+      coord: [-3835, 149.5769958, 2915]
+
+    KaraKaraBazaar:
+      presets: _Location<カラカラバザール,1>
+      coord: [-3237.716309, 128.8821106, 2558.084229]
+
+    TabanthaBridgeStable:
+      presets: _Location<タバンタ大橋馬宿,1>
+      coord: [-2931.567627, 319.162262, -547.5980225]
+
+    GerudoCanyonStable:
+      presets: _Location<ゲルドキャニオン馬宿,1>
+      coord: [-2803.811768, 178.5857391, 2225.765137]
+
+    SnowfieldStable:
+      presets: _Location<雪原の馬宿,1>
+      coord: [-1654.882813, 382.022644, -2572.156494]
+
+    ForgottenTemple:
+      presets: _Location<忘れ去られた神殿,1>
+      coord: [-1388.516357, 167.7487183, -2307.990723]
+
+    SerenneStable:
+      presets: _Location<マリッタ馬宿,1>
+      coord: [-1559.374878, 254.0549316, -1799.052734]
+
+    ShrineofResurrection:
+      presets: _Location<回生の祠,1>
+      coord: [-1102.232788, 276.3248291, 1880.130737]
+
+    OutskirtStable:
+      presets: _Location<平原外れの馬宿,1>
+      coord: [-1449.493164, 181.4189911, 1269.011475]
+
+    HyruleCastle:
+      presets: _Location<ハイラル城,1>
+      coord: [-254, 169.7810059, -611.3670044]
+
+    KorokForest:
+      presets: _Location<コログの森,1>
+      coord: [433.82, 268.45, -2208.08]
+
+    WetlandStable:
+      presets: _Location<湿原の馬宿,1>
+      coord: [888.0616455, 175.9656982, 173.6723022]
+
+    RiversideStable:
+      presets: _Location<リバーサイド馬宿,1>
+      coord: [339.2324219, 145.3124847, 1095.296875]
+
+    HighlandStable:
+      presets: _Location<高原の馬宿,1>
+      coord: [529.6000977, 200.5581055, 3450.882568]
+
+    GoronCity:
+      presets: _Location<ゴロンシティ,1>
+      coord: [1685.1521, 621.8673706, -2467.494873]
+
+    AbandonedNorthMine:
+      presets: _Location<北の廃坑,1>
+      coord: [1644.039063, 689.4241943, -2797.456055]
+
+    WoodlandStable:
+      presets: _Location<森の馬宿,1>
+      coord: [1065.6698, 171.9583588, -1141.583374]
+
+    SouthernMine:
+      presets: _Location<南採掘場,1>
+      coord: [1657.88562, 507.4050293, -1973.851563]
+
+    KakarikoVillage:
+      presets: _Location<カカリコ村,1>
+      coord: [1806.00293, -18.44804001, 984.7595825]
+
+    DuelingPeaksStable:
+      presets: _Location<双子馬宿,1>
+      coord: [1761.314331, 158.8124847, 1926.243652]
+
+    LakesideStable:
+      presets: _Location<レイクサイド馬宿,1>
+      coord: [1552.022705, 210.5624847, 3537.839111]
+
+    FoothillStable:
+      presets: _Location<山麓の馬宿,1>
+      coord: [2613.332031, 296.1887512, -1143.512695]
+
+    SouthAkkalaStable:
+      presets: _Location<ミナッカレ馬宿,1>
+      coord: [3149.832275, 350.4891052, -1692.647339]
+
+    TarreyTown:
+      presets: _Location<イチカラ村,1>
+      coord: [3964.895508, 278.90448, -1615.01709]
+
+    ZorasDomain:
+      presets: _Location<ゾーラの里,1>
+      coord: [3271.865479, 425.9121399, -401.4883118]
+
+    HatenoVillage:
+      presets: _Location<ハテノ村,1>
+      coord: [3592.743164, 362.6074829, 2121.852051]
+
+    HatenoAncientTechLab:
+      presets: _Location<ハテノ古代研究所,1>
+      coord: [3778.628418, 412.5400391, 2125.697266]
+
+    LurelinVillage:
+      presets: _Location<ウオトリー村,1>
+      coord: [3009.469238, 368.0726013, 3477.872559]
+
+    AkkalaAncientTechLab:
+      presets: _Location<アッカレ古代研究所,1>
+      coord: [4515.631348, 452.6057434, -3164.531738]
+
+    EastAkkalaStable:
+      presets: _Location<ヒガッカレ馬宿,1>
+      coord: [4227.820313, 275.2895813, -2747.769043]
+

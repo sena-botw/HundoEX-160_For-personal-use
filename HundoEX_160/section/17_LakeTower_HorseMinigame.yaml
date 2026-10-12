@@ -1,0 +1,501 @@
+- 17. 湖 / 馬ミニゲーム:
+  - _warp::kuh-takkar<11:00>:
+      color: "#00ffff"
+      presets: _mappct<notes>
+
+  - _wb::hight<6:00>:
+      comment: 祠の端末からWB
+
+  - _korok::G22
+
+  - _wb<1:00>
+
+  - _korok::G17
+
+  - _wb::hight<3:00>
+
+  - _talus::frost:
+      coord: [-2919.99, 656.12, 1294.27]
+      comment: .fury(ウルボザの怒り１－３)
+
+  - _wb<2:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::G18
+
+  - _wb<5:00>
+
+  - _korok::G23
+
+  - _wb<8:00>
+
+  - _korok::G27
+
+  - WB .dir([4:00]) + 滑空 .dir([3:00]):
+      comment: 南から回るように
+      coord: [-2640.375,1753.770209]
+
+  - _korok::G28
+
+  - _wb<2:00>
+
+  - _korok::G24
+
+  - _wb::speed<5:30>
+
+  - _korok::W07
+
+  - _wb<5:00>
+
+  - _korok::W26
+
+  - 落ちる .dir([0:30])
+
+  - _shrine::jee-noh:
+      comment: エレベータ左からWB
+
+  - _wb<1:00>
+
+  - _korok::G36
+
+  - _wb<4:30>
+
+  - _korok::W20
+
+  - _korok::W21
+
+  - _wb::hight<5:30>
+
+  - _korok::W27
+
+  - _wb::speed<2:30>
+
+  - _korok::W22
+
+  - WBS .dir([5:30]) + 滑空 .dir([6:30])
+
+  - _korok::L21
+
+  - _wb<2:00>
+
+  - _korok::L22
+
+  - 巨大馬:
+      icon: imp.
+      coord: [-1196.01, 170.87, 2633.46]
+
+  - 馬 .dir([5:00])
+
+  - _korok::L36
+
+  - 馬 .dir([6:00]):
+      coord: [-857.8125,3231.48645]
+
+  - _korok::L62:
+      comment: バクダン矢
+
+  - 流鏑馬受付まで巨大馬を運ぶ:
+      movements:
+        - to: [-716,3700]
+        - to: [-474,3738]
+        - to: [-266,3658]
+
+  - _location::MountedArcheryCamp
+
+  - _npc<ステイヤ>:
+      coord: [-212.39, 128.70, 3487.13]
+      comment: 巨大馬捕獲大作戦
+
+  - _run<12:00>
+
+  - _korok::L64
+
+  - 下へ滑空 .dir([10:30])
+
+  - .lime(L47 光の輪レース)開始:
+      icon: imp.
+      coord: [-276.76, 153.65, 3316.47]
+
+  - _wb::speed<8:30>
+
+  - _korok::L63
+
+  - _wb::hight<0:30>
+
+  - _korok::L47
+
+  - _wb::speed<11:30>
+
+  - _korok::L38
+
+  - WB + 空中WB .dir([11:00])
+
+  - _korok::L24
+
+  - _wb::hight<11:30>:
+      coord: [-668.875,2392.105072]
+
+  - _korok::L08
+
+  - _wb<4:00>
+
+  - _korok::L25
+
+  - _wb::square<4:30>
+
+  - _shrine::ya-naga:
+      comment: バクダン矢で上のブロックを壊す
+
+  - 夜にする:
+      icon: set-time
+      notes: 雨が降っている/降りそうな場合、雨が降らなくなるまで夜にする
+
+  - _wb::hight<3:00>
+
+  - _npc<ディーメ>:
+      coord: [-226.89, 90.03, 2577.47]
+
+  - _wb::hight<2:30>
+
+  - _korok::L26
+
+  - 下へ滑空 .dir([11:30])
+
+  - _korok::L15
+
+  - _korok::L14
+
+  - WBH .dir([11:30]) + リーバルの猛り:
+      comment: .gale(リーバルの猛り１)
+
+  - _korok::D54:
+      comment: バクダン矢
+
+  - 落ちる .dir([5:30])
+
+  - _korok::L09:
+      icon-map: null
+      movements:
+        - to: [-91.5625,2339.491183]
+        - push
+        - to: [-68.02, 91.39, 2332.62]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<5:30>
+
+  - _location::BridgeofHylia
+
+  - _korok::L27
+
+  - 南の空を見る:
+      icon: imp.
+      icon-map: null
+      comment: 9pm ~ 1am
+      notes: 宝箱が地面に落ちるまでカメラにいれておく
+
+  - _material<リザ角,1>:
+      coord: [-29.11, 145.01, 2543.49]
+      comment: リザルフォスを倒す
+
+  - _run<5:30>:
+      coord: [-5.6875,2580.031195]
+
+  - _korok::L30
+
+  - 落ちる .dir([5:30])
+
+  - _korok::L31
+
+  - _wb::hight<3:00>
+
+  - _korok::L32:
+      comment: 鉄箱に着地して氷を作る
+
+  - _wb::hight<3:00>
+
+  - _korok::L33
+
+  - _wb<8:00>
+
+  - _chest::special<サルベージャーメット>:
+      coord: [126.03, 92.65, 2710.94]
+
+  - _run<5:00>
+
+  - _korok::L39
+
+  - _wb::hight<3:00>
+
+  - _korok::L40
+
+  - _wb::midair<4:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::L44
+
+  - _wb::hight<9:00>
+
+  - _korok::L42
+
+  - _run<9:00>
+
+  - _korok::L43
+
+  - _wb<7:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::L51
+
+  - リーバルの猛り + 空中WB .dir([9:00]):
+      comment: .gale(リーバルの猛り２)
+
+  - _tower::mappct::Lake
+
+  - _wb::square<7:30>
+
+  - _korok::L48:
+      comment: 崖際
+
+  - 氷を作って降りる .dir([6:30])
+
+  - _chest::special<青いエビシャツ>:
+      coord: [-164.33, 97.54, 3078.89]
+
+  - _wb::hight<3:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::L49
+
+  - _wb::square<1:30>:
+      comment: 飛んだら丸起爆
+
+  - _korok::L50:
+      comment: ブロックは水中から .dir([11:30])に運ぶ
+
+  - _wb<4:30>
+
+  - _korok::L59
+
+  - _wb::hight<6:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::L60:
+      comment: バクダン矢
+
+  - _wb<2:00>
+
+  - _korok::L52:
+      comment: 石柱の上
+
+  - _location::FaronWoods
+
+  - _wb::hight<2:30>
+
+  - _korok::L53
+
+  - _shrine::pumaag-nitae
+
+  - _wb<4:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::L55
+
+  - _wb::hight<5:30>
+
+  - _korok::L61:
+      comment: バクダン矢
+
+  - _run<8:00>
+
+  - _material<オクタ風船,1>:
+      comment: 森オクタを倒す 電気の矢
+      notes: 出なかった場合、ウオトリー村で買う
+      coord: [720.28, 134.40, 3276.11]
+
+  - _korok::L66:
+      comment: 氷
+
+  - WB .dir([4:30]) + 登る
+
+  - _korok::L72
+
+  - _wb<4:00>:
+      comment: 上を向いてラグ回避
+
+  - _korok::F38:
+      comment: アーチの上の石
+
+  - _wb::hight<9:00>
+
+  - _location::GuchiniPlainBarrows
+
+  - _hinox::blue:
+      coord: [1031.43, 127.22, 3496.26]
+
+  - _wb::midair<6:30>:
+      comment: 飛んだら四角起爆
+
+  - _korok::L79
+
+  - _wb<7:00>
+
+  - _korok::L92
+
+  - WBH + 空中WB .dir([12:00]):
+      comment: 両方飛んだら四角起爆
+
+  - _korok::L78:
+      comment: 山頂
+
+  - 盾サーフィン .dir([9:00])
+
+  - _chest::special<古代のくら>:
+      coord: [812.99, 185.91, 3700.97]
+
+  - _location::MalanyaSpring
+
+  - _wb::hight<9:30>
+
+  - _korok::L77:
+      comment: 石はサークルの東
+
+  - 落ちる .dir([9:00])
+
+  - _location::HorseGodBridge
+
+  - _wb<1:00>:
+      coord: [647.315341,3603.242114]
+
+  - _korok::L75:
+      comment: 氷を作ってから飛び込む
+
+  - _wb::super<11:00>
+
+  - 騎乗ボコ5体を倒す:
+      icon: kill
+      coord: [485,3342]
+      comment: バクダン矢
+
+  - _wb<6:00>
+
+  - _location::HighlandStable
+
+  - _material<ゴーゴーニンジン,1>:
+      coord: [523.34, 152.89, 3463.33]
+
+  - _npc<ソエ>:
+      coord: [516.76, 152.98, 3453.71]
+      comment: 馬に乗った荒くれ者
+
+  - 馬を連れ出して古代のくらを装備
+
+  - 馬障害物競走を2回:
+      comment: ゴージャスな手綱・くら
+      notes: 雨が降っている場合は朝か昼にする、1:30以内と1:15以内
+
+  - _wb::hight<6:00>
+
+  - _shrine::kao-makagh:
+      comment: エレベータ右からWB
+
+  - _wb:hight<6:00>:
+      comment: 飛んだら四角起爆
+
+  - _korok::L65
+
+  - _wb::speed<6:30>
+
+  - _korok::L70:
+      comment: バクダン矢
+      notes: 中央のドングリの右側を狙う
+
+  - 滑空 .dir([3:30])
+
+  - _korok::L71
+
+  - WBH + 空中WB .dir([6:00]):
+      comment: 両方とも飛んだら四角起爆
+
+  - _korok::L73
+
+  - _wb::square<3:00>
+
+  - _korok::L74:
+      comment: バクダン + ビタロ + 矢
+
+  - _wb::hight<3:00>:
+      coord: [535.72357,3638.687017]
+
+  - _korok::L76:
+      icon-map: null
+      comment: バクダン2 + ビタロ + 矢
+      movements:
+        - push
+        - to: [522.47, 166.30, 3680.96]
+          color: white
+          icon: korok
+        - pop
+
+  - _wb::hight<6:30>
+
+  - _korok::L91
+
+  - _wb::square<7:30>:
+      comment: 飛んだら丸起爆
+
+  - _korok::L90
+
+  - _wb::speed<8:30>:
+      comment: 岩壁にぶつからないように低く飛ぶ
+
+  - _korok::L89
+
+  - _run<11:00>
+
+  - _korok::L88
+
+  - _wb::square<9:00>:
+      comment: 氷を作ってWB
+      notes: 岩壁にぶつからないように低く飛ぶ
+
+  - _npc<ガーディアンの写真を見せる>:
+      coord: [104.50, 109.30, 3825.50]
+      comment: 珠を台座に入れる
+
+  - _shrine::shoqa-tatone
+
+  - 夜にする:
+      icon: set-time
+
+  - 盾サーフィン .dir([10:00])
+
+  - _korok::L86:
+      comment: バクダン矢
+
+  - _wb::hight<3:30>:
+      comment: 飛んだら丸起爆
+
+  - _korok::L87:
+      comment: 山の頂上
+
+  - _wb<11:00>
+
+  - _hinox::stal:
+      icon-map: null
+      comment: バクダン矢
+      movements:
+        - to: [61.948996,3388.000483]
+        - push
+        - to: [100.50, 111.28, 3371.00]
+          color: white
+          icon: stalnox
+        - pop
+
+  - _wb::midair<8:30>
+
+  - _bow<流鏑馬2回>:
+      coord: [-180,3492]
+      comment: 得点23と20、選択肢 1 - 1 - 3 - 1
+
