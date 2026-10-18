@@ -20,7 +20,8 @@
 
   - _korok::X07
 
-  - _wb<2:00>
+  - _wb<2:00>:
+      comment: skew bounceを仕込む
 
   - _chest::special<近衛兵の帽子>:
       coord: [-253.98, 336.07, -1080.48]
@@ -30,12 +31,15 @@
       icon: imp.
       icon-map: null
 
+  - ビタロック装備
+
   - 窓の割れ目から本丸に入る
 
   - _location::Sanctum
 
   - _calamityganon:
-      comment: OGEB古代矢2、.fury(ウルボザ)、古代矢
+      comment: skew bounceで第二形態スキップ
+      notes: ビタロック+、OGEB古代矢2胴体、1HS
 
   - _darkbeastganon:
       icon-map: null
@@ -83,8 +87,8 @@
 
   - _talus::rare:
       coord: [-136.65, 127.21, -956.26]
-      comment: .fury(ウルボザの怒り１－３)
-      notes: 火打ち石が11無いなら拾う
+      comment: バクダン矢、火打ち石を拾う(~11)
+      notes: 起こした後、イワロックの後方を撃って鉱床を手前に向けさせる
 
   - 上昇気流で上へ
 
@@ -481,12 +485,16 @@
 
   - _korok::R09
 
-  - _wb::speed<5:30>
+  - _wb::speed<5:30>:
+      vars:
+        - counter-shrine: .add(1) #ミィ・スゥの分+0.08%されることの調整
 
   - _tower::mappct::Ridgeland:
-      comment: .cyan(ミィ・スゥ)の分 +0.08%?
+      comment: .cyan(ミィ・スゥ)の分も加算済
 
-  - _wb<10:00>
+  - _wb<10:00>:
+      vars:
+        - counter-shrine: .sub(1) #祠の攻略数の調整
 
   - 赤玉をビタロックで運ぶ:
       icon: imp.
@@ -740,4 +748,6 @@
 
   - _korok::R59:
       comment: 小さな島
+      vars:
+        - counter-shrine: .add(1) #section12の最初のワープのための調整(ミィ・スゥ)
 

@@ -400,7 +400,7 @@
   - _shrine::kao-makagh:
       comment: エレベータ右からWB
 
-  - _wb:hight<6:00>:
+  - _wb::hight<6:00>:
       comment: 飛んだら四角起爆
 
   - _korok::L65

@@ -92,7 +92,7 @@
   - _shrine::rok-uwog:
       comment: エレベータ右からWB .dir([8:00])
 
-  - 祠の裏からWBH .dir([6:00]) + 空中WB .dir([2:00]):
+  - 祠の裏からWBH .dir([12:00]) + 空中WB .dir([2:00]):
       banner: true
       comment: 天井にぶつからないように
       movements:

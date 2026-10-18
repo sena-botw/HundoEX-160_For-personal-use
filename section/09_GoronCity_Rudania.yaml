@@ -336,7 +336,7 @@
       comment: 西を向く、選択後にカメラを動かす
       notes: .bold(12am ~ 5amの場合、2回朝にする)
 
-  - WB + 空中WB .dir([2:00])
+  - _wb<10:00>
 
   - _korok::K01:
       comment: 柱の上
@@ -451,7 +451,8 @@
       comment: .gale(リーバルの猛り３)
       notes: 炎を運ぶ単車弓はハヤブサの弓を使う
 
-  - _fireblight
+  - _fireblight:
+      notes: ビタロック+、木の矢オオワシ2HS、木の矢OGEB1HS
 
   - ダルケルの護り:
       icon: rudania

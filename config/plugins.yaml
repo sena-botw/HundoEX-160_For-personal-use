@@ -9,7 +9,7 @@
 # korok-seed                    900    900
 # counter-calamity-ganon          1      1
 # counter-dark-beast-ganon        1      1
-# counter-maz-koshia                     1
+# counter-mazkoshia                      1
 # Total                        1209   1227
 
 
@@ -22,6 +22,7 @@ plugins:
   - use: split-format
     with:
       Ganon: ガノン
+      Maz Koshia: '100%EX'
 
   - use: variables
     with:

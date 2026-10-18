@@ -233,7 +233,9 @@
       comment: ダッシュジャンプで近づくと気づかれてソフトロックする
 
   - _shrine::daag-chokah:
-      notes: 下のワープのマップ%はキヨ・ウーの分 +0.08%?
+      vars:
+        - counter-mazkoshia: .add(1)
+        #キヨ・ウーの分+0.08%されることの調整(祠カウンターだと祠攻略数がずれるのでキョシアで代用)
 
   - _warp::keo-ruug<4:00>:
       presets: _mappct<notes>
@@ -241,6 +243,8 @@
   - _shrine::keo-ruug:
       comment: エレベータから四角先WB
       notes: 飛んだら丸装備
+      vars:
+        - counter-mazkoshia: .sub(1) #Map%の調整
 
   - _wb::hight<3:00>:
       comment: 上を向いてラグ回避

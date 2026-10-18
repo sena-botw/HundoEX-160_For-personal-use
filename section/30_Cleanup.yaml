@@ -99,14 +99,12 @@
       notes: skewを取り壁抜け、離れて自爆、WBH + 空中WBsで高さを稼いで[6:00]に進み、ダンジョンの輪郭が消えて12秒経ったら降りる
 
   - _mazkoshia:
-      icon-map: null
       comment: .fury(ウルボザの怒り３)
       notes: 弓&端に降りる、ウルボザ近づきながら弓、近づきながら弓3
 
   - マスターバイク零式:
       icon: mastercyclezero
-      counter: .user-defined-split()
-      split-name: '100% EX'
+      icon-map: null
 
   - 英傑たちの写し絵:
       icon: memory-final

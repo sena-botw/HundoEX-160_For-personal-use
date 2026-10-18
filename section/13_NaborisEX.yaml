@@ -6,6 +6,8 @@
   - WBS .dir([2:30]) + 空中WB .dir([5:30]):
       comment: 1回目は低く
       coord: [-1985.25,2542.5]
+      vars:
+        - counter-shrine: .sub(1) #祠の攻略数の調整
 
   - _korok::W34
 

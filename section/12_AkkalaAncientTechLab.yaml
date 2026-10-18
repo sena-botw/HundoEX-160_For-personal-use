@@ -5,6 +5,8 @@
 
   - _wb::super<8:00>:
       comment: 飛んだら弓を外す
+      vars:
+        - counter-shrine: .sub(1) #祠の攻略数の調整
 
   - ルーダニアの石碑:
       icon: rudania-ex
@@ -385,5 +387,7 @@
 
   - _wb::hight<6:00>
 
-  - _korok::A38
+  - _korok::A38:
+      vars:
+        - counter-shrine: .add(1) #section13の最初のワープのための調整(ミィ・スゥ)
 
