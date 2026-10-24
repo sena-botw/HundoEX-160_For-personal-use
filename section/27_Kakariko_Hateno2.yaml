@@ -3,7 +3,7 @@
       presets: _mappct<notes>
       color: "#34a853"
 
-  - 昼夜が雨でなくなるまで夜にする:
+  - 昼夜が雨でなくなるまで昼にする:
       icon: set-time
       icon-map: null
       banner: true
