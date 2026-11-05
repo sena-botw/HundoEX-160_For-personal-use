@@ -1,0 +1,16 @@
+title: 100%EX(1.6.0)_Early-Ballad
+version: 1.0
+route:
+  use: ./main.yaml
+config:
+  - use: Pistonight/celer-presets/botw/map.yaml
+  - use: sena-botw/Personal-Celer-Presets/full.yaml
+  - plugins:
+    - use: link
+    - use: variables
+      with:
+        init:
+          with-dlc: 1
+          great-plateau-count: 2
+          map-pct-items-total: 1227
+

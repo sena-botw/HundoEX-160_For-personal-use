@@ -1,0 +1,100 @@
+- Route Info(.link([GitHub]https://github.com/sena-botw/HundoEX-160_For-personal-use)) / Presets Info(.link([GitHub]https://github.com/sena-botw/Personal-Celer-Presets/tree/main))
+
+
+
+# 始める前に
+- use: /section/BeforeStarting.yaml
+
+# はじまりの台地
+- use: /section/GreatPlateau.yaml
+
+# 増殖素材回収 / IST
+- use: /section/MaterialGathering_IST.yaml
+
+# ハテノ村 1 / フィローネ 1
+- use: /section/Hateno1_Faron1.yaml
+
+# ボックリン
+- use: /section/Hestu.yaml
+
+# メドー / シャダ・アダ
+- use: /section/Medoh_ShadaNaw.yaml
+
+# ゲルド 1
+- use: /section/Gerudo1.yaml
+
+# ナボリス
+- use: /section/Naboris.yaml
+
+# ネルドラ / ルッタ
+- use: /section/Naydra_Ruta.yaml
+
+# ゴロンシティ / ルーダニア
+- use: /section/GoronCity_Rudania.yaml
+
+# 一撃の試練
+- use: /section/GreatPlateauEX.yaml
+
+# ハイラル城 / 赤い月
+- use: /section/Castle_BloodMoon.yaml
+
+# アッカレ古代研究所
+- use: /section/AkkalaAncientTechLab.yaml
+
+# 迷いの森
+- use: /section/LostWoods.yaml
+
+# ナボリスの石碑
+- use: /section/NaborisEX.yaml
+
+# ゲルド 2
+- use: /section/Gerudo2.yaml
+
+# ウルボザの怒り＋
+- use: /section/UrbosaEX.yaml
+
+# サトリ山 / メドーの石碑
+- use: /section/SatoriMountain_MedohEX.yaml
+
+# ヘブラ南
+- use: /section/HebraSouth.yaml
+
+# ヘブラ東
+- use: /section/HebraEast.yaml
+
+# タバンタ
+- use: /section/Tabantha.yaml
+
+# 湖の塔 / 馬ミニゲーム
+- use: /section/LakeTower_HorseMinigame.yaml
+
+# 平原の塔 / 勇気の泉
+- use: /section/CentralTower_SpringofCourage.yaml
+
+# フィローネ 2 / サイハテノ島
+- use: /section/Faron2_EventideIsland.yaml
+
+# 手紙 / 中央ハイラル
+- use: /section/Letter_CentralHyrule.yaml
+
+# ヘブラ西
+- use: /section/HebraWest.yaml
+
+# ラネール / ゾーラの里
+- use: /section/Lanayru_Zora.yaml
+
+# オルディン / アッカレ
+- use: /section/Eldin_Akkala.yaml
+
+# カカリコ村 / ハテノ村 2
+- use: /section/Kakariko_Hateno2.yaml
+
+# ラネール湾
+- use: /section/LanayruCoast.yaml
+
+# 忘れ去られた神殿
+- use: /section/ForgottenTemple.yaml
+
+# 100% Cleanup
+- use: /section/Cleanup.yaml
+
