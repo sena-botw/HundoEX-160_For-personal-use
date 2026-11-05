@@ -1,0 +1,195 @@
+- ヘブラ西:
+  - _Map%::Warp<Shrine::ShadaNaw,11:00>:
+      color: "#ff0000"
+
+  - _wb::speed<10:00>
+
+  - _Korok::H09:
+      comment: バクダン矢
+      presets: _Discover<ミンフラーの秘湯>
+
+  - 外に出てWB .dir([4:00])
+
+  - _Korok::H11:
+      comment: 木の先端
+
+  - _wb::hight<9:30>
+
+  - _Korok::H10
+
+  - _wb::midair<11:00>
+
+  - _Korok::H04:
+      comment: 必要なら発見後に夜にする
+
+  - _wb::speed<9:00>
+
+  - _Boss::Hinox::Stal:
+      coord: [-4260.15, 327.00, -3777.48]
+
+  - 空中WB / WBH .dir([9:00])
+
+  - _Korok::H01
+
+  - _Shrine::HiaMiu:
+      comment: ビタロック+古代矢OGEB2HS(極位)
+
+  - _wb<7:00>:
+      comment: 上昇気流に乗る
+
+  - _wb::midair<5:30>
+
+  - _Korok::H23:
+      comment: 山頂
+
+  - _wb<1:00>
+
+  - _Location::SherfinsSecretHotSpring
+
+  - リーバルの猛り + 空中WB .dir([0:30]):
+      comment: .gale(リーバルの猛り２)
+
+  - _Korok::H07
+
+  - リーバルの猛り + 空中WB .dir([3:00]):
+      comment: .gale(リーバルの猛り３)
+
+  - _Korok::H08
+
+  - _wb::square<11:00>:
+      notes: 空中でskewを消す
+
+  - 岩肌でskewを取る:
+      comment: .link([参考動画]https://twitter.com/ikurapan_botw/status/1666231973004840960?s=20)
+
+  - _Korok::H02:
+      comment: 一番東の氷
+
+  - H02の東の壁から壁抜け:
+      comment: 山の中に入る、ラグドール解除
+      notes: 盾サーフィンで移動、化石の尻尾側からもう一度壁抜け
+      movements:
+        - to: [-4010.734301,-3733.232593]
+        - to: [-4087.113636,-3701.791955]
+
+  - _Korok::H03:
+      presets: _Discover<ヘブラの大化石>
+
+  - _Shrine::ToQuomo:
+      comment: ウツシエ装備
+
+  - _snap<ヘブラの大化石(頭部)>
+
+  - _Map%::Warp<Shrine::ShadaNaw,4:00>:
+      color: "#00ffff"
+
+  - _wb::speed<8:30>
+
+  - _Shrine::MozoShenno:
+      comment: ビタロック+古代矢OGEB2HS(極位)
+
+  - 洞窟を出て盾サーフィン .dir([8:00])
+
+  - _Korok::H26:
+      comment: 岩の上
+
+  - _wb<1:00>
+
+  - _Korok::H19
+
+  - _wb::hight<9:30>
+
+  - _Korok::H18:
+      comment: 木の先端
+
+  - _wb::speed<9:30>
+
+  - _Korok::H17
+
+  - _wb::speed<6:30>:
+      coord: [-4201.0625,-3117.642048]
+
+  - _Korok::H24
+
+  - WB .dir([4:00]) + 空中WB .dir([3:00]):
+      coord: [-3976.3125,-3033.896777]
+
+  - _Korok::H25
+
+  - WBS .dir([8:30]) + 空中WB .dir([8:30])
+
+  - _Korok::H32
+
+  - _wb::speed<5:30>
+
+  - _Korok::H40:
+      comment: 山頂
+
+  - _wb<10:00>
+
+  - _Boss::Hinox::Black:
+      coord: [-4531.00, 333.45, -2679.27]
+
+  - _wb::midair<6:00>
+
+  - .lime(T06 光の輪レース)開始:
+      icon: imp.
+      comment: 制限時間中にH53, H60, T08を入手
+      movements:
+        - _Korok::T06::Start
+
+  - _wb<4:30>
+
+  - _Korok::H53:
+      comment: 山頂
+
+  - _wb<7:30>
+
+  - _Korok::H60:
+      comment: バクダン矢
+
+  - _wb::hight<5:30>
+
+  - _Korok::T08:
+      comment: 岩のてっぺん
+
+  - _wb::square<1:30>
+
+  - _Korok::T06:
+      movements:
+        - _Korok::T06::End
+
+  - _run<4:00>
+
+  - _Korok::T07
+
+  - _wb<1:30>
+
+  - _Korok::T01
+
+  - WBH + 空中WB .dir([11:30])
+
+  - _Location::SturnidaSecretHotSpring:
+      comment: 木に掴まって発見
+
+  - _wb::hight<9:30>
+
+  - _Korok::H39
+
+  - _wb::square<5:00>
+
+  - _Korok::H41
+
+  - 盾サーフィン .dir([4:00])
+
+  - _Korok::H42:
+      comment: バクダン矢
+      notes: 撃ったら.bold(氷の矢装備)
+
+  - _wb::hight<3:00>:
+      comment: 洞窟へ
+      coord: [-3989,-2540.965285]
+
+  - _Shrine::MakaRah:
+      comment: エレベータ右からWB .dir([1:00])
+

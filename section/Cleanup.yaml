@@ -1,0 +1,118 @@
+- 100% Cleanup:
+  - _Map%::Warp<Shrine::DahHesho,4:00>:
+      color: "#3388ff"
+
+  - _wb::speed<2:30>
+
+  - _Korok::A48
+
+  - _Location::GreatFairyFountainAkkala
+
+  - 装備を最大まで強化:
+      icon-doc: imp.
+      comment: 英傑の服、息吹 / ゾーラシリーズ
+      notes: ゾーラの鎧をRスティック右十字左で2ページ目最後に送ってRスティック右十字下2
+
+  - _wb::speed<0:30>
+
+  - _npc<キルトン>:
+      coord: [4152.87, 194.63, -1597.24]
+
+  - _shop<リザル尻尾を全て売る>:
+      icon-map: null
+      notes: 装備強化が終わってない場合は注意(45個必要)
+
+  - _shop<マモで買い物>:
+      icon-map: null
+      comment: マモノエキス1, マモノの手綱 / くら
+
+  - メダルを全てもらう:
+      icon: imp.
+      comment: .link([イワロック/ヒノックスの場所]https://objmap.zeldamods.org/#/map/z3,0,0?q=%28talus%20OR%20enemy_giant_bone%20OR%20hinox%29%20NOT%20titan)
+      notes: 討伐漏れがあった場合、倒しに行ってからダ・キキー(ゾーラの里の西)にワープ
+
+  - _wb::hight<8:30>
+
+  - _npc<窓から会話を聞く>:
+      coord: [3968.57, 233.44, -1590.29]
+
+  - _run<11:00>
+
+  - _cook<マモノケーキ>:
+      coord: [3946.69, 233.67, -1603.18]
+      notes: タバンタ小麦、きび砂糖、ヤギのバター、マモノエキス
+
+  - _npc<母親にケーキを渡す>:
+      icon-map: null
+      comment: もう一度話して金ルピーをもらう
+
+  - _npc<ハギ>:
+      coord: [3919,-1605]
+      comment: 2回話す
+
+  - _npc<エノキダ>:
+      coord: [3970.74, 233.60, -1623.47]
+      comment: 結婚式を行い、もう一度話す
+
+  - _Map%::Warp<Shrine::KeoRuug,9:30>
+
+  - ボックリン:
+      icon: hestu
+      coord: [466.03, 249.56, -2112.38]
+      notes: ポーチを全て大きくして、ボックリンのミをもらう
+
+  - _npc<スダジイ>:
+      coord: [431.66, 250.56, -2139.55]
+
+  - _Map%::Warp<Shrine::JolooNah,7:00>
+
+  - _wb<6:30>
+
+  - _npc<ズッキー 馬を売る>:
+      coord: [-2033.50, 157.54, 1873.19]
+      comment: エフェクトが出たら話しかけていい
+
+  - クエスト・ポーチの確認:
+      icon-doc: imp.
+      comment: .link([クエスト一覧-シート-Resources]https://docs.google.com/spreadsheets/d/1SH5VOyaeARNJ2X95QSrnev1U_hP38N2uUgcHOAaHIrk/edit?gid=1028440297#gid=1028440297)
+      notes: ミニ90/90, 祠42/42, メイン18/20, 大事な物2ページ目4個、足りない場合集めきってから最終試練を始める
+
+  - _Map%::Warp<SOR,3:00>
+
+  - 最終試練:
+      icon-doc: kill
+      notes: skewを取り壁抜け、離れて自爆、WBH + 空中WBsで高さを稼いで[6:00]に進み、ダンジョンの輪郭が消えて10秒経ったら降りる
+
+  - _Boss::MazKoshia:
+      comment: .fury(ウルボザの怒り３)
+      notes: 弓&端に降りる、ウルボザ近づきながら弓、近づきながら弓3
+
+  - マスターバイク零式:
+      icon-doc: mastercyclezero
+
+  - 英傑たちの写し絵:
+      icon-doc: memory-final
+
+  - ''
+
+  - '--------------------------------------'
+
+  - '- 100%の確認(以下のものを映す) -'
+
+  - (1) メイン / 祠 / ミニチャレンジ
+
+  - (2) 最大強化済みマッソ
+
+  - (3) 武器 / 弓 / 盾ポーチ
+
+  - (4) 最大強化済みの防具
+
+  - (5) 大事な物 - 2ページ目5個
+
+  - _Map%<text,(6)>:
+      notes: 'Map%内訳: コログ.var(counter-korok)/900, 地名.var(counter-location)/165, 祠.var(counter-shrine)/120, DLC祠.var(counter-dlc-shrine)/16, 塔.var(counter-tower)/15, 神獣潜入.var(counter-divine-beast-enter)/4, 神獣解放.var(counter-divine-beast-done)/4, 厄災ガノン.var(counter-calamity-ganon)/1, 魔獣ガノン.var(counter-dark-beast-ganon)/1, 導師ミィズ・キョシア.var(counter-mazkoshia)/1'
+
+  - '--------------------------------------'
+
+  - ''
+

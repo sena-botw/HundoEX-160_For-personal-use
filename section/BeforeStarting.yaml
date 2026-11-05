@@ -1,0 +1,5 @@
+- 始める前に:
+  - 「はじめから」にカーソルを合わせてからサマータイム終了利用のため時間調整をする:
+      notes:
+        - "タイムゾーンをUS region, Denverに、11月X日1:55AM (分は調整可). 手動で時間を1日戻す場合でも既存のデータが影響しない日時まで時間を進める. 新しいアカウントを使って走ることを推奨 (2059年まで使ったらセーブデータ消去) .link([時刻調整の詳細]https://docs.google.com/document/d/13eFkTmChmSTIPahNfOr5xA3VQ8lOXyRm3qUxxTzJvhg/edit?usp=sharing)"
+

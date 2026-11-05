@@ -1,0 +1,128 @@
+- 忘れ去られた神殿:
+  - _Map%::Warp<Tower::Hebra,9:30>:
+      color: "#ffff00"
+
+  - _wb<1:00>
+
+  - _Korok::H52
+
+  - _wb::midair<1:00>
+
+  - _Korok::H37
+
+  - _wb<5:00>:
+      comment: 近くの石を置いてWB
+
+  - _npc<イチヨウ>:
+      coord: [-1641.43, 339.19, -2561.69]
+      comment: 2回話してスタルホースの写真
+      presets: _Discover<雪原の馬宿>
+
+  - _Shrine::RinOyaa:
+      notes: エレベーター右から右に入力速めのWB
+
+  - _wb::speed<6:30>
+
+  - _Korok::H58
+
+  - _wb<5:00>
+
+  - _Korok::H62:
+      comment: バレットタイム有効
+
+  - _wb<1:30>
+
+  - _Korok::H59:
+      notes: 岩を動かしたら盾サーフィンで同じ方向へ
+
+  - WB .dir([1:00]) + 滑空 .dir([12:00])
+
+  - _Korok::H38:
+      comment: バクダン矢
+
+  - _wb<4:00>:
+      comment: .lime(H38)の石を南においてその段差からWB
+
+  - _Korok::K10
+
+  - WB .dir([8:00]) + 滑空 .dir([6:00])
+
+  - _Korok::K12
+
+  - _Sit::Night
+
+  - リーバルの猛り + WBH .dir([6:00]):
+      comment: .gale(リーバルの猛り１)
+
+  - _Boss::Hinox::Stal:
+      coord: [-1273.50, 213.08, -2113.50]
+      comment: バクダン矢
+
+  - _wb<7:30>
+
+  - _npc<クジラの写真を見せる>:
+      coord: [-1541.84, 212.23, -1804.59]
+      comment: 3人全員が表示されてから会話
+      presets: _Discover<マリッタ馬宿>
+
+  - _wb::speed<8:30>
+
+  - _Location::MarittaExchangeRuins
+
+  - _Korok::R01
+
+  - _wb<1:30>
+
+  - _Korok::H68:
+      comment: 崖際
+
+  - _wb::speed<6:30>
+
+  - _Korok::K22:
+      comment: バクダン矢
+
+  - WBH .dir([12:00]) + 空中WB .dir([2:00])
+
+  - _Korok::K20:
+      comment: 崖際
+
+  - _wb<2:00>
+
+  - _Korok::K21:
+      comment: バクダン矢
+
+  - _wb<1:30>
+
+  - _Korok::K15:
+      comment: 柱の上
+
+  - _wb::hight<9:00>
+
+  - _Korok::H63:
+      comment: 崖際
+
+  - _wb<2:00>
+
+  - _Korok::K13:
+      presets: _Discover<忘れ去られた神殿>
+
+  - _wb::square<6:00>
+
+  - _Korok::K14
+
+  - 柱を1つ登ってリーバルの猛り:
+      comment: .gale(リーバルの猛り２)
+
+  - BLSS .dir([1:00])
+
+  - _Korok::K09:
+      comment: 女神像の裏の高所
+
+  - _Shrine::RonaKachta
+
+  - _chest::special<息吹の勇者装備>:
+      coord: [-1069.99, 23.64, -2683.16]
+
+  - ハートを28まで増やす:
+      icon-doc: imp.
+

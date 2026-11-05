@@ -1,0 +1,316 @@
+- サトリ山 / メドーの石碑:
+  - _Map%::Warp<Shrine::SheemDagoze,8:30>:
+      color: red
+
+  - _wb<5:00>
+
+  - _Korok::R57
+
+  - _wb::midair<9:30>
+
+  - _Korok::R56
+
+  - _wb::midair<8:00>:
+      comment: 上を向いてラグ回避、飛んだら四角起爆
+
+  - _Korok::R55:
+      comment: 切り株
+
+  - 走ってリーバルの猛り .dir([11:30]):
+      comment: .gale(リーバルの猛り１)
+
+  - _Korok::R54:
+      comment: 必要なら夜にする
+      notes: 山のヌシ出現時はサトリ山のマモノがいなくなる。R55周辺にスタルリザルフォスがいない時はスタルヒノックスもいないので夜にする
+
+  - _wb<8:00>
+
+  - _Boss::Hinox::Stal:
+      coord: [-2217.00, 372.31, 584.00]
+      comment: バクダン矢
+
+  - _run<2:30>
+
+  - _Korok::R62:
+      comment: スタルヒノックスの近く
+
+  - _wb<1:00>
+
+  - _Korok::R53:
+      comment: バクダン矢
+
+  - _wb::hight<8:30>
+
+  - _Korok::R52
+
+  - _chest::special<古代の手綱>:
+      coord: [-2295.86, 455.02, 343.47]
+      comment: 桜の根元
+
+  - _run<6:00>
+
+  - _Korok::R61
+
+  - _wb<4:00>
+
+  - _Korok::R68:
+      comment: バレットタイム有効
+
+  - _Korok::R69::Away<white>:
+      comment: shoot .dir([8:00])
+
+  - _wb::speed<6:00>
+
+  - _Korok::R78
+
+  - _wb::hight<9:00>
+
+  - _Korok::R77
+
+  - _wb::hight<9:00>:
+      coord: [-2340.70,249.86,1104.57]
+
+  - _Korok::R75::Away<white>:
+      comment: .lime(R76)の上からshoot .dir([10:30])
+
+  - _Korok::R76
+
+  - _wb<8:00>:
+      comment: 上を向いてラグ回避
+
+  - _Korok::G14:
+      comment: バクダン矢
+
+  - _wb<1:00>
+
+  - _Korok::R70:
+      comment: バクダン矢
+
+  - _wb::square<9:00>:
+      coord: [-2350.3125,739.031515]
+
+  - _Korok::R73::Away<white>:
+      comment: バクダン + ビタロック + 矢
+
+  - _wb<10:00>
+
+  - _Korok::R67
+
+  - .lime(R65)の茨を遠くから撃つ:
+      comment: バクダン矢 or 右のほうに炎の矢
+
+  - _run<1:30>
+
+  - _Korok::R66
+
+  - _run<0:30>
+
+  - _Korok::R65
+
+  - _run<12:00>
+
+  - _Korok::R64:
+      comment: バクダン矢
+
+  - _wb::hight<12:00>
+
+  - _Korok::R51
+
+  - _wb<7:30>
+
+  - _Korok::R63:
+      comment: バクダン矢
+
+  - _wb<10:00>
+
+  - _Korok::R50:
+      comment: 真ん中あたりの木に風船がある
+
+  - 空中WBs .dir([11:00])
+
+  - _Boss::Talus::Rare:
+      coord: [-3137.50, 317.31, 72.90]
+
+  - _wb::speed<8:30>
+
+  - _Korok::R46
+
+  - _wb::hight<0:30>
+
+  - _Korok::R36:
+      comment: 崖際の端
+
+  - _wb::speed<9:30>
+
+  - _Korok::R35
+
+  - _Korok::R34::Away<white>
+
+  - _wb<10:00>
+
+  - _Korok::R33
+
+  - _wb<8:00>
+
+  - _Korok::R32:
+      comment: バクダン矢
+
+  - _wb::hight<0:30>
+
+  - _Shrine::KahOkeo:
+      notes: 走って宝箱に乗ってWBH, パラセール連打
+
+  - 左からリーバル + 空中WB .dir([4:00]):
+      comment: .gale(リーバルの猛り２) 飛んだら四角起爆
+
+  - _Korok::T36
+
+  - _wb::hight<0:30>
+
+  - _Korok::T32:
+      comment: 柱の上
+
+  - _wb<11:00>
+
+  - _Korok::T27
+
+  - _wb<1:00>
+
+  - _Korok::T26
+
+  - _wb::speed<11:30>
+
+  - _Korok::T23
+
+  - _wb<4:00>:
+      comment: 飛んだら四角起爆
+
+  - _Boss::Talus::Rare:
+      coord: [-3929.30, 197.19, -1083.48]
+      comment: バクダン矢 + 古代矢
+      presets: _Discover<ギサのクレーター>
+
+  - _wb::midair<5:00>
+
+  - _Korok::T28
+
+  - _run<4:30>
+
+  - _Korok::T29:
+      comment: 丘の裏
+
+  - _wb::hight<2:30>
+
+  - _Korok::T30:
+      comment: .gale(リーバルの猛り３)
+
+  - _wb<11:00>
+
+  - _Korok::T24:
+      comment: 目玉を倒して奥の石
+
+  - .dir([8:00])の段差からWB .dir([5:00]):
+      coord: [-3750.0625,-1027.404929]
+
+  - _Location::GreatFairyFountainTabantha:
+      comment: ルピーを渡す
+
+  - WBH .dir([3:30]) + 走る .dir([6:00])
+
+  - _Korok::T33
+
+  - _wb::hight<6:30>:
+      comment: 上を向いてラグ回避
+
+  - _Shrine::TenaKosah:
+      comment: ビタロック+古代矢OGEB2HS(極位)
+
+  - _run<8:00>
+
+  - _Memory::AncientColumns:
+      presets: _Discover<古代石柱群>
+
+  - _run<11:00>
+
+  - _Korok::T35
+
+  - _wb::hight<9:00>
+
+  - _Korok::T37:
+      comment: バクダン矢で上昇気流
+      notes: 雨の場合WB
+
+  - _wb<1:30>
+
+  - _Korok::T31
+
+  - _wb<1:00>
+
+  - _Boss::Talus::Rare:
+      coord: [-3248.40, 291.68, -1078.12]
+      comment: バクダン矢
+
+  - _wb<11:00>
+
+  - _Korok::T20
+
+  - _Sit::Noon
+
+  - WBH×2 .dir([9:00])
+
+  - メドーの石碑:
+      icon: medoh-ex
+      icon-priority: 1
+      coord: [-3653.70, 321.49, -1316.23]
+
+  - _wb::hight<0:30>
+
+  - 台座を起動 - 炎の矢:
+      icon: imp.
+      coord: [-3613.19, -1583.40]
+      commeent: "台座は 12:35pm ~ 1:15pm"
+
+  - _Shrine::BareedaNaag:
+      comment: エレベータ左から四角先WB
+      notes: がんばり1/3周ほど待ってから丸を出すと安定
+
+  - _wb<10:00>
+
+  - _Boss::Hinox::Black:
+      coord: [-3793.68, 246.02, -1557.10]
+      comment: 炎の矢2
+
+  - _wb<10:00>
+
+  - _npc<キール>:
+      coord: [-3979.33, 271.21, -1751.18]
+      comment: リトの兄弟岩
+      presets: _Discover<兄弟岩>
+
+  - _material<ポカポカ草の実,3>:
+      coord: [-3987.43, 272.29, -1707.89]
+      notes: 取った後にポーズを開いてすぐに閉じると、後のカーソル移動が早くなる
+
+  - _run<4:30>
+
+  - _Korok::T16
+
+  - _wb<10:00>
+
+  - _Korok::T12:
+      comment: バクダン矢
+      presets: _Discover<竜骨沼>
+
+  - WBH .dir([12:00]) + WB .dir([2:00]):
+      comment: 骨に登ってWBH 1回目は飛んだら四角起爆
+
+  - _Korok::T09
+
+  - _wb::super<1:00>
+
+  - 弓集中で的を4個壊す:
+      icon: imp.
+      coord: [-3850.5,-2278.5]
+
+  - _Shrine::NoeRajee:
+      notes: エレベータ右からWBH 上昇気流に乗る

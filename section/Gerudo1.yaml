@@ -1,0 +1,149 @@
+- ゲルド 1:
+  - _Warp::Shrine::MoggLatan<5:30>:
+      color: "#bbbbff"
+  
+  - WB Super + 空中WB .dir([6:30])
+
+  - _Korok::G19
+
+  - WB .dir([10:30]) + 空中WB .dir([9:00])
+
+  - _Korok::G13:
+      comment: 木の先端
+
+  - WBH .dir([12:00]) + 空中WB .dir([10:00])
+
+  - _Korok::G10
+
+  - WBH .dir([9:00]) + 空中WB .dir([6:30]):
+      notes: 空中で四角が残らないように
+  
+  - _Korok::G12:
+      comment: 橋の上
+  
+  - _wb<5:00>
+
+  - _bow<氷を炎の矢で溶かす>:
+      icon-map: null
+  
+  - アイスウィズローブ:
+      icon-doc: kill
+  
+  - _weapon<アイスロッド>:
+      icon-map: null
+
+  - _material<夜光石,~10>:
+      icon-map: null
+      notes: 10個必要、火打ち石が出たら取る(11個必要)
+
+  - _Shrine::KuhTakkar:
+      notes: バクダンで氷を動かし、氷にビタロ3回、矢で上向きにして解除
+  
+  - _wb<8:00>
+
+  - _Boss::Talus::Frost:
+      coord: [-3558.72, 558.36, 1560.07]
+      comment: バクダン矢
+  
+  - _wb::hight<9:00>
+
+  - _material<イチゴ,10>:
+      coord: [-3657.69, 570.60, 1535.99]
+  
+  - _run<5:00>
+
+  - _Korok::G26
+
+  - _wb::hight<5:30>
+
+  - _Tower::Gerudo
+
+  - _npc<カッシーワ>:
+      icon-map: null
+      comment: 選択肢 2 - 1 - 1
+  
+  - _wb::speed<6:30>
+
+  - _Korok::W29
+  
+  - _wb::speed<6:30>
+
+  - _npc<ベンジャミン>:
+      icon-map: null
+      comment: のぞきの人
+  
+  - _Shrine::DaqoChisay:
+      notes: 電気装置の裏に回り込んでWB
+  
+  - _wb::super<2:30>
+  
+  - _npc<ヴィヴィアン>:
+      comment: 淑女装備を買う
+      coord: [-3259.27, 163.93, 2611.54]
+      presets: _Discover<カラカラバザール>
+  
+  - WB + 空中WB .dir([8:00]):
+      comment: 上を向いてラグ回避
+  
+  - _shop<氷 & 電気の矢 .dir(30)>:
+      coord: [-3858.45, 149.00, 2912.37]
+      comment: 電気の矢はルッタまで20以上残す
+      presets: _Discover<ゲルドの街>
+  
+  - _npc<ルージュ>:
+      coord: [-3892.04, 157.48, 2968.14]
+  
+  - _wb::speed<8:30>
+
+  - _Korok::W47:
+      comment: 骸骨の上
+  
+  - _wb<11:00>
+
+  - _Korok::W28
+
+  - _wb<10:30>
+
+  - _Korok::W18:
+      comment: 骸骨のてっぺん
+
+  - _wb<11:00>
+
+  - _Korok::W13:
+      comment: 骸骨のてっぺん
+
+  - _wb::hight<0:30>
+
+  - _Korok::W09:
+      comment: 骸骨のてっぺん
+
+  - 右ジャンプで落ちる .dir([3:00])
+
+  - _Shrine::KemaZoos:
+      notes: エレベータ右からWBH、四角設置までに1/4週分ディレイを入れる
+
+  - _Warp::Shrine::KuhTakkar<2:00>:
+      color: "#ff00ff"
+      icon-map: null
+  
+  - _wb::speed<8:30>
+
+  - skew clipでアジトに侵入:
+      comment: 口笛を吹かないように
+      notes: 吹いてしまった場合、壁の中から幹部に古代矢
+
+  - _bow<二連弓>:
+      coord: [-3510.46, 442.51, 1297.31]
+      presets: _Discover<イーガ団のアジト>
+  
+  - コーガ様:
+      icon: kill
+      coord: [-3451.00, 440.69, 1321.50]
+      notes: OGEB 1 + 1 → OGEB 1 + 接射 → 鉄球、途中でskewを弱める
+  
+  - 自爆してラグドール解除
+
+  - _chest::special<雷鳴の兜>:
+      coord: [-3451.00, 440.69, 1341.50]
+      counter: .user-defined-split()
+

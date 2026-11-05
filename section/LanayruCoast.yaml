@@ -1,0 +1,157 @@
+- ラネール湾:
+  - _wb<4:00>
+
+  - _Korok::N40
+
+  - WBH + 空中WB .dir([11:00]):
+      coord: [4389.9375,1457.979029]
+
+  - _Korok::N25::Away<white>:
+      comment: バクダン + ビタロ + 矢
+
+  - _wb::speed<0:30>
+
+  - .lime(Z61 花を追う)開始:
+      icon-doc: imp.
+      movements:
+        - _Korok::Z61::Start
+
+  - _Korok::Z62
+
+  - _Korok::Z61:
+      movements:
+        - _Korok::Z61::End
+
+  - WBH .dir([0:30]) + 空中WB .dir([11:30])
+
+  - _Korok::Z59
+
+  - _wb<11:00>
+
+  - _Korok::Z58:
+      comment: 洞窟の中
+
+  - _Boss::Hinox::Blue:
+      coord: [4442.00, 160.79, 350.94]
+
+  - _wb<9:30>
+
+  - _npc<カッシーワ>:
+      coord: [4151.39, 109.13, 346.02]
+
+  - _wb<5:00>
+
+  - 風を通す:
+      icon: imp.
+      coord: [4155,432.75]
+      comment: バクダン矢で3つの岩を破壊
+
+  - _Korok::Z56
+
+  - _wb<5:00>
+
+  - _Korok::Z57:
+      comment: バクダン矢
+
+  - _wb::speed<8:30>
+
+  - _Korok::N12
+
+  - _wb::speed<9:30>
+
+  - _Korok::Z55:
+      comment: 小さな島
+
+  - _wb::hight<8:30>
+
+  - _Korok::Z54:
+      comment: バクダン矢
+
+  - _wb<7:00>
+
+  - _Korok::N14
+
+  - _wb<11:00>
+
+  - _Korok::Z51
+
+  - _wb::hight<0:30>:
+      comment: 氷を作ってWBH
+
+  - _Shrine::RuccoMaag:
+      notes: エレベーター左から、左から2本目の柵に望遠鏡で向きを合わせて丸バクダン出しのみ普通、他全て最速入力でWB
+
+  - _wb<4:00>
+  
+  - _Korok::Z53:
+      comment: 洞窟の中
+
+  - _run<10:30>
+
+  - _Korok::Z52
+
+  - WBH .dir([2:30]) + 空中WB .dir([2:00])
+
+  - _Korok::Z45
+
+  - _wb<2:00>
+
+  - _Korok::Z46
+
+  - _wb::square<4:30>
+
+  - 台座に着地:
+      icon: imp.
+      coord: [4226.75,312.75]
+      notes: その場で盾サーフィンジャンプからパラセールを開いても可
+
+  - _Shrine::ShaiYota
+
+  - _wb::hight<0:30>
+
+  - _Korok::Z36:
+      comment: バクダン矢
+
+  - .dir([6:00])に少し走ってからリーバルの猛り + 空中WB .dir([8:30]) + 空中WB .dir([11:30]):
+      banner: true
+      comment: .gale(リーバルの猛り３)
+      coord: [4217,116.5]
+
+  - _Korok::Z35
+
+  - WB .dir([2:00]) + 空中WB .dir([11:30])
+
+  - _chest<星のかけら>:
+      movements:
+        - to: [4280.6875,2.012651]
+        - to: [4218.92, 380.62, -147.56]
+
+  - _run<0:30>
+
+  - _Korok::Z28:
+      comment: バクダン矢
+
+  - _wb<2:00>:
+      comment: ディレイで角度をつける
+
+  - _Korok::Z10:
+      comment: バクダン矢
+
+  - _wb<10:30>
+
+  - _Korok::Z09
+
+  - _wb::hight<9:30>
+
+  - _Korok::A56
+
+  - _wb<8:00>
+
+  - _Korok::A57:
+      comment: 木の先端
+
+  - _wb::speed<0:30>
+
+  - _Shrine::KenaiShakah:
+      comment: 取り忘れていたらアクス＋
+

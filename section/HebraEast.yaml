@@ -1,0 +1,153 @@
+- ヘブラ東:
+  - _Map%::Warp<Shrine::ShadaNaw,0:30>:
+      color: "#ffff00"
+
+  - WB .dir([5:00]) + 空中WB .dir([3:00]) + 空中WB .dir([6:00]):
+      banner: true
+      movements:
+        - to: [-2946.5,-3113.5]
+        - to: [-2788,-3114]
+
+  - _Korok::H28:
+      comment: 山頂
+
+  - _Sit::Night:
+      comment: 必要なら夜にする
+
+  - 南東の空を見る:
+      icon-doc: imp.
+      comment: 光柱が出るまでカメラにいれておく
+      notes: 9pm ~ ?am
+
+  - 落ちる .dir([7:30]):
+      notes: 落ちながら盾サーフィンでskewを消す
+
+  - _Shrine::GomaAsaagh:
+      comment: ビタロック+古代矢OGEB2HS(極位)
+
+  - _run<7:30>
+
+  - _Korok::H35
+
+  - _wb<4:00>
+
+  - _Korok::H36
+
+  - WB .dir([8:00]) + 空中WB .dir([10:00])
+
+  - 光輪スタート:
+      icon: imp.
+      movements:
+        - to: [-2629,-2691.5]
+        - to: [-2792.125,-2810.625]
+
+  - _chest::special<サルベージャーレッグ>:
+      comment: 光輪くぐりの途中に宝箱を開ける
+      movements:
+        - to: [-2747.40, 636.86, -2727.30]
+        - to: [-2605.00, 583.00, -2652.00]
+
+  - 光輪くぐりを終わらせる:
+      icon: imp.
+      movements:
+        - to: [-2575.10, 578.92, -2648.00]
+        - to: [-2478.80, 557.90, -2650.40]
+        - to: [-2401.80, 542.60, -2671.80]
+        - to: [ -2380.60, 525.25, -2727.60]
+        - to: [ -2399.80, 514.90, -2800.50]
+        - to: [-2424.80, 498.50, -2891.60]
+        - to: [-2429.21, 489.01, -2961.43]
+        - to: [-2379.90, 473.60, -3090.80]
+        - to: [-2300.00, 456.55, -3116.60]
+        - to: [-2239.00, 447.70, -3118.10]
+        - to: [-2195.09, 443.89, -3156.53]
+
+  - _Shrine::KiahToza:
+      comment: .link([参考動画]https://youtu.be/T4ALHtxoh7o?t=2453)
+      notes: WB [5:00] からカメラ壁抜け、左下入れてすぐX2連打
+
+  - _wb::hight<6:00>
+
+  - _Boss::Talus::Frost:
+      coord: [-2144.88, 491.27, -3082.59]
+      comment: .fury(ウルボザの怒り１～３)
+
+  - _wb<7:00>
+
+  - _Korok::H31
+
+  - _wb<10:00>
+
+  - _Korok::H29
+
+  - 盾サーフィン .dir([2:30])
+
+  - _Korok::H30
+
+  - _wb<11:00>:
+      comment: ディレイを入れて角度をつける
+
+  - _Shrine::RokUwog:
+      comment: エレベータ右からWB .dir([8:00])
+
+  - WBH .dir([12:00]) + 空中WB .dir([2:00]):
+      comment: 祠の裏から, 天井にぶつからないように
+      movements:
+        - to: [-2400.180192,-3235.089915]
+        - to: [-2400.867707,-3328.671681]
+
+  - _Korok::H13
+
+  - _wb<1:30>
+
+  - _Korok::H05:
+      comment: バレットタイム有効
+
+  - _wb::speed<3:00>
+
+  - _Shrine::ShaGehma
+
+  - _wb<5:00>
+
+  - _Korok::H14
+
+  - _wb::midair<1:00>
+
+  - _Korok::H06
+
+  - WBH + 空中WB .dir([3:30])
+
+  - _Shrine::QazaTokki:
+      presets: _Discover<北ローメイ城跡>
+
+  - 階段左からWBH .dir([6:00]):
+      movements:
+        - to: [-847.625,-3534.75]
+        - to: [-848,-3402]
+
+  - _Korok::H16::Away<white>:
+      comment: バクダン矢
+
+  - _wb::midair<9:00>
+
+  - _Korok::H15
+
+  - WBH .dir([8:30]) + WB .dir([7:00]):
+      comment: 2回目のWBは高く
+      movements:
+        - to: [-1202,-3351.4375]
+        - to: [-1258.125,-3225.625]
+
+  - _Korok::H22::Away<white>:
+      comment: バクダン矢
+
+  - WB + 空中WB .dir([4:30])
+
+  - _Korok::K11:
+      comment: 山頂
+
+  - _wb::speed<0:30>
+
+  - _Korok::K05:
+      comment: バレットタイム有効
+

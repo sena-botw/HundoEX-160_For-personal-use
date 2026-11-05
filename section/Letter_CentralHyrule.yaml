@@ -1,0 +1,477 @@
+- 手紙 / 中央ハイラル:
+  - _Map%::Warp<Tower::DuelingPeaks,7:30>:
+      color: "#ff0000"
+
+  - _wb<2:00>
+
+  - _Boss::Talus::Stone:
+      coord: [1186.62, 254.28, 1642.77]
+      comment: OGEB, バクダン矢
+
+  - _wb<11:00>
+
+  - _Korok::D16:
+      comment: 小さな島
+
+  - _wb::speed<8:30>
+
+  - _Korok::D25:
+      comment: 馬を召喚
+
+  - _run<5:00>
+
+  - _Korok::D29:
+      comment: 小さな島
+
+  - _wb::hight<9:00>:
+      comment: 氷を作ってWB
+
+  - _Korok::D28:
+      comment: 旗の先端
+
+  - _wb<10:30>
+
+  - _Korok::D23:
+      comment: バクダン矢
+      notes: 右のドングリの左端を撃つ
+
+  - _wb::hight<3:00>
+
+  - _Korok::D24
+
+  - 盾サーフィン .dir([3:00])
+
+  - _Boss::Talus::Stone:
+      coord: [705.34, 137.62, 1471.88]
+      comment: .fury(ウルボザの怒り３)
+
+  - _wb::hight<0:30>
+
+  - _Korok::D15
+
+  - _wb<10:30>:
+      comment: 上を向いてラグ回避
+
+  - _Korok::D13
+
+  - _wb<1:30>:
+      comment: 上を向いてラグ回避
+
+  - _Location::HorwellBridge
+
+  - _wb<2:00>
+
+  - _Shrine::HilaRao:
+      comment: EVからひねりWBで壁の上へ
+      presets: _Discover<花の中州>
+
+  - 走って花畑を抜ける:
+      comment: 花に触れないように
+
+  - _npc<オコバ>:
+      comment: 花を踏まないで
+      movements:
+        - to: [844.6875,830.604756]
+        - to: [832.75,833.291491]
+        - to: [830.1875,839.289785]
+        - to: [816.80, 115.22, 836.77]
+
+  - _wb<4:00>:
+      comment: 氷を作ってWB
+
+  - _Location::EagusBridge:
+      notes: D01を取った後でも東に動いて発見できる
+
+  - _Korok::D01:
+      comment: 橋の下
+
+  - _wb::super<1:00>
+
+  - _Korok::Z47:
+      comment: バクダン矢
+
+  - _wb::hight<2:30>
+
+  - _Korok::Z48
+
+  - _wb::square<3:30>:
+      comment: 上を向いてラグ回避、飛んだら丸起爆
+
+  - _Korok::Z49:
+      comment: リンゴを取る
+      notes: リンゴを取ったらポーチ開閉
+
+  - _wb::hight<3:30>
+
+  - _Korok::Z50
+
+  - _wb<7:00>:
+      comment: 残骸の上からWB
+
+  - _Korok::Z60:
+      comment: 洞窟の中
+
+  - WB .dir([2:00]) + 空中WB .dir([1:00])
+
+  - _Korok::N01
+
+  - _wb::speed<12:00>
+
+  - _Boss::Hinox::Red:
+      icon-map: null
+      comment: 炎の矢
+      movements:
+        - to: [1972.6875,174.334188]
+        - push
+        - to: [1969.04, 115.44, 97.40]
+          color: white
+          icon: hinox
+        - pop
+
+  - 滑空 .dir([4:00])
+
+  - _Korok::Z41
+
+  - WB .dir([2:00]) + 空中WB .dir([1:00])
+
+  - _Boss::Hinox::Black:
+      icon-map: null
+      comment: shoot .dir([6:30]), 炎の矢2
+      notes: 空中から撃つ、ロードゾーンギリギリなので、倒れるモーションが出てから離れる
+      movements:
+        - to: [2509.125,-200.085482]
+        - push
+        - to: [2485.10, 152.09, -133.56]
+          color: white
+          icon: hinox-black
+        - pop
+
+  - 滑空 .dir([1:30])
+
+  - _Korok::Z22:
+      comment: 丘の石
+
+  - _wb::hight<3:30>
+
+  - _Korok::Z23
+
+  - 盾サーフィン .dir([6:00])
+
+  - _npc<メッセージボトル>:
+      coord: [2754.00, 189.53, -83.50]
+      comment: 選択肢 2 - 1
+      notes: ボトルを投げさせる
+
+  - _wb::hight<3:00>:
+      comment: 上を向いてラグ回避
+
+  - _ZoraStone::1:
+      notes: 北側の石碑
+
+  - 走る
+
+  - _ZoraStone::2:
+      notes: 南側の石碑
+
+  - 落ちる
+
+  - _Location::OrenBridge
+
+  - _wb::hight<6:30>
+
+  - _ZoraStone::5
+
+  - _wb<10:30>:
+      comment: 下を向いてラグ回避
+
+  - _Korok::Z31
+
+  - _wb<2:00>
+
+  - 手紙運び - BLSS:
+      icon: imp.
+      comment: 選択肢 2 - 2
+      notes: ボトルを付けたままミファーか妖精を消費して砂地に降りる
+      movements:
+        - to: [2754.00, 189.53, -83.50]
+        - to: [2789,-250]
+        - to: [2737,-341]
+        - to: [2658,-370]
+        - to: [2384,-248]
+        - to: [1760.46, 115.80, -36.04]
+
+  - _wb::super<11:00>
+
+  - _Shrine::ShehRata:
+      comment: 走ってWB
+
+  - _Sit::Morning
+
+  - _wb<7:00>
+
+  - _Korok::Z30
+
+  - _wb::hight<8:30>
+
+  - _Korok::Z29
+
+  - _wb::speed<8:30>
+
+  - _Korok::C46:
+      comment: 橋の下
+      presets: _Discover<レボナ橋>
+
+  - WB .dir([7:00]) + 滑空 .dir([9:00]):
+      comment: 上を向いてラグ回避
+
+  - _Korok::C51
+
+  - _wb::speed<5:30>
+
+  - _Memory::HyruleField
+
+  - リーバルの猛り + 空中WB .dir([8:30]):
+      comment: .gale(リーバルの猛り１)
+
+  - _Korok::C56
+
+  - _wb<1:00>
+
+  - _Boss::Hinox::Blue:
+      coord: [421.00, 161.27, 329.50]
+
+  - _wb::midair<9:30>
+
+  - _Korok::C50
+
+  - _wb<10:00>
+
+  - _chest::special<チンクルのズボン>:
+      coord: [-31.15, 129.91, 211.62]
+      presets: _Discover<メーベの町跡>
+
+  - _wb<2:00>:
+      comment: 飛んだら四角起爆
+
+  - _Korok::C44:
+      comment: 丘の石
+
+  - _wb::speed<3:00>
+
+  - _Korok::C45:
+      comment: 丘の石
+
+  - _wb<1:00>
+
+  - _Korok::C34
+
+  - _wb::hight<0:30>
+
+  - _Boss::Hinox::Blue:
+      coord: [626.49, 123.09, -305.54]
+
+  - _wb::midair<3:30>
+
+  - _Korok::Z21
+
+  - _wb::hight<12:00>
+
+  - _Korok::Z11:
+      comment: "樹上: 滑空しながらバクダン"
+
+  - _wb<1:00>
+
+  - _Korok::C13:
+      comment: 1ステップ後ろから両手剣 + 片手剣
+      presets: _Discover<ミスミ橋>
+
+  - WB .dir([2:00]) + 滑空 .dir([3:00])
+
+  - _Korok::K35
+
+  - _wb<7:00>
+
+  - _Korok::Z02
+
+  - _Korok::Z03
+
+  - _wb::super<11:00>
+
+  - _Korok::K34
+
+  - _wb::square<10:00>
+
+  - _Korok::K33
+
+  - .dir([1:00])
+
+  - _Shrine::MirroShaz:
+      notes: ビタロック (大剣5) → ブロックにバクダン矢
+
+  - _wb<8:00>
+
+  - _Location::WoodlandStable
+
+  - _npc<シャーメ>:
+      coord: [1080.50, 127.38, -1125.00]
+      comment: 7am ~ 8pm (必要なら昼にする)
+      notes: 薪の束と風船を落として薪の束を取る
+
+  - _wb::speed<9:30>
+
+  - _Location::RauruSettlementRuins
+
+  - _wb::speed<8:30>
+
+  - _Location::HelmheadBridge
+
+  - _wb<4:00>
+
+  - _Korok::C02
+
+  - _wb::hight<3:30>:
+      comment: 氷を作ってWB
+
+  - _Boss::Talus::Luminous:
+      coord: [771.50, 152.53, -1014.00]
+      comment: .fury(ウルボザの怒り１～３)
+
+  - _wb::hight<6:30>
+
+  - _Shrine::NamikaOzz:
+      comment: .b-yellow(アクス+, 宝箱から氷雪の槍)
+      notes: ビタロック + 古代矢OGEB(中位)
+      split-name: ".var(counter-korok). ナミカ・オズ - アクス+, 氷雪の槍"
+
+  - _wb::hight<9:00>:
+      comment: 飛んだら四角起爆
+
+  - _Korok::C09:
+      comment: 木の先端
+
+  - _wb::square<7:30>:
+      comment: 飛んだら丸起爆
+
+  - _Korok::C11:
+      comment: 枯れた倒木の中
+
+  - _wb::hight<3:30>
+
+  - _Korok::C12:
+      comment: 丘の上の切り株
+
+  - _wb::square<8:00>
+
+  - _Korok::C19:
+      comment: 上2つはバクダンで壊す
+
+  - _wb<8:00>
+
+  - _Korok::C23:
+      presets: _Discover<マズラ橋>
+
+  - _wb<10:30>
+
+  - _Korok::C18
+
+  - _wb<10:00>:
+      comment: 飛んだら四角起爆
+
+  - _Location::BoneyardBridge
+
+  - _Korok::C10:
+      comment: 氷を作ってから石
+
+  - _wb<2:00>
+
+  - _Korok::C06
+
+  - _wb::speed<9:30>
+
+  - _Korok::C05
+
+  - _run<7:30>
+
+  - _Boss::Hinox::Stal:
+      coord: [256.50, 142.49, -913.50]
+      comment: バクダン矢
+
+  - _run<9:30>
+
+  - _Korok::C04:
+      comment: 壊れた噴水
+      presets: _Discover<ハイラル森林公園跡>
+
+  - _wb<7:00>
+
+  - _Korok::C17:
+      comment: バクダン矢
+      presets: _Discover<ハイラル大聖堂跡>
+
+  - _wb::hight<6:00>
+
+  - _Korok::C29:
+      comment: 旗の先端
+
+  - 落ちる .dir([7:30])
+
+  - _Korok::C28:
+      comment: バクダン矢
+      presets: _Discover<城下町物見塔跡>
+
+  - _wb<8:00>:
+      comment: 上を向いてラグ回避
+
+  - _Korok::C33:
+      comment: 壁の上
+
+  - _wb<7:00>
+
+  - _Korok::C35:
+      comment: 柱の上
+
+  - _Memory::SacredGroundRuins:
+      presets: _Discover<式典城跡>
+
+  - _chest::special<ファントムの鎧>:
+      coord: [-245.80, 124.56, -86.58]
+
+  - _wb<7:00>:
+      coord: [-427.28, 135.84, 150.92]
+
+  - _Korok::C42::Away<white>:
+      comment: .lime(C43)の上からバクダン矢 .dir([9:30])
+
+  - _Korok::C43
+
+  - _wb::hight<9:00>:
+      coord: [-728.07, 154.70, 134.78]
+
+  - _Korok::C41::Away<white>
+
+  - _Korok::C40:
+      comment: 同じ森の中
+
+  - _wb<8:00>
+
+  - _Korok::C39:
+      comment: 旗の先端
+
+  - _wb<8:00>
+
+  - _Location::AncientTreeStump
+
+  - _Korok::C47:
+      comment: 氷を作ってから飛び込む
+
+  - _wb::speed<9:30>
+
+  - _Korok::C37
+
+  - _wb<7:00>:
+      comment: 飛んだら四角起爆
+
+  - _Korok::R58
+
+  
+
