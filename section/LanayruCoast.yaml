@@ -112,10 +112,7 @@
   - _Korok::Z36:
       comment: バクダン矢
 
-  - .dir([6:00])に少し走ってからリーバルの猛り + 空中WB .dir([8:30]) + 空中WB .dir([11:30]):
-      banner: true
-      comment: .gale(リーバルの猛り３)
-      coord: [4217,116.5]
+  - WBH .dir([3:00]) + 空中WBs .dir([9:00])
 
   - _Korok::Z35
 
