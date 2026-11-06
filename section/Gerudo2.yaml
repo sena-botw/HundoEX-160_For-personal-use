@@ -651,7 +651,8 @@
   - _Shrine::KorshOhu:
       presets: _Discover<東ゲルド遺跡>
 
-  - _wb::hight<6:00>
+  - WBH .dir([6:00]) + リーバルの猛り:
+      comment: .gale(リーバルの猛り１)
 
   - _Korok::W40:
       comment: 像のてっぺん

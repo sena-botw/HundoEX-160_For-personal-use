@@ -1,45 +1,16 @@
 - サトリ山 / メドーの石碑:
-  - _Map%::Warp<Shrine::SheemDagoze,8:30>:
+  - _Map%::Warp<Shrine::MoggLatan,8:30>:
       color: red
 
-  - _wb<5:00>
+  - _Sit::Night:
+      comment: 夜が雨でなくなるまで
 
-  - _Korok::R57
-
-  - _wb::midair<9:30>
-
-  - _Korok::R56
-
-  - _wb::midair<8:00>:
-      comment: 上を向いてラグ回避、飛んだら四角起爆
-
-  - _Korok::R55:
-      comment: 切り株
-
-  - 走ってリーバルの猛り .dir([11:30]):
-      comment: .gale(リーバルの猛り１)
-
-  - _Korok::R54:
-      comment: 必要なら夜にする
-      notes: 山のヌシ出現時はサトリ山のマモノがいなくなる。R55周辺にスタルリザルフォスがいない時はスタルヒノックスもいないので夜にする
-
-  - _wb<8:00>
-
-  - _Boss::Hinox::Stal:
-      coord: [-2217.00, 372.31, 584.00]
-      comment: バクダン矢
-
-  - _run<2:30>
-
-  - _Korok::R62:
-      comment: スタルヒノックスの近く
-
-  - _wb<1:00>
+  - _wb<2:00>
 
   - _Korok::R53:
       comment: バクダン矢
 
-  - _wb::hight<8:30>
+  - _wb<8:30>
 
   - _Korok::R52
 
@@ -51,7 +22,38 @@
 
   - _Korok::R61
 
-  - _wb<4:00>
+  - _wb::square<5:30>
+
+  - _Boss::Hinox::Stal:
+      coord: [-2217.00, 372.31, 584.00]
+      comment: バクダン矢
+
+  - _run<2:30>
+
+  - _Korok::R62:
+      comment: スタルヒノックスの近く
+
+  - _wb::square<2:00>
+
+  - _Korok::R54:
+      comment: 木の先端
+
+  - 盾サーフィン .dir([5:00])
+
+  - _Korok::R55:
+      comment: 切り株
+
+  - _wb::square<1:30>:
+      comment: 上を向いてラグ回避、飛んだら丸起爆
+
+  - _Korok::R56
+
+  - _wb::square<3:30>
+
+  - _Korok::R57
+
+  - _wb<8:00>:
+      comment: ディレイで角度をつける
 
   - _Korok::R68:
       comment: バレットタイム有効
