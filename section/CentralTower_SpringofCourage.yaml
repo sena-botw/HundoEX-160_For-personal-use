@@ -423,17 +423,32 @@
   - _Shrine::ReeDahee:
       comment: .link([ひねりWB]https://drive.google.com/file/d/140gGsZ60-H0WhXdlRvI2disoYAbEFPED/view?usp=sharing)
 
-  - WB + 空中WB .dir([4:00])
-
-  - _Location::LittleTwinBridge
-
-  - _wb<11:30>:
-      comment: 飛んだら四角起爆
+  - _wb<3:30>
 
   - _Location::BigTwinBridge
 
-  - _wb::square<12:00>:
-      comment: 飛んだら丸装備
+  - _wb<5:00>
+
+  - _Location::LittleTwinBridge
+
+  - _wb<2:00>
+
+  - _Korok::D51:
+      comment: 巨木
+
+  - 馬を捕まえる:
+      icon: imp.
+      coord: [1784.94, 117.91, 2036.54]
+      comment: 薪の束の近くに停める
+
+  - _npc<馬宿の中の兄弟>:
+      coord: [1767.48, 116.07, 1925.15]
+      comment: 2回話す
+      presets: _Discover<双子馬宿>
+
+  - _npc<フッサレン>:
+      coord: [1748.38, 116.11, 1923.67]
+      notes: フッサレンと2回話してミニチャレンジ (野生馬を捕まえて) を始め、停めておいた馬でクリア
 
   - _Shrine::HaDahamar:
       comment: .link([参考動画]https://twitter.com/ikurapan_botw/status/1676759742092541952?s=20)
@@ -442,7 +457,6 @@
 
   - _Korok::D42:
       comment: 馬宿のてっぺん
-      presets: _Discover<双子馬宿>
 
   - WBH .dir([11:30]) + 空中WBs .dir([11:00])
 

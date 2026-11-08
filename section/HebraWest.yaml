@@ -134,7 +134,7 @@
 
   - .lime(T06 光の輪レース)開始:
       icon: imp.
-      comment: 制限時間中にH53, H60, T08を入手
+      comment: 制限時間中にH53をこなす
       movements:
         - _Korok::T06::Start
 
@@ -143,7 +143,14 @@
   - _Korok::H53:
       comment: 山頂
 
-  - _wb<7:30>
+  - _wb<6:30>
+
+  - _Korok::T06:
+      movements:
+        - _Korok::T06::End
+
+  - _wb<11:00>:
+      comment: ディレイで角度をつける
 
   - _Korok::H60:
       comment: バクダン矢
@@ -153,13 +160,7 @@
   - _Korok::T08:
       comment: 岩のてっぺん
 
-  - _wb::square<1:30>
-
-  - _Korok::T06:
-      movements:
-        - _Korok::T06::End
-
-  - _run<4:00>
+  - _wb::square<2:00>
 
   - _Korok::T07
 
