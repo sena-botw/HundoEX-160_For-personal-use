@@ -236,6 +236,12 @@
   - _wb<1:00>:
       comment: ディレイで角度をつける
 
+  - _Korok::D51:
+      comment: 巨木
+
+  - _wb<1:00>:
+      comment: ディレイで角度をつける
+
   - _Memory::Final
 
   - _wb<2:00>:

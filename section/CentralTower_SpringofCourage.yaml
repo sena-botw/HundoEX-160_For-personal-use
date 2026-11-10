@@ -431,10 +431,7 @@
 
   - _Location::LittleTwinBridge
 
-  - _wb<2:00>
-
-  - _Korok::D51:
-      comment: 巨木
+  - _wb<1:00>
 
   - 馬を捕まえる:
       icon: imp.
