@@ -399,6 +399,7 @@
 
   - 宝珠を大穴へ投げる:
       icon: imp.
+      comment: .gale(リーバルの猛り３)
       coord: [-3431,1332.819140308191]
 
   - _Shrine::KihiroMoh:
@@ -582,7 +583,7 @@
       comment: 3回話してスノーブーツをもらう
 
   - リーバルの猛り + 空中WB .dir([8:00]):
-      comment: .gale(リーバルの猛り３) 上を向いてラグ回避
+      comment: .gale(リーバルの猛り１) 上を向いてラグ回避
 
   - _Korok::W42:
       comment: ゲルドの街のてっぺん
@@ -651,8 +652,7 @@
   - _Shrine::KorshOhu:
       presets: _Discover<東ゲルド遺跡>
 
-  - WBH .dir([6:00]) + リーバルの猛り:
-      comment: .gale(リーバルの猛り１)
+  - _wb::hight<6:00>
 
   - _Korok::W40:
       comment: 像のてっぺん
