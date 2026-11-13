@@ -185,7 +185,7 @@
 
   - _Korok::H42:
       comment: バクダン矢
-      notes: 撃ったら.bold(氷の矢装備)
+      notes: 撃ったら.bold(炎の矢装備)
 
   - _wb::hight<3:00>:
       comment: 洞窟へ
